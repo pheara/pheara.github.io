@@ -1,0 +1,238 @@
+/******************************************************************************
+ *
+ * slender-base.css
+ * Slender theme for Hugo by CrimsonRay
+ * https://github.com/CrimsonRay/slender
+ *
+ *****************************************************************************/
+
+@import url(/fonts/fira/fira.css);
+
+body {
+
+    font-family: "Fira Sans", "Open Sans", Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #1d1d1d;
+
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+   min-height: calc(100vh - 68px);
+}
+
+/* Container */
+
+/*
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+*/
+/*
+html, body, .container, header {
+    margin: 0;
+    min-height: 100vh;
+}
+html, .container, header {
+    height: 100%;
+}
+*/
+
+/* Navigation */
+
+nav ul {
+    text-align: center;
+    padding: 0px;
+    margin-top: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 32px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+/* Header */
+
+header {
+  min-height: 350px;
+  /*
+    align-self: stretch;
+    max-width: 270px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: center;
+    */
+
+}
+
+h1.brand, h1.page-title {
+    font-family: "Fira Sans Condensed", "Fira Sans", Helvetica, sans-serif;
+}
+
+h1.brand {
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+img.logo {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1.post-title {
+    font-size: 38px;
+    text-align: center;
+    margin-top: 112px;
+}
+
+h1.page-title {
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 112px;
+}
+
+header p {
+    opacity: 0.8;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+header p a .fa {
+    font-size: 34px;
+    padding-right: 10px;
+}
+
+/* Pagination */
+
+.pagination {
+    margin-top: 30px;
+    padding: 0 0 0 0;
+}
+
+.pagination li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.pagination li.active {
+    opacity: 1.0;
+}
+
+.pagination li.disabled {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+/* Images */
+
+figure figcaption {
+    margin-top: -40px;
+    text-align: center;
+}
+
+figure figcaption h4 {
+    font-weight: lighter;
+}
+
+figure figcaption p {
+    margin-top: -20px;
+    font-size: 12px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Articles */
+/*L;DR: A racing game, where you try to get your slowest team-member
+ * across the finish line first and can */
+
+#article-listing,
+.article-content {
+    margin: 88px auto;
+    max-width: 500px;
+}
+
+article {
+    margin-top: 28px;
+}
+
+.article-title {
+    font-size: 28px;
+    line-height: 38px;
+}
+
+.article-title a {
+    color: #1d1d1d !important;
+    text-decoration: none;
+}
+
+.article-info {
+    color: #7e7e7e;
+    font-size: 14px;
+    margin-top: -20px;
+}
+
+.article-summary {
+    margin-top: 22px;
+    text-align: justify;
+}
+
+.article-read-more {
+    margin-top: 8px;
+}
+
+.article-content {
+}
+
+.article-content * a {
+    color: #1d1d1d !important;
+}
+
+/* Footer */
+
+footer {
+    height: 68px;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 24px;
+}
+
+/* Smaller screen sizes */
+
+@media (max-width: 768px) {
+
+    h1.brand {
+      font-size: 48px;
+    }
+    #article-listing {
+        margin: 20px;
+    }
+    .article-content {
+        margin: 20px;
+    }
+}

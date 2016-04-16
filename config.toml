@@ -1,0 +1,70 @@
+# config.toml
+# theme and config based on https://github.com/CrimsonRay/slender
+
+baseurl = "https://m0ru.github.io/"
+title = "Moru’s Ramblings"
+languageCode = "en-US"
+MetaDataFormat = "toml"
+theme = "custom"
+paginate = 3
+PaginatePath = "/"
+
+[author]
+    name = "Moru"
+
+[permalinks]
+    # Permalink format for pages.
+    page = "/:title/"
+
+    # Permalink format for blog posts.
+    post = "/article/:title/"
+
+[params]
+
+    # Change the color scheme of Slender.
+    # See above for preview and list of color schemes.
+    colorscheme = "white"
+
+    # Tagline; HTML accepted here. Keep it concise.
+    tagline = "120% guaranteedly inconsistent"
+
+    # Footer; Markdown accepted here.
+    footer = ""
+
+    # Description and keywords for <meta> tags.
+    # Remember to set this for your main page.
+    # This will be overridden by whatever is set by the page or post,
+    # defined by `description` and `keywords` variables in the front matter
+    # of the markdown file.
+    description = "A collection of game-design ideas"
+    keywords = "game design, moru"
+
+    # Social links, must be full URLs (e.g. https://github.com/CrimsonRay/).
+    # Remove, comment, or leave blank any field to leave them out.
+    email = "mailto:e1028092@student.tuwien.ac.at"
+    github = "https://github.com/m0ru"
+    #bitbucket = "url-to-your-bitbucket"
+    twitter = "http://twitter.com/the_moru"
+    #stackoverflow = "url-to-your-stackoverflow"
+    linkedin = "https://bitbucket.org/m0ru/"
+    facebook = "https://www.facebook.com/kevin.singer.79"
+
+    # Google Analytics
+    # Remove, comment, or leave it blank if you don't have one.
+    ganalytics = ""
+
+[menu]
+
+    # Menu for the nav bar.
+    # There must always be one item present (e.g. home).
+    [[menu.main]]
+    identifier = "home"
+    name       = "home"
+    url        = ""
+    weight     = 0
+
+    [[menu.main]]
+    identifier = "about"
+    name       = "about"
+    url        = "about/"
+    weight     = 1
