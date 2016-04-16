@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="Board Game: Pillow Fight &middot; Moru’s Ramblings ">
+        <meta property="og:site_name" content="Moru’s Ramblings"/>
+        <meta property="og:description" content="A collection of game-design ideas">
+        <meta property="og:url" content="https://m0ru.github.io/article/board-game-pillow-fight/" />
+        <meta property="og:locale" content="en-US">
+        <meta name="author" content="Moru">
+        <meta name="description" content="A collection of game-design ideas">
+        <meta name="keywords" content="game design, moru">
+        <meta name="generator" content="Hugo 0.15" />
+        <link rel="icon" href="https://m0ru.github.io/assets/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://m0ru.github.io/css/slender-base.css">
+        <link rel="stylesheet" href="https://m0ru.github.io/css/slender-color-schemes.css">
+        <link rel="stylesheet" href="https://m0ru.github.io/css/font-awesome-4.5.0.min.css">
+        <link rel="stylesheet" href="https://m0ru.github.io/css/highlight-9.0.0-default.min.css">
+        <title>
+            
+                Board Game: Pillow Fight &middot; Moru’s Ramblings
+            
+        </title>
+    </head>
+    <body class="color-scheme-white">
+        <div class="container">
+            <header>
+                <nav>
+                    <ul><li><a href="https://m0ru.github.io/">home</a></li><li><a href="https://m0ru.github.io/about/">about</a></li></ul>
+                </nav>
+                
+                    <h1 class="post-title">Board Game: Pillow Fight</h1>
+                    <aside>
+                        <p>on <strong>Wed, Mar 25, 2015</strong></p>
+                    </aside>
+                
+            </header>
+
+<article class="article-content">
+    
+
+<p>Pillow Fight is our solution to the challenge to design a wargame without borders (in our case, even without deaths).</p>
+
+<h1 id="the-challenge-no-frontier:4b52a6bb1d02e41b4e383dfc8935f296">The Challenge - No Frontier</h1>
+
+<p>From &ldquo;IRON DESIGNER CHALLENGE 5—WAR WITHOUT FRONTIERS&rdquo;, page 39:</p>
+
+<blockquote>In games featuring the teritorial acquisition dynamic, and especially in war-themed games, territories are rarely acquired through a comical foot race. They’re usually acquired through the death, regardless of how abstracted, of another player’s bits. As a result of that death, the player gets the other player’s territory. Whoever has the territory wins the war. Another common dynamic, “destroy the opposing side,” is used for games that don’t have territory.
+For this exercise, however, you’ll be pushing yourself beyond those traditional borders. Simulate and resolve a Civil War battle without using territorial acquisition or destruction of all units on the enemy side as the primary gameplay dynamic.</blockquote>
+
+<blockquote>ergänzung: in unter 30 Minuten spielbar, dafür muss es nicht unbedingt bürgerkrieg sein.</blockquote>
+
+<h1 id="the-process:4b52a6bb1d02e41b4e383dfc8935f296">The Process</h1>
+
+<p>We (<a href="http://hirnsalat.github.io/gameful-design/">hirnsalat</a>, <a href="http://peacememories.github.io/gameful-design/">peacememories</a> and <a href="/">m0ru</a>) met up last Thursday for a little brain-storming session. We already had a few concepts and mechanics-fragments beforehand:</p>
+
+<p><img src="/media/pillow_fight/sketchbook.png" alt="Scans of m0ru's sketchbook" /></p>
+
+<p>During the session we tried to explore the design space starting with different mechanics and themes as can be seen on the whiteboard directly below. The theme-based generators (in red) mostly focussed on military and/or political conflicts (e.g. &ldquo;cyberwar&rdquo;, &ldquo;spy game&rdquo;, &ldquo;gerrymandering&rdquo;, &ldquo;elections&rdquo;). The mechanical ones (in green) started off with alternative win-conditions we could use. You can find them them below the center in the right half of the whiteboard. The most advanced cluster of mechanical and thematic fragments centered around an idea for modelling peace negotiations (at the whiteboard: starting at the bottom left and expanding towards the right and up). As backdrop for the negotiations a more or less automatic conflict would have pushed back and forth on the quickly sketched board that you can see. The goal would be to end the conflict, by negotiating a set of terms to which both sides generals (non-player characters / mechanics) can agree.</p>
+
+<p><img src="/media/pillow_fight/brainstorming_whiteboard.png" alt="Photo of whiteboard during initial brainstorming" /></p>
+
+<p>During our discussion we got inspiration from another colleague, who noted that all of the mechanics/themes we were talking about seemed rather depressing and cynical, which spawned the idea to go towards the other of that extreme of that spectrum - from &ldquo;cute&rdquo; to &ldquo;stuffed animal&rdquo; to &ldquo;pillow&rdquo; to &ldquo;pillowfight&rdquo;. The mechanics we salvaged from various board-, pen and paper roleplaying and tabletop games, and radically simplified them, only adding each mechanic after careful consideration and being sure that it is necessary. For most of them we also did before/after playtests. On the whiteboard below you can see, that most never made it beyond the &ldquo;optional&rdquo; status.</p>
+
+<p><img src="/media/pillow_fight/final_whiteboard.png" alt="Whiteboard-picture created while refining &quot;Pillow Fight&quot;" /></p>
+
+<h1 id="pillowfight-the-story:4b52a6bb1d02e41b4e383dfc8935f296">Pillowfight - The Story</h1>
+
+<p>You&rsquo;re in your good friends rather large flat (some might call it a penthouse/villa) and going at it with their modest supply of pillows.</p>
+
+<h1 id="pillowfight-rules:4b52a6bb1d02e41b4e383dfc8935f296">Pillowfight - Rules</h1>
+
+<p>The game is playable from three players upwards.</p>
+
+<h2 id="setup:4b52a6bb1d02e41b4e383dfc8935f296">Setup</h2>
+
+<p>The game is played on a rectangular <strong>board with a grid</strong> on it (e.g. checkerboard, go-board,..), representing a room.
+First, one player <strong>sets up</strong> the <strong>walls</strong> and <strong>furniture</strong> to provide cover.
+Another player places the <strong>pillows</strong> on top of furniture or on the floor.
+Finally, a third player decides <strong>who goes first</strong>.</p>
+
+<p>Players place their characters, starting with the first player and continuing clockwise. The <strong>characters</strong> can be <strong>placed anywhere</strong> on the floor, though you might want to get some terrain between you and the other players.</p>
+
+<h2 id="playing-a-turn:4b52a6bb1d02e41b4e383dfc8935f296">Playing a Turn</h2>
+
+<p>As with placing the characters, players take turns clockwise.
+During a turn, you can take two actions, which can be either moving, picking up pillows or attacking.</p>
+
+<h3 id="moving:4b52a6bb1d02e41b4e383dfc8935f296">Moving</h3>
+
+<p>You can move across <strong>three squares</strong>, including diagonals, but you can only walk on the floor. No climbing on furniture please.</p>
+
+<p><img src="/media/pillow_fight/movement.svg" alt="Movement illustration/examples" /></p>
+
+<h3 id="picking-up-a-pillow:4b52a6bb1d02e41b4e383dfc8935f296">Picking up a pillow</h3>
+
+<p>If a pillow is adjacent to your character or directly below you, you can pick it up, as long as you are not already carrying a pillow.</p>
+
+<h3 id="attacking:4b52a6bb1d02e41b4e383dfc8935f296">Attacking</h3>
+
+<p>You can attack a player if you are <strong>holding a pillow</strong> and you are either standing next to them or there are no walls in the way.
+Attacking is done by selecting a target and rolling a die. The targeted person can then defend by rolling another die. If you <strong>roll</strong> a <strong>higher</strong> number than them, you hit them and score a point.
+You can only attack <strong>once per turn</strong>.</p>
+
+<p>There are two ways of attacking an opponent:</p>
+
+<p><strong>Pillow Swinging (Melee)</strong></p>
+
+<p>If you stand next to a player you can hit them with your pillow directly. This lets you <strong>keep your pillow</strong>, but if you roll a 1 or 2, your <strong>pillow gets torn</strong> (and removed from the game).</p>
+
+<p><strong>Pillow Throwing (Ranged)</strong></p>
+
+<p>You can throw a pillow if there are no walls between you and your target (there&rsquo;s no range limitation). Your opponent might use cover to protect themselves from your throw (explained in the cover section).</p>
+
+<p>When throwing, you <strong>lose your pillow</strong>. The pillow will either land <strong>at your targets feet</strong> or, if they don&rsquo;t have a pillow in their hand and roll a 5 or higher, <strong>they catch it</strong> - which is the same as picking up a pillow.</p>
+
+<h4 id="cover:4b52a6bb1d02e41b4e383dfc8935f296">Cover</h4>
+
+<p>Cover can be used when defending against ranged attacks. There are two types of cover: walls and furniture. You need to <strong>stand adjacent</strong> to an object to get cover from it. If someone on the other side wants to throw at you: walls block attacks completely, but furniture only gives a -1 penalty on the attack roll. If you&rsquo;re standing close to or at at an edge of a wall or piece of furniture, look at the graphics below to see how well others can throw at you. The examples use a wall. In the case of furniture the areas marked &ldquo;impossible&rdquo; would give a -1 penalty instead.</p>
+
+<p>To determine which squares you have cover from, look at the squares adjacent to you and expand the cover status orthogonally. If there is an object that grants cover directly below your character, you have cover from all squares below it. The same applies to all 8 directions.</p>
+
+<p>Cover doesn&rsquo;t apply against pillow swinging (melee).</p>
+
+<p><img src="/media/pillow_fight/cover_edge.svg" alt="Taking cover at behind a wall - being attacked - - illustration" />
+<img src="/media/pillow_fight/cover_corner.svg" alt="Taking cover at a corner of a wall - being attacked - illustration" /></p>
+
+<p><img src="/media/pillow_fight/cover_corner_reverse.svg" alt="Throwing around corner - Illustration" />
+<img src="/media/pillow_fight/cover_along_wall.svg" alt="Throwing along wall - Illustration" /></p>
+
+<h2 id="victory-condition:4b52a6bb1d02e41b4e383dfc8935f296">Victory Condition</h2>
+
+<p>The game ends when either a player lands <strong>5 hits</strong>, or when all the pillows have been destroyed.In the latter case, the player with the <strong>most landed hits</strong> wins.</p>
+
+<h1 id="pillowfight-gameplay:4b52a6bb1d02e41b4e383dfc8935f296">Pillowfight - Gameplay</h1>
+
+<p>Directly below you can see a photo of the game in the first few turns, the <strong>pillows</strong> (white checkers pieces) are spaced out relatively evenly, concentrating slightly on the <strong>furniture</strong> (pieces of paper with tables and couches on them). The long, blank pieces of paper represent <strong>walls</strong>. The colourful pieces are the <strong>players</strong>.</p>
+
+<p><img src="/media/pillow_fight/early_game.jpg" alt="Board during Early Game" /></p>
+
+<p>The <strong>first-turn advantage</strong> solves itself, as going first means you get to <strong>throw first</strong>, however people can react to you during setup and <strong>pick starting locations that counter</strong> yours (e.g. behind walls)</p>
+
+<p>The following photo was taken at the end of our last playtest. Due to melee mechanic that allows for <strong>pillows to tear</strong>, almost all pillows were used up (except for the top right corner). We have included that mechanic <strong>to fix &ldquo;melee&rdquo;</strong>, which models hits with pillows where you keep holding them. The last part was what made it superior in almost all situations to throwing (and thus losing) your pillow. Before we introduced the mechanic, games consisted of people just piling somewhere on the map and taking turns to just roll the dice, thus forgoing the <strong>game depth</strong> that comes from <strong>positioning</strong> and <strong>planning</strong> with and around the use of <strong>cover</strong>. Now there&rsquo;s a definitive <strong>trade-off</strong> between melee and ranged that has to be evaluated for every situation, thus adding <strong>choice</strong></p>
+
+<p><img src="/media/pillow_fight/late_game.jpg" alt="Board during Late Game" /></p>
+
+<p>We suggest playing the game with at least three players or factions, as this allows for the third party to exploit and thus break-up stale-mates between the first two. This ensures a dynamic gameplay. Also the possibilty for alliances somewhat counter-balances any inequalities from different skill-levels to imbalanced map setup.</p>
+
+<h1 id="pillowfight-additional-optional-mechanics:4b52a6bb1d02e41b4e383dfc8935f296">Pillowfight - Additional Optional Mechanics:</h1>
+
+<p>Sadly we didn&rsquo;t have the time to play-test the following (as ideas for those came only shortly before or while writing this documentation):</p>
+
+<ul>
+<li>full-defense action: gives +1; rebalance by weighing tie braker in favour of attacker</li>
+<li>catching also works in close-combat (is pillow theft then)</li>
+<li>melee blocking: having a pillow in defense gives +1</li>
+<li>2-3 fragile objects, if they shatter the game ends</li>
+<li>drop back to d&amp;d-style cover mechanics (they deal better with edge cases caused by walls)</li>
+</ul>
+
+</article>
+        </div>
+        
+        <script src="https://m0ru.github.io/js/highlight-9.0.0.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        
+    </body>
+</html>

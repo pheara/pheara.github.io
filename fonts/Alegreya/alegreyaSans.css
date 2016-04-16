@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('./AlegreyaSans-Thin.otf')
+         url('./AlegreyaSans-Thin.ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('./AlegreyaSans-ThinItalic.otf')
+         url('./AlegreyaSans-ThinItalic.ttf');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('./AlegreyaSans-Light.otf')
+         url('./AlegreyaSans-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('./AlegreyaSans-LightItalic.otf')
+         url('./AlegreyaSans-LightItalic.ttf');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('./AlegreyaSans-Regular.otf')
+         url('./AlegreyaSans-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('./AlegreyaSans-Italic.otf')
+         url('./AlegreyaSans-Italic.ttf');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('./AlegreyaSans-Medium.otf')
+         url('./AlegreyaSans-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('./AlegreyaSans-MediumItalic.otf')
+         url('./AlegreyaSans-MediumItalic.ttf');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('./AlegreyaSans-Bold.otf')
+         url('./AlegreyaSans-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('./AlegreyaSans-BoldItalic.otf')
+         url('./AlegreyaSans-BoldItalic.ttf');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('./AlegreyaSans-ExtraBold.otf')
+         url('./AlegreyaSans-ExtraBold.ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('./AlegreyaSans-ExtraBoldItalic.otf')
+         url('./AlegreyaSans-ExtraBoldItalic.ttf');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('./AlegreyaSans-Black.otf')
+         url('./AlegreyaSans-Black.ttf');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('./AlegreyaSans-BlackItalic.otf')
+         url('./AlegreyaSans-BlackItalic.otf');
+    font-weight: 900;
+    font-style: italic;
+}

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Moru’s Ramblings</title>
+    <link>https://m0ru.github.io/page/</link>
+    <description>Recent content in Pages on Moru’s Ramblings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 16 Dec 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://m0ru.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>about</title>
+      <link>https://m0ru.github.io/about/</link>
+      <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://m0ru.github.io/about/</guid>
+      <description>&lt;!--
+Slender
+=======
+
+Minimalist theme for [Hugo](http://gohugo.io/) with [base16](https://github.com/chriskempson/base16) color schemes.
+
+[Demo](https://crimsonray.github.io/slender)
+
+### Screenshot
+
+![screenshot](../images/screenshot.png)
+
+### Features
+
+* Responsive
+* Pagination
+* [base16](https://github.com/chriskempson/base16) color schemes
+* Code/syntax highlighting with [highlight.js 9.0.0](https://highlightjs.org/)
+* Social links with [FontAwesome 4.5.0](https://fortawesome.github.io/Font-Awesome/)
+* Google Analytics integration
+* Proper meta tags for SEO
+
+### Color Schemes
+
+![slender-color-schemes](../images/slender-color-schemes.png)
+
+### Installation
+
+1. Make a new Hugo site
+
+    ```none
+    $ hugo new site your_site/
+    ```
+
+2. Install Slender
+
+    ```none
+    $ cd your_site/
+    $ mkdir themes
+    $ cd themes
+    $ git clone https://github.com/CrimsonRay/slender
+    ```
+
+### Configuration
+
+```toml
+# config.toml
+# https://github.com/CrimsonRay/slender
+
+baseurl = &#34;http://url-to-your-site.com/&#34;
+title = &#34;Your Title&#34;
+languageCode = &#34;en-US&#34;
+MetaDataFormat = &#34;toml&#34;
+theme = &#34;slender&#34;
+paginate = 3
+PaginatePath = &#34;/&#34;
+
+[author]
+    name = &#34;Your Name&#34;
+
+[permalinks]
+
+    # Permalink format for pages.
+    page = &#34;/:title/&#34;
+
+    # Permalink format for blog posts.
+    post = &#34;/article/:title/&#34;
+
+[params]
+
+    # Change the color scheme of Slender.
+    # See above for preview and list of color schemes.
+    colorscheme = &#34;white&#34;
+
+    # Tagline; HTML accepted here. Keep it concise.
+    tagline = &#34;Your Tagline&#34;
+
+    # Footer; Markdown accepted here.
+    footer = &#34;Copyright 2015 &amp;copy; Your Name&#34;
+
+    # Description and keywords for &lt;meta&gt; tags.
+    # Remember to set this for your main page.
+    # This will be overridden by whatever is set by the page or post,
+    # defined by `description` and `keywords` variables in the front matter
+    # of the markdown file.
+    description = &#34;Default Page Description&#34;
+    keywords = &#34;default,page,keywords&#34;
+
+    # Social links, must be full URLs (e.g. https://github.com/CrimsonRay/).
+    # Remove, comment, or leave blank any field to leave them out.
+    email = &#34;mailto:your-email&#34;
+    github = &#34;url-to-your-github&#34;
+    bitbucket = &#34;url-to-your-bitbucket&#34;
+    twitter = &#34;url-to-your-twitter&#34;
+    stackoverflow = &#34;url-to-your-stackoverflow&#34;
+    linkedin = &#34;url-to-your-linkedin&#34;
+    facebook = &#34;url-to-your-facebook&#34;
+
+    # Google Analytics
+    # Remove, comment, or leave it blank if you don&#39;t have one.
+    ganalytics = &#34;your-google-analytics-tracking-code&#34;
+
+[menu]
+
+    # Menu for the nav bar.
+    # There must always be one item present (e.g. home).
+    [[menu.main]]
+    identifier = &#34;home&#34;
+    name       = &#34;home&#34;
+    url        = &#34;/&#34;
+    weight     = 0
+
+    [[menu.main]]
+    identifier = &#34;about&#34;
+    name       = &#34;about&#34;
+    url        = &#34;/about/&#34;
+    weight     = 1
+```
+
+### Usage
+
+**Making a new post / article**
+
+```none
+$ hugo new post/hello.md
+```
+
+**Making a new page**
+
+```none
+$ hugo new page/about.md
+```
+
+Add the new page to navbar in `config.toml` under `[menu]`.
+--&gt;
+
+&lt;p&gt;This blogs theme is based on Slender by CrimsonRay, which is available under the MIT-license &amp;copy; 2015.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

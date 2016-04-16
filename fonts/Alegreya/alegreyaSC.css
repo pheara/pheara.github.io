@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Alegreya SC';
+    src: url('./AlegreyaSC-Regular.otf')
+         url('./AlegreyaSC-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alegreya SC';
+    src: url('./AlegreyaSC-Italic.otf')
+         url('./AlegreyaSC-Italic.ttf');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Alegreya SC';
+    src: url('./AlegreyaSC-Bold.otf')
+         url('./AlegreyaSC-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Alegreya SC';
+    src: url('./AlegreyaSC-BoldItalic.otf')
+         url('./AlegreyaSC-BoldItalic.ttf');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Alegreya SC';
+    src: url('./AlegreyaSC-Black.otf')
+         url('./AlegreyaSC-Black.ttf');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alegreya SC';
+    src: url('./AlegreyaSC-BlackItalic.otf')
+         url('./AlegreyaSC-BlackItalic.ttf');
+    font-weight: 900;
+    font-style: italic;
+}

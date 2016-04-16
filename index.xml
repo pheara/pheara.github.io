@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Moru’s Ramblings</title>
+    <link>https://m0ru.github.io/</link>
+    <description>Recent content on Moru’s Ramblings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 12 Apr 2016 15:46:01 +0200</lastBuildDate>
+    <atom:link href="https://m0ru.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Teamrace with Specials</title>
+      <link>https://m0ru.github.io/article/teamrace-with-specials/</link>
+      <pubDate>Tue, 12 Apr 2016 15:46:01 +0200</pubDate>
+      
+      <guid>https://m0ru.github.io/article/teamrace-with-specials/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/racetrackspecials/racing_all.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;TL;DR: A racing game, where you try to get your slowest team-member across the finish line first and can discover and do hidden jumping-and-bumping-challenges to activate special effects along the race track at the cost of occupying a team-member for a while. This is Wiktor Manczarski and my solution for the challenge to make a game with an easter-egg that is a distinct game itself.&lt;/p&gt;
+
+&lt;h2 id=&#34;basic-game:8de49f7a252ba368fc714b54940278df&#34;&gt;Basic Game&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/racetrackspecials/racing1.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;The basic game-play idea is taken from a fan-created game-mode of Project Gotham Racing as described in the &lt;a href=&#34;https://en.wikipedia.org/wiki/Emergent_gameplay#Changing_game_objectives&#34;&gt;wikipedia article on emergent gameplay&lt;/a&gt;. This mode, called “cat and mouse” people play in two teams. In every team there’s one person with a very slow car. The team to get their slow-car across the finish line first, wins. To do this, the players with the fast cars need to ram the enemies slow-car to slow it down or even knock it off the road―all the while protecting their own slow-car.&lt;/p&gt;
+
+&lt;h2 id=&#34;hidden-game-activating-specials:8de49f7a252ba368fc714b54940278df&#34;&gt;Hidden Game: Activating Specials&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/racetrackspecials/racing2.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;As a hidden game-mode, there’s several locations along the racing track, where people can leave their cars to activate specials―if they find those spots. Examples ways of leaving the car would be:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;In a factory level: if you “fail” a jump and land on one of the conveyor belts, the driver gets picked up by a crane-claw.&lt;/li&gt;
+&lt;li&gt;Crashing the car at high speed at a specific spot so that the driver gets thrown through the wind-shield&lt;/li&gt;
+&lt;li&gt;Get flipped by monster&lt;/li&gt;
+&lt;li&gt;Jump into teleporter-beam and get teleported out while car stays behind&lt;/li&gt;
+&lt;li&gt;A garage or other parking spot where you can leave the car, reachable via:
+
+&lt;ul&gt;
+&lt;li&gt;A jump over a ramp out of the level at a specific point&lt;/li&gt;
+&lt;li&gt;A jump over a ramp at a cliff at a certain point&lt;/li&gt;
+&lt;li&gt;A camouflage net on a forest-map wall&lt;/li&gt;
+&lt;li&gt;Crashing through a window into a house&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The huge trade-off should be, that the team sends a driver ahead to use on of these spots, looses them for attack and defense on the track. Also, timing is critical―drive ahead too early and lose time, drive ahead to late and you might be too late to activate the special. To increase the time-cost of activating the special, it should take a while to activate it. For this they need to go through a short jumping puzzle and knock a gatekeeper-boss off it’s platform. If multiple players rush for the special, they can knock each other off.&lt;/p&gt;
+
+&lt;h2 id=&#34;specials:8de49f7a252ba368fc714b54940278df&#34;&gt;Specials&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/racetrackspecials/racing3.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Short-cuts&lt;/li&gt;
+&lt;li&gt;Acceleration-strips&lt;/li&gt;
+&lt;li&gt;(Moving) roadblocks that are dodge-able or circumventable.&lt;/li&gt;
+&lt;li&gt;A tower that repeatedly targets and shoots at passing cars. Visual cues allow dodging the shots easily in a fast-car, but almost impossibly in a slow-car. Thus fast-cars should draw aggro away from their slow-car and ideally onto the enemy one.&lt;/li&gt;
+&lt;li&gt;A teleporter that resets back to an earlier position or acts as a short-cut&lt;/li&gt;
+&lt;li&gt;Pits&lt;/li&gt;
+&lt;li&gt;Map zooms out to allow targeting an orbital laser.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For the special it turns out, that most buffs are more advantageous for the team who’s slow-car is behind and neutral if used by the leading team―e.g. a shortcut or acceleration strip stays activated for the slower team giving them the same advantage. Conversely agnostically harmful specials favor the leading team, as they can wait for their slow-car to pass-by it’s location before they activate it.&lt;/p&gt;
+
+&lt;h2 id=&#34;feedback-during-lecture:8de49f7a252ba368fc714b54940278df&#34;&gt;Feedback during lecture&lt;/h2&gt;
+
+&lt;p&gt;To make playing the slow-car more interesting, that player could be the only one to get a high-level tactical overview and thus a coordinator-role.&lt;/p&gt;
+
+&lt;p&gt;A game that requires eight players would be problematic during the demo at the end of the semester. It was suggested to make the slow-car an AI and only use two fast-cars per team, thus reducing the game to four players. This would even allow a couch-multiplayer.&lt;/p&gt;
+
+&lt;h2 id=&#34;variants:8de49f7a252ba368fc714b54940278df&#34;&gt;Variants&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Do laps? This allows reversing.&lt;/li&gt;
+&lt;li&gt;More or less team-members&lt;/li&gt;
+&lt;li&gt;More than two teams&lt;/li&gt;
+&lt;li&gt;Get out anywhere and build stuff, basically turning this into a full-on tower-defense mode with all implications (e.g. resource-management)&lt;/li&gt;
+&lt;li&gt;At maximum one person per team can leave their car. Choose the special to go for wisely.&lt;/li&gt;
+&lt;li&gt;There’s one overall engineer-token, that’s needed for specials. It changes hands when you’re getting rammed.&lt;/li&gt;
+&lt;li&gt;Alternative puzzles instead of jumping and bumping―e.g. logic puzzles.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;other-game-ideas:8de49f7a252ba368fc714b54940278df&#34;&gt;Other Game Ideas&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;For leaving the level: abuse a “typical” glitch, also breaking the fourth wall in the process.
+
+&lt;ul&gt;
+&lt;li&gt;A hacking game alla &lt;a href=&#34;https://alexnisnevich.github.io/untrusted/&#34;&gt;Dr. Eval&lt;/a&gt; built into another single-player game.&lt;/li&gt;
+&lt;li&gt;Fall out of the map in a shooter. Now viewing the map from below, it turns into a jump’n’run, where you can stomp/head-butt opponents for some damage or coins&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;A side-scrolling jump’n’run, that rotates 90° and then falls back into a over-the-shoulder racing game.&lt;/li&gt;
+&lt;li&gt;A racing game where you leave the car or fall into a pond, get transformed into a frog and avoid getting run over (remotely like frogger)&lt;/li&gt;
+&lt;li&gt;Based on a thought of Felix: A bullet-hell shooter where you can&amp;rsquo;t shoot. You can kill enemies via friendly fire, playing the two factions against each other or via a place-swapping ability.&lt;/li&gt;
+&lt;li&gt;A stealth game set to break-beat dubstep where you need to freeze under scrutiny and move otherwise. You play household electronics come to life.&lt;/li&gt;
+&lt;li&gt;A coop where you’re playing a level in parallel but split in time, one person in the past, one in the future. The problem: only the past can influence the future. An interesting variant on this is &lt;a href=&#34;https://www.youtube.com/watch?v=Uh4f30VVhbk&#34;&gt;Super Time Force&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;A stealth game but you’re playing the guards (Tropico?)&lt;/li&gt;
+&lt;li&gt;Wiktor Manczarski’s idea: A stealth game, but you’re playing “randomness” (e.g. a radio that switches on to draw the attention of the guards away from the unwitting protagonist)&lt;/li&gt;
+&lt;li&gt;visual novel but leave dialog somehow?&lt;/li&gt;
+&lt;li&gt;A plattformer where the background can become the foreground, obstacles become space and vis-versa.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ambulance</title>
+      <link>https://m0ru.github.io/article/ambulance/</link>
+      <pubDate>Sun, 03 Apr 2016 17:52:42 +0200</pubDate>
+      
+      <guid>https://m0ru.github.io/article/ambulance/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/destinies_and_ambulance/ambulance.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;For this game we were asked to use a random generator. One of
+the combinations the wonderful
+&lt;a href=&#34;http://valuesatplay.org/grow-a-game-overview&#34;&gt;grow-a-game cards&lt;/a&gt;
+spit out, was “Cooperation-Disease-GTA-Creativity”, which inspired Marie and me
+to a cooperative racing game in the health-sector &amp;ndash; “Ambulance”. One player
+drives the car, in a simplified version this is just the three lanes
+seen in the sketch, the other person tries to keep the patient alive until
+they reach the hospital by playing a game of dexterity. Every time
+the driver makes sudden movements, the medics job becomes
+harder―life-threatening errors ensue. Thus it’s necessary that
+the players, who are sitting next to each other and playig on
+their phones, communicate well―especially the driver before
+they make maneuvers.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/destinies_and_ambulance/sketches_01.jpg&#34; class=&#34;figure&#34;&gt;
+&lt;img src=&#34;https://m0ru.github.io/media/destinies_and_ambulance/sketches_02.jpg&#34; class=&#34;figure&#34;&gt;
+&lt;img src=&#34;https://m0ru.github.io/media/destinies_and_ambulance/sketches_03.jpg&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Destinies</title>
+      <link>https://m0ru.github.io/article/destinies/</link>
+      <pubDate>Sun, 03 Apr 2016 17:52:00 +0200</pubDate>
+      
+      <guid>https://m0ru.github.io/article/destinies/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/destinies_and_ambulance/destinies.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the two game ideas for this weeks should be
+an “impossible” game by deconstructing a genre. The
+challenge is to reduce such a genre to it’s core
+mechanics and then remove one of
+those, essentially making it “impossible” to adhere
+to the genre-as-is. Examples would be “RTS without units”,
+“Beat Game without Music” or “RPG without playing a character”.&lt;/p&gt;
+
+&lt;p&gt;“Destinies” results from the last of these primary generators. instead
+of playing a character, the two players play disembodied forces
+of luck and misfortune, triumph and defeat. A rather dim-witted
+hero stumbles through a dungeon in an attempt to get the loot
+and rescue the world. The player of luck plays cards to see
+them succeed, whereas misfortune tries to make their life harder.&lt;/p&gt;
+
+&lt;p&gt;The simplest mechanic for moving the hero would be, to have
+them follow the right-hand rule―while prohibiting circles
+in the dungeon. If they meet a challenge, they role
+3dFudge (dice with ‘-1’, ‘0’, ‘+1’), sum them and add
+their relevant stat and compare it with the difficulty
+of the challenge to see if they&amp;rsquo;ve made it. If they fail,
+they take the challenges consequences.&lt;/p&gt;
+
+&lt;h2 id=&#34;stats-and-challenges:8abf0d7f5282618f2693dc940f03a972&#34;&gt;Stats and challenges:&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;“Combat” vs monsters&lt;/li&gt;
+&lt;li&gt;“Reflexes” vs traps&lt;/li&gt;
+&lt;li&gt;“Intelligence” vs puzzles&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;cards:8abf0d7f5282618f2693dc940f03a972&#34;&gt;Cards&lt;/h2&gt;
+
+&lt;p&gt;Most cards should have trade-offs, e.g. harder monster
+yield more treasure to the hero that makes them better
+in tackling later challenges.&lt;/p&gt;
+
+&lt;p&gt;For card-draw, per default draw-one-play-one
+should be tried out. Either both players draw
+from the same deck and there’s a mechanic for discarding
+cards, or both get their separate decks.&lt;/p&gt;
+
+&lt;p&gt;Card-ideas for Luck:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Level-up: Improves one of the heroes stats&lt;/li&gt;
+&lt;li&gt;Item: places an item in a room. The hero picks it up,
+if they wander into that room. The item-card specifies when
+it will be used and what benefit it brings, e.g. heal, add a
+one-time bonus vs a certain challenge type, teleport the hero,&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Shift rooms (think “mad labyrinth”)&lt;/li&gt;
+&lt;li&gt;Place rooms&lt;/li&gt;
+&lt;li&gt;Hidden Door: a sufficiently aware/intelligent hero can find it
+and take short-cut, possibly skipping some dangers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Card-ideas for Misfortune:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Place traps, e.g. poison that decreases a stat, a fireball that deals damage&lt;/li&gt;
+&lt;li&gt;Cursed Item: works similiar to the Luck-players ‘Item’-card
+but with negative effects&lt;/li&gt;
+&lt;li&gt;Shift rooms (think “mad labyrinth”)&lt;/li&gt;
+&lt;li&gt;Place rooms&lt;/li&gt;
+&lt;li&gt;Place (wandering) monsters&lt;/li&gt;
+&lt;li&gt;Place puzzles, e.g. they might block off a dead-end
+(read: non-critical path) that contains treasure&lt;/li&gt;
+&lt;li&gt;Place alcohol: the trusting, short-sighted hero drinks it
+and some stat decreases&lt;/li&gt;
+&lt;li&gt;Cave-In: Blocks one of several paths to the goal. This card
+shouldn’t be used with a hero following the right-hand-rule.&lt;/li&gt;
+&lt;li&gt;Overlooked Door: this door is ignored for the next application
+of the right hand rule. Remove the condition after that.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/destinies_and_ambulance/sketches_01.jpg&#34; class=&#34;figure&#34;&gt;
+&lt;img src=&#34;https://m0ru.github.io/media/destinies_and_ambulance/sketches_04.jpg&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;feedback:8abf0d7f5282618f2693dc940f03a972&#34;&gt;Feedback&lt;/h2&gt;
+
+&lt;p&gt;Most people thought it was too complicated, respectively hard to understand.&lt;/p&gt;
+
+&lt;p&gt;It might be interesting if the hero’s position is unknown
+(“Mr. X”-style). It probably would be better if both used
+the same deck and fortune needs to play misfortune cards
+in a way that the hero can beat them easily and reap the
+treasures. Also a labeled die that in most cases causes
+a movement towards the goal might be more interesting.&lt;/p&gt;
+
+&lt;p&gt;Lev, however added, that the game has potential if these
+challenges are tackled and clarified.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Waves</title>
+      <link>https://m0ru.github.io/article/waves/</link>
+      <pubDate>Mon, 14 Mar 2016 16:53:00 +0200</pubDate>
+      
+      <guid>https://m0ru.github.io/article/waves/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/feather_and_waves/waves.jpg&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Another game design for the first challenge of this semester, this
+one plays with the concept of pressure- and sound-waves for solving
+a variety of physical puzzles.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/feather_and_waves/sketches-2.jpg&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Feather</title>
+      <link>https://m0ru.github.io/article/feather/</link>
+      <pubDate>Mon, 14 Mar 2016 16:52:00 +0200</pubDate>
+      
+      <guid>https://m0ru.github.io/article/feather/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/feather_and_waves/feather.svg&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;This is the first of a set of sketches for the VU “Game Design” at the Vienna University of Technology. The idea for the game is rather simple―instead of playing the big characters, you’re playing the small side-element. Imagine mellow, emotionally music playing while you use swipes or presses to generate small gust of wind, which blow along a feather and carry it along through a maze of difficulties to finally reach Forrest.&lt;/p&gt;
+
+&lt;p&gt;An alternative mechanic also playing with the theme “wind” was an autumn-themed game. All the trees are losing their leaves, which need to be blown along to clear the boardwalk. Again using swipes sources can be placed that blow into the swiped direction. Constructing a path from multiple of these, a stream of leaves is moved out of the way, e.g. to garbage bins.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/feather_and_waves/sketches-3.jpg&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>https://m0ru.github.io/about/</link>
+      <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://m0ru.github.io/about/</guid>
+      <description>&lt;!--
+Slender
+=======
+
+Minimalist theme for [Hugo](http://gohugo.io/) with [base16](https://github.com/chriskempson/base16) color schemes.
+
+[Demo](https://crimsonray.github.io/slender)
+
+### Screenshot
+
+![screenshot](../images/screenshot.png)
+
+### Features
+
+* Responsive
+* Pagination
+* [base16](https://github.com/chriskempson/base16) color schemes
+* Code/syntax highlighting with [highlight.js 9.0.0](https://highlightjs.org/)
+* Social links with [FontAwesome 4.5.0](https://fortawesome.github.io/Font-Awesome/)
+* Google Analytics integration
+* Proper meta tags for SEO
+
+### Color Schemes
+
+![slender-color-schemes](../images/slender-color-schemes.png)
+
+### Installation
+
+1. Make a new Hugo site
+
+    ```none
+    $ hugo new site your_site/
+    ```
+
+2. Install Slender
+
+    ```none
+    $ cd your_site/
+    $ mkdir themes
+    $ cd themes
+    $ git clone https://github.com/CrimsonRay/slender
+    ```
+
+### Configuration
+
+```toml
+# config.toml
+# https://github.com/CrimsonRay/slender
+
+baseurl = &#34;http://url-to-your-site.com/&#34;
+title = &#34;Your Title&#34;
+languageCode = &#34;en-US&#34;
+MetaDataFormat = &#34;toml&#34;
+theme = &#34;slender&#34;
+paginate = 3
+PaginatePath = &#34;/&#34;
+
+[author]
+    name = &#34;Your Name&#34;
+
+[permalinks]
+
+    # Permalink format for pages.
+    page = &#34;/:title/&#34;
+
+    # Permalink format for blog posts.
+    post = &#34;/article/:title/&#34;
+
+[params]
+
+    # Change the color scheme of Slender.
+    # See above for preview and list of color schemes.
+    colorscheme = &#34;white&#34;
+
+    # Tagline; HTML accepted here. Keep it concise.
+    tagline = &#34;Your Tagline&#34;
+
+    # Footer; Markdown accepted here.
+    footer = &#34;Copyright 2015 &amp;copy; Your Name&#34;
+
+    # Description and keywords for &lt;meta&gt; tags.
+    # Remember to set this for your main page.
+    # This will be overridden by whatever is set by the page or post,
+    # defined by `description` and `keywords` variables in the front matter
+    # of the markdown file.
+    description = &#34;Default Page Description&#34;
+    keywords = &#34;default,page,keywords&#34;
+
+    # Social links, must be full URLs (e.g. https://github.com/CrimsonRay/).
+    # Remove, comment, or leave blank any field to leave them out.
+    email = &#34;mailto:your-email&#34;
+    github = &#34;url-to-your-github&#34;
+    bitbucket = &#34;url-to-your-bitbucket&#34;
+    twitter = &#34;url-to-your-twitter&#34;
+    stackoverflow = &#34;url-to-your-stackoverflow&#34;
+    linkedin = &#34;url-to-your-linkedin&#34;
+    facebook = &#34;url-to-your-facebook&#34;
+
+    # Google Analytics
+    # Remove, comment, or leave it blank if you don&#39;t have one.
+    ganalytics = &#34;your-google-analytics-tracking-code&#34;
+
+[menu]
+
+    # Menu for the nav bar.
+    # There must always be one item present (e.g. home).
+    [[menu.main]]
+    identifier = &#34;home&#34;
+    name       = &#34;home&#34;
+    url        = &#34;/&#34;
+    weight     = 0
+
+    [[menu.main]]
+    identifier = &#34;about&#34;
+    name       = &#34;about&#34;
+    url        = &#34;/about/&#34;
+    weight     = 1
+```
+
+### Usage
+
+**Making a new post / article**
+
+```none
+$ hugo new post/hello.md
+```
+
+**Making a new page**
+
+```none
+$ hugo new page/about.md
+```
+
+Add the new page to navbar in `config.toml` under `[menu]`.
+--&gt;
+
+&lt;p&gt;This blogs theme is based on Slender by CrimsonRay, which is available under the MIT-license &amp;copy; 2015.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Edu Game: Surveillance Tycoon</title>
+      <link>https://m0ru.github.io/article/edu-game-surveillance-tycoon/</link>
+      <pubDate>Thu, 18 Jun 2015 16:52:26 +0200</pubDate>
+      
+      <guid>https://m0ru.github.io/article/edu-game-surveillance-tycoon/</guid>
+      <description>
+
+&lt;p&gt;You can play “Surveillance Tycoon” here:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://m0ru.github.io/media/games/surveillance_tycoon/index.html&#34;&gt;Play Me!&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s also a short &lt;em&gt;gameplay video&lt;/em&gt; if you don&amp;rsquo;t want to try it yourself (for whatever reason) or think you have missed something. It also shortly discusses the design:&lt;/p&gt;
+
+&lt;div class=&#34;video&#34;&gt;  
+&lt;iframe src=&#34;https://www.youtube.com/embed/ZvPPgkJhQyk?feature=player_detailpage&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;design-process:68f9237c30da537021279a38734a9332&#34;&gt;Design Process&lt;/h2&gt;
+
+&lt;p&gt;For this excercise Alex Sinnl and I worked together. You can find his take on this design &lt;a href=&#34;https://gamefuldesign15.wordpress.com/2015/06/17/aufgabe-7-designprozess/&#34;&gt;here&lt;/a&gt;. We exchanged a few initial ideas via email and then had one meeting / design session at a white-board (for a total of about 4h of work). Most of this challenges effort went into development (~12h) as the requirement was for it to be digital. Documentation took about 5 hours.&lt;/p&gt;
+
+&lt;p&gt;The topic was &lt;em&gt;informatics and society&lt;/em&gt;. We explored and shortly iterated over a few ideas in regard to that. As you can see in the sketches below.&lt;/p&gt;
+
+&lt;h3 id=&#34;solo-sketching:68f9237c30da537021279a38734a9332&#34;&gt;Solo-Sketching&lt;/h3&gt;
+
+&lt;p&gt;In the game directly below the player would have to dodge the view- and circles-cones caused by cctv-cams and flyover drones in a bullet-hell like manner. The theme here is more coating than really integrated into the mechanics though.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/educative_games/sketches/1.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;On most of the next sketch I&amp;rsquo;ve played with a few story-driven approaches / sub-themes. The graphic in the center of the right side would be a rhythm game thematizing the factory-work.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/educative_games/sketches/2.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Small scribbles about mechanics, sub-themes or meta-approaches:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/educative_games/sketches/3.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;In this page the rhythm-game concept started to expand a bit:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/educative_games/sketches/4.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;On the left side I started exploring a few concepts around the mechanics of trolling, flaming and flamewars. The right side uses trolls as a simple skinning for &amp;ldquo;the bad guys&amp;rdquo; in a plattformer, a plain propaganda game without deeper message or discussion of the issues around trolling:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/educative_games/sketches/5.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;design-session:68f9237c30da537021279a38734a9332&#34;&gt;Design-Session&lt;/h3&gt;
+
+&lt;p&gt;This whiteboard-sketch contains some of the concepts already discussed above, drawn here to have an &lt;strong&gt;overview&lt;/strong&gt;. New thoughts / concepts:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We could implement the story-driven approaches as visual-novel. This would lessen development effort, however introduce the effort to create a truly compelling and critical narrative.&lt;/li&gt;
+&lt;li&gt;Time-travel based games to highlight long-term cause-effect pairs/chains.&lt;/li&gt;
+&lt;li&gt;We could do some sort of social-networking game where people try to maximize their reach (the graph on the top-right)&lt;/li&gt;
+&lt;li&gt;A game where you use your activists to work on embodied social-problems (a bit like &lt;em&gt;Pigmin&lt;/em&gt; or &lt;em&gt;Overlord&lt;/em&gt; maybe?)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/educative_games/whiteboard/all-the-games.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Below you can see the part of the overview that had been blanked out above. It starts playing with the role-reversal game of &lt;em&gt;CCTV-Tycoon&lt;/em&gt;. It already contains the idea of using social-capital/resentment as build-resource (though also as a radar-chart) and to nudge the player towards a strategy of small increments to avoid a critical mass of resentment (as can be seen in real policy-making).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/educative_games/whiteboard/initial.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;This little doodle elaborates the resentment-bar a bit:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/educative_games/whiteboard/social-capital-meter.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Playing with generic names for the sample setting and small details:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/educative_games/whiteboard/income-and-setting.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;This sketch shows a quick take at a possible game-UI. Note that it has multiple surveillance system types and a internet-map as second theater. Both of these features didn&amp;rsquo;t make it into the first prototype.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/educative_games/whiteboard/gui.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Below you can find a listing of possible options for surveillance systems that the player could sell:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/educative_games/whiteboard/build-opions.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;!--
+# 3 games
+
+* Mirrors Edge
+    * intro: criminalisation of activists
+    * portraial of surveillance-state
+* the setting of dishonored?
+    * tech-access as measure of power
+* shadowrun
+* deus ex?
+    * transhumanism
+
+    * strong AI
+* Skinner-Boxing @ FB-Games
+* Fallout
+    * Some of the bunkers
+* prison tycoon?
+
+* Democracy
+* League:
+    * ward&#39;s don&#39;t help you if you don&#39;t watch the minimap
+    * bullying / reporting / tribunal
+* gw2
+    * azura - tech without bounds leading to much risk - especially inquest
+        * they&#39;re surveilling trolls (asymetrically)
+        * waking dragons in hunger for energy
+    * char gen: all species, genders, skin colors, body types(?)
+
+        Technikfolgen und Wissenschaftsethik in GW2
+
+        * Die Spezies der Azura in Guild Wars 2 portraitiert eine naturwissenschenschaftsbasierte, akademische, technokratische Gesellschaft. Da sie allerdings hauptsächlich technikgetrieben Arbeiten und selten vorher die gesellschaftlichen oder ökologischen Folgen gänzlich durchdenken, erwachsen häufig Gefahren und andere negative Konsequenzen aus ihrem Handeln. Beispielsweise wurde eine der größten Bedrohungen, Primordus, durch ihren Energiehunger geweckt. Andere
+          Themen sind AI-Human-Relationship, Umweltverschmutzung, Elitismus, Umgang mit Versuchspersonen (v.a. mit &#34;geringeren&#34; Spezien), Privatssphäre.
+
+          Im spezifischen ist innerhalb der Azura-Gesellschaft noch die Organisation &#34;Inquest&#34; zu erwähnen. Wenn die akademische Welt Hollywood-Schurken hätte, würden sie sich verhalten die Agenten derselben. Neben einer noch extremeren Ausprägung der toxischen Verhaltensmuster der restlichen Azura-Gesellschaft, thematisiert ArenaNet mit ihnen auch noch Intelectual Property / Patentrecht sowie Publish-or-Perish-Kultur, wenn auch in der Form, als das sie
+          häufig Arbeiten anderer Azura plagiarisieren um Ruhm einzuheimsen bzw neue Waffen zu produzieren.
+
+
+          Grundlegende Awareness für Technikfolgen und Wissenschaftsethik starten.
+
+
+              Azura-Charakter generieren
+                  In den Azura-Gebieten questen &amp; Lore aufmerksam lesen
+                      Living Story spielen
+                      --&gt;
+
+&lt;!--
+* Stanley
+    * most of all: meta (about game-design)
+    * work in modern office environments characterized by IT usage
+    * surveillance
+* Rust (CHECK)
+    * &lt;!--Als Detail des eigentlichen Überlebensspiels: Die Charaktere werden zufällig generiert, inkl. der Hautfarbe. Zusätzlich wird diese Generierung mit der Steam-Id der Spieler\*innen initialisiert. Als Resultat ist es nicht möglich das Aussehen der Charaktere zu verändern, mit dem mensch sich zu identifizieren versucht. In der Community werden allerdings nachwievor Spieler\*innen aufgrund der Hautfarbe ihres Charakters diskriminiert, was für viele von ihnen, vor allem aus begünstigten
+      Demographien eine Erstmals-Erfahrung war.
+
+      Sehr gut wird dies von Extra-Credits beschrieben:--&gt;
+
+&lt;!--
+    * &lt;https://www.youtube.com/watch?v=eh1zfdUTqBY&gt;
+    * [Some Gameplay](https://www.youtube.com/watch?v=GopZRUyxxjw)
+    * cyberbullying
+* game dev tycoon
+    * &lt;https://www.youtube.com/watch?v=pHAf2AgxET4&gt; @ 29:00
+    * ends due to piracy in the version released on piratebay
+    * propaganda-game
+
+# unchained bugs
+
+Developer creation doesn&#39;t work in FF
+
+can&#39;t select games in lecture
+
+--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ARG: CCTV Run</title>
+      <link>https://m0ru.github.io/article/arg-cctv-run/</link>
+      <pubDate>Wed, 13 May 2015 15:00:19 +0200</pubDate>
+      
+      <guid>https://m0ru.github.io/article/arg-cctv-run/</guid>
+      <description>&lt;div class=&#34;video&#34;&gt;
+&lt;iframe src=&#34;https://www.youtube.com/embed/6Uu3OO75BlQ?feature=player_detailpage&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Gemeinsam mit &lt;a href=&#34;http://horstlb.blogspot.co.at/2015/05/gameful-design-arbeitspaket-4.html&#34;&gt;Alex Brandner&lt;/a&gt; und &lt;a href=&#34;http://bobschidoesgamefuldesign2015.tumblr.com/&#34;&gt;Florian Holzner&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/cctv/WhiteboardPics/meta.jpg&#34; class=&#34;figure&#34;&gt;
+&lt;img src=&#34;https://m0ru.github.io/media/cctv/WhiteboardPics/cam_trees.jpg&#34; class=&#34;figure&#34;&gt;
+&lt;img src=&#34;https://m0ru.github.io/media/cctv/WhiteboardPics/data_plumbing.jpg&#34; class=&#34;figure&#34;&gt;
+&lt;img src=&#34;https://m0ru.github.io/media/cctv/WhiteboardPics/kafkaesque_ace_attorney.jpg&#34; class=&#34;figure&#34;&gt;
+&lt;img src=&#34;https://m0ru.github.io/media/cctv/WhiteboardPics/cctv_celeb.jpg&#34; class=&#34;figure&#34;&gt;
+&lt;img src=&#34;https://m0ru.github.io/media/cctv/WhiteboardPics/cctv_run_storyboard.jpg&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;!--
+TODO:
+
+* edu games link to pigsoft
+* ARG!
+--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Audience Participation: Battle for G&amp;#248;dtfrey</title>
+      <link>https://m0ru.github.io/article/audience-participation-battle-for-g</link>
+      <pubDate>Wed, 22 Apr 2015 18:00:00 +0200</pubDate>
+      
+      <guid>https://m0ru.github.io/article/audience-participation-battle-for-g</guid>
+      <description>
+
+&lt;div class=&#34;video&#34;&gt;
+&lt;iframe src=&#34;https://www.youtube.com/embed/yB2xjIn_9JQ?feature=player_detailpage&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&#34;the-band:6f93a681e2da6860edda1c64bccfc921&#34;&gt;The Band&lt;/h1&gt;
+
+&lt;p&gt;Our fictive persona-band, GØDTFREY, is a Viennese medieval folk metal/rock band founded in the year 2010. They remotely resemble bands like Schandmaul and InExtremo. They met each other in a pub during their time as students and released 2 EPs and 1 LP up until now.&lt;/p&gt;
+
+&lt;p&gt;Due to their themed album releases they are able to use the smartphone application to let the user enter an epic battle between the forces of light and evil that decide which course their concerts take.&lt;/p&gt;
+
+&lt;p&gt;They mostly play live concerts in smaller locations like the “Arena Wien” and the “WUK”.&lt;/p&gt;
+
+&lt;p&gt;Members:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Bagpipes - Günther&lt;/li&gt;
+&lt;li&gt;Drummer &amp;amp; Kettledrum - Wolfgang&lt;/li&gt;
+&lt;li&gt;Violin - Julia&lt;/li&gt;
+&lt;li&gt;Opera singer &amp;amp; C-Flute - Evelynn&lt;/li&gt;
+&lt;li&gt;Bass Guitar - Johann&lt;/li&gt;
+&lt;li&gt;Lute &amp;amp; E-Guitar - Alex-Wolfgang&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;the-idea-explained:6f93a681e2da6860edda1c64bccfc921&#34;&gt;The Idea Explained&lt;/h1&gt;
+
+&lt;p&gt;The fans attending the concert get a link via one of several ways (the ticket shop, the ticket, in front of the concert hall,&amp;hellip;) that allows them to download the app and create an avatar. At the concert the persons position is triangulated and the avatar placed on a corresponding location on the screen.&lt;/p&gt;
+
+&lt;p&gt;Dancing causes the avatar to burst into moves of about the same intensity. As the fans continue to dance their individual avatars slowly charge up. After the avatar&amp;rsquo;s reach a maximum capacity, with a clearly visible burst of energy they discharge into the main power bar.&lt;/p&gt;
+
+&lt;p&gt;The band has prepared two differently themed songs and stage settings. E.g.:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;good&amp;rdquo;:&lt;/strong&gt; angelic singers voice, string instruments and flutes, blue stage lighting, artificial snow, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;evil&amp;rdquo;:&lt;/strong&gt; the singer growls, heavy e-guitare, red lighting, flamethrowers, etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Depending on which side the power bars balance is on, a band can flip the themes. Either live, if they&amp;rsquo;re crazily prepared, between songs or only for the final song (which is the minimal effort on their end of things).&lt;/p&gt;
+
+&lt;p&gt;Not in the video but an interesting idea (that came with the help of the manager card): The measured dance-activity can be used to determine the songs that work well. Also the avatars could be used for merchantising (&amp;ldquo;your avatar and the band&amp;rsquo;s avatars as a print&amp;rdquo;) which could be gifted to the hardest rocking fans for free as an incentive.&lt;/p&gt;
+
+&lt;h1 id=&#34;analysis:6f93a681e2da6860edda1c64bccfc921&#34;&gt;Analysis&lt;/h1&gt;
+
+&lt;p&gt;A circular area chart mapping the solution on 6 metrics for audience participation&lt;sup&gt;&lt;a href=&#34;#ref1&#34;&gt;[1]&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/gameful_concerts/audience_participation_dimensions.jpg&#34; alt=&#34;Circular area chart. See text below.&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;See the &lt;a href=&#34;https://owncloud.tuwien.ac.at/public.php?service=files&amp;amp;t=5b07f0b690f75bfcfe34b84be1b9cd5c&amp;amp;download&#34;&gt;slides&lt;/a&gt; for their definition. Below, I&amp;rsquo;ll go into the reason for the values we assigned:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Control Design Freedom (~0.3):&lt;/strong&gt; As the effect is tightly coupled to the story, it might not make much sense to control anything beyond the decision between the two different song-tracks and corresponding stage-effects. The positioning that&amp;rsquo;s used for placing the avatars could be used to control other interactions (e.g. between specific avatars)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;System Versatility (~0.7):&lt;/strong&gt; The setup of the positioning beacons and beamer might take a while in event-locations not already equipped with them, but not too long. For the mapping between auditorium and screen space to work well, the room should be roughly rectangular.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Audience Interaction Transparency (~1.0):&lt;/strong&gt; One&amp;rsquo;s avatar should be uniquely identifiable by it&amp;rsquo;s looks and relativ position on the screen. Stronger dancing causes stronger of the avatar (with pre-defined dance-moves) and the charge-effects are very visible and cause a clearly noticeable shift in power-bar. The midpoint is clearly marked and if the powerbalance passes it, the next song and it&amp;rsquo;s stage effects change distinctively. All in all it should be very clear, in our perception, what effect one&amp;rsquo;s dancing has on the show.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Audience Interaction Distribution (~1.0):&lt;/strong&gt; Most people will have a smartphone. Alternatively cheap dedicated hardware (e.g. wristbands) can be handed out, though these require an alternative way to create the avatar (e.g. terminals, one&amp;rsquo;s homepc, a friend&amp;rsquo;s smartphone)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Focus (~0.8):&lt;/strong&gt; The projection is behind the actual band and about as distracting as most other visual shows. The dancing itself should be the same as in other concerts.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Active / Passive Audience Affinity (~0.2):&lt;/strong&gt; Without a smartphone (or dedicated hardware if it&amp;rsquo;s within the budget) there&amp;rsquo;s no way to interact.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;design-process:6f93a681e2da6860edda1c64bccfc921&#34;&gt;Design Process&lt;/h1&gt;
+
+&lt;p&gt;Directly after the lecture we &lt;strong&gt;decided&lt;/strong&gt; on designing for a &lt;strong&gt;folk metal band&lt;/strong&gt; similiar to Schandmaul/InExtremo. Due to a lack of time directly after the lesson, we agreed to meet again in a week.&lt;/p&gt;
+
+&lt;p&gt;Over the course of that week, I&amp;rsquo;d jotted down a few notes to my &lt;strong&gt;notebook&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;!-- thumbnail syntax isn&#39;t pretty :| --&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://m0ru.github.io/media/gameful_concerts/notebook/1.png&#34;&gt;
+    &lt;img src=&#34;https://m0ru.github.io/media/gameful_concerts/notebook/thumb/1.png&#34;&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://m0ru.github.io/media/gameful_concerts/notebook/2.png&#34;&gt;
+    &lt;img src=&#34;https://m0ru.github.io/media/gameful_concerts/notebook/thumb/2.png&#34;&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://m0ru.github.io/media/gameful_concerts/notebook/3.png&#34;&gt;
+    &lt;img src=&#34;https://m0ru.github.io/media/gameful_concerts/notebook/thumb/3.png&#34;&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We met at the Fachschaft Informatik. During the process that will be descriped below, we took notes in &lt;a href=&#34;https://titanpad.com/64PQ6Cx3Gq&#34;&gt;&lt;strong&gt;this titanpad&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;First we noted down which interactions already had come to mind from our experiences with rock and metal concerts, so as not to lose them:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;circle dances&lt;/li&gt;
+&lt;li&gt;mosh pit&lt;/li&gt;
+&lt;li&gt;wall of death&lt;/li&gt;
+&lt;li&gt;condom baloons&lt;/li&gt;
+&lt;li&gt;headbanging&lt;/li&gt;
+&lt;li&gt;clapping&lt;/li&gt;
+&lt;li&gt;if indoors: smartphone cam&lt;/li&gt;
+&lt;li&gt;crowd-surfing&lt;/li&gt;
+&lt;li&gt;das ruderboot&lt;/li&gt;
+&lt;li&gt;inflatable shark&lt;/li&gt;
+&lt;li&gt;foam cannon&lt;/li&gt;
+&lt;li&gt;flamethrowers(!)
+
+&lt;ul&gt;
+&lt;li&gt;witch burning?&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After that, we continued to the main excercise, LiveMAP.&lt;/p&gt;
+
+&lt;h2 id=&#34;livemap:6f93a681e2da6860edda1c64bccfc921&#34;&gt;LiveMAP&lt;/h2&gt;
+
+&lt;p&gt;This part contains my personal experience. To get &lt;a href=&#34;http://salzstangerlman.tumblr.com/post/116855046536/aufgabe-3-livemap-feat-g-dtfrey&#34;&gt;Florian&amp;rsquo;s&lt;/a&gt; and &lt;a href=&#34;http://gameful.renekoller.com/2015/04/22/week-3-livemap/&#34;&gt;Rene&amp;rsquo;s&lt;/a&gt; take on the process, check out their blogs.&lt;/p&gt;
+
+&lt;p&gt;We drew cards roughly in three rounds, then started converging. Occasionally the others swapped out their role-cards relatively early as they weren&amp;rsquo;t very useful for them. I&amp;rsquo;d gotten the role-card/lense of creator (e.g. designer, programmer,&amp;hellip;), which proved to be an okay enough starting point when thinking. However it mostly stayed in the background for me as the thought- and discussion-flow tended to quickly move away, staccatoesquly throwing out idea after idea, in a self-sustained tune. Thus in a way it
+served it&amp;rsquo;s purpose of providing a starting point.&lt;/p&gt;
+
+&lt;p&gt;I started the &lt;strong&gt;first round&lt;/strong&gt; with the Motivation-card no. 9 - &amp;ldquo;Include someone for academic reasons&amp;rdquo;. This cards meaning only became clearer after turning it. However I didn&amp;rsquo;t get much time to ponder on the back-side, as my partners quickly burst out with some ideas on their own, that got a discussion started. In general this would prove to be somewhat of a theme in the process (see &lt;a href=&#34;#timetothink&#34;&gt;below&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;For the &lt;strong&gt;second round&lt;/strong&gt; I kept my role (I liked it) and drew from the Interaction-deck the No 32, &amp;ldquo;consider interaction in terms of acoustics that is artificially generated&amp;rdquo;. We quickly left the focus created by the cards and went (back?) to the previous stream of ideas. In this round a few of core ideas for the final concept emerged - namely:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;projecting avatars for the dancing people on a surface behind the band&lt;/li&gt;
+&lt;li&gt;allowing the most enthusiastic dancer(s) to pick a song to be played (their favourite one?) or influence effects on the stage&lt;/li&gt;
+&lt;li&gt;from the idea of wall-of-deaths: make it two factions dance-battling each other&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The card kept laying in front of me throughout the rest of it&amp;rsquo;s process. In the end, it had made it&amp;rsquo;s way into the concept: Songs are arranged along two general accoustic themes (e.g. &amp;ldquo;angelic, etherical, beautiful&amp;rdquo; vs &amp;ldquo;demonic, hard, grungy&amp;rdquo;). The winning side swings the song selection in favour of their theme.&lt;/p&gt;
+
+&lt;p&gt;We decided that the theme-switches should be discrete in style (binary in fact) and time (only between songs). This allows the band to prepare the alternative songs and reduces the technical overhead of dealing with quickly changing accoustic settings. As a consequence, there&amp;rsquo;s no improvisation involved, for which Metal (or most genres with lyrics and melody) tend to be badly suited in our perception. In the very least to us it seem to be very hard to pull off a seemless improvisation on
+avariation variation of melody/scale in a song, let alone lyrics (see below).&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;third round&lt;/strong&gt; yielded me no23 from the Influence-deck: &amp;ldquo;Influence the content considering the lyrics.&amp;rdquo; At this point we had relatively settled on the dance-battle idea. The card added &amp;ldquo;lyrics&amp;rdquo; to the the list of factors influenced by the winning dancers. This was also the point where we decided to allow people to select songs (instead of influencing them in real-time) for the reasons already discussed above.&lt;/p&gt;
+
+&lt;p&gt;After that we mainly refined the dance-battle concept. Most of the elements we&amp;rsquo;d use already had emerged by this point and fell into place now. Elements and decisions that emerged only at this point were:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;power-meter that pushes between the colors &lt;code&gt;|=====&amp;gt;|&amp;lt;========|&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;people should be able to choose their faction ahead of time (so they can rock for the same side as their friends, or oppose them in friendly competition)&lt;/li&gt;
+&lt;li&gt;we&amp;rsquo;d use smartphones&amp;rsquo; gyroscopic sensors and triangulation capabilities as a base instead of other hardware, as they&amp;rsquo;re cheap for the organizers (most people already have one). However this also means that we can&amp;rsquo;t guarantee participation for everyone (unless the phones are complimented with throw-away wearables)&lt;/li&gt;
+&lt;li&gt;customizing the avatar before-hand allows to find it on the projection&lt;/li&gt;
+&lt;li&gt;avatars can be used for merchandising as well (your ava + the bands ava on prints). The hardest dancer(s) could be awarded with some of it for free.&lt;/li&gt;
+&lt;li&gt;the intensity of dancing per song can be used to determine which songs appeal to the audience in that region.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Two issues in our process severly handicapped the cards&amp;rsquo; usefullness for us:&lt;/p&gt;
+
+&lt;p&gt;&lt;a id=&#34;timetothink&#34;&gt;&lt;/a&gt;&lt;strong&gt;Time to Think&lt;/strong&gt;: The phases of silence necessary to reflect on the cards tended not to last long enough (at least for me) to get any deeper value from them. Every time we got stuck and decided to go for another round of cards, we&amp;rsquo;d take a few moments to read them. Until someone would inevitably throw an idea into the ring and we&amp;rsquo;d return to a variation of the discussion from before or go off into a direction that had little to do with the cards i held. I think we should have set aside a fixed amount of time to reflect on the cards - or at least ask around if everyone&amp;rsquo;s done with their
+card - before starting the discussion for that round. I think this should be emphasized when teaching the method to first-timers.&lt;/p&gt;
+
+&lt;p&gt;&lt;a id=&#34;skepticism&#34;&gt;&lt;/a&gt;&lt;strong&gt;Skepticism&lt;/strong&gt;: The experience that conversations tended to diverge quickly from the cards focus might be attributed to a certain prevalent &lt;strong&gt;skepticism of the method&lt;/strong&gt; in the team. For my part, I had never worked with design cards before (only with other association techniques, like using random magazine snippets). Also at several occassions before starting and in the early phase someone would voice that they felt restricted by the cards. This base mood might be the reason why we didn&amp;rsquo;t get
+into the cards much, respectively, they didn&amp;rsquo;t play too large a role for us. However, I think, this factor should fade away if we would do more sessions with them. At least for me they proved worthwhile to explore further (with a few adaptions in our process)&lt;/p&gt;
+
+&lt;p&gt;In general I find the idea to use the cards&amp;rsquo; focus very appealing. Tools like these tend to direct the search of the design space away from the well trodden paths and over-done solutions (that we happened to use in this concept in the form of smartphone-apps using the gyroscopic sensors). For what they also proved very useful was viewing an already existing concept through a new facet / point of view.&lt;/p&gt;
+
+&lt;h1 id=&#34;references:6f93a681e2da6860edda1c64bccfc921&#34;&gt;References&lt;/h1&gt;
+
+&lt;ol&gt;
+    &lt;li id=&#34;ref1&#34;&gt; Mazzanti, D. Zappi, V. Caldwell D. BrogniA., 2014. *Augmented Stage for Participatory Performances*. In Proceedings of the International Conference on New Interfaces for Musical Expression, pp. 29-34.
+    &lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Audience Participation―The Challenge</title>
+      <link>https://m0ru.github.io/article/audience-participationthe-challenge/</link>
+      <pubDate>Wed, 01 Apr 2015 15:45:07 +0200</pubDate>
+      
+      <guid>https://m0ru.github.io/article/audience-participationthe-challenge/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://owncloud.tuwien.ac.at/public.php?service=files&amp;amp;t=5b07f0b690f75bfcfe34b84be1b9cd5c&amp;amp;download&#34;&gt;Presentation slides&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://owncloud.tuwien.ac.at/public.php?service=files&amp;amp;t=9123d3c40e9d88a17fdc3253234d06ce&amp;amp;download&#34;&gt;Full challenge&lt;/a&gt;  (copied below for convienience)&lt;/p&gt;
+
+&lt;p&gt;Entwerfen Sie ein Szenario im Kontext von Live-Musik, das Publikumsbeteiligung bzw. kollaborativeElemente zwischen Performer und Publikum vorsieht. Übung in Gruppen zu je 3 Personen.&lt;/p&gt;
+
+&lt;h2 id=&#34;schritt-1a-in-vo:7586868b56a5b96f198e784f8866e90a&#34;&gt;Schritt 1a (in VO):&lt;/h2&gt;
+
+&lt;p&gt;Ausgangspunkt definierenDefinieren Sie ein Live-Musik Setting. Dies kann tatsächlich existieren oder fiktiven Ursprungs sein.Beispiele:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Rockband, 4-köpfig, Gesang, Gitarre, Bass, Schlagzeug&lt;/li&gt;
+&lt;li&gt;DJ in Club&lt;/li&gt;
+&lt;li&gt;Elektro-Pop Duo mit Laptops und Tanz&lt;/li&gt;
+&lt;li&gt;Hip-Hop Formation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;schritt-1b-ausgangspunkt-definieren:7586868b56a5b96f198e784f8866e90a&#34;&gt;Schritt 1b:Ausgangspunkt definieren&lt;/h2&gt;
+
+&lt;p&gt;Beschreiben Sie möglichst genau die Musikrichtung, die Anzahl der Performer und deren Rolle/Aufgabe sowie Art und Orte der Performance, die Beschreibung des Publikums und was darüber hinaus noch relevant und wichtig ist.&lt;/p&gt;
+
+&lt;h2 id=&#34;schritt-2-szenario-entwerfen:7586868b56a5b96f198e784f8866e90a&#34;&gt;Schritt 2:Szenario entwerfen&lt;/h2&gt;
+
+&lt;p&gt;Entwickeln Sie ein Konzept, um das Publikum in eine Performance des von Ihnen definierten Live-Musik Settings zu integrieren.Verwenden Sie für den Gestaltungsprozess die zur Verfügung gestellten LiveMAPDesign Cards solange diese hilfreich sind.&lt;/p&gt;
+
+&lt;h2 id=&#34;schritt-3-video-sketch:7586868b56a5b96f198e784f8866e90a&#34;&gt;Schritt 3: Video-Sketch&lt;/h2&gt;
+
+&lt;p&gt;Erstellen Sie einen Video-Sketch, der Ihr Szenario präsentiert. (max. 3 Minuten) Berücksichtigen Sie in der Erstellung des Videos die sechs Metriken von Mazzantiet al. (2014)&lt;/p&gt;
+
+&lt;h2 id=&#34;schritt-4-einzelarbeit-reflektieren-des-design-prozesses:7586868b56a5b96f198e784f8866e90a&#34;&gt;Schritt 4 (Einzelarbeit):Reflektieren des Design-Prozesses&lt;/h2&gt;
+
+&lt;p&gt;Reflektieren Sie einzeln(!) den Design-Prozess mit besonderem Fokus auf den Einsatz der LiveMAPDesign Cards.Beantworten Sie dazu detailliert die folgenden Fragen mit insgesamt mindestens 600 Wörtern.&lt;/p&gt;
+
+&lt;p&gt;Fragen für die Reflexion:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Wie lief die Design-Session mit den Karten ab?&lt;/li&gt;
+&lt;li&gt;Wann waren die Karten förderlich und in wie fern?&lt;/li&gt;
+&lt;li&gt;Wann waren die Karten weniger hilfreich oder einschränkend und warum?&lt;/li&gt;
+&lt;li&gt;Welche Unklarheiten entstanden beim Einsatz der Karten?&lt;/li&gt;
+&lt;li&gt;Was ist Ihnen darüber hinaus noch aufgefallen?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;abgabe:7586868b56a5b96f198e784f8866e90a&#34;&gt;Abgabe&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Definition des Live-Musik Settings (Gruppe)&lt;/li&gt;
+&lt;li&gt;Video-Prototyp des Szenarios zur Publikumsinteraktion (Gruppe)&lt;/li&gt;
+&lt;li&gt;Reflexion des Design-Prozesses mit den LiveMAPDesign Cards (individuell)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Board Game: Pillow Fight</title>
+      <link>https://m0ru.github.io/article/board-game-pillow-fight/</link>
+      <pubDate>Wed, 25 Mar 2015 21:30:30 +0100</pubDate>
+      
+      <guid>https://m0ru.github.io/article/board-game-pillow-fight/</guid>
+      <description>
+
+&lt;p&gt;Pillow Fight is our solution to the challenge to design a wargame without borders (in our case, even without deaths).&lt;/p&gt;
+
+&lt;h1 id=&#34;the-challenge-no-frontier:4b52a6bb1d02e41b4e383dfc8935f296&#34;&gt;The Challenge - No Frontier&lt;/h1&gt;
+
+&lt;p&gt;From &amp;ldquo;IRON DESIGNER CHALLENGE 5—WAR WITHOUT FRONTIERS&amp;rdquo;, page 39:&lt;/p&gt;
+
+&lt;blockquote&gt;In games featuring the teritorial acquisition dynamic, and especially in war-themed games, territories are rarely acquired through a comical foot race. They’re usually acquired through the death, regardless of how abstracted, of another player’s bits. As a result of that death, the player gets the other player’s territory. Whoever has the territory wins the war. Another common dynamic, “destroy the opposing side,” is used for games that don’t have territory.
+For this exercise, however, you’ll be pushing yourself beyond those traditional borders. Simulate and resolve a Civil War battle without using territorial acquisition or destruction of all units on the enemy side as the primary gameplay dynamic.&lt;/blockquote&gt;
+
+&lt;blockquote&gt;ergänzung: in unter 30 Minuten spielbar, dafür muss es nicht unbedingt bürgerkrieg sein.&lt;/blockquote&gt;
+
+&lt;h1 id=&#34;the-process:4b52a6bb1d02e41b4e383dfc8935f296&#34;&gt;The Process&lt;/h1&gt;
+
+&lt;p&gt;We (&lt;a href=&#34;http://hirnsalat.github.io/gameful-design/&#34;&gt;hirnsalat&lt;/a&gt;, &lt;a href=&#34;http://peacememories.github.io/gameful-design/&#34;&gt;peacememories&lt;/a&gt; and &lt;a href=&#34;https://m0ru.github.io/&#34;&gt;m0ru&lt;/a&gt;) met up last Thursday for a little brain-storming session. We already had a few concepts and mechanics-fragments beforehand:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/pillow_fight/sketchbook.png&#34; alt=&#34;Scans of m0ru&#39;s sketchbook&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;During the session we tried to explore the design space starting with different mechanics and themes as can be seen on the whiteboard directly below. The theme-based generators (in red) mostly focussed on military and/or political conflicts (e.g. &amp;ldquo;cyberwar&amp;rdquo;, &amp;ldquo;spy game&amp;rdquo;, &amp;ldquo;gerrymandering&amp;rdquo;, &amp;ldquo;elections&amp;rdquo;). The mechanical ones (in green) started off with alternative win-conditions we could use. You can find them them below the center in the right half of the whiteboard. The most advanced cluster of mechanical and thematic fragments centered around an idea for modelling peace negotiations (at the whiteboard: starting at the bottom left and expanding towards the right and up). As backdrop for the negotiations a more or less automatic conflict would have pushed back and forth on the quickly sketched board that you can see. The goal would be to end the conflict, by negotiating a set of terms to which both sides generals (non-player characters / mechanics) can agree.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/pillow_fight/brainstorming_whiteboard.png&#34; alt=&#34;Photo of whiteboard during initial brainstorming&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;During our discussion we got inspiration from another colleague, who noted that all of the mechanics/themes we were talking about seemed rather depressing and cynical, which spawned the idea to go towards the other of that extreme of that spectrum - from &amp;ldquo;cute&amp;rdquo; to &amp;ldquo;stuffed animal&amp;rdquo; to &amp;ldquo;pillow&amp;rdquo; to &amp;ldquo;pillowfight&amp;rdquo;. The mechanics we salvaged from various board-, pen and paper roleplaying and tabletop games, and radically simplified them, only adding each mechanic after careful consideration and being sure that it is necessary. For most of them we also did before/after playtests. On the whiteboard below you can see, that most never made it beyond the &amp;ldquo;optional&amp;rdquo; status.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/pillow_fight/final_whiteboard.png&#34; alt=&#34;Whiteboard-picture created while refining &amp;quot;Pillow Fight&amp;quot;&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;pillowfight-the-story:4b52a6bb1d02e41b4e383dfc8935f296&#34;&gt;Pillowfight - The Story&lt;/h1&gt;
+
+&lt;p&gt;You&amp;rsquo;re in your good friends rather large flat (some might call it a penthouse/villa) and going at it with their modest supply of pillows.&lt;/p&gt;
+
+&lt;h1 id=&#34;pillowfight-rules:4b52a6bb1d02e41b4e383dfc8935f296&#34;&gt;Pillowfight - Rules&lt;/h1&gt;
+
+&lt;p&gt;The game is playable from three players upwards.&lt;/p&gt;
+
+&lt;h2 id=&#34;setup:4b52a6bb1d02e41b4e383dfc8935f296&#34;&gt;Setup&lt;/h2&gt;
+
+&lt;p&gt;The game is played on a rectangular &lt;strong&gt;board with a grid&lt;/strong&gt; on it (e.g. checkerboard, go-board,..), representing a room.
+First, one player &lt;strong&gt;sets up&lt;/strong&gt; the &lt;strong&gt;walls&lt;/strong&gt; and &lt;strong&gt;furniture&lt;/strong&gt; to provide cover.
+Another player places the &lt;strong&gt;pillows&lt;/strong&gt; on top of furniture or on the floor.
+Finally, a third player decides &lt;strong&gt;who goes first&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Players place their characters, starting with the first player and continuing clockwise. The &lt;strong&gt;characters&lt;/strong&gt; can be &lt;strong&gt;placed anywhere&lt;/strong&gt; on the floor, though you might want to get some terrain between you and the other players.&lt;/p&gt;
+
+&lt;h2 id=&#34;playing-a-turn:4b52a6bb1d02e41b4e383dfc8935f296&#34;&gt;Playing a Turn&lt;/h2&gt;
+
+&lt;p&gt;As with placing the characters, players take turns clockwise.
+During a turn, you can take two actions, which can be either moving, picking up pillows or attacking.&lt;/p&gt;
+
+&lt;h3 id=&#34;moving:4b52a6bb1d02e41b4e383dfc8935f296&#34;&gt;Moving&lt;/h3&gt;
+
+&lt;p&gt;You can move across &lt;strong&gt;three squares&lt;/strong&gt;, including diagonals, but you can only walk on the floor. No climbing on furniture please.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/pillow_fight/movement.svg&#34; alt=&#34;Movement illustration/examples&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;picking-up-a-pillow:4b52a6bb1d02e41b4e383dfc8935f296&#34;&gt;Picking up a pillow&lt;/h3&gt;
+
+&lt;p&gt;If a pillow is adjacent to your character or directly below you, you can pick it up, as long as you are not already carrying a pillow.&lt;/p&gt;
+
+&lt;h3 id=&#34;attacking:4b52a6bb1d02e41b4e383dfc8935f296&#34;&gt;Attacking&lt;/h3&gt;
+
+&lt;p&gt;You can attack a player if you are &lt;strong&gt;holding a pillow&lt;/strong&gt; and you are either standing next to them or there are no walls in the way.
+Attacking is done by selecting a target and rolling a die. The targeted person can then defend by rolling another die. If you &lt;strong&gt;roll&lt;/strong&gt; a &lt;strong&gt;higher&lt;/strong&gt; number than them, you hit them and score a point.
+You can only attack &lt;strong&gt;once per turn&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;There are two ways of attacking an opponent:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pillow Swinging (Melee)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you stand next to a player you can hit them with your pillow directly. This lets you &lt;strong&gt;keep your pillow&lt;/strong&gt;, but if you roll a 1 or 2, your &lt;strong&gt;pillow gets torn&lt;/strong&gt; (and removed from the game).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pillow Throwing (Ranged)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You can throw a pillow if there are no walls between you and your target (there&amp;rsquo;s no range limitation). Your opponent might use cover to protect themselves from your throw (explained in the cover section).&lt;/p&gt;
+
+&lt;p&gt;When throwing, you &lt;strong&gt;lose your pillow&lt;/strong&gt;. The pillow will either land &lt;strong&gt;at your targets feet&lt;/strong&gt; or, if they don&amp;rsquo;t have a pillow in their hand and roll a 5 or higher, &lt;strong&gt;they catch it&lt;/strong&gt; - which is the same as picking up a pillow.&lt;/p&gt;
+
+&lt;h4 id=&#34;cover:4b52a6bb1d02e41b4e383dfc8935f296&#34;&gt;Cover&lt;/h4&gt;
+
+&lt;p&gt;Cover can be used when defending against ranged attacks. There are two types of cover: walls and furniture. You need to &lt;strong&gt;stand adjacent&lt;/strong&gt; to an object to get cover from it. If someone on the other side wants to throw at you: walls block attacks completely, but furniture only gives a -1 penalty on the attack roll. If you&amp;rsquo;re standing close to or at at an edge of a wall or piece of furniture, look at the graphics below to see how well others can throw at you. The examples use a wall. In the case of furniture the areas marked &amp;ldquo;impossible&amp;rdquo; would give a -1 penalty instead.&lt;/p&gt;
+
+&lt;p&gt;To determine which squares you have cover from, look at the squares adjacent to you and expand the cover status orthogonally. If there is an object that grants cover directly below your character, you have cover from all squares below it. The same applies to all 8 directions.&lt;/p&gt;
+
+&lt;p&gt;Cover doesn&amp;rsquo;t apply against pillow swinging (melee).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/pillow_fight/cover_edge.svg&#34; alt=&#34;Taking cover at behind a wall - being attacked - - illustration&#34; /&gt;
+&lt;img src=&#34;https://m0ru.github.io/media/pillow_fight/cover_corner.svg&#34; alt=&#34;Taking cover at a corner of a wall - being attacked - illustration&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/pillow_fight/cover_corner_reverse.svg&#34; alt=&#34;Throwing around corner - Illustration&#34; /&gt;
+&lt;img src=&#34;https://m0ru.github.io/media/pillow_fight/cover_along_wall.svg&#34; alt=&#34;Throwing along wall - Illustration&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;victory-condition:4b52a6bb1d02e41b4e383dfc8935f296&#34;&gt;Victory Condition&lt;/h2&gt;
+
+&lt;p&gt;The game ends when either a player lands &lt;strong&gt;5 hits&lt;/strong&gt;, or when all the pillows have been destroyed.In the latter case, the player with the &lt;strong&gt;most landed hits&lt;/strong&gt; wins.&lt;/p&gt;
+
+&lt;h1 id=&#34;pillowfight-gameplay:4b52a6bb1d02e41b4e383dfc8935f296&#34;&gt;Pillowfight - Gameplay&lt;/h1&gt;
+
+&lt;p&gt;Directly below you can see a photo of the game in the first few turns, the &lt;strong&gt;pillows&lt;/strong&gt; (white checkers pieces) are spaced out relatively evenly, concentrating slightly on the &lt;strong&gt;furniture&lt;/strong&gt; (pieces of paper with tables and couches on them). The long, blank pieces of paper represent &lt;strong&gt;walls&lt;/strong&gt;. The colourful pieces are the &lt;strong&gt;players&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/pillow_fight/early_game.jpg&#34; alt=&#34;Board during Early Game&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;first-turn advantage&lt;/strong&gt; solves itself, as going first means you get to &lt;strong&gt;throw first&lt;/strong&gt;, however people can react to you during setup and &lt;strong&gt;pick starting locations that counter&lt;/strong&gt; yours (e.g. behind walls)&lt;/p&gt;
+
+&lt;p&gt;The following photo was taken at the end of our last playtest. Due to melee mechanic that allows for &lt;strong&gt;pillows to tear&lt;/strong&gt;, almost all pillows were used up (except for the top right corner). We have included that mechanic &lt;strong&gt;to fix &amp;ldquo;melee&amp;rdquo;&lt;/strong&gt;, which models hits with pillows where you keep holding them. The last part was what made it superior in almost all situations to throwing (and thus losing) your pillow. Before we introduced the mechanic, games consisted of people just piling somewhere on the map and taking turns to just roll the dice, thus forgoing the &lt;strong&gt;game depth&lt;/strong&gt; that comes from &lt;strong&gt;positioning&lt;/strong&gt; and &lt;strong&gt;planning&lt;/strong&gt; with and around the use of &lt;strong&gt;cover&lt;/strong&gt;. Now there&amp;rsquo;s a definitive &lt;strong&gt;trade-off&lt;/strong&gt; between melee and ranged that has to be evaluated for every situation, thus adding &lt;strong&gt;choice&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/pillow_fight/late_game.jpg&#34; alt=&#34;Board during Late Game&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We suggest playing the game with at least three players or factions, as this allows for the third party to exploit and thus break-up stale-mates between the first two. This ensures a dynamic gameplay. Also the possibilty for alliances somewhat counter-balances any inequalities from different skill-levels to imbalanced map setup.&lt;/p&gt;
+
+&lt;h1 id=&#34;pillowfight-additional-optional-mechanics:4b52a6bb1d02e41b4e383dfc8935f296&#34;&gt;Pillowfight - Additional Optional Mechanics:&lt;/h1&gt;
+
+&lt;p&gt;Sadly we didn&amp;rsquo;t have the time to play-test the following (as ideas for those came only shortly before or while writing this documentation):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;full-defense action: gives +1; rebalance by weighing tie braker in favour of attacker&lt;/li&gt;
+&lt;li&gt;catching also works in close-combat (is pillow theft then)&lt;/li&gt;
+&lt;li&gt;melee blocking: having a pillow in defense gives +1&lt;/li&gt;
+&lt;li&gt;2-3 fragile objects, if they shatter the game ends&lt;/li&gt;
+&lt;li&gt;drop back to d&amp;amp;d-style cover mechanics (they deal better with edge cases caused by walls)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Card Game: Subjective Objectives</title>
+      <link>https://m0ru.github.io/article/card-game-subjective-objectives/</link>
+      <pubDate>Thu, 12 Mar 2015 01:02:02 +0100</pubDate>
+      
+      <guid>https://m0ru.github.io/article/card-game-subjective-objectives/</guid>
+      <description>
+
+&lt;div class=&#34;video&#34;&gt;
+&lt;iframe src=&#34;https://www.youtube.com/embed/rC-Hhn9mKB0?feature=player_detailpage&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&#34;the-challenge:289d46cad905d21d73e92f507e398379&#34;&gt;The Challenge&lt;/h1&gt;
+
+&lt;blockquote&gt;gestalten sie ein kartenspiel, dessen ziel es ist, die auseinandersetzung mit dem »wert« von dingen zu provozieren bzw. fördern. »wert« umfasst dabei so komplexe konzepte wie marktwert, persönlich zugewiesener wert, unverkäuflichkeit, emotionaler wert, überraschender wert, situations-bezogener Wert, etc.&lt;/blockquote&gt;
+
+&lt;h1 id=&#34;the-design-process-other-ideas:289d46cad905d21d73e92f507e398379&#34;&gt;The Design Process / Other Ideas&lt;/h1&gt;
+
+&lt;p&gt;Take a look at the &lt;a href=&#34;https://m0ru.github.io/media/subjective_objectives/subjective_objective_notes.pdf&#34;&gt;&lt;strong&gt;written notes and sketches&lt;/strong&gt;&lt;/a&gt; if you want to get a detailed look at the design process. I&amp;rsquo;ll try to give a quick overview in this section.&lt;/p&gt;
+
+&lt;p&gt;Most of the &lt;a href=&#34;https://designerlythinking.wordpress.com/2011/04/10/inductive-design-and-the-%E2%80%98primary-generator%E2%80%99/&#34;&gt;generators&lt;/a&gt; fall into roughly two categories: those &lt;strong&gt;starting from mechanics&lt;/strong&gt; (like &amp;ldquo;bidding systems&amp;rdquo; or &amp;ldquo;hidden objectives/values&amp;rdquo;) and those approaching the challenge &lt;strong&gt;from a more thematic angle&lt;/strong&gt; (like &amp;ldquo;food waste &amp;amp; dumpstering&amp;rdquo;, &amp;ldquo;lifestyle priorities in shared living&amp;rdquo; and &amp;ldquo;poverty and human needs&amp;rdquo;). Some yet fell in neither (e.g. &amp;ldquo;realising your own values/priorities via a questionaire and guessing another&amp;rsquo;s answers&amp;rdquo;).&lt;/p&gt;
+
+&lt;p&gt;Somewhere around the halfway point of the initial sketching the rough idea for &amp;ldquo;Subjective Objectives&amp;rdquo; had already evolved as something that should be playable (and most likely also enjoyable) from beginning to end (page 2 and 3 in the linked pdf). What really itched me at that point, was that except for superficial theming the &amp;ldquo;only&amp;rdquo; (one of two) mechanic(s) linking it to the challenge was the one of &lt;strong&gt;&amp;ldquo;hidden objectives/values&amp;rdquo;&lt;/strong&gt;. Thus I tried hard to come up with enjoyable and fitting mechanics for the theme-based generators. However I utterly failed to find anything that both fit any of the themes and might create good gameplay (pages 5 to 8). Thus &lt;strong&gt;I decided for playability over strong theming&lt;/strong&gt; and went for &amp;ldquo;Subjective Objectives&amp;rdquo; which I had already designed on a bit (pages 3 to 5).&lt;/p&gt;
+
+&lt;p&gt;The game started out from the &amp;ldquo;hidden and subjective objectives/idea&amp;rdquo;-idea with a sprinkle of &amp;ldquo;let&amp;rsquo;s &lt;strong&gt;break&lt;/strong&gt; a bit &lt;strong&gt;with classical card-gameplay&lt;/strong&gt; like poker-/schnapsen&amp;rdquo;. The first version was sort of a directed domino where every player tries to play towards their respective target point/location which are close together - at first cooperating to move forward in the rough direction of their goals but working against each other more by the end (see page 2 at the bottom left). The other idea was to get players to try to construct simple poker hands (see page 3 at the top) discussing the idea with colleagues  while playing four-wins. After discussing the idea with a few colleagues I radically &lt;strong&gt;simplified&lt;/strong&gt; it, at first only trying it with &lt;strong&gt;one dimension&lt;/strong&gt; to &lt;strong&gt;construct combinations&lt;/strong&gt; from (four colors as can be seen on page 3). After a bit more pondering and playing against myself I also &lt;strong&gt;added the numbers&lt;/strong&gt; (one to four) as second dimension. Before that, deducing the opponents objective was too trivial. With these two dimension for combinations a limited amount of &lt;strong&gt;deception/obfuscation&lt;/strong&gt;, to make deduction harder, &lt;strong&gt;became possible&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;This game design process pattern of &lt;strong&gt;&amp;ldquo;Starting with an as minimalistic set of mechanics as possible and only introducing new ones sparingly and when they&amp;rsquo;re unmistakeably needed&amp;rdquo;&lt;/strong&gt; is one of my main take-aways from this challenge.&lt;/p&gt;
+
+&lt;p&gt;Also I added a bit of theming to direct the interpretation of the mechanics - the &lt;strong&gt;colors are things people&lt;/strong&gt; might &lt;strong&gt;value/prioritize&lt;/strong&gt; subjectively in their lives: red hearts for &amp;ldquo;friendship/love&amp;rdquo;, green houses for &amp;ldquo;lifestyle quality&amp;rdquo;, yellow coins for &amp;ldquo;money and career&amp;rdquo; and blue wrenches for &amp;ldquo;work and self-realisation&amp;rdquo; (see page 4)&lt;/p&gt;
+
+&lt;p&gt;Already during that stage and more intensly following it, I did a &lt;strong&gt;series of playtests&lt;/strong&gt; to rough out the edges. One of the biggest issues they turned up, was that memorizing which cards your opponent had played was more vital than the actual deduction itself. Due to the &lt;strong&gt;cognitive load of memorization&lt;/strong&gt; the initial games consisted of players more or less randomly placing cards, overwhelmed by the complexity, just avoiding anything that might result in three-in-a-row that might turn into four. This
+cognitive overhead hadn&amp;rsquo;t much to do with the game&amp;rsquo;s originally &lt;strong&gt;intended focus&lt;/strong&gt; of trying to &lt;strong&gt;deduce the other players objectives&lt;/strong&gt;. The fix came relatively natural. I gave every player their own deck with a &lt;strong&gt;distinctly colored frame&lt;/strong&gt;. That way even later it was obvious who had played what. However no easy solution came to mind to denote the order of played cards. At least not without adding extra effort for the players - like placing numbered tokens onto them when they&amp;rsquo;re played.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Other changes&lt;/strong&gt; were:&lt;/p&gt;
+
+&lt;p&gt;Moving the &lt;strong&gt;redraw&lt;/strong&gt; to the &lt;strong&gt;end of the turn&lt;/strong&gt; to give extra &lt;strong&gt;time to formulate plans&lt;/strong&gt;. But also because most players forgot to draw before their turns. They thended to already have plans before drawing and where focussed on those (forgetting everything else). To counteract this change.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;hand size&lt;/strong&gt; was increased to six, so players had more tactical options.&lt;/p&gt;
+
+&lt;p&gt;And finally, as one of the games ended tied due to deck-death far too early in my opinion, I &lt;strong&gt;doubled the number of cards&lt;/strong&gt; every player gets as deck.&lt;/p&gt;
+
+&lt;h1 id=&#34;the-rules:289d46cad905d21d73e92f507e398379&#34;&gt;The Rules&lt;/h1&gt;
+
+&lt;p&gt;The game can be played with &lt;strong&gt;two to four players&lt;/strong&gt;. Playtests where made with &lt;strong&gt;two players&lt;/strong&gt; so far, thus this is the &lt;strong&gt;recommended&lt;/strong&gt; number of players for now.&lt;/p&gt;
+
+&lt;p&gt;Every participating player gets a &lt;a href=&#34;https://m0ru.github.io/media/subjective_objectives/subjective_objective_cards.pdf&#34;&gt;&lt;strong&gt;deck of cards&lt;/strong&gt;&lt;/a&gt; with their chosen color (e.g. orange and violet in the linked pdf). Each deck should contain the numbers &lt;strong&gt;one to four&lt;/strong&gt; in all of the &lt;strong&gt;four colors&lt;/strong&gt; (yellow coins, green houses, red hearts, blue wrenches) &lt;strong&gt;twice&lt;/strong&gt;. If you&amp;rsquo;re printing the game, print the linked pdf twice!&lt;/p&gt;
+
+&lt;p&gt;As you can see, the card-set also contains &lt;strong&gt;objective cards&lt;/strong&gt;. Create &lt;strong&gt;two stacks&lt;/strong&gt; of these: one with the &lt;strong&gt;numbers&lt;/strong&gt; one to four and one with the four &lt;strong&gt;colors&lt;/strong&gt;. The objectives in each stack should be unique (i.e. every number and color should occur &lt;strong&gt;exactly once&lt;/strong&gt;). Thus when printing, discard one set of objective cards.&lt;/p&gt;
+
+&lt;p&gt;At the beginning every player gets &lt;strong&gt;six hand cards&lt;/strong&gt;. Pick a method of your liking to determine the first player, e.g. playing rock-paper-scissors(-lizard-spock). That player then places one of their cards on the table. Going clock-wise every other player then has to &lt;strong&gt;place&lt;/strong&gt; a card &lt;strong&gt;directly next&lt;/strong&gt; to that card (above, to the left, the right or below). This continues until one player fulfills at least one of their &lt;strong&gt;victory conditions&lt;/strong&gt;, namely when &lt;strong&gt;four&lt;/strong&gt; of &lt;strong&gt;their color or their number&lt;/strong&gt; lie in a &lt;strong&gt;row, column or diagonal&lt;/strong&gt;. If multiple players fulfill at least one of their victory conditions at the &lt;strong&gt;same time&lt;/strong&gt;, the game &lt;strong&gt;ends in a draw&lt;/strong&gt;. If you&amp;rsquo;re playing several rounds and counting games won per player, give all winning players a point.&lt;/p&gt;
+
+&lt;h1 id=&#34;gameplay:289d46cad905d21d73e92f507e398379&#34;&gt;Gameplay&lt;/h1&gt;
+
+&lt;p&gt;As in classical four-wins the &lt;strong&gt;mid-term goal&lt;/strong&gt; is to construct a &lt;strong&gt;row of threes&lt;/strong&gt; that you can build into a row of fours on you next turn no matter what your opponent plays (&amp;ldquo;Atari&amp;rdquo; in Go-Terms, a &amp;ldquo;Fork&amp;rdquo; in Chess-language). This gets complicated by the fact that you only can place in a four-neighbourhood but construct rows diagonally as well and even more by the fact, that you &lt;strong&gt;don&amp;rsquo;t always have the color or number&lt;/strong&gt; that you&amp;rsquo;d need to finish on your hand.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cards that you don&amp;rsquo;t need&lt;/strong&gt; for your subjective objectives can be used to block your opponents plays and obfuscate your own objectives. However you should try not to unintentionally help them, when you don&amp;rsquo;t know their objectives and give them a pair that they can use to construct a fork/atari-situation - or even worse a row of threes they can simply finish.&lt;/p&gt;
+
+&lt;p&gt;There&amp;rsquo;s a &lt;strong&gt;small first-turn advantage&lt;/strong&gt;, as the player going first can opt to go for a fork/atari straight away and force the opponent to react. However, doing so gives away your objective really fast, giving said opponent an edge. On the other hand exactly this sequence of events might be used to put forward a &lt;strong&gt;facade / a fake objective&lt;/strong&gt; and surprise your opponent later.&lt;/p&gt;
+
+&lt;p&gt;Almost all of the game&amp;rsquo;s depth comes from this tension between obfuscation and deduction.&lt;/p&gt;
+
+&lt;h1 id=&#34;side-note-for-grading:289d46cad905d21d73e92f507e398379&#34;&gt;Side-Note for Grading&lt;/h1&gt;
+
+&lt;p&gt;I did this challenge &lt;strong&gt;alone&lt;/strong&gt; (except for the one set of discussions mentioned above) and spent roughly &lt;strong&gt;ten hours&lt;/strong&gt; on the design and &lt;strong&gt;another four&lt;/strong&gt; to write this article.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
