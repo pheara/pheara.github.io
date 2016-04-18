@@ -6,8 +6,45 @@
     <description>Recent content in Posts on Moru’s Ramblings</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 12 Apr 2016 15:46:01 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 18 Apr 2016 17:49:50 +0200</lastBuildDate>
     <atom:link href="https://m0ru.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Gangs of Corros</title>
+      <link>https://m0ru.github.io/article/gangs-of-corros/</link>
+      <pubDate>Mon, 18 Apr 2016 17:49:50 +0200</pubDate>
+      
+      <guid>https://m0ru.github.io/article/gangs-of-corros/</guid>
+      <description>
+
+&lt;p&gt;This weeks sketches can be found &lt;a href=&#34;https://m0ru.github.io/media/gangs_of_corros/sketches.pdf&#34;&gt;in this PDF&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;object data=&#34;/media/gangs_of_corros/sketches.pdf&#34; type=&#34;application/pdf&#34; width=&#34;400px&#34; height=&#34;540px&#34;&gt;
+&lt;/object&gt;&lt;/p&gt;
+
+&lt;p&gt;This week&amp;rsquo;s challenge was to design a game of the genre we least liked to play. For Jonas Engl and me these were simulators and &lt;strong&gt;turn-based RPGs&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;In Gangs of Corros you&amp;rsquo;re taking control of one of the groups in the ever-changing turf wars in the gas-light fantasy-city of Corros. In a possible campaign mode, every fight/match would be a single attack on a particular area. Controlled territory would generate resources that in turn allow to recruit a wider variety of gangers. You can either battle against human opponents or AI-opponents.&lt;/p&gt;
+
+&lt;p&gt;Our two major issues with the round-based RPG genre were that they tend to be “press one attack option until the enemy drops” and “grind the eversame combat to power-level your characters”  (e.g. Final Fantasy VIII or some stretches of Pokemon). To make combats diverse and require varying strategies‥&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;each combat has a varying set of environmental influences (e.g. day, night or rain)&lt;/li&gt;
+&lt;li&gt;there’s multi-fighter combo-attacks (e.g. tsunami for drenching followed by eletricity)&lt;/li&gt;
+&lt;li&gt;special attacks providing movement in the initiative order&lt;/li&gt;
+&lt;li&gt;and attacks that are more effective against certain types of enemies or moves of them.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The combat itself consists of a positioning phase, where you take turns placing fighters to face each other off. This is followed by a phase where everybody selects their moves for each combatant. Lastly the attacks are resolved from the left to the right―one pair of fighters after each other. The attacks-types (quick, power/slow, defensive) basically are a rock—paper—scissors system. Environmental influences, effectivness and combos can change the outcome however. In
+general, attacks with special effects are a bit less effective, but provide a larger advantage elsewhere if combo&amp;rsquo;d effectively.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/gangs_of_corros/hacknslay_whiteboard.jpg&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;feedback:b03b903771f3c6ff2ddf574326ec03c0&#34;&gt;Feedback&lt;/h2&gt;
+
+&lt;p&gt;It probably will be a lot better action and complexity-wise instead of picking all ganger’s attacks before resolving them to pick and resolve attacks opponent-pair by opponent-pair.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Teamrace with Specials</title>
