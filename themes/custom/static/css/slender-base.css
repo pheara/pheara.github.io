@@ -133,12 +133,12 @@ h1.page-title {
     margin-top: 112px;
 }
 
-.tags {
+.tags, .socialmedialist {
   display: inline-block;
   margin: 0;
   padding: 0;
 }
-.tags > li {
+.tags > li, .socialmedialist > li {
   display: inline-block;
   margin: 0;
   padding: 0;
@@ -151,9 +151,12 @@ header p {
     margin-top: 30px;
 }
 
-header p a .fa {
-    font-size: 34px;
-    padding-right: 10px;
+.socialmedialist img, .socialmedialist a {
+  height:32px;
+}
+
+.socialmedialist a {
+  opacity: 0.8;
 }
 
 /* Pagination */

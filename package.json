@@ -1,0 +1,23 @@
+{
+  "name": "moru_s_ramblings",
+  "version": "1.0.0",
+  "description": "Blog on game design, web development and other stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m0ru/m0ru.github.io.git"
+  },
+  "author": "e1028092@student.tuwien.ac.at",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m0ru/m0ru.github.io/issues"
+  },
+  "homepage": "https://github.com/m0ru/m0ru.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-svg-sprite": "^1.2.19"
+  }
+}

@@ -15,6 +15,7 @@
         <link rel="icon" href="{{ "/assets/favicon.ico" | absURL }}" type="image/x-icon">
         <link rel="stylesheet" href="{{ "/css/slender-base.css" | absURL }}">
         <link rel="stylesheet" href="{{ "/css/slender-color-schemes.css" | absURL }}">
+        <link rel="stylesheet" href="{{ "/assets/icons/sprite.css" | absURL }}">
         <link rel="stylesheet" href="{{ "/css/font-awesome-4.5.0.min.css" | absURL }}">
         <link rel="stylesheet" href="{{ "/css/highlight-9.0.0-default.min.css" | absURL }}">
         <title>
@@ -60,15 +61,64 @@
                     <img src="{{ "/assets/logo.svg" | absURL }}" alt="Logo" class="logo"/>
                     <aside>
                         <p>{{ .Site.Params.tagline | safeHTML }}</p>
-                        <p>
-                            {{ with .Site.Params.github }}<a href="{{ . }}"><i class="fa fa-github"></i></a>{{ end }}
-                            {{ with .Site.Params.email }}<a href="{{ . }}"><i class="fa fa-envelope"></i></a>{{ end }}
-                            {{ with .Site.Params.twitter }}<a href="{{ . }}"><i class="fa fa-twitter"></i></a>{{ end }}
-                            {{ with .Site.Params.bitbucket }}<a href="{{ . }}"><i class="fa fa-bitbucket"></i></a>{{ end }}
-                            {{ with .Site.Params.stackoverflow }}<a href="{{ . }}"><i class="fa fa-stack-overflow"></i></a>{{ end }}
-                            {{ with .Site.Params.linkedin }}<a href="{{ . }}"><i class="fa fa-linkedin"></i></a>{{ end }}
-                            {{ with .Site.Params.facebook }}<a href="{{ . }}"><i class="fa fa-facebook"></i></a>{{ end }}
-                        </p>
+                        <ul class="socialmedialist">
+                            {{ with .Site.Params.email }}
+                              <li>
+                                <a href="{{ . }}">
+                                  <img src="/assets/sprite.generated.svg#envelope2" alt="">
+                                </a>
+                              </li>
+                            {{ end }}
+                            {{ with .Site.Params.twitter }}
+                              <li>
+                                <a href="{{ . }}">
+                                  <img src="/assets/sprite.generated.svg#twitter" alt="">
+                                </a>
+                              </li>
+                            {{ end }}
+                            {{ with .Site.Params.github }}
+                              <li>
+                                <a href="{{ . }}">
+                                  <img src="/assets/sprite.generated.svg#github" alt="">
+                                </a>
+                              </li>
+                            {{ end }}
+                            {{ with .Site.Params.stackoverflow }}
+                              <li>
+                                <a href="{{ . }}">
+                                  <img src="/assets/sprite.generated.svg#stackoverflow" alt="">
+                                </a>
+                              </li>
+                            {{ end }}
+                            {{ with .Site.Params.linkedin }}
+                              <li>
+                                <a href="{{ . }}">
+                                  <img src="/assets/sprite.generated.svg#linkedin2" alt="">
+                                </a>
+                              </li>
+                            {{ end }}
+                            {{ with .Site.Params.rss }}
+                              <li>
+                                <a href="{{ . }}">
+                                  <img src="/assets/sprite.generated.svg#rss" alt="">
+                                </a>
+                              </li>
+                            {{ end }}
+                            {{ with .Site.Params.youtube }}
+                              <li>
+                                <a href="{{ . }}">
+                                  <img src="/assets/sprite.generated.svg#youtube" alt="">
+                                </a>
+                              </li>
+                            {{ end }}
+                            {{ with .Site.Params.twitch }}
+                              <li>
+                                <a href="{{ . }}">
+                                  <img src="/assets/sprite.generated.svg#twitch" alt="">
+                                </a>
+                              </li>
+                            {{ end }}
+                        </ul>
                     </aside>
                 {{ end }}
             </header>
