@@ -9,7 +9,7 @@ tags = ["Game Design"]
 
 <img src="/media/racetrackspecials/racing_all.png" class="figure">
 
-TL;DR: A racing game, where you try to get your slowest team-member across the finish line first and can discover and do hidden jumping-and-bumping-challenges to activate special effects along the race track at the cost of occupying a team-member for a while. This is Wiktor Manczarski and my solution for the challenge to make a game with an easter-egg that is a distinct game itself.
+TL;DR: A racing game, where you try to get your slowest team-member across the finish line first and can discover and do hidden jumping-and-bumping-challenges to activate special effects along the race track at the cost of occupying a team-member for a while. This is Wiktor Manczarski’s and my solution for the challenge to make a game with an easter-egg that is a distinct game itself.
 
 <!--more-->
 
