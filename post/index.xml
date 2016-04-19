@@ -56,7 +56,7 @@ general, attacks with special effects are a bit less effective, but provide a la
 
 &lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/racetrackspecials/racing_all.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
 
-&lt;p&gt;TL;DR: A racing game, where you try to get your slowest team-member across the finish line first and can discover and do hidden jumping-and-bumping-challenges to activate special effects along the race track at the cost of occupying a team-member for a while. This is Wiktor Manczarski and my solution for the challenge to make a game with an easter-egg that is a distinct game itself.&lt;/p&gt;
+&lt;p&gt;TL;DR: A racing game, where you try to get your slowest team-member across the finish line first and can discover and do hidden jumping-and-bumping-challenges to activate special effects along the race track at the cost of occupying a team-member for a while. This is Wiktor Manczarski’s and my solution for the challenge to make a game with an easter-egg that is a distinct game itself.&lt;/p&gt;
 
 &lt;h2 id=&#34;basic-game:8de49f7a252ba368fc714b54940278df&#34;&gt;Basic Game&lt;/h2&gt;
 
@@ -321,9 +321,11 @@ a variety of physical puzzles.&lt;/p&gt;
 
 &lt;p&gt;Here&amp;rsquo;s also a short &lt;em&gt;gameplay video&lt;/em&gt; if you don&amp;rsquo;t want to try it yourself (for whatever reason) or think you have missed something. It also shortly discusses the design:&lt;/p&gt;
 
-&lt;div class=&#34;video&#34;&gt;  
-&lt;iframe src=&#34;https://www.youtube.com/embed/ZvPPgkJhQyk?feature=player_detailpage&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/ZvPPgkJhQyk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
 
 &lt;h2 id=&#34;design-process:68f9237c30da537021279a38734a9332&#34;&gt;Design Process&lt;/h2&gt;
 
@@ -467,9 +469,11 @@ can&#39;t select games in lecture
       <pubDate>Wed, 13 May 2015 15:00:19 +0200</pubDate>
       
       <guid>https://m0ru.github.io/article/arg-cctv-run/</guid>
-      <description>&lt;div class=&#34;video&#34;&gt;
-&lt;iframe src=&#34;https://www.youtube.com/embed/6Uu3OO75BlQ?feature=player_detailpage&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/6Uu3OO75BlQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
 
 &lt;p&gt;Gemeinsam mit &lt;a href=&#34;http://horstlb.blogspot.co.at/2015/05/gameful-design-arbeitspaket-4.html&#34;&gt;Alex Brandner&lt;/a&gt; und &lt;a href=&#34;http://bobschidoesgamefuldesign2015.tumblr.com/&#34;&gt;Florian Holzner&lt;/a&gt;&lt;/p&gt;
 
@@ -490,16 +494,18 @@ TODO:
     </item>
     
     <item>
-      <title>Audience Participation: Battle for G&amp;#248;dtfrey</title>
-      <link>https://m0ru.github.io/article/audience-participation-battle-for-g</link>
+      <title>Concert: Battle for Gødtfrey</title>
+      <link>https://m0ru.github.io/article/concert-battle-for-g%C3%B8dtfrey/</link>
       <pubDate>Wed, 22 Apr 2015 18:00:00 +0200</pubDate>
       
-      <guid>https://m0ru.github.io/article/audience-participation-battle-for-g</guid>
+      <guid>https://m0ru.github.io/article/concert-battle-for-g%C3%B8dtfrey/</guid>
       <description>
 
-&lt;div class=&#34;video&#34;&gt;
-&lt;iframe src=&#34;https://www.youtube.com/embed/yB2xjIn_9JQ?feature=player_detailpage&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/yB2xjIn_9JQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
 
 &lt;h1 id=&#34;the-band:6f93a681e2da6860edda1c64bccfc921&#34;&gt;The Band&lt;/h1&gt;
 
@@ -849,9 +855,11 @@ You can only attack &lt;strong&gt;once per turn&lt;/strong&gt;.&lt;/p&gt;
       <guid>https://m0ru.github.io/article/card-game-subjective-objectives/</guid>
       <description>
 
-&lt;div class=&#34;video&#34;&gt;
-&lt;iframe src=&#34;https://www.youtube.com/embed/rC-Hhn9mKB0?feature=player_detailpage&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/rC-Hhn9mKB0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
 
 &lt;h1 id=&#34;the-challenge:289d46cad905d21d73e92f507e398379&#34;&gt;The Challenge&lt;/h1&gt;
 

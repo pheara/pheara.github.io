@@ -8,7 +8,7 @@
 
 /* Reset */
 
-body, div, ul, ol, li, p, img, video {
+body, div, p, img, video, h1, h2, h3 {
   margin: 0;
   padding: 0;
 }
@@ -20,7 +20,6 @@ body, div, ul, ol, li, p, img, video {
 @import url(/fonts/fira/fira.css);
 
 body {
-
     font-family: "Fira Sans", "Open Sans", Helvetica, sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -29,6 +28,10 @@ body {
 
     height: 100%;
     margin: 0;
+}
+
+p, h1, h2, h3 {
+  margin-bottom: 0.7em;
 }
 
 .container {
@@ -43,28 +46,9 @@ a:hover {
   box-shadow: 0 0 0 0.17em #d5d5d5
 }
 
-
-
-/* Container */
-
-/*
-.container {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-    align-content: flex-start;
-    align-items: flex-start;
+.article-listing article {
+  /*border-top: 1px solid #1d1d1d;*/
 }
-*/
-/*
-html, body, .container, header {
-    margin: 0;
-    min-height: 100vh;
-}
-html, .container, header {
-    height: 100%;
-}
-*/
 
 /* Navigation */
 
@@ -85,29 +69,25 @@ nav ul li {
 /* Header */
 
 header {
-  min-height: 350px;
-  /*
-    align-self: stretch;
-    max-width: 270px;
-
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: flex-start;
-    align-content: flex-start;
-    align-items: center;
-    */
-
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: center;
 }
 
-h1.brand, h1.page-title {
+header h1, header h2 {
+    text-align: center;
     font-family: "Fira Sans Condensed", "Fira Sans", Helvetica, sans-serif;
 }
 
-h1.brand {
-    font-size: 68px;
+h1.brand, h1.page-title {
+    font-size: 48px;
     text-transform: uppercase;
-    letter-spacing: 5px;
-    text-align: center;
+    letter-spacing: 3px;
+}
+
+h1.brand, h1.page-title {
 }
 
 img.logo {
@@ -119,22 +99,17 @@ img.logo {
 h1.post-title {
     font-size: 38px;
     text-align: center;
-    margin-top: 112px;
-}
-
-h1.page-title {
-    font-size: 48px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    text-align: center;
-    margin-top: 112px;
 }
 
 .tags {
   display: inline-block;
+  margin: 0;
+  padding: 0;
 }
 .tags > li {
   display: inline-block;
+  margin: 0;
+  padding: 0;
 }
 
 header p {
@@ -144,10 +119,6 @@ header p {
     margin-top: 30px;
 }
 
-header p a .fa {
-    font-size: 34px;
-    padding-right: 10px;
-}
 
 /* Pagination */
 
@@ -197,19 +168,22 @@ img {
 /*L;DR: A racing game, where you try to get your slowest team-member
  * across the finish line first and can */
 
-#article-listing,
+header,
+.article-listing,
 .article-content {
-    margin: 88px auto;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 500px;
 }
 
 article {
-    margin-top: 28px;
+    margin-top: 48px;
 }
 
 .article-title {
     font-size: 28px;
     line-height: 38px;
+    margin-top: 0.3em;
 }
 
 .article-title a {
@@ -221,11 +195,7 @@ article {
     color: #7e7e7e;
     font-size: 14px;
     margin-top: -20px;
-}
-
-.article-summary {
-    margin-top: 22px;
-    text-align: justify;
+    margin-bottom: 1em;
 }
 
 .article-read-more {
@@ -250,6 +220,20 @@ footer p {
     padding-top: 24px;
 }
 
+/* About */
+
+.socialmedialist {
+  list-style: none;
+}
+
+.socialmedialist img, .socialmedialist a {
+  height:1em;
+}
+
+.socialmedialist a {
+  opacity: 0.8;
+}
+
 /* Smaller screen sizes */
 
 @media (max-width: 768px) {
@@ -257,7 +241,8 @@ footer p {
     h1.brand {
       font-size: 48px;
     }
-    #article-listing {
+    header,
+    .article-listing {
         margin: 20px;
     }
     .article-content {
