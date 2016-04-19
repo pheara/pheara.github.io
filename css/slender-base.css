@@ -6,6 +6,17 @@
  *
  *****************************************************************************/
 
+/* Reset */
+
+body, div, ul, ol, li, p, img, video {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* Base-Styling */
+
 @import url(/fonts/fira/fira.css);
 
 body {
@@ -13,7 +24,7 @@ body {
     font-family: "Fira Sans", "Open Sans", Helvetica, sans-serif;
     font-weight: 300;
     font-size: 16px;
-    line-height: 1.4;
+    line-height: 1.45;
     color: #1d1d1d;
 
     height: 100%;
@@ -23,6 +34,16 @@ body {
 .container {
    min-height: calc(100vh - 68px);
 }
+
+a {
+  text-decoration-style: dotted;
+}
+a:hover {
+  background-color: #d5d5d5;
+  box-shadow: 0 0 0 0.17em #d5d5d5
+}
+
+
 
 /* Container */
 
@@ -107,6 +128,13 @@ h1.page-title {
     letter-spacing: 3px;
     text-align: center;
     margin-top: 112px;
+}
+
+.tags {
+  display: inline-block;
+}
+.tags > li {
+  display: inline-block;
 }
 
 header p {
