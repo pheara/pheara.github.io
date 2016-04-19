@@ -22,7 +22,7 @@
             </ul>
             {{ end }}
         </div>
-        <p class="article-summary">{{ .Summary }}</p>
+        {{ .Summary }}
         {{ if .Truncated }}<a href="{{ .Permalink }}">
           <p class="article-read-more">
             <a href="{{ .Permalink }}">Read more &rarr;</a></p>{{ end }}
