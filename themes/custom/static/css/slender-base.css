@@ -46,29 +46,6 @@ a:hover {
   box-shadow: 0 0 0 0.17em #d5d5d5
 }
 
-
-
-/* Container */
-
-/*
-.container {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-    align-content: flex-start;
-    align-items: flex-start;
-}
-*/
-/*
-html, body, .container, header {
-    margin: 0;
-    min-height: 100vh;
-}
-html, .container, header {
-    height: 100%;
-}
-*/
-
 /* Navigation */
 
 nav ul {
@@ -89,17 +66,6 @@ nav ul li {
 
 header {
   min-height: 350px;
-  /*
-    align-self: stretch;
-    max-width: 270px;
-
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: flex-start;
-    align-content: flex-start;
-    align-items: center;
-    */
-
 }
 
 h1.brand, h1.page-title {
@@ -258,25 +224,6 @@ footer p {
 .socialmedialist {
   list-style: none;
 }
-/*
-.socialmedialist {
-  list-style: none;
-  column-count: 4;
-  -moz-column-count: 4;
-  -webkit-column-count: 4;
-  margin: 0;
-  padding: 0;
-}
-
-
-@media (max-width: 490px) {
-  .socialmedialist {
-    column-count: 2;
-    -moz-column-count: 2;
-    -webkit-column-count: 2;
-  }
-}
-*/
 
 .socialmedialist img, .socialmedialist a {
   height:1em;
