@@ -60,65 +60,9 @@
                     <h1 class="brand">{{ .Site.Title }}</h1>
                     <img src="{{ "/assets/logo.svg" | absURL }}" alt="Logo" class="logo"/>
                     <aside>
-                        <p>{{ .Site.Params.tagline | safeHTML }}</p>
-                        <ul class="socialmedialist">
-                            {{ with .Site.Params.email }}
-                              <li>
-                                <a href="{{ . }}">
-                                  <img src="/assets/sprite.generated.svg#envelope2" alt="">
-                                </a>
-                              </li>
-                            {{ end }}
-                            {{ with .Site.Params.twitter }}
-                              <li>
-                                <a href="{{ . }}">
-                                  <img src="/assets/sprite.generated.svg#twitter" alt="">
-                                </a>
-                              </li>
-                            {{ end }}
-                            {{ with .Site.Params.github }}
-                              <li>
-                                <a href="{{ . }}">
-                                  <img src="/assets/sprite.generated.svg#github" alt="">
-                                </a>
-                              </li>
-                            {{ end }}
-                            {{ with .Site.Params.stackoverflow }}
-                              <li>
-                                <a href="{{ . }}">
-                                  <img src="/assets/sprite.generated.svg#stackoverflow" alt="">
-                                </a>
-                              </li>
-                            {{ end }}
-                            {{ with .Site.Params.linkedin }}
-                              <li>
-                                <a href="{{ . }}">
-                                  <img src="/assets/sprite.generated.svg#linkedin2" alt="">
-                                </a>
-                              </li>
-                            {{ end }}
-                            {{ with .Site.Params.rss }}
-                              <li>
-                                <a href="{{ . }}">
-                                  <img src="/assets/sprite.generated.svg#rss" alt="">
-                                </a>
-                              </li>
-                            {{ end }}
-                            {{ with .Site.Params.youtube }}
-                              <li>
-                                <a href="{{ . }}">
-                                  <img src="/assets/sprite.generated.svg#youtube" alt="">
-                                </a>
-                              </li>
-                            {{ end }}
-                            {{ with .Site.Params.twitch }}
-                              <li>
-                                <a href="{{ . }}">
-                                  <img src="/assets/sprite.generated.svg#twitch" alt="">
-                                </a>
-                              </li>
-                            {{ end }}
-                        </ul>
+                      {{ with .Site.Params.tagline }}
+                        <p>{{ . | safeHTML }}</p>
+                      {{ end }}
                     </aside>
                 {{ end }}
             </header>

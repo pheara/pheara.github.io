@@ -26,7 +26,7 @@ PaginatePath = "/"
     colorscheme = "white"
 
     # Tagline; HTML accepted here. Keep it concise.
-    tagline = "120% guaranteedly inconsistent"
+    # tagline = "120% guaranteedly inconsistent"
 
     # Footer; Markdown accepted here.
     footer = ""
