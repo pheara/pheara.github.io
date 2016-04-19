@@ -66,6 +66,7 @@ nav ul li {
 
 header {
   min-height: 350px;
+  padding-bottom: 5em;
 }
 
 h1.brand, h1.page-title {
