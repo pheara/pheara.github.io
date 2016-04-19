@@ -25,7 +25,9 @@
         {{ .Summary }}
         {{ if .Truncated }}<a href="{{ .Permalink }}">
           <p class="article-read-more">
-            <a href="{{ .Permalink }}">Read more &rarr;</a></p>{{ end }}
+            <a href="{{ .Permalink }}">Read more &rarr;</a>
+          </p>
+        {{ end }}
     </article>
     {{ end }}
     {{ template "_internal/pagination.html" . }}
