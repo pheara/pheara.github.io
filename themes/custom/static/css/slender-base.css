@@ -133,12 +133,12 @@ h1.page-title {
     margin-top: 112px;
 }
 
-.tags, .socialmedialist {
+.tags {
   display: inline-block;
   margin: 0;
   padding: 0;
 }
-.tags > li, .socialmedialist > li {
+.tags > li {
   display: inline-block;
   margin: 0;
   padding: 0;
@@ -151,13 +151,6 @@ header p {
     margin-top: 30px;
 }
 
-.socialmedialist img, .socialmedialist a {
-  height:32px;
-}
-
-.socialmedialist a {
-  opacity: 0.8;
-}
 
 /* Pagination */
 
@@ -258,6 +251,39 @@ footer {
 footer p {
     text-align: center;
     padding-top: 24px;
+}
+
+/* About */
+
+.socialmedialist {
+  list-style: none;
+}
+/*
+.socialmedialist {
+  list-style: none;
+  column-count: 4;
+  -moz-column-count: 4;
+  -webkit-column-count: 4;
+  margin: 0;
+  padding: 0;
+}
+
+
+@media (max-width: 490px) {
+  .socialmedialist {
+    column-count: 2;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+  }
+}
+*/
+
+.socialmedialist img, .socialmedialist a {
+  height:1em;
+}
+
+.socialmedialist a {
+  opacity: 0.8;
 }
 
 /* Smaller screen sizes */

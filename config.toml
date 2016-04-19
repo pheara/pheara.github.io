@@ -39,16 +39,6 @@ PaginatePath = "/"
     description = "A collection of game-design ideas"
     keywords = "game design, moru"
 
-    # Social links, must be full URLs (e.g. https://github.com/CrimsonRay/).
-    # Remove, comment, or leave blank any field to leave them out.
-    email = "mailto:e1028092@student.tuwien.ac.at"
-    github = "https://github.com/m0ru"
-    # bitbucket = "url-to-your-bitbucket"
-    twitter = "http://twitter.com/the_moru"
-    # stackoverflow = "url-to-your-stackoverflow"
-    linkedin = "https://bitbucket.org/m0ru/"
-    facebook = "https://www.facebook.com/kevin.singer.79"
-
     # Google Analytics
     # Remove, comment, or leave it blank if you don't have one.
     ganalytics = ""
