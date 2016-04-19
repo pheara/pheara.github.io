@@ -68,18 +68,14 @@ nav ul li {
 
 /* Header */
 
-header {
-  min-height: 350px;
-}
-
 h1.brand, h1.page-title {
     font-family: "Fira Sans Condensed", "Fira Sans", Helvetica, sans-serif;
 }
 
-h1.brand {
+h1.brand, h1.page-title {
     font-size: 48px;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     text-align: center;
 }
 
@@ -92,15 +88,6 @@ img.logo {
 h1.post-title {
     font-size: 38px;
     text-align: center;
-    margin-top: 112px;
-}
-
-h1.page-title {
-    font-size: 48px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    text-align: center;
-    margin-top: 112px;
 }
 
 .tags {
