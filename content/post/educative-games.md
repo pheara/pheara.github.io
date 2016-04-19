@@ -9,7 +9,7 @@ keywords = []
 
 You can play “Surveillance Tycoon” here:
 
-[Play Me!](/media/games/surveillance_tycoon/index.html).
+[Play Me!](/games/surveillance_tycoon/index.html).
 
 Here's also a short *gameplay video* if you don't want to try it yourself (for whatever reason) or think you have missed something. It also shortly discusses the design:
 
