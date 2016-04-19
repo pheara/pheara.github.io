@@ -2,6 +2,7 @@
 date = "2015-04-01T15:45:07+02:00"
 draft = false
 title = "Audience Participation―The Challenge"
+tags = ["Game Design"]
 
 +++
 

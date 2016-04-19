@@ -2,6 +2,7 @@
 date = "2015-05-13T15:00:19+02:00"
 draft = false
 title =  "ARG: CCTV Run"
+tags = ["Game Design"]
 
 
 +++

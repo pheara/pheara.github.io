@@ -2,7 +2,7 @@
 date = "2015-03-25T21:30:30+01:00"
 draft = false
 title =  "Board Game: Pillow Fight"
-keywords = []
+tags = ["Game Design"]
 
 +++
 

@@ -2,7 +2,7 @@
 date = "2015-03-12T01:02:02+01:00"
 draft = false
 title = "Card Game: Subjective Objectives"
-keywords = []
+tags = ["Game Design"]
 
 +++
 

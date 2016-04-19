@@ -3,7 +3,7 @@ date = "2015-06-18T16:52:26+02:00"
 draft = false
 title =  "Edu Game: Surveillance Tycoon"
 keywords = []
-
+tags = ["Game Design"]
 
 +++
 

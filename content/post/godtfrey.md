@@ -1,8 +1,8 @@
 +++
 date = "2015-04-22T18:00:00+02:00"
 draft = false
-title = "Audience Participation: Battle for G&#248;dtfrey"
-keywords = []
+title = "Audience Participation: Battle for Gødtfrey"
+tags = ["Game Design"]
 
 +++
 

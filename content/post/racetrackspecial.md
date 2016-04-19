@@ -4,6 +4,7 @@ description = ""
 keywords = []
 title = "Teamrace with Specials"
 draft = false
+tags = ["Game Design"]
 +++
 
 <img src="/media/racetrackspecials/racing_all.png" class="figure">

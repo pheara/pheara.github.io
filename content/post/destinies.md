@@ -3,6 +3,7 @@ date = "2016-04-03T17:52:00+02:00"
 draft = false
 title = "Destinies"
 keywords = []
+tags = ["Game Design"]
 
 +++
 
