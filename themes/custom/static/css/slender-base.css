@@ -8,7 +8,7 @@
 
 /* Reset */
 
-body, div, ul, ol, li, p, img, video {
+body, div, p, img, video {
   margin: 0;
   padding: 0;
 }
@@ -20,7 +20,6 @@ body, div, ul, ol, li, p, img, video {
 @import url(/fonts/fira/fira.css);
 
 body {
-
     font-family: "Fira Sans", "Open Sans", Helvetica, sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -29,6 +28,10 @@ body {
 
     height: 100%;
     margin: 0;
+}
+
+p {
+  margin-bottom: 0.7em;
 }
 
 .container {
@@ -132,9 +135,13 @@ h1.page-title {
 
 .tags {
   display: inline-block;
+  margin: 0;
+  padding: 0;
 }
 .tags > li {
   display: inline-block;
+  margin: 0;
+  padding: 0;
 }
 
 header p {
