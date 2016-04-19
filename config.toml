@@ -68,3 +68,6 @@ PaginatePath = "/"
     name       = "about"
     url        = "about/"
     weight     = 1
+
+[taxonomies]
+tag = "tags"

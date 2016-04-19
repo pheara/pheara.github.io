@@ -26,9 +26,10 @@
 
 .color-scheme-white .article-read-more a:hover,
 .color-scheme-white .pagination li a {
+    /*
     background-color: #F5F5F5;
     color: #1d1d1d;
-    padding: 2px 4px;
+    */
 }
 
 /* BLACK -- base00 -- #151515 */

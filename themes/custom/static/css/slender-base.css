@@ -6,6 +6,17 @@
  *
  *****************************************************************************/
 
+/* Reset */
+
+body, div, ul, ol, li, p, img, video {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* Base-Styling */
+
 @import url(/fonts/fira/fira.css);
 
 body {
@@ -107,6 +118,13 @@ h1.page-title {
     letter-spacing: 3px;
     text-align: center;
     margin-top: 112px;
+}
+
+.tags {
+  display: inline-block;
+}
+.tags > li {
+  display: inline-block;
 }
 
 header p {
