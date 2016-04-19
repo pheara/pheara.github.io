@@ -17,7 +17,7 @@
             </span>
             <ul class="tags">
               {{ range .Params.tags }}
-                <li><a href="tags/{{ . | urlize }}">{{ . }}</a> </li>
+                <li><a href="/tags/{{ . | urlize }}">{{ . }}</a> </li>
               {{ end }}
             </ul>
             {{ end }}
