@@ -35,6 +35,7 @@
                 {{ if eq .Section "page" }}
                     <h1 class="page-title">{{ .Title }}</h1>
                 {{ else if .Data.Singular }} <!--Taxonomy-page -->
+                    <!--TODO use titlegroup -->
                     <h2 class="page-title">{{ .Site.Title }} on</h2>
                     <h1 class="page-title">{{ .Title }}</h1>
                 {{ else if eq .Section "post" }}
