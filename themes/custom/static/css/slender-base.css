@@ -68,7 +68,16 @@ nav ul li {
 
 /* Header */
 
-h1.brand, h1.page-title {
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: center;
+}
+
+header h1, header h2 {
+    text-align: center;
     font-family: "Fira Sans Condensed", "Fira Sans", Helvetica, sans-serif;
 }
 
@@ -76,7 +85,9 @@ h1.brand, h1.page-title {
     font-size: 48px;
     text-transform: uppercase;
     letter-spacing: 3px;
-    text-align: center;
+}
+
+h1.brand, h1.page-title {
 }
 
 img.logo {
