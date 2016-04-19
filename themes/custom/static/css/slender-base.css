@@ -35,6 +35,16 @@ body {
    min-height: calc(100vh - 68px);
 }
 
+a {
+  text-decoration-style: dotted;
+}
+a:hover {
+  background-color: #d5d5d5;
+  box-shadow: 0 0 0 0.17em #d5d5d5
+}
+
+
+
 /* Container */
 
 /*
