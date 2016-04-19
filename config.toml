@@ -43,9 +43,9 @@ PaginatePath = "/"
     # Remove, comment, or leave blank any field to leave them out.
     email = "mailto:e1028092@student.tuwien.ac.at"
     github = "https://github.com/m0ru"
-    #bitbucket = "url-to-your-bitbucket"
+    # bitbucket = "url-to-your-bitbucket"
     twitter = "http://twitter.com/the_moru"
-    #stackoverflow = "url-to-your-stackoverflow"
+    # stackoverflow = "url-to-your-stackoverflow"
     linkedin = "https://bitbucket.org/m0ru/"
     facebook = "https://www.facebook.com/kevin.singer.79"
 
