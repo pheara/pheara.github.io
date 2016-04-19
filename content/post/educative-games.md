@@ -13,9 +13,7 @@ You can play “Surveillance Tycoon” here:
 
 Here's also a short *gameplay video* if you don't want to try it yourself (for whatever reason) or think you have missed something. It also shortly discusses the design:
 
-<div class="video">  
-<iframe src="https://www.youtube.com/embed/ZvPPgkJhQyk?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
-</div>
+{{< youtube ZvPPgkJhQyk >}}
 
 <!--more-->
 

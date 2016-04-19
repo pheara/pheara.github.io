@@ -7,9 +7,7 @@ tags = ["Game Design"]
 
 +++
 
-<div class="video">
-<iframe src="https://www.youtube.com/embed/6Uu3OO75BlQ?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
-</div>
+{{< youtube 6Uu3OO75BlQ >}}
 
 Gemeinsam mit [Alex Brandner](http://horstlb.blogspot.co.at/2015/05/gameful-design-arbeitspaket-4.html) und [Florian Holzner](http://bobschidoesgamefuldesign2015.tumblr.com/)
 

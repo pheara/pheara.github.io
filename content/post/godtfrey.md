@@ -1,15 +1,12 @@
 +++
 date = "2015-04-22T18:00:00+02:00"
 draft = false
-title = "Audience Participation: Battle for Gødtfrey"
+title = "Concert: Battle for Gødtfrey"
 tags = ["Game Design"]
 
 +++
 
-<div class="video">
-<iframe src="https://www.youtube.com/embed/yB2xjIn_9JQ?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
-</div>
-
+{{< youtube yB2xjIn_9JQ >}}
 
 <!--more-->
 
