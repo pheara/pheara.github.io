@@ -24,3 +24,5 @@ Babies are small so they need to make themselves as big as possible to look out 
 <img src="/media/my_first_car_theft/FirstCarTheft3.PNG" class="figure">
 
 To improve oneself it’s necessary to smartly divide responsibilities like navigation, steering, pushing pedals, changing gears, etc.
+
+We got the feedback that looking-to-move is a rather bad idea and it would be better to either remove the movement altogether―and limit oneself to just looking―or move via looking plus button-press.

@@ -22,3 +22,5 @@ investment into future pairings.
 <img src="/media/distraction_tactics/fetish_orcs-3.png" class="figure">
 
 To beat as many opponents as possible you should be quick with matching the inspiring and distracting fetishes as well as making simple tactical decisions (distract now or inspire for later?).
+
+Philipp’s feedback was to include some kind of higher-level storyline to keep it interesting over longer periods of time.
