@@ -6,8 +6,53 @@
     <description>Recent content in Game Design on Moru’s Ramblings</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 18 Apr 2016 17:49:50 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 25 Apr 2016 14:22:00 +0200</lastBuildDate>
     <atom:link href="https://m0ru.github.io/tags/game-design/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Distraction Tatics</title>
+      <link>https://m0ru.github.io/article/distraction-tatics/</link>
+      <pubDate>Mon, 25 Apr 2016 14:22:00 +0200</pubDate>
+      
+      <guid>https://m0ru.github.io/article/distraction-tatics/</guid>
+      <description>&lt;p&gt;For this week’s challenge Felix Ledóchowski and I designed this rather simple joke-game that toys with the notion of the chain-mail-bikini and sexualising tropes in video-games. It’s strongly inspired by the Oglaf &lt;em&gt;strips&lt;/em&gt; (*snicker*) &lt;a href=&#34;http://oglaf.com/newmodelarmy/&#34;&gt;“New Model Army”&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/distraction_tactics/fetish_orcs-1.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/distraction_tactics/fetish_orcs-2.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;In it your orcish barbarians fight against the enemy one-by-one. To &lt;em&gt;dominate&lt;/em&gt; (*snicker*) the enemy, you need to pick from a set of suggestive garments. This allows your warrior to distract the enemy and &lt;em&gt;raise&lt;/em&gt; your troops morale. You always see your own barbarians fetishes (e.g. glasses) beforehand, and the enemies distracting element (e.g. g-string tanga) once they come up and have a limited time to gear-up your warrior for battle. Distraction-bonues come to bear directly in the same fight, whereas inspiration is an
+investment into future pairings.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/distraction_tactics/fetish_orcs-3.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;To beat as many opponents as possible you should be quick with matching the inspiring and distracting fetishes as well as making simple tactical decisions (distract now or inspire for later?).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My First Car Theft</title>
+      <link>https://m0ru.github.io/article/my-first-car-theft/</link>
+      <pubDate>Mon, 25 Apr 2016 14:22:00 +0200</pubDate>
+      
+      <guid>https://m0ru.github.io/article/my-first-car-theft/</guid>
+      <description>&lt;p&gt;For this week’s challenge Felix Ledóchowski and I sketched this two player coop-game where in which you play babies trying to drive a car.&lt;/p&gt;
+
+&lt;p&gt;The babies aim to reenact the story of their favorite picture-book. This involves a slide on the playground, buying milk in a supermarket, visiting the elephant in the zoo,‥
+However, babies have no concept of where to drive and where not to drive. So they’ll drive to all these places that definitely weren’t designed for cars.&lt;/p&gt;
+
+&lt;p&gt;The game is played in first person. Every player can only grab one thing at a time. One grabs things by looking at the object and pressing a button. For example you need to grab the steering wheel and drag it left and right to steer. To change the gear you need to hit the clutch and then pull the gearstick. We think the game should be interesting to play in VR, thus the simple, glance-based controls.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/my_first_car_theft/FirstCarTheft1.PNG&#34; class=&#34;figure&#34;&gt;
+&lt;img src=&#34;https://m0ru.github.io/media/my_first_car_theft/FirstCarTheft2.PNG&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Babies are small so they need to make themselves as big as possible to look out through the wind-shield. This is done by looking up with the VR-glasses. In general you climb up and down in the car by looking in that direction. A baby can only do one thing at a time―for example one baby could look out of the windshield and make calls, while the others steers. Goals are marked on a map on the co-driver-seat.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/my_first_car_theft/FirstCarTheft3.PNG&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;To improve oneself it’s necessary to smartly divide responsibilities like navigation, steering, pushing pedals, changing gears, etc.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Gangs of Corros</title>
