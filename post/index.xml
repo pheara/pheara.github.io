@@ -6,8 +6,22 @@
     <description>Recent content in Posts on Moru’s Ramblings</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 25 Apr 2016 14:22:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 05 Jul 2016 17:05:15 +0200</lastBuildDate>
     <atom:link href="https://m0ru.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Powersockets</title>
+      <link>https://m0ru.github.io/article/powersockets/</link>
+      <pubDate>Tue, 05 Jul 2016 17:05:15 +0200</pubDate>
+      
+      <guid>https://m0ru.github.io/article/powersockets/</guid>
+      <description>&lt;p&gt;The first of the two game protypes &lt;a href=&#34;https://github.com/jankaVar&#34;&gt;Jana&lt;/a&gt; and I build for the &amp;ldquo;Game Design&amp;rdquo;-course.&lt;/p&gt;
+
+&lt;p&gt;You can &lt;a href=&#34;https://github.com/jankaVar/powersockets/releases/&#34;&gt;&lt;strong&gt;get the app here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/powersockets/powersockets_screenshot.jpg&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Distraction Tatics</title>
