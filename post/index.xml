@@ -6,8 +6,122 @@
     <description>Recent content in Posts on Moru’s Ramblings</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 12 Apr 2016 15:46:01 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 05 Jul 2016 23:14:25 +0200</lastBuildDate>
     <atom:link href="https://m0ru.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Waves Prototype</title>
+      <link>https://m0ru.github.io/article/waves-prototype/</link>
+      <pubDate>Tue, 05 Jul 2016 23:14:25 +0200</pubDate>
+      
+      <guid>https://m0ru.github.io/article/waves-prototype/</guid>
+      <description>&lt;p&gt;And here’s the second of the two game protypes.&lt;/p&gt;
+
+&lt;p&gt;You can find a WebGL export of &lt;a href=&#34;http://m0ru.github.io/waves/&#34;&gt;&lt;strong&gt;the game here&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/feather_and_waves/waves_prototype.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Powersockets Prototype</title>
+      <link>https://m0ru.github.io/article/powersockets-prototype/</link>
+      <pubDate>Tue, 05 Jul 2016 17:05:15 +0200</pubDate>
+      
+      <guid>https://m0ru.github.io/article/powersockets-prototype/</guid>
+      <description>&lt;p&gt;The first of the two game protypes &lt;a href=&#34;https://github.com/jankaVar&#34;&gt;Jana&lt;/a&gt; and I build for the &amp;ldquo;Game Design&amp;rdquo;-course.&lt;/p&gt;
+
+&lt;p&gt;You can &lt;a href=&#34;https://github.com/jankaVar/powersockets/releases/&#34;&gt;&lt;strong&gt;get the app here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/powersockets/powersockets_screenshot.jpg&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Distraction Tatics</title>
+      <link>https://m0ru.github.io/article/distraction-tatics/</link>
+      <pubDate>Mon, 25 Apr 2016 14:22:00 +0200</pubDate>
+      
+      <guid>https://m0ru.github.io/article/distraction-tatics/</guid>
+      <description>&lt;p&gt;For this week’s challenge Felix Ledóchowski and I designed this rather simple joke-game that toys with the notion of the chain-mail-bikini and sexualising tropes in video-games. It’s strongly inspired by the Oglaf &lt;em&gt;strips&lt;/em&gt; (*snicker*) &lt;a href=&#34;http://oglaf.com/newmodelarmy/&#34;&gt;“New Model Army”&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/distraction_tactics/fetish_orcs-1.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/distraction_tactics/fetish_orcs-2.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;In it your orcish barbarians fight against the enemy one-by-one. To &lt;em&gt;dominate&lt;/em&gt; (*snicker*) the enemy, you need to pick from a set of suggestive garments. This allows your warrior to distract the enemy and &lt;em&gt;raise&lt;/em&gt; your troops morale. You always see your own barbarians fetishes (e.g. glasses) beforehand, and the enemies distracting element (e.g. g-string tanga) once they come up and have a limited time to gear-up your warrior for battle. Distraction-bonues come to bear directly in the same fight, whereas inspiration is an
+investment into future pairings.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/distraction_tactics/fetish_orcs-3.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;To beat as many opponents as possible you should be quick with matching the inspiring and distracting fetishes as well as making simple tactical decisions (distract now or inspire for later?).&lt;/p&gt;
+
+&lt;p&gt;Philipp’s feedback was to include some kind of higher-level storyline to keep it interesting over longer periods of time.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My First Car Theft</title>
+      <link>https://m0ru.github.io/article/my-first-car-theft/</link>
+      <pubDate>Mon, 25 Apr 2016 14:22:00 +0200</pubDate>
+      
+      <guid>https://m0ru.github.io/article/my-first-car-theft/</guid>
+      <description>&lt;p&gt;For this week’s challenge Felix Ledóchowski and I sketched this two player coop-game where in which you play babies trying to drive a car.&lt;/p&gt;
+
+&lt;p&gt;The babies aim to reenact the story of their favorite picture-book. This involves a slide on the playground, buying milk in a supermarket, visiting the elephant in the zoo,‥
+However, babies have no concept of where to drive and where not to drive. So they’ll drive to all these places that definitely weren’t designed for cars.&lt;/p&gt;
+
+&lt;p&gt;The game is played in first person. Every player can only grab one thing at a time. One grabs things by looking at the object and pressing a button. For example you need to grab the steering wheel and drag it left and right to steer. To change the gear you need to hit the clutch and then pull the gearstick. We think the game should be interesting to play in VR, thus the simple, glance-based controls.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/my_first_car_theft/FirstCarTheft1.PNG&#34; class=&#34;figure&#34;&gt;
+&lt;img src=&#34;https://m0ru.github.io/media/my_first_car_theft/FirstCarTheft2.PNG&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Babies are small so they need to make themselves as big as possible to look out through the wind-shield. This is done by looking up with the VR-glasses. In general you climb up and down in the car by looking in that direction. A baby can only do one thing at a time―for example one baby could look out of the windshield and make calls, while the others steers. Goals are marked on a map on the co-driver-seat.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/my_first_car_theft/FirstCarTheft3.PNG&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;To improve oneself it’s necessary to smartly divide responsibilities like navigation, steering, pushing pedals, changing gears, etc.&lt;/p&gt;
+
+&lt;p&gt;We got the feedback that looking-to-move is a rather bad idea and it would be better to either remove the movement altogether―and limit oneself to just looking―or move via looking plus button-press.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Gangs of Corros</title>
+      <link>https://m0ru.github.io/article/gangs-of-corros/</link>
+      <pubDate>Mon, 18 Apr 2016 17:49:50 +0200</pubDate>
+      
+      <guid>https://m0ru.github.io/article/gangs-of-corros/</guid>
+      <description>
+
+&lt;p&gt;This weeks sketches can be found &lt;a href=&#34;https://m0ru.github.io/media/gangs_of_corros/sketches.pdf&#34;&gt;in this PDF&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;object data=&#34;/media/gangs_of_corros/sketches.pdf&#34; type=&#34;application/pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
+&lt;/object&gt;&lt;/p&gt;
+
+&lt;p&gt;This week&amp;rsquo;s challenge was to design a game of the genre we least liked to play. For Jonas Engl and me these were simulators and &lt;strong&gt;turn-based RPGs&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;In Gangs of Corros you&amp;rsquo;re taking control of one of the groups in the ever-changing turf wars in the gas-light fantasy-city of Corros. In a possible campaign mode, every fight/match would be a single attack on a particular area. Controlled territory would generate resources that in turn allow to recruit a wider variety of gangers. You can either battle against human opponents or AI-opponents.&lt;/p&gt;
+
+&lt;p&gt;Our two major issues with the round-based RPG genre were that they tend to be “press one attack option until the enemy drops” and “grind the eversame combat to power-level your characters”  (e.g. Final Fantasy VIII or some stretches of Pokemon). To make combats diverse and require varying strategies‥&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;each combat has a varying set of environmental influences (e.g. day, night or rain)&lt;/li&gt;
+&lt;li&gt;there’s multi-fighter combo-attacks (e.g. tsunami for drenching followed by eletricity)&lt;/li&gt;
+&lt;li&gt;special attacks providing movement in the initiative order&lt;/li&gt;
+&lt;li&gt;and attacks that are more effective against certain types of enemies or moves of them.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The combat itself consists of a positioning phase, where you take turns placing fighters to face each other off. This is followed by a phase where everybody selects their moves for each combatant. Lastly the attacks are resolved from the left to the right―one pair of fighters after each other. The attacks-types (quick, power/slow, defensive) basically are a rock—paper—scissors system. Environmental influences, effectivness and combos can change the outcome however. In
+general, attacks with special effects are a bit less effective, but provide a larger advantage elsewhere if combo&amp;rsquo;d effectively.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/gangs_of_corros/hacknslay_whiteboard.jpg&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;feedback:b03b903771f3c6ff2ddf574326ec03c0&#34;&gt;Feedback&lt;/h2&gt;
+
+&lt;p&gt;It probably will be a lot better action and complexity-wise instead of picking all ganger’s attacks before resolving them to pick and resolve attacks opponent-pair by opponent-pair.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Teamrace with Specials</title>
@@ -19,7 +133,7 @@
 
 &lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/racetrackspecials/racing_all.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
 
-&lt;p&gt;TL;DR: A racing game, where you try to get your slowest team-member across the finish line first and can discover and do hidden jumping-and-bumping-challenges to activate special effects along the race track at the cost of occupying a team-member for a while. This is Wiktor Manczarski and my solution for the challenge to make a game with an easter-egg that is a distinct game itself.&lt;/p&gt;
+&lt;p&gt;TL;DR: A racing game, where you try to get your slowest team-member across the finish line first and can discover and do hidden jumping-and-bumping-challenges to activate special effects along the race track at the cost of occupying a team-member for a while. This is Wiktor Manczarski’s and my solution for the challenge to make a game with an easter-egg that is a distinct game itself.&lt;/p&gt;
 
 &lt;h2 id=&#34;basic-game:8de49f7a252ba368fc714b54940278df&#34;&gt;Basic Game&lt;/h2&gt;
 
@@ -280,13 +394,15 @@ a variety of physical puzzles.&lt;/p&gt;
 
 &lt;p&gt;You can play “Surveillance Tycoon” here:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://m0ru.github.io/media/games/surveillance_tycoon/index.html&#34;&gt;Play Me!&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://m0ru.github.io/games/surveillance_tycoon/index.html&#34;&gt;Play Me!&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Here&amp;rsquo;s also a short &lt;em&gt;gameplay video&lt;/em&gt; if you don&amp;rsquo;t want to try it yourself (for whatever reason) or think you have missed something. It also shortly discusses the design:&lt;/p&gt;
 
-&lt;div class=&#34;video&#34;&gt;  
-&lt;iframe src=&#34;https://www.youtube.com/embed/ZvPPgkJhQyk?feature=player_detailpage&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/ZvPPgkJhQyk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
 
 &lt;h2 id=&#34;design-process:68f9237c30da537021279a38734a9332&#34;&gt;Design Process&lt;/h2&gt;
 
@@ -430,9 +546,11 @@ can&#39;t select games in lecture
       <pubDate>Wed, 13 May 2015 15:00:19 +0200</pubDate>
       
       <guid>https://m0ru.github.io/article/arg-cctv-run/</guid>
-      <description>&lt;div class=&#34;video&#34;&gt;
-&lt;iframe src=&#34;https://www.youtube.com/embed/6Uu3OO75BlQ?feature=player_detailpage&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/6Uu3OO75BlQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
 
 &lt;p&gt;Gemeinsam mit &lt;a href=&#34;http://horstlb.blogspot.co.at/2015/05/gameful-design-arbeitspaket-4.html&#34;&gt;Alex Brandner&lt;/a&gt; und &lt;a href=&#34;http://bobschidoesgamefuldesign2015.tumblr.com/&#34;&gt;Florian Holzner&lt;/a&gt;&lt;/p&gt;
 
@@ -453,16 +571,18 @@ TODO:
     </item>
     
     <item>
-      <title>Audience Participation: Battle for G&amp;#248;dtfrey</title>
-      <link>https://m0ru.github.io/article/audience-participation-battle-for-g</link>
+      <title>Concert: Battle for Gødtfrey</title>
+      <link>https://m0ru.github.io/article/concert-battle-for-g%C3%B8dtfrey/</link>
       <pubDate>Wed, 22 Apr 2015 18:00:00 +0200</pubDate>
       
-      <guid>https://m0ru.github.io/article/audience-participation-battle-for-g</guid>
+      <guid>https://m0ru.github.io/article/concert-battle-for-g%C3%B8dtfrey/</guid>
       <description>
 
-&lt;div class=&#34;video&#34;&gt;
-&lt;iframe src=&#34;https://www.youtube.com/embed/yB2xjIn_9JQ?feature=player_detailpage&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/yB2xjIn_9JQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
 
 &lt;h1 id=&#34;the-band:6f93a681e2da6860edda1c64bccfc921&#34;&gt;The Band&lt;/h1&gt;
 
@@ -801,73 +921,6 @@ You can only attack &lt;strong&gt;once per turn&lt;/strong&gt;.&lt;/p&gt;
 &lt;li&gt;2-3 fragile objects, if they shatter the game ends&lt;/li&gt;
 &lt;li&gt;drop back to d&amp;amp;d-style cover mechanics (they deal better with edge cases caused by walls)&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Card Game: Subjective Objectives</title>
-      <link>https://m0ru.github.io/article/card-game-subjective-objectives/</link>
-      <pubDate>Thu, 12 Mar 2015 01:02:02 +0100</pubDate>
-      
-      <guid>https://m0ru.github.io/article/card-game-subjective-objectives/</guid>
-      <description>
-
-&lt;div class=&#34;video&#34;&gt;
-&lt;iframe src=&#34;https://www.youtube.com/embed/rC-Hhn9mKB0?feature=player_detailpage&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&#34;the-challenge:289d46cad905d21d73e92f507e398379&#34;&gt;The Challenge&lt;/h1&gt;
-
-&lt;blockquote&gt;gestalten sie ein kartenspiel, dessen ziel es ist, die auseinandersetzung mit dem »wert« von dingen zu provozieren bzw. fördern. »wert« umfasst dabei so komplexe konzepte wie marktwert, persönlich zugewiesener wert, unverkäuflichkeit, emotionaler wert, überraschender wert, situations-bezogener Wert, etc.&lt;/blockquote&gt;
-
-&lt;h1 id=&#34;the-design-process-other-ideas:289d46cad905d21d73e92f507e398379&#34;&gt;The Design Process / Other Ideas&lt;/h1&gt;
-
-&lt;p&gt;Take a look at the &lt;a href=&#34;https://m0ru.github.io/media/subjective_objectives/subjective_objective_notes.pdf&#34;&gt;&lt;strong&gt;written notes and sketches&lt;/strong&gt;&lt;/a&gt; if you want to get a detailed look at the design process. I&amp;rsquo;ll try to give a quick overview in this section.&lt;/p&gt;
-
-&lt;p&gt;Most of the &lt;a href=&#34;https://designerlythinking.wordpress.com/2011/04/10/inductive-design-and-the-%E2%80%98primary-generator%E2%80%99/&#34;&gt;generators&lt;/a&gt; fall into roughly two categories: those &lt;strong&gt;starting from mechanics&lt;/strong&gt; (like &amp;ldquo;bidding systems&amp;rdquo; or &amp;ldquo;hidden objectives/values&amp;rdquo;) and those approaching the challenge &lt;strong&gt;from a more thematic angle&lt;/strong&gt; (like &amp;ldquo;food waste &amp;amp; dumpstering&amp;rdquo;, &amp;ldquo;lifestyle priorities in shared living&amp;rdquo; and &amp;ldquo;poverty and human needs&amp;rdquo;). Some yet fell in neither (e.g. &amp;ldquo;realising your own values/priorities via a questionaire and guessing another&amp;rsquo;s answers&amp;rdquo;).&lt;/p&gt;
-
-&lt;p&gt;Somewhere around the halfway point of the initial sketching the rough idea for &amp;ldquo;Subjective Objectives&amp;rdquo; had already evolved as something that should be playable (and most likely also enjoyable) from beginning to end (page 2 and 3 in the linked pdf). What really itched me at that point, was that except for superficial theming the &amp;ldquo;only&amp;rdquo; (one of two) mechanic(s) linking it to the challenge was the one of &lt;strong&gt;&amp;ldquo;hidden objectives/values&amp;rdquo;&lt;/strong&gt;. Thus I tried hard to come up with enjoyable and fitting mechanics for the theme-based generators. However I utterly failed to find anything that both fit any of the themes and might create good gameplay (pages 5 to 8). Thus &lt;strong&gt;I decided for playability over strong theming&lt;/strong&gt; and went for &amp;ldquo;Subjective Objectives&amp;rdquo; which I had already designed on a bit (pages 3 to 5).&lt;/p&gt;
-
-&lt;p&gt;The game started out from the &amp;ldquo;hidden and subjective objectives/idea&amp;rdquo;-idea with a sprinkle of &amp;ldquo;let&amp;rsquo;s &lt;strong&gt;break&lt;/strong&gt; a bit &lt;strong&gt;with classical card-gameplay&lt;/strong&gt; like poker-/schnapsen&amp;rdquo;. The first version was sort of a directed domino where every player tries to play towards their respective target point/location which are close together - at first cooperating to move forward in the rough direction of their goals but working against each other more by the end (see page 2 at the bottom left). The other idea was to get players to try to construct simple poker hands (see page 3 at the top) discussing the idea with colleagues  while playing four-wins. After discussing the idea with a few colleagues I radically &lt;strong&gt;simplified&lt;/strong&gt; it, at first only trying it with &lt;strong&gt;one dimension&lt;/strong&gt; to &lt;strong&gt;construct combinations&lt;/strong&gt; from (four colors as can be seen on page 3). After a bit more pondering and playing against myself I also &lt;strong&gt;added the numbers&lt;/strong&gt; (one to four) as second dimension. Before that, deducing the opponents objective was too trivial. With these two dimension for combinations a limited amount of &lt;strong&gt;deception/obfuscation&lt;/strong&gt;, to make deduction harder, &lt;strong&gt;became possible&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;This game design process pattern of &lt;strong&gt;&amp;ldquo;Starting with an as minimalistic set of mechanics as possible and only introducing new ones sparingly and when they&amp;rsquo;re unmistakeably needed&amp;rdquo;&lt;/strong&gt; is one of my main take-aways from this challenge.&lt;/p&gt;
-
-&lt;p&gt;Also I added a bit of theming to direct the interpretation of the mechanics - the &lt;strong&gt;colors are things people&lt;/strong&gt; might &lt;strong&gt;value/prioritize&lt;/strong&gt; subjectively in their lives: red hearts for &amp;ldquo;friendship/love&amp;rdquo;, green houses for &amp;ldquo;lifestyle quality&amp;rdquo;, yellow coins for &amp;ldquo;money and career&amp;rdquo; and blue wrenches for &amp;ldquo;work and self-realisation&amp;rdquo; (see page 4)&lt;/p&gt;
-
-&lt;p&gt;Already during that stage and more intensly following it, I did a &lt;strong&gt;series of playtests&lt;/strong&gt; to rough out the edges. One of the biggest issues they turned up, was that memorizing which cards your opponent had played was more vital than the actual deduction itself. Due to the &lt;strong&gt;cognitive load of memorization&lt;/strong&gt; the initial games consisted of players more or less randomly placing cards, overwhelmed by the complexity, just avoiding anything that might result in three-in-a-row that might turn into four. This
-cognitive overhead hadn&amp;rsquo;t much to do with the game&amp;rsquo;s originally &lt;strong&gt;intended focus&lt;/strong&gt; of trying to &lt;strong&gt;deduce the other players objectives&lt;/strong&gt;. The fix came relatively natural. I gave every player their own deck with a &lt;strong&gt;distinctly colored frame&lt;/strong&gt;. That way even later it was obvious who had played what. However no easy solution came to mind to denote the order of played cards. At least not without adding extra effort for the players - like placing numbered tokens onto them when they&amp;rsquo;re played.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Other changes&lt;/strong&gt; were:&lt;/p&gt;
-
-&lt;p&gt;Moving the &lt;strong&gt;redraw&lt;/strong&gt; to the &lt;strong&gt;end of the turn&lt;/strong&gt; to give extra &lt;strong&gt;time to formulate plans&lt;/strong&gt;. But also because most players forgot to draw before their turns. They thended to already have plans before drawing and where focussed on those (forgetting everything else). To counteract this change.&lt;/p&gt;
-
-&lt;p&gt;The &lt;strong&gt;hand size&lt;/strong&gt; was increased to six, so players had more tactical options.&lt;/p&gt;
-
-&lt;p&gt;And finally, as one of the games ended tied due to deck-death far too early in my opinion, I &lt;strong&gt;doubled the number of cards&lt;/strong&gt; every player gets as deck.&lt;/p&gt;
-
-&lt;h1 id=&#34;the-rules:289d46cad905d21d73e92f507e398379&#34;&gt;The Rules&lt;/h1&gt;
-
-&lt;p&gt;The game can be played with &lt;strong&gt;two to four players&lt;/strong&gt;. Playtests where made with &lt;strong&gt;two players&lt;/strong&gt; so far, thus this is the &lt;strong&gt;recommended&lt;/strong&gt; number of players for now.&lt;/p&gt;
-
-&lt;p&gt;Every participating player gets a &lt;a href=&#34;https://m0ru.github.io/media/subjective_objectives/subjective_objective_cards.pdf&#34;&gt;&lt;strong&gt;deck of cards&lt;/strong&gt;&lt;/a&gt; with their chosen color (e.g. orange and violet in the linked pdf). Each deck should contain the numbers &lt;strong&gt;one to four&lt;/strong&gt; in all of the &lt;strong&gt;four colors&lt;/strong&gt; (yellow coins, green houses, red hearts, blue wrenches) &lt;strong&gt;twice&lt;/strong&gt;. If you&amp;rsquo;re printing the game, print the linked pdf twice!&lt;/p&gt;
-
-&lt;p&gt;As you can see, the card-set also contains &lt;strong&gt;objective cards&lt;/strong&gt;. Create &lt;strong&gt;two stacks&lt;/strong&gt; of these: one with the &lt;strong&gt;numbers&lt;/strong&gt; one to four and one with the four &lt;strong&gt;colors&lt;/strong&gt;. The objectives in each stack should be unique (i.e. every number and color should occur &lt;strong&gt;exactly once&lt;/strong&gt;). Thus when printing, discard one set of objective cards.&lt;/p&gt;
-
-&lt;p&gt;At the beginning every player gets &lt;strong&gt;six hand cards&lt;/strong&gt;. Pick a method of your liking to determine the first player, e.g. playing rock-paper-scissors(-lizard-spock). That player then places one of their cards on the table. Going clock-wise every other player then has to &lt;strong&gt;place&lt;/strong&gt; a card &lt;strong&gt;directly next&lt;/strong&gt; to that card (above, to the left, the right or below). This continues until one player fulfills at least one of their &lt;strong&gt;victory conditions&lt;/strong&gt;, namely when &lt;strong&gt;four&lt;/strong&gt; of &lt;strong&gt;their color or their number&lt;/strong&gt; lie in a &lt;strong&gt;row, column or diagonal&lt;/strong&gt;. If multiple players fulfill at least one of their victory conditions at the &lt;strong&gt;same time&lt;/strong&gt;, the game &lt;strong&gt;ends in a draw&lt;/strong&gt;. If you&amp;rsquo;re playing several rounds and counting games won per player, give all winning players a point.&lt;/p&gt;
-
-&lt;h1 id=&#34;gameplay:289d46cad905d21d73e92f507e398379&#34;&gt;Gameplay&lt;/h1&gt;
-
-&lt;p&gt;As in classical four-wins the &lt;strong&gt;mid-term goal&lt;/strong&gt; is to construct a &lt;strong&gt;row of threes&lt;/strong&gt; that you can build into a row of fours on you next turn no matter what your opponent plays (&amp;ldquo;Atari&amp;rdquo; in Go-Terms, a &amp;ldquo;Fork&amp;rdquo; in Chess-language). This gets complicated by the fact that you only can place in a four-neighbourhood but construct rows diagonally as well and even more by the fact, that you &lt;strong&gt;don&amp;rsquo;t always have the color or number&lt;/strong&gt; that you&amp;rsquo;d need to finish on your hand.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Cards that you don&amp;rsquo;t need&lt;/strong&gt; for your subjective objectives can be used to block your opponents plays and obfuscate your own objectives. However you should try not to unintentionally help them, when you don&amp;rsquo;t know their objectives and give them a pair that they can use to construct a fork/atari-situation - or even worse a row of threes they can simply finish.&lt;/p&gt;
-
-&lt;p&gt;There&amp;rsquo;s a &lt;strong&gt;small first-turn advantage&lt;/strong&gt;, as the player going first can opt to go for a fork/atari straight away and force the opponent to react. However, doing so gives away your objective really fast, giving said opponent an edge. On the other hand exactly this sequence of events might be used to put forward a &lt;strong&gt;facade / a fake objective&lt;/strong&gt; and surprise your opponent later.&lt;/p&gt;
-
-&lt;p&gt;Almost all of the game&amp;rsquo;s depth comes from this tension between obfuscation and deduction.&lt;/p&gt;
-
-&lt;h1 id=&#34;side-note-for-grading:289d46cad905d21d73e92f507e398379&#34;&gt;Side-Note for Grading&lt;/h1&gt;
-
-&lt;p&gt;I did this challenge &lt;strong&gt;alone&lt;/strong&gt; (except for the one set of discussions mentioned above) and spent roughly &lt;strong&gt;ten hours&lt;/strong&gt; on the design and &lt;strong&gt;another four&lt;/strong&gt; to write this article.&lt;/p&gt;
 </description>
     </item>
     
