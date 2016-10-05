@@ -71,7 +71,7 @@ The basic idea is as follows: You start by creating fake accounts (the “sock p
 
 As opposed to [scraping](#scraping), this method can deal with login walls.
 
-Even more importantly, having independent variables allow reasoning about cause and effect. Socket puppets still suffer from the same legal restrictions as scraping though. Also, there’s the question of how much data do puppets need to be “real enough”.
+Even more importantly, having independent variables allows reasoning about cause and effect. Socket puppets still suffer from the same legal restrictions as scraping though. Also, there’s the question of how much data do puppets need to be “real enough”.
 
 As a distinct downside, this method is usually used without the prior consent of the people running the algorithms. The fake data from the sock puppets can negatively influence the algorithm. This is especially the case, when there’s not many other users. Think of this before using the method and make sure to always get consent afterwards!
 
