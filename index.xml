@@ -6,6 +6,7 @@
     <description>Recent content on Moru’s Ramblings</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
+<<<<<<< HEAD
     <lastBuildDate>Thu, 06 Oct 2016 11:55:32 +0200</lastBuildDate>
     <atom:link href="https://m0ru.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -245,6 +246,12 @@ performance. Searching &lt;a href=&#34;https://www.google.at/search?tbm=isch&amp
     </item>
     
     <item>
+=======
+    <lastBuildDate>Tue, 05 Jul 2016 23:14:25 +0200</lastBuildDate>
+    <atom:link href="https://m0ru.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+>>>>>>> 38cb77328bd6be457485c7ab9e289483d83e12ed
       <title>Waves Prototype</title>
       <link>https://m0ru.github.io/article/waves-prototype/</link>
       <pubDate>Tue, 05 Jul 2016 23:14:25 +0200</pubDate>
@@ -818,5 +825,263 @@ can&#39;t select games in lecture
 </description>
     </item>
     
+<<<<<<< HEAD
+=======
+    <item>
+      <title>ARG: CCTV Run</title>
+      <link>https://m0ru.github.io/article/arg-cctv-run/</link>
+      <pubDate>Wed, 13 May 2015 15:00:19 +0200</pubDate>
+      
+      <guid>https://m0ru.github.io/article/arg-cctv-run/</guid>
+      <description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/6Uu3OO75BlQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;p&gt;Gemeinsam mit &lt;a href=&#34;http://horstlb.blogspot.co.at/2015/05/gameful-design-arbeitspaket-4.html&#34;&gt;Alex Brandner&lt;/a&gt; und &lt;a href=&#34;http://bobschidoesgamefuldesign2015.tumblr.com/&#34;&gt;Florian Holzner&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/cctv/WhiteboardPics/meta.jpg&#34; class=&#34;figure&#34;&gt;
+&lt;img src=&#34;https://m0ru.github.io/media/cctv/WhiteboardPics/cam_trees.jpg&#34; class=&#34;figure&#34;&gt;
+&lt;img src=&#34;https://m0ru.github.io/media/cctv/WhiteboardPics/data_plumbing.jpg&#34; class=&#34;figure&#34;&gt;
+&lt;img src=&#34;https://m0ru.github.io/media/cctv/WhiteboardPics/kafkaesque_ace_attorney.jpg&#34; class=&#34;figure&#34;&gt;
+&lt;img src=&#34;https://m0ru.github.io/media/cctv/WhiteboardPics/cctv_celeb.jpg&#34; class=&#34;figure&#34;&gt;
+&lt;img src=&#34;https://m0ru.github.io/media/cctv/WhiteboardPics/cctv_run_storyboard.jpg&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+
+&lt;!--
+TODO:
+
+* edu games link to pigsoft
+* ARG!
+--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Concert: Battle for Gødtfrey</title>
+      <link>https://m0ru.github.io/article/concert-battle-for-g%C3%B8dtfrey/</link>
+      <pubDate>Wed, 22 Apr 2015 18:00:00 +0200</pubDate>
+      
+      <guid>https://m0ru.github.io/article/concert-battle-for-g%C3%B8dtfrey/</guid>
+      <description>
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/yB2xjIn_9JQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;h1 id=&#34;the-band:6f93a681e2da6860edda1c64bccfc921&#34;&gt;The Band&lt;/h1&gt;
+
+&lt;p&gt;Our fictive persona-band, GØDTFREY, is a Viennese medieval folk metal/rock band founded in the year 2010. They remotely resemble bands like Schandmaul and InExtremo. They met each other in a pub during their time as students and released 2 EPs and 1 LP up until now.&lt;/p&gt;
+
+&lt;p&gt;Due to their themed album releases they are able to use the smartphone application to let the user enter an epic battle between the forces of light and evil that decide which course their concerts take.&lt;/p&gt;
+
+&lt;p&gt;They mostly play live concerts in smaller locations like the “Arena Wien” and the “WUK”.&lt;/p&gt;
+
+&lt;p&gt;Members:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Bagpipes - Günther&lt;/li&gt;
+&lt;li&gt;Drummer &amp;amp; Kettledrum - Wolfgang&lt;/li&gt;
+&lt;li&gt;Violin - Julia&lt;/li&gt;
+&lt;li&gt;Opera singer &amp;amp; C-Flute - Evelynn&lt;/li&gt;
+&lt;li&gt;Bass Guitar - Johann&lt;/li&gt;
+&lt;li&gt;Lute &amp;amp; E-Guitar - Alex-Wolfgang&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;the-idea-explained:6f93a681e2da6860edda1c64bccfc921&#34;&gt;The Idea Explained&lt;/h1&gt;
+
+&lt;p&gt;The fans attending the concert get a link via one of several ways (the ticket shop, the ticket, in front of the concert hall,&amp;hellip;) that allows them to download the app and create an avatar. At the concert the persons position is triangulated and the avatar placed on a corresponding location on the screen.&lt;/p&gt;
+
+&lt;p&gt;Dancing causes the avatar to burst into moves of about the same intensity. As the fans continue to dance their individual avatars slowly charge up. After the avatar&amp;rsquo;s reach a maximum capacity, with a clearly visible burst of energy they discharge into the main power bar.&lt;/p&gt;
+
+&lt;p&gt;The band has prepared two differently themed songs and stage settings. E.g.:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;good&amp;rdquo;:&lt;/strong&gt; angelic singers voice, string instruments and flutes, blue stage lighting, artificial snow, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;evil&amp;rdquo;:&lt;/strong&gt; the singer growls, heavy e-guitare, red lighting, flamethrowers, etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Depending on which side the power bars balance is on, a band can flip the themes. Either live, if they&amp;rsquo;re crazily prepared, between songs or only for the final song (which is the minimal effort on their end of things).&lt;/p&gt;
+
+&lt;p&gt;Not in the video but an interesting idea (that came with the help of the manager card): The measured dance-activity can be used to determine the songs that work well. Also the avatars could be used for merchantising (&amp;ldquo;your avatar and the band&amp;rsquo;s avatars as a print&amp;rdquo;) which could be gifted to the hardest rocking fans for free as an incentive.&lt;/p&gt;
+
+&lt;h1 id=&#34;analysis:6f93a681e2da6860edda1c64bccfc921&#34;&gt;Analysis&lt;/h1&gt;
+
+&lt;p&gt;A circular area chart mapping the solution on 6 metrics for audience participation&lt;sup&gt;&lt;a href=&#34;#ref1&#34;&gt;[1]&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/gameful_concerts/audience_participation_dimensions.jpg&#34; alt=&#34;Circular area chart. See text below.&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;See the &lt;a href=&#34;https://owncloud.tuwien.ac.at/public.php?service=files&amp;amp;t=5b07f0b690f75bfcfe34b84be1b9cd5c&amp;amp;download&#34;&gt;slides&lt;/a&gt; for their definition. Below, I&amp;rsquo;ll go into the reason for the values we assigned:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Control Design Freedom (~0.3):&lt;/strong&gt; As the effect is tightly coupled to the story, it might not make much sense to control anything beyond the decision between the two different song-tracks and corresponding stage-effects. The positioning that&amp;rsquo;s used for placing the avatars could be used to control other interactions (e.g. between specific avatars)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;System Versatility (~0.7):&lt;/strong&gt; The setup of the positioning beacons and beamer might take a while in event-locations not already equipped with them, but not too long. For the mapping between auditorium and screen space to work well, the room should be roughly rectangular.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Audience Interaction Transparency (~1.0):&lt;/strong&gt; One&amp;rsquo;s avatar should be uniquely identifiable by it&amp;rsquo;s looks and relativ position on the screen. Stronger dancing causes stronger of the avatar (with pre-defined dance-moves) and the charge-effects are very visible and cause a clearly noticeable shift in power-bar. The midpoint is clearly marked and if the powerbalance passes it, the next song and it&amp;rsquo;s stage effects change distinctively. All in all it should be very clear, in our perception, what effect one&amp;rsquo;s dancing has on the show.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Audience Interaction Distribution (~1.0):&lt;/strong&gt; Most people will have a smartphone. Alternatively cheap dedicated hardware (e.g. wristbands) can be handed out, though these require an alternative way to create the avatar (e.g. terminals, one&amp;rsquo;s homepc, a friend&amp;rsquo;s smartphone)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Focus (~0.8):&lt;/strong&gt; The projection is behind the actual band and about as distracting as most other visual shows. The dancing itself should be the same as in other concerts.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Active / Passive Audience Affinity (~0.2):&lt;/strong&gt; Without a smartphone (or dedicated hardware if it&amp;rsquo;s within the budget) there&amp;rsquo;s no way to interact.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;design-process:6f93a681e2da6860edda1c64bccfc921&#34;&gt;Design Process&lt;/h1&gt;
+
+&lt;p&gt;Directly after the lecture we &lt;strong&gt;decided&lt;/strong&gt; on designing for a &lt;strong&gt;folk metal band&lt;/strong&gt; similiar to Schandmaul/InExtremo. Due to a lack of time directly after the lesson, we agreed to meet again in a week.&lt;/p&gt;
+
+&lt;p&gt;Over the course of that week, I&amp;rsquo;d jotted down a few notes to my &lt;strong&gt;notebook&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;!-- thumbnail syntax isn&#39;t pretty :| --&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://m0ru.github.io/media/gameful_concerts/notebook/1.png&#34;&gt;
+    &lt;img src=&#34;https://m0ru.github.io/media/gameful_concerts/notebook/thumb/1.png&#34;&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://m0ru.github.io/media/gameful_concerts/notebook/2.png&#34;&gt;
+    &lt;img src=&#34;https://m0ru.github.io/media/gameful_concerts/notebook/thumb/2.png&#34;&gt;
+&lt;/a&gt;
+&lt;a href=&#34;https://m0ru.github.io/media/gameful_concerts/notebook/3.png&#34;&gt;
+    &lt;img src=&#34;https://m0ru.github.io/media/gameful_concerts/notebook/thumb/3.png&#34;&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We met at the Fachschaft Informatik. During the process that will be descriped below, we took notes in &lt;a href=&#34;https://titanpad.com/64PQ6Cx3Gq&#34;&gt;&lt;strong&gt;this titanpad&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;First we noted down which interactions already had come to mind from our experiences with rock and metal concerts, so as not to lose them:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;circle dances&lt;/li&gt;
+&lt;li&gt;mosh pit&lt;/li&gt;
+&lt;li&gt;wall of death&lt;/li&gt;
+&lt;li&gt;condom baloons&lt;/li&gt;
+&lt;li&gt;headbanging&lt;/li&gt;
+&lt;li&gt;clapping&lt;/li&gt;
+&lt;li&gt;if indoors: smartphone cam&lt;/li&gt;
+&lt;li&gt;crowd-surfing&lt;/li&gt;
+&lt;li&gt;das ruderboot&lt;/li&gt;
+&lt;li&gt;inflatable shark&lt;/li&gt;
+&lt;li&gt;foam cannon&lt;/li&gt;
+&lt;li&gt;flamethrowers(!)
+
+&lt;ul&gt;
+&lt;li&gt;witch burning?&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After that, we continued to the main excercise, LiveMAP.&lt;/p&gt;
+
+&lt;h2 id=&#34;livemap:6f93a681e2da6860edda1c64bccfc921&#34;&gt;LiveMAP&lt;/h2&gt;
+
+&lt;p&gt;This part contains my personal experience. To get &lt;a href=&#34;http://salzstangerlman.tumblr.com/post/116855046536/aufgabe-3-livemap-feat-g-dtfrey&#34;&gt;Florian&amp;rsquo;s&lt;/a&gt; and &lt;a href=&#34;http://gameful.renekoller.com/2015/04/22/week-3-livemap/&#34;&gt;Rene&amp;rsquo;s&lt;/a&gt; take on the process, check out their blogs.&lt;/p&gt;
+
+&lt;p&gt;We drew cards roughly in three rounds, then started converging. Occasionally the others swapped out their role-cards relatively early as they weren&amp;rsquo;t very useful for them. I&amp;rsquo;d gotten the role-card/lense of creator (e.g. designer, programmer,&amp;hellip;), which proved to be an okay enough starting point when thinking. However it mostly stayed in the background for me as the thought- and discussion-flow tended to quickly move away, staccatoesquly throwing out idea after idea, in a self-sustained tune. Thus in a way it
+served it&amp;rsquo;s purpose of providing a starting point.&lt;/p&gt;
+
+&lt;p&gt;I started the &lt;strong&gt;first round&lt;/strong&gt; with the Motivation-card no. 9 - &amp;ldquo;Include someone for academic reasons&amp;rdquo;. This cards meaning only became clearer after turning it. However I didn&amp;rsquo;t get much time to ponder on the back-side, as my partners quickly burst out with some ideas on their own, that got a discussion started. In general this would prove to be somewhat of a theme in the process (see &lt;a href=&#34;#timetothink&#34;&gt;below&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;For the &lt;strong&gt;second round&lt;/strong&gt; I kept my role (I liked it) and drew from the Interaction-deck the No 32, &amp;ldquo;consider interaction in terms of acoustics that is artificially generated&amp;rdquo;. We quickly left the focus created by the cards and went (back?) to the previous stream of ideas. In this round a few of core ideas for the final concept emerged - namely:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;projecting avatars for the dancing people on a surface behind the band&lt;/li&gt;
+&lt;li&gt;allowing the most enthusiastic dancer(s) to pick a song to be played (their favourite one?) or influence effects on the stage&lt;/li&gt;
+&lt;li&gt;from the idea of wall-of-deaths: make it two factions dance-battling each other&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The card kept laying in front of me throughout the rest of it&amp;rsquo;s process. In the end, it had made it&amp;rsquo;s way into the concept: Songs are arranged along two general accoustic themes (e.g. &amp;ldquo;angelic, etherical, beautiful&amp;rdquo; vs &amp;ldquo;demonic, hard, grungy&amp;rdquo;). The winning side swings the song selection in favour of their theme.&lt;/p&gt;
+
+&lt;p&gt;We decided that the theme-switches should be discrete in style (binary in fact) and time (only between songs). This allows the band to prepare the alternative songs and reduces the technical overhead of dealing with quickly changing accoustic settings. As a consequence, there&amp;rsquo;s no improvisation involved, for which Metal (or most genres with lyrics and melody) tend to be badly suited in our perception. In the very least to us it seem to be very hard to pull off a seemless improvisation on
+avariation variation of melody/scale in a song, let alone lyrics (see below).&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;third round&lt;/strong&gt; yielded me no23 from the Influence-deck: &amp;ldquo;Influence the content considering the lyrics.&amp;rdquo; At this point we had relatively settled on the dance-battle idea. The card added &amp;ldquo;lyrics&amp;rdquo; to the the list of factors influenced by the winning dancers. This was also the point where we decided to allow people to select songs (instead of influencing them in real-time) for the reasons already discussed above.&lt;/p&gt;
+
+&lt;p&gt;After that we mainly refined the dance-battle concept. Most of the elements we&amp;rsquo;d use already had emerged by this point and fell into place now. Elements and decisions that emerged only at this point were:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;power-meter that pushes between the colors &lt;code&gt;|=====&amp;gt;|&amp;lt;========|&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;people should be able to choose their faction ahead of time (so they can rock for the same side as their friends, or oppose them in friendly competition)&lt;/li&gt;
+&lt;li&gt;we&amp;rsquo;d use smartphones&amp;rsquo; gyroscopic sensors and triangulation capabilities as a base instead of other hardware, as they&amp;rsquo;re cheap for the organizers (most people already have one). However this also means that we can&amp;rsquo;t guarantee participation for everyone (unless the phones are complimented with throw-away wearables)&lt;/li&gt;
+&lt;li&gt;customizing the avatar before-hand allows to find it on the projection&lt;/li&gt;
+&lt;li&gt;avatars can be used for merchandising as well (your ava + the bands ava on prints). The hardest dancer(s) could be awarded with some of it for free.&lt;/li&gt;
+&lt;li&gt;the intensity of dancing per song can be used to determine which songs appeal to the audience in that region.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Two issues in our process severly handicapped the cards&amp;rsquo; usefullness for us:&lt;/p&gt;
+
+&lt;p&gt;&lt;a id=&#34;timetothink&#34;&gt;&lt;/a&gt;&lt;strong&gt;Time to Think&lt;/strong&gt;: The phases of silence necessary to reflect on the cards tended not to last long enough (at least for me) to get any deeper value from them. Every time we got stuck and decided to go for another round of cards, we&amp;rsquo;d take a few moments to read them. Until someone would inevitably throw an idea into the ring and we&amp;rsquo;d return to a variation of the discussion from before or go off into a direction that had little to do with the cards i held. I think we should have set aside a fixed amount of time to reflect on the cards - or at least ask around if everyone&amp;rsquo;s done with their
+card - before starting the discussion for that round. I think this should be emphasized when teaching the method to first-timers.&lt;/p&gt;
+
+&lt;p&gt;&lt;a id=&#34;skepticism&#34;&gt;&lt;/a&gt;&lt;strong&gt;Skepticism&lt;/strong&gt;: The experience that conversations tended to diverge quickly from the cards focus might be attributed to a certain prevalent &lt;strong&gt;skepticism of the method&lt;/strong&gt; in the team. For my part, I had never worked with design cards before (only with other association techniques, like using random magazine snippets). Also at several occassions before starting and in the early phase someone would voice that they felt restricted by the cards. This base mood might be the reason why we didn&amp;rsquo;t get
+into the cards much, respectively, they didn&amp;rsquo;t play too large a role for us. However, I think, this factor should fade away if we would do more sessions with them. At least for me they proved worthwhile to explore further (with a few adaptions in our process)&lt;/p&gt;
+
+&lt;p&gt;In general I find the idea to use the cards&amp;rsquo; focus very appealing. Tools like these tend to direct the search of the design space away from the well trodden paths and over-done solutions (that we happened to use in this concept in the form of smartphone-apps using the gyroscopic sensors). For what they also proved very useful was viewing an already existing concept through a new facet / point of view.&lt;/p&gt;
+
+&lt;h1 id=&#34;references:6f93a681e2da6860edda1c64bccfc921&#34;&gt;References&lt;/h1&gt;
+
+&lt;ol&gt;
+    &lt;li id=&#34;ref1&#34;&gt; Mazzanti, D. Zappi, V. Caldwell D. BrogniA., 2014. *Augmented Stage for Participatory Performances*. In Proceedings of the International Conference on New Interfaces for Musical Expression, pp. 29-34.
+    &lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Audience Participation―The Challenge</title>
+      <link>https://m0ru.github.io/article/audience-participationthe-challenge/</link>
+      <pubDate>Wed, 01 Apr 2015 15:45:07 +0200</pubDate>
+      
+      <guid>https://m0ru.github.io/article/audience-participationthe-challenge/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://owncloud.tuwien.ac.at/public.php?service=files&amp;amp;t=5b07f0b690f75bfcfe34b84be1b9cd5c&amp;amp;download&#34;&gt;Presentation slides&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://owncloud.tuwien.ac.at/public.php?service=files&amp;amp;t=9123d3c40e9d88a17fdc3253234d06ce&amp;amp;download&#34;&gt;Full challenge&lt;/a&gt;  (copied below for convienience)&lt;/p&gt;
+
+&lt;p&gt;Entwerfen Sie ein Szenario im Kontext von Live-Musik, das Publikumsbeteiligung bzw. kollaborativeElemente zwischen Performer und Publikum vorsieht. Übung in Gruppen zu je 3 Personen.&lt;/p&gt;
+
+&lt;h2 id=&#34;schritt-1a-in-vo:7586868b56a5b96f198e784f8866e90a&#34;&gt;Schritt 1a (in VO):&lt;/h2&gt;
+
+&lt;p&gt;Ausgangspunkt definierenDefinieren Sie ein Live-Musik Setting. Dies kann tatsächlich existieren oder fiktiven Ursprungs sein.Beispiele:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Rockband, 4-köpfig, Gesang, Gitarre, Bass, Schlagzeug&lt;/li&gt;
+&lt;li&gt;DJ in Club&lt;/li&gt;
+&lt;li&gt;Elektro-Pop Duo mit Laptops und Tanz&lt;/li&gt;
+&lt;li&gt;Hip-Hop Formation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;schritt-1b-ausgangspunkt-definieren:7586868b56a5b96f198e784f8866e90a&#34;&gt;Schritt 1b:Ausgangspunkt definieren&lt;/h2&gt;
+
+&lt;p&gt;Beschreiben Sie möglichst genau die Musikrichtung, die Anzahl der Performer und deren Rolle/Aufgabe sowie Art und Orte der Performance, die Beschreibung des Publikums und was darüber hinaus noch relevant und wichtig ist.&lt;/p&gt;
+
+&lt;h2 id=&#34;schritt-2-szenario-entwerfen:7586868b56a5b96f198e784f8866e90a&#34;&gt;Schritt 2:Szenario entwerfen&lt;/h2&gt;
+
+&lt;p&gt;Entwickeln Sie ein Konzept, um das Publikum in eine Performance des von Ihnen definierten Live-Musik Settings zu integrieren.Verwenden Sie für den Gestaltungsprozess die zur Verfügung gestellten LiveMAPDesign Cards solange diese hilfreich sind.&lt;/p&gt;
+
+&lt;h2 id=&#34;schritt-3-video-sketch:7586868b56a5b96f198e784f8866e90a&#34;&gt;Schritt 3: Video-Sketch&lt;/h2&gt;
+
+&lt;p&gt;Erstellen Sie einen Video-Sketch, der Ihr Szenario präsentiert. (max. 3 Minuten) Berücksichtigen Sie in der Erstellung des Videos die sechs Metriken von Mazzantiet al. (2014)&lt;/p&gt;
+
+&lt;h2 id=&#34;schritt-4-einzelarbeit-reflektieren-des-design-prozesses:7586868b56a5b96f198e784f8866e90a&#34;&gt;Schritt 4 (Einzelarbeit):Reflektieren des Design-Prozesses&lt;/h2&gt;
+
+&lt;p&gt;Reflektieren Sie einzeln(!) den Design-Prozess mit besonderem Fokus auf den Einsatz der LiveMAPDesign Cards.Beantworten Sie dazu detailliert die folgenden Fragen mit insgesamt mindestens 600 Wörtern.&lt;/p&gt;
+
+&lt;p&gt;Fragen für die Reflexion:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Wie lief die Design-Session mit den Karten ab?&lt;/li&gt;
+&lt;li&gt;Wann waren die Karten förderlich und in wie fern?&lt;/li&gt;
+&lt;li&gt;Wann waren die Karten weniger hilfreich oder einschränkend und warum?&lt;/li&gt;
+&lt;li&gt;Welche Unklarheiten entstanden beim Einsatz der Karten?&lt;/li&gt;
+&lt;li&gt;Was ist Ihnen darüber hinaus noch aufgefallen?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;abgabe:7586868b56a5b96f198e784f8866e90a&#34;&gt;Abgabe&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Definition des Live-Musik Settings (Gruppe)&lt;/li&gt;
+&lt;li&gt;Video-Prototyp des Szenarios zur Publikumsinteraktion (Gruppe)&lt;/li&gt;
+&lt;li&gt;Reflexion des Design-Prozesses mit den LiveMAPDesign Cards (individuell)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+>>>>>>> 38cb77328bd6be457485c7ab9e289483d83e12ed
   </channel>
 </rss>
