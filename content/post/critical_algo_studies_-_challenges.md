@@ -3,7 +3,6 @@ date = "2016-10-06T11:55:32+02:00"
 description = ""
 tags = []
 title = "Challenges when Studying Algorithms"
-draft = true
 
 +++
 
@@ -58,8 +57,6 @@ These are some some of the challenges you might run into when studying algorithm
 
 ## References
 
-* <a id="ref:HtS" href="#ref:HtS">**[HtS]**</a> – [“How to Study Algorithms: Challenges and Methods”](https://algocracy.wordpress.com/2016/03/14/how-to-study-algorithms-challenges-and-methods/), [alternative link]( http://hplusmagazine.com/2015/07/28/how-to-study-algorithms-challenges-and-methods/) [blog article] 
-* <a id="ref:WwM" href="#ref:WwM">**[WwM]**</a> – Lee, Min Kyung, Kusbit, Daniel, Metsky, Evan and Dabbish, Laura. 2015. [“Working with Machines: The Impact of Algorithmic and Data-­Driven Management on Human Workers”](http://dl.acm.org/citation.cfm?id=2702548) CHI ’15 Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems: 1603-­1612 [10 pages from "Algorithmic Culture"-section] 
-* <a id="ref:Opc" href="#ref:Opc">**[Opc]**</a> – Burrell, Jenna. 2015. [“How the Machine ‘Thinks:’ Understanding Opacity in Machine Learning Algorithms.”](http://bds.sagepub.com/content/3/1/2053951715622512) [18 pages] 
-
-
+* <a id="ref:HtS" href="#ref:HtS">**[HtS]**</a> – [“How to Study Algorithms: Challenges and Methods”](https://algocracy.wordpress.com/2016/03/14/how-to-study-algorithms-challenges-and-methods/), [alternative link]( http://hplusmagazine.com/2015/07/28/how-to-study-algorithms-challenges-and-methods/) [blog article]
+* <a id="ref:WwM" href="#ref:WwM">**[WwM]**</a> – Lee, Min Kyung, Kusbit, Daniel, Metsky, Evan and Dabbish, Laura. 2015. [“Working with Machines: The Impact of Algorithmic and Data-­Driven Management on Human Workers”](http://dl.acm.org/citation.cfm?id=2702548) CHI ’15 Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems: 1603-­1612 [10 pages from "Algorithmic Culture"-section]
+* <a id="ref:Opc" href="#ref:Opc">**[Opc]**</a> – Burrell, Jenna. 2015. [“How the Machine ‘Thinks:’ Understanding Opacity in Machine Learning Algorithms.”](http://bds.sagepub.com/content/3/1/2053951715622512) [18 pages]

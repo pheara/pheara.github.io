@@ -3,7 +3,6 @@ date = "2016-10-05T18:27:45+02:00"
 description = ""
 tags = ["Critical Algorithm Studies", "Methods Mini-Series"]
 title = "Methods for Studying Algorithms"
-draft = true
 
 +++
 
