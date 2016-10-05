@@ -6,15 +6,264 @@
     <description>Recent content in Posts on Moru’s Ramblings</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 05 Jul 2016 17:05:15 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 06 Oct 2016 11:55:32 +0200</lastBuildDate>
     <atom:link href="https://m0ru.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Powersockets</title>
-      <link>https://m0ru.github.io/article/powersockets/</link>
+      <title>Challenges when Studying Algorithms</title>
+      <link>https://m0ru.github.io/article/challenges-when-studying-algorithms/</link>
+      <pubDate>Thu, 06 Oct 2016 11:55:32 +0200</pubDate>
+      
+      <guid>https://m0ru.github.io/article/challenges-when-studying-algorithms/</guid>
+      <description>
+
+&lt;p&gt;This is part two of the &lt;a href=&#34;https://m0ru.github.io/tags/methods-mini-series/&#34;&gt;mini-series on “studying algorithms”&lt;/a&gt;. If you are curious why studying these might be important at all, check out the &lt;a href=&#34;https://m0ru.github.io/article/why-study-algorithms/&#34;&gt;previous post&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;So, what complicates things, is that unearthing the biases within algorithms isn’t a trivial feat – several issues can make it hard to understand what’s going on.&lt;/p&gt;
+
+&lt;h2 id=&#34;dynamic:6ba466b578729bbd2ec2133c0cd998cc&#34;&gt;Dynamic&lt;/h2&gt;
+
+&lt;p&gt;For one, those systems are &lt;em&gt;constantly changing&lt;/em&gt; as they’re being developed, bugs are fixed and they’re tweaked to deal with changing requirements. Thus, any study can only look at a snapshot of an algorithm – usually the latest one. This might mean, that older studies’ findings might be deprecated.&lt;/p&gt;
+
+&lt;p&gt;Also, algorithms are &lt;em&gt;“out of control”&lt;/em&gt;, as John Danaher puts it in “How to Study Algorithms: Challenges and Methods”&amp;nbsp;&lt;sup&gt;&lt;a href=&#34;#ref:HtS&#34;&gt;ref:HtS&lt;/a&gt;&lt;/sup&gt;. One way this manifests is that they have &lt;em&gt;unforeseen consequences&lt;/em&gt; that the developers never intended – e.g. the sexist Google results mentioned above. Another way would be that people can use them in ways the developers never foresaw. E.g. “Working with Machines”&amp;nbsp;&lt;sup&gt;&lt;a href=&#34;#ref:WwM&#34;&gt;ref:WwM&lt;/a&gt;&lt;/sup&gt; mentions Uber-drivers strategically turning their app on and off, to influence which
+passengers they get, which in turn impacts the experience for passengers in some areas. This factor influences attempts to study the algorithm via studying its developers.&lt;/p&gt;
+
+&lt;h2 id=&#34;source-accessibility:6ba466b578729bbd2ec2133c0cd998cc&#34;&gt;Source Accessibility&lt;/h2&gt;
+
+&lt;p&gt;One of the biggest challenges tends to be &lt;em&gt;black boxing&lt;/em&gt;. A lot of companies keep their &lt;em&gt;code secret&lt;/em&gt; to protect their trade secrets / intellectual property, to prevent people from gaming the system (e.g. by google-bombing) or to obfuscate themselves against scrutiny and legislation. In “How the Machine ‘Thinks’”&amp;nbsp;&lt;sup&gt;&lt;a href=&#34;#ref:Opc&#34;&gt;ref:Opc&lt;/a&gt;&lt;/sup&gt; Jenna Burrel recommends to install a system of trusted auditors who can get access to the code without it being open sourced to the public.&lt;/p&gt;
+
+&lt;p&gt;Then of course &lt;em&gt;technical literacy&lt;/em&gt; can be a problem. A lot of people in investigative journalism and even in tech journalism lack the schooling to understand what’s going on these systems. I assume a lot of computer scientists would, in turn lack the journalistic capabilities and drive to produce good articles. Jenna Burrel&amp;nbsp;&lt;sup&gt;&lt;a href=&#34;#ref:Opc&#34;&gt;ref:Opc&lt;/a&gt;&lt;/sup&gt; asks for educating journalists that can study algorithm.&lt;/p&gt;
+
+&lt;h2 id=&#34;scale-a-id-scale-a:6ba466b578729bbd2ec2133c0cd998cc&#34;&gt;Scale &lt;a id=&#34;scale&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Even if the source-code is available and the analyst is capable of comprehending it, the sheer &lt;em&gt;scale&lt;/em&gt; of modern algorithms might foil the exercise.
+&lt;a href=&#34;http://www.informationisbeautiful.net/visualizations/million-lines-of-code/&#34;&gt;This info-graphic on Information Is Beautiful&lt;/a&gt; by McCandles, Doughty-White and Quick lists Google’s code-base to amount to 4,000 billion lines of code, roughly 56 million times the length of Tolstoy’s War and Peace.&lt;/p&gt;
+
+&lt;p&gt;But also the data-sets those algorithms operate on are huge – Google and eBay seemed to roughly process 100,000 Terra-bytes per day in 2014 (taken from &lt;a href=&#34;https://followthedata.wordpress.com/2014/06/24/data-size-estimates/&#34;&gt;followthedata.wordpress.com&lt;/a&gt;) and the Google CEO Eric Schmidt &lt;a href=&#34;https://techcrunch.com/2010/08/04/schmidt-data/&#34;&gt;famously stated&lt;/a&gt; that “Every 2 Days We Create As Much Information As We Did Up To 2003”.&lt;/p&gt;
+
+&lt;p&gt;Adding to this, is that those huge code-bases also tend to be rather heterogeneous – within themselves they use numerous frameworks, libraries, protocols, and programming languages.&lt;/p&gt;
+
+&lt;p&gt;Not only are code-bases huge, so are the teams working on them. In 2015 Google was listed to have roughly 30,000 engineers working for the company (&lt;a href=&#34;https://techcrunch.com/2015/03/17/the-back-office-developers/&#34;&gt;article on Techcrunch&lt;/a&gt;). This, again, complicates diagnosing any issue’s source by studying the development team.&lt;/p&gt;
+
+&lt;h2 id=&#34;implementation:6ba466b578729bbd2ec2133c0cd998cc&#34;&gt;Implementation&lt;/h2&gt;
+
+&lt;p&gt;Additional to the issues mentioned so far that mostly arrive from the circumstances of development, some algorithms’ inner workings, how they go about things, might make it difficult for human readers to understand what’s going on.&lt;/p&gt;
+
+&lt;p&gt;For one, entries in data-sets are often vectors in &lt;em&gt;high-dimensional&lt;/em&gt; spaces. This not only makes understanding harder, but also negatively affects the quality of the algorithms’ results – as the number of dimensions increase all distances between points become roughly equal and the data-points get spread out over more and more space, thus they don’t cover/represent it well anymore. This is the so-called &lt;a href=&#34;https://en.wikipedia.org/wiki/Curse_of_dimensionality&#34;&gt;“Curse of
+Dimensionality”&lt;/a&gt;. A common technique to deal with this “Curse” is called &lt;a href=&#34;https://en.wikipedia.org/wiki/Principal_component_analysis&#34;&gt;“Principal Component Analysis”&lt;/a&gt;. It picks the hyper-plane in the high-dimensional space that best reflects the data and projects everything onto that. In doing so, it essentially combines a lot of dimensions into a few. These combinations can be hard to reason about though – e.g. when
+classifying cars, assuming you reduced to one dimension, your “x-axis” might be a combination of length, horse-powers, the hue of its varnish and many more. Selecting the most important dimensions and only using these might lead to more understandable behavior. Another wide-spread technique, that suffers from similar issues is the &lt;a href=&#34;https://en.wikipedia.org/wiki/Kernel_method&#34;&gt;kernel-trick&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In the same vein, &lt;em&gt;non-human-readable encoding&lt;/em&gt; can be a problem. In algorithms that process natural language often sentences are represented by lists of which word occurs how often in them (the &lt;a href=&#34;https://en.wikipedia.org/wiki/Bag-of-words_model&#34;&gt;“Bag of Words”-model&lt;/a&gt;). This completely ignores the order of words and makes it work unlike how humans would comprehend sentences. Even harder to grasp, is what happens inside of &lt;a href=&#34;https://en.wikipedia.org/wiki/Artificial_neural_network&#34;&gt;artificial neural
+networks&lt;/a&gt; that can work remotely similar to our own brain. Knowledge inside these is represented distributedly, i.e. no single neuron alone is responsible for recognizing a specific thing, but rather all of them exert varying influence every single time. To understand what’s going on, you would have to consider all of them at the same time. Visualization can help here to a very small degree (e.g. &lt;a href=&#34;http://cs231n.github.io/understanding-cnn/&#34;&gt;for convolutional
+networks&lt;/a&gt;) but can’t even be applied in all domains.&lt;/p&gt;
+
+&lt;p&gt;For these reasons Jenna Burrel&amp;nbsp;&lt;sup&gt;&lt;a href=&#34;#ref:Opc&#34;&gt;ref:Opc&lt;/a&gt;&lt;/sup&gt; advises avoiding machine learning for critical applications. In some cases learning/encoding logic rules – using so-called “expert systems” – might be an alternative as long as the number of rules leading to any decision stays manageable.&lt;/p&gt;
+
+&lt;h2 id=&#34;facit:6ba466b578729bbd2ec2133c0cd998cc&#34;&gt;Facit&lt;/h2&gt;
+
+&lt;p&gt;These are some some of the challenges you might run into when studying algorithms. &lt;a href=&#34;https://m0ru.github.io/article/methods-for-studying-algorithms/&#34;&gt;The next post&lt;/a&gt; delves into the hows.&lt;/p&gt;
+
+&lt;h2 id=&#34;references:6ba466b578729bbd2ec2133c0cd998cc&#34;&gt;References&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a id=&#34;ref:HtS&#34; href=&#34;#ref:HtS&#34;&gt;&lt;strong&gt;[HtS]&lt;/strong&gt;&lt;/a&gt; – &lt;a href=&#34;https://algocracy.wordpress.com/2016/03/14/how-to-study-algorithms-challenges-and-methods/&#34;&gt;“How to Study Algorithms: Challenges and Methods”&lt;/a&gt;, &lt;a href=&#34;http://hplusmagazine.com/2015/07/28/how-to-study-algorithms-challenges-and-methods/&#34;&gt;alternative link&lt;/a&gt; [blog article]&lt;/li&gt;
+&lt;li&gt;&lt;a id=&#34;ref:WwM&#34; href=&#34;#ref:WwM&#34;&gt;&lt;strong&gt;[WwM]&lt;/strong&gt;&lt;/a&gt; – Lee, Min Kyung, Kusbit, Daniel, Metsky, Evan and Dabbish, Laura. 2015. &lt;a href=&#34;http://dl.acm.org/citation.cfm?id=2702548&#34;&gt;“Working with Machines: The Impact of Algorithmic and Data-­Driven Management on Human Workers”&lt;/a&gt; CHI ’15 Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems: 1603-­1612 [10 pages from &amp;ldquo;Algorithmic Culture&amp;rdquo;-section]&lt;/li&gt;
+&lt;li&gt;&lt;a id=&#34;ref:Opc&#34; href=&#34;#ref:Opc&#34;&gt;&lt;strong&gt;[Opc]&lt;/strong&gt;&lt;/a&gt; – Burrell, Jenna. 2015. &lt;a href=&#34;http://bds.sagepub.com/content/3/1/2053951715622512&#34;&gt;“How the Machine ‘Thinks:’ Understanding Opacity in Machine Learning Algorithms.”&lt;/a&gt; [18 pages]&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Methods for Studying Algorithms</title>
+      <link>https://m0ru.github.io/article/methods-for-studying-algorithms/</link>
+      <pubDate>Wed, 05 Oct 2016 18:27:45 +0200</pubDate>
+      
+      <guid>https://m0ru.github.io/article/methods-for-studying-algorithms/</guid>
+      <description>
+
+&lt;p&gt;At last, this is the third part of the &lt;a href=&#34;https://m0ru.github.io/tags/methods-mini-series/&#34;&gt;mini-series on “studying algorithms”&lt;/a&gt;. The previous try to explain &lt;a href=&#34;https://m0ru.github.io/article/why-study-algorithms/&#34;&gt;why doing so is important&lt;/a&gt; and the &lt;a href=&#34;https://m0ru.github.io/article/challenges-when-studying-algorithms/&#34;&gt;difficulties you might encounter&lt;/a&gt; while doing so.&lt;/p&gt;
+
+&lt;p&gt;So, now let’s get to the actual “Hows”. The following sections are high-level overviews over some methods that are out there. They should help you with deciding which to dive deeper into when studying algorithms.&lt;/p&gt;
+
+&lt;h2 id=&#34;studying-the-people:aa88aa933682d0ebaaa96c5da2043488&#34;&gt;Studying the people&lt;/h2&gt;
+
+&lt;p&gt;To understand an algorithm, it often helps to know where it came from and for whom it was built. For this studying the people and businesses who created it and the people who use it can be useful. For this, there’s a variety of methods commonly used in social sciences. Usually they’re divided into qualitative (e.g. interviews) and quantitative (e.g. questionnaires) ones.&lt;/p&gt;
+
+&lt;p&gt;Qualitative methods also include ethnographic field studies – an example would be observing coding teams at work. This can allow to understand the culture and assumptions that the algorithm came from. “How to Study Algorithms”&amp;nbsp;&lt;sup&gt;&lt;a href=&#34;#ref:HtS&#34;&gt;ref:HtS&lt;/a&gt;&lt;/sup&gt; mentions that it can be hard to gain access to the teams for this, though. In the same article John Danaher points out, that you can also widen the focus and study “the full set of legal, economic, institutional, technological, bureaucratic, political (etc) forces” that might influence the algorithm’s development.&lt;/p&gt;
+
+&lt;p&gt;On the quantitative side of things, you can give people questionnaires. The authors of “Auditing Algorithms”&amp;nbsp;&lt;sup&gt;&lt;a href=&#34;#ref:AAg&#34;&gt;ref:AAg&lt;/a&gt;&lt;/sup&gt; point out a problem of questionnaires: There is a difference between what people do and what they perceived, remember and report. To avoid this problem, you can ask them to allow you to collect data automatically (e.g. via a browser plugin or a tracking script).&lt;/p&gt;
+
+&lt;h2 id=&#34;reading-the-source:aa88aa933682d0ebaaa96c5da2043488&#34;&gt;Reading the Source&lt;/h2&gt;
+
+&lt;p&gt;This method can be used if the sources are available – either because they have been open-sourced or because you’re one of the trusted auditors&amp;nbsp;&lt;sup&gt;&lt;a href=&#34;#ref:Opc&#34;&gt;ref:Opc&lt;/a&gt;&lt;/sup&gt; mentioned above. Reading them and their documentation can help with understanding what the algorithm is doing. You can gather additional data by looking at the changes the code underwent over-time or by comparing implementations in different languages and frameworks.&lt;/p&gt;
+
+&lt;p&gt;There’s two problems you’ll probably run into:&lt;/p&gt;
+
+&lt;p&gt;Firstly, the &lt;a href=&#34;https://m0ru.github.io/article/challenges-when-studying-algorithms/#scale&#34;&gt;size of code-bases&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Secondly, that discrimination won’t be something hard-coded in a single code-block. It can be spread out over the entire thing; you will probably only find it if you read between the lines. Almost certainly you won’t find a block like the following anywhere:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; if ($race = NOT_CAUCASIAN) then {
+   illegal_discrimination()
+ };
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;implement-it-yourself:aa88aa933682d0ebaaa96c5da2043488&#34;&gt;Implement it Yourself&lt;/h2&gt;
+
+&lt;p&gt;The idea is that by implementing the system yourself, you will understand the required steps and parts better by doing so. Rob Kitchin named this method  “Reflexively producing code” in his paper “Thinking Critically About and Researching Algorithms”&amp;nbsp;&lt;sup&gt;&lt;a href=&#34;#ref:Crt&#34;&gt;ref:Crt&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;The inspiration for this approach are auto-ethnographic methods. Examples for these are keeping a journal/diary and observing one-self. As with any of them, your personal biases, assumptions and views will strongly influence the results.&lt;/p&gt;
+
+&lt;h2 id=&#34;scraping-a-id-scraping-a:aa88aa933682d0ebaaa96c5da2043488&#34;&gt;Scraping &lt;a id=&#34;scraping&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;You download the entire thing, e.g. a set of home-pages, and explore them, e.g. by clustering them. The article “Auditing Algorithms”&amp;nbsp;&lt;sup&gt;&lt;a href=&#34;#ref:AAg&#34;&gt;ref:AAg&lt;/a&gt;&lt;/sup&gt; lists several limitations for this though:&lt;/p&gt;
+
+&lt;p&gt;Some pages constantly change as they’re personalized (e.g. Google results differ between persons and searches)&lt;/p&gt;
+
+&lt;p&gt;It might be necessary to log in manually or fill a captchas&lt;/p&gt;
+
+&lt;p&gt;There most likely will be legal restrictions, e.g. in the Terms of Service, that forbid you from doing this.&lt;/p&gt;
+
+&lt;p&gt;In the case of smaller servers it might even significantly tax the performance. This in turn will probably cost the provider money and worsen the experience of other users.&lt;/p&gt;
+
+&lt;p&gt;Lastly, another problem it shares with a few other methods, is that there’s no independent variable. These are elements you directly manipulate, to observe the resulting changes. An example would be something you enter into a search-box and the search-results you get. In comparison, scraping usually tries to just load everything. This might make it hard to impossible to find out what is the cause of things. It also makes it more prone to any personal biases and hidden assumptions.&lt;/p&gt;
+
+&lt;h2 id=&#34;black-box-audit:aa88aa933682d0ebaaa96c5da2043488&#34;&gt;Black Box Audit&lt;/h2&gt;
+
+&lt;p&gt;You systematically, but manually input different things into the algorithm (e.g. queries in Google’s search box). This input is your independent variable. Then you look at the differences in the output. From them, you can try to figure out what happens inside the algorithm.&lt;/p&gt;
+
+&lt;p&gt;However, usually you can’t collect too much data by hand. This in turn makes rather hard to completely understand what really causes the results. If you do the inputting automatically and generate a lot of results, evaluating them can become a challenge.&lt;/p&gt;
+
+&lt;h2 id=&#34;sock-puppet-audit-a-id-sock-puppet-audit-a:aa88aa933682d0ebaaa96c5da2043488&#34;&gt;Sock Puppet Audit &lt;a id=&#34;sock_puppet_audit&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;This method, described in “Auditing Algorithms”&amp;nbsp;&lt;sup&gt;&lt;a href=&#34;#ref:AAg&#34;&gt;ref:AAg&lt;/a&gt;&lt;/sup&gt;, for instance is suited for studying social networks.&lt;/p&gt;
+
+&lt;p&gt;The basic idea is as follows: You start by creating fake accounts (the “sock puppets”). Then you flesh them out as far as necessary to make the algorithm register them as real humans. The point is to have some of these accounts vary in some way, e.g. their name and picture communicate different genders; these are your independent variables.&lt;/p&gt;
+
+&lt;p&gt;As opposed to &lt;a href=&#34;#scraping&#34;&gt;scraping&lt;/a&gt;, this method can deal with login walls.&lt;/p&gt;
+
+&lt;p&gt;Even more importantly, having independent variables allows reasoning about cause and effect. Socket puppets still suffer from the same legal restrictions as scraping though. Also, there’s the question of how much data do puppets need to be “real enough”.&lt;/p&gt;
+
+&lt;p&gt;As a distinct downside, this method is usually used without the prior consent of the people running the algorithms. The fake data from the sock puppets can negatively influence the algorithm. This is especially the case, when there’s not many other users. Think of this before using the method and make sure to always get consent afterwards!&lt;/p&gt;
+
+&lt;p&gt;Also, as the method is often used to prove guilt, you should take extra care with your choices: what you try verify/falsify as well as which independent variables to use.&lt;/p&gt;
+
+&lt;h2 id=&#34;collaborative-audit:aa88aa933682d0ebaaa96c5da2043488&#34;&gt;Collaborative Audit&lt;/h2&gt;
+
+&lt;p&gt;To deal with the issues of legality and realness of &lt;a href=&#34;#sock_puppet_audit&#34;&gt;sock puppet audits&lt;/a&gt;, you can also hire a lot of human testers, as “Auditing Algorithms”&amp;nbsp;&lt;sup&gt;&lt;a href=&#34;#ref:AAg&#34;&gt;ref:AAg&lt;/a&gt;&lt;/sup&gt; sugggests. For this you can for instance use crowd-sourcing platforms like &lt;a href=&#34;https://www.mturk.com/&#34;&gt;Mechanical Turk&lt;/a&gt; (US-only atm). The independent variable then depends on who you chose to recruit.&lt;/p&gt;
+
+&lt;p&gt;However, this method has some limitations too:&lt;/p&gt;
+
+&lt;p&gt;It’s more expensive as you have to pay the testers. Also, at least for Mechanical Turk, the tasks you give people need to be very short
+and well defined, e.g. “perform task X, save the resulting HTML and send it to us”.&lt;/p&gt;
+
+&lt;p&gt;In some cases a community of volunteers can get together to do collaborative audits together, making the process a lot more affordable.&lt;/p&gt;
+
+&lt;h2 id=&#34;further-reading:aa88aa933682d0ebaaa96c5da2043488&#34;&gt;Further Reading&lt;/h2&gt;
+
+&lt;p&gt;If you found methods that interest you in more detail, I can recommend to check out the articles and papers below. The method descriptions above also contain links to the paper(s) they draw from.&lt;/p&gt;
+
+&lt;p&gt;If you want to learn about the broader topic of critical algorithm studies the reading list(s) should give you a good start: The &lt;a href=&#34;https://socialmediacollective.org/reading-lists/critical-algorithm-studies/&#34;&gt;general reading list&lt;/a&gt; containing all papers and the &lt;a href=&#34;https://algorithmstudies.files.wordpress.com/2016/03/readings.pdf&#34;&gt;one we used&lt;/a&gt; – that is an extract of the former, filtered by readability from informatic-students viewpoints. Also, there is a podcast at &lt;a href=&#34;http://ethicalmachines.com/&#34;&gt;http://ethicalmachines.com/&lt;/a&gt; that might be of some interest to you.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;[links] &lt;a href=&#34;https://socialmediacollective.org/reading-lists/critical-algorithm-studies/&#34;&gt;“Critical Algorithm Studies: a Reading List”&lt;/a&gt; by the Socialmediacollective.
+
+&lt;ul&gt;
+&lt;li&gt;[links] &lt;a href=&#34;https://algorithmstudies.files.wordpress.com/2016/03/readings.pdf&#34;&gt;a variant&lt;/a&gt; that has been filtered by readability from Informatic-students viewpoints (this is the list we used)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;[podcast] &lt;a href=&#34;http://ethicalmachines.com/&#34;&gt;“Ethical Machines: Conversations about Humans, Machines and Ethics” &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[magazine] “Model View Culture: A magazine about technology, culture and diversity” &lt;a href=&#34;https://modelviewculture.com/&#34;&gt;https://modelviewculture.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a id=&#34;ref:MC&#34; href=&#34;#ref:MC&#34;&gt;&lt;strong&gt;[MC]&lt;/strong&gt;&lt;/a&gt; – Noble, Safiya. 2012. &lt;a href=&#34;https://safiyaunoble.files.wordpress.com/2012/03/54_search_engines.pdf&#34;&gt;&lt;em&gt;“Missed Connections: What Search Engines Say about Women”&lt;/em&gt;&lt;/a&gt;. Bitch magazine , 12(4): 37­41. [4 pages]&lt;/li&gt;
+&lt;li&gt;&lt;a id=&#34;ref:Rge&#34; href=&#34;#ref:Rge&#34;&gt;&lt;strong&gt;[Rge]&lt;/strong&gt;&lt;/a&gt; – Diakopolous, Nick. 2013. &lt;a href=&#34;http://www.theatlantic.com/technology/archive/2013/10/rage-against-the-algorithms/280255/&#34;&gt;&lt;em&gt;“Rage against the Algorithms”&lt;/em&gt;&lt;/a&gt; The Atlantic, October 3. [blog article]&lt;/li&gt;
+&lt;li&gt;&lt;a id=&#34;ref:HtS&#34; href=&#34;#ref:HtS&#34;&gt;&lt;strong&gt;[HtS]&lt;/strong&gt;&lt;/a&gt; – &lt;a href=&#34;https://algocracy.wordpress.com/2016/03/14/how-to-study-algorithms-challenges-and-methods/&#34;&gt;“How to Study Algorithms: Challenges and Methods”&lt;/a&gt;, &lt;a href=&#34;http://hplusmagazine.com/2015/07/28/how-to-study-algorithms-challenges-and-methods/&#34;&gt;alternative link&lt;/a&gt; [blog article]&lt;/li&gt;
+&lt;li&gt;&lt;a id=&#34;ref:Crt&#34; href=&#34;#ref:Crt&#34;&gt;&lt;strong&gt;[Crt]&lt;/strong&gt;&lt;/a&gt; – Kitchin, Rob. 2014. &lt;a href=&#34;http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2515786&#34;&gt;“Thinking Critically About and Researching Algorithms”&lt;/a&gt; [29 pages]&lt;/li&gt;
+&lt;li&gt;&lt;a id=&#34;ref:AAg&#34; href=&#34;#ref:AAg&#34;&gt;&lt;strong&gt;[AAg]&lt;/strong&gt;&lt;/a&gt; – Sandvig, Christian, Kevin Hamilton, Karrie Karahalios, and Cedric Langbort. 2014. &lt;a href=&#34;http://www-personal.umich.edu/~csandvig/research/Auditing%20Algorithms%20--%20Sandvig%20--%20ICA%202014%20Data%20and%20Discrimination%20Preconference.pdf&#34;&gt;“Auditing Algorithms: Research Methods for Detecting Discrimination on Internet Platforms.”&lt;/a&gt; Data and Discrimination: Converting Critical Concerns into Productive Inquiry , 64th Annual Meeting of the International Communication Association. May 22, 2014, Seattle, WA, USA. [18 pages]&lt;/li&gt;
+&lt;li&gt;&lt;a id=&#34;ref:Opc&#34; href=&#34;#ref:Opc&#34;&gt;&lt;strong&gt;[Opc]&lt;/strong&gt;&lt;/a&gt; – Burrell, Jenna. 2015. &lt;a href=&#34;http://bds.sagepub.com/content/3/1/2053951715622512&#34;&gt;“How the Machine ‘Thinks:’ Understanding Opacity in Machine Learning Algorithms.”&lt;/a&gt; [18 pages]&lt;/li&gt;
+&lt;li&gt;&lt;a id=&#34;ref:Emp&#34; href=&#34;#ref:Emp&#34;&gt;&lt;strong&gt;[Emp]&lt;/strong&gt;&lt;/a&gt; – Hooker, J.N. 1994. &lt;a href=&#34;http://www.akira.ruc.dk/~keld/teaching/algoritmedesign_f08/Artikler/01/Hooker93.pdf&#34;&gt;“Needed: An Empirical Science of Algorithms.”&lt;/a&gt; Operations Research 42(2): 201­212. [23 pages]&lt;/li&gt;
+&lt;li&gt;&lt;a id=&#34;ref:WwM&#34; href=&#34;#ref:WwM&#34;&gt;&lt;strong&gt;[WwM]&lt;/strong&gt;&lt;/a&gt; – Lee, Min Kyung, Kusbit, Daniel, Metsky, Evan and Dabbish, Laura. 2015. &lt;a href=&#34;http://dl.acm.org/citation.cfm?id=2702548&#34;&gt;“Working with Machines: The Impact of Algorithmic and Data-­Driven Management on Human Workers”&lt;/a&gt; CHI ’15 Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems: 1603-­1612 [10 pages from &amp;ldquo;Algorithmic Culture&amp;rdquo;-section]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--
+
+Target: students who want to learn about methods to employ them
+Goal: give summary and pointers to start diving deeper (&#34;if you have the problem X read Y&#34;)
+
+Run checkers for spelling and reading-level (high-school!)
+
+TODO
+
+* have someone with a more profound basis in social sciences read over it
+* have first-semesters read over it
+--&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Why Study Algorithms</title>
+      <link>https://m0ru.github.io/article/why-study-algorithms/</link>
+      <pubDate>Tue, 04 Oct 2016 15:33:13 +0200</pubDate>
+      
+      <guid>https://m0ru.github.io/article/why-study-algorithms/</guid>
+      <description>
+
+&lt;p&gt;Last semester I’ve participated in a &lt;a href=&#34;https://algorithmstudies.wordpress.com/&#34;&gt;seminar on “Critical Algorithm Studies”&lt;/a&gt;. Collectively we worked through a &lt;a href=&#34;https://algorithmstudies.files.wordpress.com/2016/03/readings.pdf&#34;&gt;reading list&lt;/a&gt;, which is a filtered version of &lt;a href=&#34;(https://socialmediacollective.org/reading-lists/critical-algorithm-studies/&#34;&gt;the one published by the socialmediacollective&lt;/a&gt;. In particular, I dived deeper into the sub-list on &lt;em&gt;“Methods for Studying Algorithmic Systems”&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://m0ru.github.io/tags/methods-mini-series&#34;&gt;three posts of this mini-series&lt;/a&gt; are an attempt at summarizing those writings and a
+few others; you can find a complete list of the references at the bottom. :)
+The series should give you a &lt;em&gt;basic overview&lt;/em&gt; over the whys (&lt;a href=&#34;https://m0ru.github.io/article/why-study-algorithms/&#34;&gt;part 1&lt;/a&gt;) and challenges (&lt;a href=&#34;https://m0ru.github.io/article/challenges-when-studying-algorithms/&#34;&gt;part 2&lt;/a&gt;) of studying algorithms as well as some methods to do so (&lt;a href=&#34;https://m0ru.github.io/article/methods-for-studying-algorithms/&#34;&gt;part 3&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Anyway, enough preface, let’s get started. :)&lt;/p&gt;
+
+&lt;p&gt;When people think of algorithms – Google Search for example –
+they think of a system that’s impartial, neutral, objective and based on hard data. Most often the organizations behind these algorithms tend to foster this image. The same goes for bureaucracies, whose procedures are offline algorithms in a sense. Neither are free of bias and discrimination.&lt;/p&gt;
+
+&lt;p&gt;There are several ways this &lt;em&gt;bias&lt;/em&gt; might make its way into the system. For one, the developers might introduce it &lt;em&gt;when first writing the system&lt;/em&gt;. A good example for that is the article  &lt;a href=&#34;https://qntm.org/gay&#34;&gt;“Gay marriage: the database engineering perspective”&lt;/a&gt; (2008). In it, the author starts with a widely spread database scheme, which enforces gender-binary. It also excludes any marriages that aren’t life-long and between one woman and one man. Step-by-step the scheme is adapted to include more people and marriages.&lt;/p&gt;
+
+&lt;p&gt;In &lt;a href=&#34;https://safiyaunoble.files.wordpress.com/2012/03/54_search_engines.pdf&#34;&gt;“Missed Connections: What Search Engines Say about Women”&lt;/a&gt;&amp;nbsp;(2012)&amp;nbsp;&lt;sup&gt;&lt;a href=&#34;#ref:MC&#34;&gt;ref:MC&lt;/a&gt;&lt;/sup&gt; Safiya Noble points out another source for biases: The data that the algorithm draws or learns from. If you &lt;a href=&#34;https://encrypted.google.com/search?hl=en&amp;amp;q=women%20athletes&#34;&gt;google for “women athletes”&lt;/a&gt; the returned websites will focus on the athletes looks rather than their
+performance. Searching &lt;a href=&#34;https://www.google.at/search?tbm=isch&amp;amp;q=unprofessional+hair&amp;amp;tbs=imgo:1&amp;amp;gws_rd=cr&amp;amp;ei=2FlYV8f2JYXjUZCtoPgB&#34;&gt;&amp;ldquo;unprofessional hair&amp;rdquo;&lt;/a&gt; on Google Images mainly yields photos of black women. In comparison, the generic &lt;a href=&#34;https://www.google.at/search?tbs=imgo%3A1&amp;amp;tbm=isch&amp;amp;sa=1&amp;amp;btnG=Search&amp;amp;q=woman&#34;&gt;“woman”&lt;/a&gt; mostly yields white women. Search-results like these &lt;em&gt;perpetuate and reinforce stereotypes&lt;/em&gt; found in our society. On the plus side, some issues mentioned in the article seem to have already been resolved by now. For instance,  antisemitic results displayed when searching for “Jew” are now filtered out.&lt;/p&gt;
+
+&lt;p&gt;And then, there’s &lt;em&gt;willful manipulation&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;In one example an online shop would change prices depending on where you live (search for “staples.com” in &lt;a href=&#34;http://www.theatlantic.com/technology/archive/2013/10/rage-against-the-algorithms/280255/&#34;&gt;“Rage against the Algorithms”&lt;/a&gt; by Nick Diakopolous (2013)&amp;nbsp;&lt;sup&gt;&lt;a href=&#34;#ref:Rge&#34;&gt;ref:Rge&lt;/a&gt;&lt;/sup&gt;).&lt;/p&gt;
+
+&lt;p&gt;In another example a business providing an online search for flights subtly tweaked their algorithm to always show the offers from their own airline first. This was the SABRE-system described in &lt;a href=&#34;http://www­personal.umich.edu/~csandvig/research/Auditing%20Algorithms%20%20Sandvig%20%20 ICA%202014%20Data%20and%20Discrimination%20Preconference.pdf&#34;&gt;“Auditing Algorithms”&lt;/a&gt; (2014)&amp;nbsp;&lt;sup&gt;&lt;a href=&#34;#ref:AAg&#34;&gt;ref:AAg&lt;/a&gt;&lt;/sup&gt;. The president of the airline argued: “Why would you build and operate an expensive algorithm if you can’t bias it in your favor?”.&lt;/p&gt;
+
+&lt;p&gt;A different kind of bias/manipulation is placated by Safiya Noble&amp;nbsp;&lt;sup&gt;&lt;a href=&#34;#ref:MC&#34;&gt;ref:MC&lt;/a&gt;&lt;/sup&gt;: Big organizations have the money to maintain numerous domains and produce a lot of content. This increases their search-ranking. Safiya Noble complains, that feminist literature rarely hits page one for generic searches like “woman magazine”. That results page is dominated by outlets, which reinforce gender stereotypes.&lt;/p&gt;
+
+&lt;p&gt;For more examples I can heartily recommend you to check out the my colleagues’ presentations, our &lt;a href=&#34;https://algorithmstudies.wordpress.com/&#34;&gt;discussion notes&lt;/a&gt;, and of course the papers from the &lt;a href=&#34;https://algorithmstudies.files.wordpress.com/2016/03/readings.pdf&#34;&gt;reading list&lt;/a&gt;, on which all of this work is based. In any case, the examples should illustrate how important it is, to make sense of the inner workings of algorithms, the background of their creation and their interaction with society.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://m0ru.github.io/article/challenges-when-studying-algorithms/&#34;&gt;The next part&lt;/a&gt; of this &lt;a href=&#34;https://m0ru.github.io/tags/methods-mini-series on “studying algorithms”&#34;&gt;mini-series&lt;/a&gt; explores some challenges you’ll encounter, when doing your own studies.&lt;/p&gt;
+
+&lt;h2 id=&#34;references:3f2bc3b9289b21bfd805de1814cd0d75&#34;&gt;References&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a id=&#34;ref:MC&#34; href=&#34;#ref:MC&#34;&gt;&lt;strong&gt;[MC]&lt;/strong&gt;&lt;/a&gt; – Noble, Safiya. 2012. &lt;a href=&#34;https://safiyaunoble.files.wordpress.com/2012/03/54_search_engines.pdf&#34;&gt;&lt;em&gt;“Missed Connections: What Search Engines Say about Women”&lt;/em&gt;&lt;/a&gt;. Bitch magazine , 12(4): 37­41. [4 pages]&lt;/li&gt;
+&lt;li&gt;&lt;a id=&#34;ref:Rge&#34; href=&#34;#ref:Rge&#34;&gt;&lt;strong&gt;[Rge]&lt;/strong&gt;&lt;/a&gt; – Diakopolous, Nick. 2013. &lt;a href=&#34;http://www.theatlantic.com/technology/archive/2013/10/rage-against-the-algorithms/280255/&#34;&gt;&lt;em&gt;“Rage against the Algorithms”&lt;/em&gt;&lt;/a&gt; The Atlantic, October 3. [blog article]&lt;/li&gt;
+&lt;li&gt;&lt;a id=&#34;ref:AAg&#34; href=&#34;#ref:AAg&#34;&gt;&lt;strong&gt;[AAg]&lt;/strong&gt;&lt;/a&gt; – Sandvig, Christian, Kevin Hamilton, Karrie Karahalios, and Cedric Langbort. 2014. &lt;a href=&#34;http://www-personal.umich.edu/~csandvig/research/Auditing%20Algorithms%20--%20Sandvig%20--%20ICA%202014%20Data%20and%20Discrimination%20Preconference.pdf&#34;&gt;“Auditing Algorithms: Research Methods for Detecting Discrimination on Internet Platforms.”&lt;/a&gt; Data and Discrimination: Converting Critical Concerns into Productive Inquiry , 64th Annual Meeting of the International Communication Association. May 22, 2014, Seattle, WA, USA. [18 pages]&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Waves Prototype</title>
+      <link>https://m0ru.github.io/article/waves-prototype/</link>
+      <pubDate>Tue, 05 Jul 2016 23:14:25 +0200</pubDate>
+      
+      <guid>https://m0ru.github.io/article/waves-prototype/</guid>
+      <description>&lt;p&gt;And here’s the second of the two game protypes.&lt;/p&gt;
+
+&lt;p&gt;You can find a WebGL export of &lt;a href=&#34;http://m0ru.github.io/waves/&#34;&gt;&lt;strong&gt;the game here&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/feather_and_waves/waves_prototype.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Powersockets Prototype</title>
+      <link>https://m0ru.github.io/article/powersockets-prototype/</link>
       <pubDate>Tue, 05 Jul 2016 17:05:15 +0200</pubDate>
       
-      <guid>https://m0ru.github.io/article/powersockets/</guid>
+      <guid>https://m0ru.github.io/article/powersockets-prototype/</guid>
       <description>&lt;p&gt;The first of the two game protypes &lt;a href=&#34;https://github.com/jankaVar&#34;&gt;Jana&lt;/a&gt; and I build for the &amp;ldquo;Game Design&amp;rdquo;-course.&lt;/p&gt;
 
 &lt;p&gt;You can &lt;a href=&#34;https://github.com/jankaVar/powersockets/releases/&#34;&gt;&lt;strong&gt;get the app here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
@@ -553,429 +802,6 @@ TODO:
 * edu games link to pigsoft
 * ARG!
 --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Concert: Battle for Gødtfrey</title>
-      <link>https://m0ru.github.io/article/concert-battle-for-g%C3%B8dtfrey/</link>
-      <pubDate>Wed, 22 Apr 2015 18:00:00 +0200</pubDate>
-      
-      <guid>https://m0ru.github.io/article/concert-battle-for-g%C3%B8dtfrey/</guid>
-      <description>
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/yB2xjIn_9JQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-
-&lt;h1 id=&#34;the-band:6f93a681e2da6860edda1c64bccfc921&#34;&gt;The Band&lt;/h1&gt;
-
-&lt;p&gt;Our fictive persona-band, GØDTFREY, is a Viennese medieval folk metal/rock band founded in the year 2010. They remotely resemble bands like Schandmaul and InExtremo. They met each other in a pub during their time as students and released 2 EPs and 1 LP up until now.&lt;/p&gt;
-
-&lt;p&gt;Due to their themed album releases they are able to use the smartphone application to let the user enter an epic battle between the forces of light and evil that decide which course their concerts take.&lt;/p&gt;
-
-&lt;p&gt;They mostly play live concerts in smaller locations like the “Arena Wien” and the “WUK”.&lt;/p&gt;
-
-&lt;p&gt;Members:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Bagpipes - Günther&lt;/li&gt;
-&lt;li&gt;Drummer &amp;amp; Kettledrum - Wolfgang&lt;/li&gt;
-&lt;li&gt;Violin - Julia&lt;/li&gt;
-&lt;li&gt;Opera singer &amp;amp; C-Flute - Evelynn&lt;/li&gt;
-&lt;li&gt;Bass Guitar - Johann&lt;/li&gt;
-&lt;li&gt;Lute &amp;amp; E-Guitar - Alex-Wolfgang&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;the-idea-explained:6f93a681e2da6860edda1c64bccfc921&#34;&gt;The Idea Explained&lt;/h1&gt;
-
-&lt;p&gt;The fans attending the concert get a link via one of several ways (the ticket shop, the ticket, in front of the concert hall,&amp;hellip;) that allows them to download the app and create an avatar. At the concert the persons position is triangulated and the avatar placed on a corresponding location on the screen.&lt;/p&gt;
-
-&lt;p&gt;Dancing causes the avatar to burst into moves of about the same intensity. As the fans continue to dance their individual avatars slowly charge up. After the avatar&amp;rsquo;s reach a maximum capacity, with a clearly visible burst of energy they discharge into the main power bar.&lt;/p&gt;
-
-&lt;p&gt;The band has prepared two differently themed songs and stage settings. E.g.:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;good&amp;rdquo;:&lt;/strong&gt; angelic singers voice, string instruments and flutes, blue stage lighting, artificial snow, etc.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&amp;ldquo;evil&amp;rdquo;:&lt;/strong&gt; the singer growls, heavy e-guitare, red lighting, flamethrowers, etc.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Depending on which side the power bars balance is on, a band can flip the themes. Either live, if they&amp;rsquo;re crazily prepared, between songs or only for the final song (which is the minimal effort on their end of things).&lt;/p&gt;
-
-&lt;p&gt;Not in the video but an interesting idea (that came with the help of the manager card): The measured dance-activity can be used to determine the songs that work well. Also the avatars could be used for merchantising (&amp;ldquo;your avatar and the band&amp;rsquo;s avatars as a print&amp;rdquo;) which could be gifted to the hardest rocking fans for free as an incentive.&lt;/p&gt;
-
-&lt;h1 id=&#34;analysis:6f93a681e2da6860edda1c64bccfc921&#34;&gt;Analysis&lt;/h1&gt;
-
-&lt;p&gt;A circular area chart mapping the solution on 6 metrics for audience participation&lt;sup&gt;&lt;a href=&#34;#ref1&#34;&gt;[1]&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/gameful_concerts/audience_participation_dimensions.jpg&#34; alt=&#34;Circular area chart. See text below.&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;See the &lt;a href=&#34;https://owncloud.tuwien.ac.at/public.php?service=files&amp;amp;t=5b07f0b690f75bfcfe34b84be1b9cd5c&amp;amp;download&#34;&gt;slides&lt;/a&gt; for their definition. Below, I&amp;rsquo;ll go into the reason for the values we assigned:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Control Design Freedom (~0.3):&lt;/strong&gt; As the effect is tightly coupled to the story, it might not make much sense to control anything beyond the decision between the two different song-tracks and corresponding stage-effects. The positioning that&amp;rsquo;s used for placing the avatars could be used to control other interactions (e.g. between specific avatars)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;System Versatility (~0.7):&lt;/strong&gt; The setup of the positioning beacons and beamer might take a while in event-locations not already equipped with them, but not too long. For the mapping between auditorium and screen space to work well, the room should be roughly rectangular.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Audience Interaction Transparency (~1.0):&lt;/strong&gt; One&amp;rsquo;s avatar should be uniquely identifiable by it&amp;rsquo;s looks and relativ position on the screen. Stronger dancing causes stronger of the avatar (with pre-defined dance-moves) and the charge-effects are very visible and cause a clearly noticeable shift in power-bar. The midpoint is clearly marked and if the powerbalance passes it, the next song and it&amp;rsquo;s stage effects change distinctively. All in all it should be very clear, in our perception, what effect one&amp;rsquo;s dancing has on the show.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Audience Interaction Distribution (~1.0):&lt;/strong&gt; Most people will have a smartphone. Alternatively cheap dedicated hardware (e.g. wristbands) can be handed out, though these require an alternative way to create the avatar (e.g. terminals, one&amp;rsquo;s homepc, a friend&amp;rsquo;s smartphone)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Focus (~0.8):&lt;/strong&gt; The projection is behind the actual band and about as distracting as most other visual shows. The dancing itself should be the same as in other concerts.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Active / Passive Audience Affinity (~0.2):&lt;/strong&gt; Without a smartphone (or dedicated hardware if it&amp;rsquo;s within the budget) there&amp;rsquo;s no way to interact.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;design-process:6f93a681e2da6860edda1c64bccfc921&#34;&gt;Design Process&lt;/h1&gt;
-
-&lt;p&gt;Directly after the lecture we &lt;strong&gt;decided&lt;/strong&gt; on designing for a &lt;strong&gt;folk metal band&lt;/strong&gt; similiar to Schandmaul/InExtremo. Due to a lack of time directly after the lesson, we agreed to meet again in a week.&lt;/p&gt;
-
-&lt;p&gt;Over the course of that week, I&amp;rsquo;d jotted down a few notes to my &lt;strong&gt;notebook&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;!-- thumbnail syntax isn&#39;t pretty :| --&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://m0ru.github.io/media/gameful_concerts/notebook/1.png&#34;&gt;
-    &lt;img src=&#34;https://m0ru.github.io/media/gameful_concerts/notebook/thumb/1.png&#34;&gt;
-&lt;/a&gt;
-&lt;a href=&#34;https://m0ru.github.io/media/gameful_concerts/notebook/2.png&#34;&gt;
-    &lt;img src=&#34;https://m0ru.github.io/media/gameful_concerts/notebook/thumb/2.png&#34;&gt;
-&lt;/a&gt;
-&lt;a href=&#34;https://m0ru.github.io/media/gameful_concerts/notebook/3.png&#34;&gt;
-    &lt;img src=&#34;https://m0ru.github.io/media/gameful_concerts/notebook/thumb/3.png&#34;&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;We met at the Fachschaft Informatik. During the process that will be descriped below, we took notes in &lt;a href=&#34;https://titanpad.com/64PQ6Cx3Gq&#34;&gt;&lt;strong&gt;this titanpad&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;First we noted down which interactions already had come to mind from our experiences with rock and metal concerts, so as not to lose them:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;circle dances&lt;/li&gt;
-&lt;li&gt;mosh pit&lt;/li&gt;
-&lt;li&gt;wall of death&lt;/li&gt;
-&lt;li&gt;condom baloons&lt;/li&gt;
-&lt;li&gt;headbanging&lt;/li&gt;
-&lt;li&gt;clapping&lt;/li&gt;
-&lt;li&gt;if indoors: smartphone cam&lt;/li&gt;
-&lt;li&gt;crowd-surfing&lt;/li&gt;
-&lt;li&gt;das ruderboot&lt;/li&gt;
-&lt;li&gt;inflatable shark&lt;/li&gt;
-&lt;li&gt;foam cannon&lt;/li&gt;
-&lt;li&gt;flamethrowers(!)
-
-&lt;ul&gt;
-&lt;li&gt;witch burning?&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;After that, we continued to the main excercise, LiveMAP.&lt;/p&gt;
-
-&lt;h2 id=&#34;livemap:6f93a681e2da6860edda1c64bccfc921&#34;&gt;LiveMAP&lt;/h2&gt;
-
-&lt;p&gt;This part contains my personal experience. To get &lt;a href=&#34;http://salzstangerlman.tumblr.com/post/116855046536/aufgabe-3-livemap-feat-g-dtfrey&#34;&gt;Florian&amp;rsquo;s&lt;/a&gt; and &lt;a href=&#34;http://gameful.renekoller.com/2015/04/22/week-3-livemap/&#34;&gt;Rene&amp;rsquo;s&lt;/a&gt; take on the process, check out their blogs.&lt;/p&gt;
-
-&lt;p&gt;We drew cards roughly in three rounds, then started converging. Occasionally the others swapped out their role-cards relatively early as they weren&amp;rsquo;t very useful for them. I&amp;rsquo;d gotten the role-card/lense of creator (e.g. designer, programmer,&amp;hellip;), which proved to be an okay enough starting point when thinking. However it mostly stayed in the background for me as the thought- and discussion-flow tended to quickly move away, staccatoesquly throwing out idea after idea, in a self-sustained tune. Thus in a way it
-served it&amp;rsquo;s purpose of providing a starting point.&lt;/p&gt;
-
-&lt;p&gt;I started the &lt;strong&gt;first round&lt;/strong&gt; with the Motivation-card no. 9 - &amp;ldquo;Include someone for academic reasons&amp;rdquo;. This cards meaning only became clearer after turning it. However I didn&amp;rsquo;t get much time to ponder on the back-side, as my partners quickly burst out with some ideas on their own, that got a discussion started. In general this would prove to be somewhat of a theme in the process (see &lt;a href=&#34;#timetothink&#34;&gt;below&lt;/a&gt;)&lt;/p&gt;
-
-&lt;p&gt;For the &lt;strong&gt;second round&lt;/strong&gt; I kept my role (I liked it) and drew from the Interaction-deck the No 32, &amp;ldquo;consider interaction in terms of acoustics that is artificially generated&amp;rdquo;. We quickly left the focus created by the cards and went (back?) to the previous stream of ideas. In this round a few of core ideas for the final concept emerged - namely:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;projecting avatars for the dancing people on a surface behind the band&lt;/li&gt;
-&lt;li&gt;allowing the most enthusiastic dancer(s) to pick a song to be played (their favourite one?) or influence effects on the stage&lt;/li&gt;
-&lt;li&gt;from the idea of wall-of-deaths: make it two factions dance-battling each other&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The card kept laying in front of me throughout the rest of it&amp;rsquo;s process. In the end, it had made it&amp;rsquo;s way into the concept: Songs are arranged along two general accoustic themes (e.g. &amp;ldquo;angelic, etherical, beautiful&amp;rdquo; vs &amp;ldquo;demonic, hard, grungy&amp;rdquo;). The winning side swings the song selection in favour of their theme.&lt;/p&gt;
-
-&lt;p&gt;We decided that the theme-switches should be discrete in style (binary in fact) and time (only between songs). This allows the band to prepare the alternative songs and reduces the technical overhead of dealing with quickly changing accoustic settings. As a consequence, there&amp;rsquo;s no improvisation involved, for which Metal (or most genres with lyrics and melody) tend to be badly suited in our perception. In the very least to us it seem to be very hard to pull off a seemless improvisation on
-avariation variation of melody/scale in a song, let alone lyrics (see below).&lt;/p&gt;
-
-&lt;p&gt;The &lt;strong&gt;third round&lt;/strong&gt; yielded me no23 from the Influence-deck: &amp;ldquo;Influence the content considering the lyrics.&amp;rdquo; At this point we had relatively settled on the dance-battle idea. The card added &amp;ldquo;lyrics&amp;rdquo; to the the list of factors influenced by the winning dancers. This was also the point where we decided to allow people to select songs (instead of influencing them in real-time) for the reasons already discussed above.&lt;/p&gt;
-
-&lt;p&gt;After that we mainly refined the dance-battle concept. Most of the elements we&amp;rsquo;d use already had emerged by this point and fell into place now. Elements and decisions that emerged only at this point were:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;power-meter that pushes between the colors &lt;code&gt;|=====&amp;gt;|&amp;lt;========|&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;people should be able to choose their faction ahead of time (so they can rock for the same side as their friends, or oppose them in friendly competition)&lt;/li&gt;
-&lt;li&gt;we&amp;rsquo;d use smartphones&amp;rsquo; gyroscopic sensors and triangulation capabilities as a base instead of other hardware, as they&amp;rsquo;re cheap for the organizers (most people already have one). However this also means that we can&amp;rsquo;t guarantee participation for everyone (unless the phones are complimented with throw-away wearables)&lt;/li&gt;
-&lt;li&gt;customizing the avatar before-hand allows to find it on the projection&lt;/li&gt;
-&lt;li&gt;avatars can be used for merchandising as well (your ava + the bands ava on prints). The hardest dancer(s) could be awarded with some of it for free.&lt;/li&gt;
-&lt;li&gt;the intensity of dancing per song can be used to determine which songs appeal to the audience in that region.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Two issues in our process severly handicapped the cards&amp;rsquo; usefullness for us:&lt;/p&gt;
-
-&lt;p&gt;&lt;a id=&#34;timetothink&#34;&gt;&lt;/a&gt;&lt;strong&gt;Time to Think&lt;/strong&gt;: The phases of silence necessary to reflect on the cards tended not to last long enough (at least for me) to get any deeper value from them. Every time we got stuck and decided to go for another round of cards, we&amp;rsquo;d take a few moments to read them. Until someone would inevitably throw an idea into the ring and we&amp;rsquo;d return to a variation of the discussion from before or go off into a direction that had little to do with the cards i held. I think we should have set aside a fixed amount of time to reflect on the cards - or at least ask around if everyone&amp;rsquo;s done with their
-card - before starting the discussion for that round. I think this should be emphasized when teaching the method to first-timers.&lt;/p&gt;
-
-&lt;p&gt;&lt;a id=&#34;skepticism&#34;&gt;&lt;/a&gt;&lt;strong&gt;Skepticism&lt;/strong&gt;: The experience that conversations tended to diverge quickly from the cards focus might be attributed to a certain prevalent &lt;strong&gt;skepticism of the method&lt;/strong&gt; in the team. For my part, I had never worked with design cards before (only with other association techniques, like using random magazine snippets). Also at several occassions before starting and in the early phase someone would voice that they felt restricted by the cards. This base mood might be the reason why we didn&amp;rsquo;t get
-into the cards much, respectively, they didn&amp;rsquo;t play too large a role for us. However, I think, this factor should fade away if we would do more sessions with them. At least for me they proved worthwhile to explore further (with a few adaptions in our process)&lt;/p&gt;
-
-&lt;p&gt;In general I find the idea to use the cards&amp;rsquo; focus very appealing. Tools like these tend to direct the search of the design space away from the well trodden paths and over-done solutions (that we happened to use in this concept in the form of smartphone-apps using the gyroscopic sensors). For what they also proved very useful was viewing an already existing concept through a new facet / point of view.&lt;/p&gt;
-
-&lt;h1 id=&#34;references:6f93a681e2da6860edda1c64bccfc921&#34;&gt;References&lt;/h1&gt;
-
-&lt;ol&gt;
-    &lt;li id=&#34;ref1&#34;&gt; Mazzanti, D. Zappi, V. Caldwell D. BrogniA., 2014. *Augmented Stage for Participatory Performances*. In Proceedings of the International Conference on New Interfaces for Musical Expression, pp. 29-34.
-    &lt;/li&gt;
-&lt;/ol&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Audience Participation―The Challenge</title>
-      <link>https://m0ru.github.io/article/audience-participationthe-challenge/</link>
-      <pubDate>Wed, 01 Apr 2015 15:45:07 +0200</pubDate>
-      
-      <guid>https://m0ru.github.io/article/audience-participationthe-challenge/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;https://owncloud.tuwien.ac.at/public.php?service=files&amp;amp;t=5b07f0b690f75bfcfe34b84be1b9cd5c&amp;amp;download&#34;&gt;Presentation slides&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://owncloud.tuwien.ac.at/public.php?service=files&amp;amp;t=9123d3c40e9d88a17fdc3253234d06ce&amp;amp;download&#34;&gt;Full challenge&lt;/a&gt;  (copied below for convienience)&lt;/p&gt;
-
-&lt;p&gt;Entwerfen Sie ein Szenario im Kontext von Live-Musik, das Publikumsbeteiligung bzw. kollaborativeElemente zwischen Performer und Publikum vorsieht. Übung in Gruppen zu je 3 Personen.&lt;/p&gt;
-
-&lt;h2 id=&#34;schritt-1a-in-vo:7586868b56a5b96f198e784f8866e90a&#34;&gt;Schritt 1a (in VO):&lt;/h2&gt;
-
-&lt;p&gt;Ausgangspunkt definierenDefinieren Sie ein Live-Musik Setting. Dies kann tatsächlich existieren oder fiktiven Ursprungs sein.Beispiele:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Rockband, 4-köpfig, Gesang, Gitarre, Bass, Schlagzeug&lt;/li&gt;
-&lt;li&gt;DJ in Club&lt;/li&gt;
-&lt;li&gt;Elektro-Pop Duo mit Laptops und Tanz&lt;/li&gt;
-&lt;li&gt;Hip-Hop Formation&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;schritt-1b-ausgangspunkt-definieren:7586868b56a5b96f198e784f8866e90a&#34;&gt;Schritt 1b:Ausgangspunkt definieren&lt;/h2&gt;
-
-&lt;p&gt;Beschreiben Sie möglichst genau die Musikrichtung, die Anzahl der Performer und deren Rolle/Aufgabe sowie Art und Orte der Performance, die Beschreibung des Publikums und was darüber hinaus noch relevant und wichtig ist.&lt;/p&gt;
-
-&lt;h2 id=&#34;schritt-2-szenario-entwerfen:7586868b56a5b96f198e784f8866e90a&#34;&gt;Schritt 2:Szenario entwerfen&lt;/h2&gt;
-
-&lt;p&gt;Entwickeln Sie ein Konzept, um das Publikum in eine Performance des von Ihnen definierten Live-Musik Settings zu integrieren.Verwenden Sie für den Gestaltungsprozess die zur Verfügung gestellten LiveMAPDesign Cards solange diese hilfreich sind.&lt;/p&gt;
-
-&lt;h2 id=&#34;schritt-3-video-sketch:7586868b56a5b96f198e784f8866e90a&#34;&gt;Schritt 3: Video-Sketch&lt;/h2&gt;
-
-&lt;p&gt;Erstellen Sie einen Video-Sketch, der Ihr Szenario präsentiert. (max. 3 Minuten) Berücksichtigen Sie in der Erstellung des Videos die sechs Metriken von Mazzantiet al. (2014)&lt;/p&gt;
-
-&lt;h2 id=&#34;schritt-4-einzelarbeit-reflektieren-des-design-prozesses:7586868b56a5b96f198e784f8866e90a&#34;&gt;Schritt 4 (Einzelarbeit):Reflektieren des Design-Prozesses&lt;/h2&gt;
-
-&lt;p&gt;Reflektieren Sie einzeln(!) den Design-Prozess mit besonderem Fokus auf den Einsatz der LiveMAPDesign Cards.Beantworten Sie dazu detailliert die folgenden Fragen mit insgesamt mindestens 600 Wörtern.&lt;/p&gt;
-
-&lt;p&gt;Fragen für die Reflexion:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Wie lief die Design-Session mit den Karten ab?&lt;/li&gt;
-&lt;li&gt;Wann waren die Karten förderlich und in wie fern?&lt;/li&gt;
-&lt;li&gt;Wann waren die Karten weniger hilfreich oder einschränkend und warum?&lt;/li&gt;
-&lt;li&gt;Welche Unklarheiten entstanden beim Einsatz der Karten?&lt;/li&gt;
-&lt;li&gt;Was ist Ihnen darüber hinaus noch aufgefallen?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;abgabe:7586868b56a5b96f198e784f8866e90a&#34;&gt;Abgabe&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Definition des Live-Musik Settings (Gruppe)&lt;/li&gt;
-&lt;li&gt;Video-Prototyp des Szenarios zur Publikumsinteraktion (Gruppe)&lt;/li&gt;
-&lt;li&gt;Reflexion des Design-Prozesses mit den LiveMAPDesign Cards (individuell)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Board Game: Pillow Fight</title>
-      <link>https://m0ru.github.io/article/board-game-pillow-fight/</link>
-      <pubDate>Wed, 25 Mar 2015 21:30:30 +0100</pubDate>
-      
-      <guid>https://m0ru.github.io/article/board-game-pillow-fight/</guid>
-      <description>
-
-&lt;p&gt;Pillow Fight is our solution to the challenge to design a wargame without borders (in our case, even without deaths).&lt;/p&gt;
-
-&lt;h1 id=&#34;the-challenge-no-frontier:4b52a6bb1d02e41b4e383dfc8935f296&#34;&gt;The Challenge - No Frontier&lt;/h1&gt;
-
-&lt;p&gt;From &amp;ldquo;IRON DESIGNER CHALLENGE 5—WAR WITHOUT FRONTIERS&amp;rdquo;, page 39:&lt;/p&gt;
-
-&lt;blockquote&gt;In games featuring the teritorial acquisition dynamic, and especially in war-themed games, territories are rarely acquired through a comical foot race. They’re usually acquired through the death, regardless of how abstracted, of another player’s bits. As a result of that death, the player gets the other player’s territory. Whoever has the territory wins the war. Another common dynamic, “destroy the opposing side,” is used for games that don’t have territory.
-For this exercise, however, you’ll be pushing yourself beyond those traditional borders. Simulate and resolve a Civil War battle without using territorial acquisition or destruction of all units on the enemy side as the primary gameplay dynamic.&lt;/blockquote&gt;
-
-&lt;blockquote&gt;ergänzung: in unter 30 Minuten spielbar, dafür muss es nicht unbedingt bürgerkrieg sein.&lt;/blockquote&gt;
-
-&lt;h1 id=&#34;the-process:4b52a6bb1d02e41b4e383dfc8935f296&#34;&gt;The Process&lt;/h1&gt;
-
-&lt;p&gt;We (&lt;a href=&#34;http://hirnsalat.github.io/gameful-design/&#34;&gt;hirnsalat&lt;/a&gt;, &lt;a href=&#34;http://peacememories.github.io/gameful-design/&#34;&gt;peacememories&lt;/a&gt; and &lt;a href=&#34;https://m0ru.github.io/&#34;&gt;m0ru&lt;/a&gt;) met up last Thursday for a little brain-storming session. We already had a few concepts and mechanics-fragments beforehand:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/pillow_fight/sketchbook.png&#34; alt=&#34;Scans of m0ru&#39;s sketchbook&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;During the session we tried to explore the design space starting with different mechanics and themes as can be seen on the whiteboard directly below. The theme-based generators (in red) mostly focussed on military and/or political conflicts (e.g. &amp;ldquo;cyberwar&amp;rdquo;, &amp;ldquo;spy game&amp;rdquo;, &amp;ldquo;gerrymandering&amp;rdquo;, &amp;ldquo;elections&amp;rdquo;). The mechanical ones (in green) started off with alternative win-conditions we could use. You can find them them below the center in the right half of the whiteboard. The most advanced cluster of mechanical and thematic fragments centered around an idea for modelling peace negotiations (at the whiteboard: starting at the bottom left and expanding towards the right and up). As backdrop for the negotiations a more or less automatic conflict would have pushed back and forth on the quickly sketched board that you can see. The goal would be to end the conflict, by negotiating a set of terms to which both sides generals (non-player characters / mechanics) can agree.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/pillow_fight/brainstorming_whiteboard.png&#34; alt=&#34;Photo of whiteboard during initial brainstorming&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;During our discussion we got inspiration from another colleague, who noted that all of the mechanics/themes we were talking about seemed rather depressing and cynical, which spawned the idea to go towards the other of that extreme of that spectrum - from &amp;ldquo;cute&amp;rdquo; to &amp;ldquo;stuffed animal&amp;rdquo; to &amp;ldquo;pillow&amp;rdquo; to &amp;ldquo;pillowfight&amp;rdquo;. The mechanics we salvaged from various board-, pen and paper roleplaying and tabletop games, and radically simplified them, only adding each mechanic after careful consideration and being sure that it is necessary. For most of them we also did before/after playtests. On the whiteboard below you can see, that most never made it beyond the &amp;ldquo;optional&amp;rdquo; status.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/pillow_fight/final_whiteboard.png&#34; alt=&#34;Whiteboard-picture created while refining &amp;quot;Pillow Fight&amp;quot;&#34; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;pillowfight-the-story:4b52a6bb1d02e41b4e383dfc8935f296&#34;&gt;Pillowfight - The Story&lt;/h1&gt;
-
-&lt;p&gt;You&amp;rsquo;re in your good friends rather large flat (some might call it a penthouse/villa) and going at it with their modest supply of pillows.&lt;/p&gt;
-
-&lt;h1 id=&#34;pillowfight-rules:4b52a6bb1d02e41b4e383dfc8935f296&#34;&gt;Pillowfight - Rules&lt;/h1&gt;
-
-&lt;p&gt;The game is playable from three players upwards.&lt;/p&gt;
-
-&lt;h2 id=&#34;setup:4b52a6bb1d02e41b4e383dfc8935f296&#34;&gt;Setup&lt;/h2&gt;
-
-&lt;p&gt;The game is played on a rectangular &lt;strong&gt;board with a grid&lt;/strong&gt; on it (e.g. checkerboard, go-board,..), representing a room.
-First, one player &lt;strong&gt;sets up&lt;/strong&gt; the &lt;strong&gt;walls&lt;/strong&gt; and &lt;strong&gt;furniture&lt;/strong&gt; to provide cover.
-Another player places the &lt;strong&gt;pillows&lt;/strong&gt; on top of furniture or on the floor.
-Finally, a third player decides &lt;strong&gt;who goes first&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Players place their characters, starting with the first player and continuing clockwise. The &lt;strong&gt;characters&lt;/strong&gt; can be &lt;strong&gt;placed anywhere&lt;/strong&gt; on the floor, though you might want to get some terrain between you and the other players.&lt;/p&gt;
-
-&lt;h2 id=&#34;playing-a-turn:4b52a6bb1d02e41b4e383dfc8935f296&#34;&gt;Playing a Turn&lt;/h2&gt;
-
-&lt;p&gt;As with placing the characters, players take turns clockwise.
-During a turn, you can take two actions, which can be either moving, picking up pillows or attacking.&lt;/p&gt;
-
-&lt;h3 id=&#34;moving:4b52a6bb1d02e41b4e383dfc8935f296&#34;&gt;Moving&lt;/h3&gt;
-
-&lt;p&gt;You can move across &lt;strong&gt;three squares&lt;/strong&gt;, including diagonals, but you can only walk on the floor. No climbing on furniture please.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/pillow_fight/movement.svg&#34; alt=&#34;Movement illustration/examples&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;picking-up-a-pillow:4b52a6bb1d02e41b4e383dfc8935f296&#34;&gt;Picking up a pillow&lt;/h3&gt;
-
-&lt;p&gt;If a pillow is adjacent to your character or directly below you, you can pick it up, as long as you are not already carrying a pillow.&lt;/p&gt;
-
-&lt;h3 id=&#34;attacking:4b52a6bb1d02e41b4e383dfc8935f296&#34;&gt;Attacking&lt;/h3&gt;
-
-&lt;p&gt;You can attack a player if you are &lt;strong&gt;holding a pillow&lt;/strong&gt; and you are either standing next to them or there are no walls in the way.
-Attacking is done by selecting a target and rolling a die. The targeted person can then defend by rolling another die. If you &lt;strong&gt;roll&lt;/strong&gt; a &lt;strong&gt;higher&lt;/strong&gt; number than them, you hit them and score a point.
-You can only attack &lt;strong&gt;once per turn&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;There are two ways of attacking an opponent:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Pillow Swinging (Melee)&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;If you stand next to a player you can hit them with your pillow directly. This lets you &lt;strong&gt;keep your pillow&lt;/strong&gt;, but if you roll a 1 or 2, your &lt;strong&gt;pillow gets torn&lt;/strong&gt; (and removed from the game).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Pillow Throwing (Ranged)&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;You can throw a pillow if there are no walls between you and your target (there&amp;rsquo;s no range limitation). Your opponent might use cover to protect themselves from your throw (explained in the cover section).&lt;/p&gt;
-
-&lt;p&gt;When throwing, you &lt;strong&gt;lose your pillow&lt;/strong&gt;. The pillow will either land &lt;strong&gt;at your targets feet&lt;/strong&gt; or, if they don&amp;rsquo;t have a pillow in their hand and roll a 5 or higher, &lt;strong&gt;they catch it&lt;/strong&gt; - which is the same as picking up a pillow.&lt;/p&gt;
-
-&lt;h4 id=&#34;cover:4b52a6bb1d02e41b4e383dfc8935f296&#34;&gt;Cover&lt;/h4&gt;
-
-&lt;p&gt;Cover can be used when defending against ranged attacks. There are two types of cover: walls and furniture. You need to &lt;strong&gt;stand adjacent&lt;/strong&gt; to an object to get cover from it. If someone on the other side wants to throw at you: walls block attacks completely, but furniture only gives a -1 penalty on the attack roll. If you&amp;rsquo;re standing close to or at at an edge of a wall or piece of furniture, look at the graphics below to see how well others can throw at you. The examples use a wall. In the case of furniture the areas marked &amp;ldquo;impossible&amp;rdquo; would give a -1 penalty instead.&lt;/p&gt;
-
-&lt;p&gt;To determine which squares you have cover from, look at the squares adjacent to you and expand the cover status orthogonally. If there is an object that grants cover directly below your character, you have cover from all squares below it. The same applies to all 8 directions.&lt;/p&gt;
-
-&lt;p&gt;Cover doesn&amp;rsquo;t apply against pillow swinging (melee).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/pillow_fight/cover_edge.svg&#34; alt=&#34;Taking cover at behind a wall - being attacked - - illustration&#34; /&gt;
-&lt;img src=&#34;https://m0ru.github.io/media/pillow_fight/cover_corner.svg&#34; alt=&#34;Taking cover at a corner of a wall - being attacked - illustration&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/pillow_fight/cover_corner_reverse.svg&#34; alt=&#34;Throwing around corner - Illustration&#34; /&gt;
-&lt;img src=&#34;https://m0ru.github.io/media/pillow_fight/cover_along_wall.svg&#34; alt=&#34;Throwing along wall - Illustration&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;victory-condition:4b52a6bb1d02e41b4e383dfc8935f296&#34;&gt;Victory Condition&lt;/h2&gt;
-
-&lt;p&gt;The game ends when either a player lands &lt;strong&gt;5 hits&lt;/strong&gt;, or when all the pillows have been destroyed.In the latter case, the player with the &lt;strong&gt;most landed hits&lt;/strong&gt; wins.&lt;/p&gt;
-
-&lt;h1 id=&#34;pillowfight-gameplay:4b52a6bb1d02e41b4e383dfc8935f296&#34;&gt;Pillowfight - Gameplay&lt;/h1&gt;
-
-&lt;p&gt;Directly below you can see a photo of the game in the first few turns, the &lt;strong&gt;pillows&lt;/strong&gt; (white checkers pieces) are spaced out relatively evenly, concentrating slightly on the &lt;strong&gt;furniture&lt;/strong&gt; (pieces of paper with tables and couches on them). The long, blank pieces of paper represent &lt;strong&gt;walls&lt;/strong&gt;. The colourful pieces are the &lt;strong&gt;players&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/pillow_fight/early_game.jpg&#34; alt=&#34;Board during Early Game&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The &lt;strong&gt;first-turn advantage&lt;/strong&gt; solves itself, as going first means you get to &lt;strong&gt;throw first&lt;/strong&gt;, however people can react to you during setup and &lt;strong&gt;pick starting locations that counter&lt;/strong&gt; yours (e.g. behind walls)&lt;/p&gt;
-
-&lt;p&gt;The following photo was taken at the end of our last playtest. Due to melee mechanic that allows for &lt;strong&gt;pillows to tear&lt;/strong&gt;, almost all pillows were used up (except for the top right corner). We have included that mechanic &lt;strong&gt;to fix &amp;ldquo;melee&amp;rdquo;&lt;/strong&gt;, which models hits with pillows where you keep holding them. The last part was what made it superior in almost all situations to throwing (and thus losing) your pillow. Before we introduced the mechanic, games consisted of people just piling somewhere on the map and taking turns to just roll the dice, thus forgoing the &lt;strong&gt;game depth&lt;/strong&gt; that comes from &lt;strong&gt;positioning&lt;/strong&gt; and &lt;strong&gt;planning&lt;/strong&gt; with and around the use of &lt;strong&gt;cover&lt;/strong&gt;. Now there&amp;rsquo;s a definitive &lt;strong&gt;trade-off&lt;/strong&gt; between melee and ranged that has to be evaluated for every situation, thus adding &lt;strong&gt;choice&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/pillow_fight/late_game.jpg&#34; alt=&#34;Board during Late Game&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;We suggest playing the game with at least three players or factions, as this allows for the third party to exploit and thus break-up stale-mates between the first two. This ensures a dynamic gameplay. Also the possibilty for alliances somewhat counter-balances any inequalities from different skill-levels to imbalanced map setup.&lt;/p&gt;
-
-&lt;h1 id=&#34;pillowfight-additional-optional-mechanics:4b52a6bb1d02e41b4e383dfc8935f296&#34;&gt;Pillowfight - Additional Optional Mechanics:&lt;/h1&gt;
-
-&lt;p&gt;Sadly we didn&amp;rsquo;t have the time to play-test the following (as ideas for those came only shortly before or while writing this documentation):&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;full-defense action: gives +1; rebalance by weighing tie braker in favour of attacker&lt;/li&gt;
-&lt;li&gt;catching also works in close-combat (is pillow theft then)&lt;/li&gt;
-&lt;li&gt;melee blocking: having a pillow in defense gives +1&lt;/li&gt;
-&lt;li&gt;2-3 fragile objects, if they shatter the game ends&lt;/li&gt;
-&lt;li&gt;drop back to d&amp;amp;d-style cover mechanics (they deal better with edge cases caused by walls)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Card Game: Subjective Objectives</title>
-      <link>https://m0ru.github.io/article/card-game-subjective-objectives/</link>
-      <pubDate>Thu, 12 Mar 2015 01:02:02 +0100</pubDate>
-      
-      <guid>https://m0ru.github.io/article/card-game-subjective-objectives/</guid>
-      <description>
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/rC-Hhn9mKB0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-
-&lt;h1 id=&#34;the-challenge:289d46cad905d21d73e92f507e398379&#34;&gt;The Challenge&lt;/h1&gt;
-
-&lt;blockquote&gt;gestalten sie ein kartenspiel, dessen ziel es ist, die auseinandersetzung mit dem »wert« von dingen zu provozieren bzw. fördern. »wert« umfasst dabei so komplexe konzepte wie marktwert, persönlich zugewiesener wert, unverkäuflichkeit, emotionaler wert, überraschender wert, situations-bezogener Wert, etc.&lt;/blockquote&gt;
-
-&lt;h1 id=&#34;the-design-process-other-ideas:289d46cad905d21d73e92f507e398379&#34;&gt;The Design Process / Other Ideas&lt;/h1&gt;
-
-&lt;p&gt;Take a look at the &lt;a href=&#34;https://m0ru.github.io/media/subjective_objectives/subjective_objective_notes.pdf&#34;&gt;&lt;strong&gt;written notes and sketches&lt;/strong&gt;&lt;/a&gt; if you want to get a detailed look at the design process. I&amp;rsquo;ll try to give a quick overview in this section.&lt;/p&gt;
-
-&lt;p&gt;Most of the &lt;a href=&#34;https://designerlythinking.wordpress.com/2011/04/10/inductive-design-and-the-%E2%80%98primary-generator%E2%80%99/&#34;&gt;generators&lt;/a&gt; fall into roughly two categories: those &lt;strong&gt;starting from mechanics&lt;/strong&gt; (like &amp;ldquo;bidding systems&amp;rdquo; or &amp;ldquo;hidden objectives/values&amp;rdquo;) and those approaching the challenge &lt;strong&gt;from a more thematic angle&lt;/strong&gt; (like &amp;ldquo;food waste &amp;amp; dumpstering&amp;rdquo;, &amp;ldquo;lifestyle priorities in shared living&amp;rdquo; and &amp;ldquo;poverty and human needs&amp;rdquo;). Some yet fell in neither (e.g. &amp;ldquo;realising your own values/priorities via a questionaire and guessing another&amp;rsquo;s answers&amp;rdquo;).&lt;/p&gt;
-
-&lt;p&gt;Somewhere around the halfway point of the initial sketching the rough idea for &amp;ldquo;Subjective Objectives&amp;rdquo; had already evolved as something that should be playable (and most likely also enjoyable) from beginning to end (page 2 and 3 in the linked pdf). What really itched me at that point, was that except for superficial theming the &amp;ldquo;only&amp;rdquo; (one of two) mechanic(s) linking it to the challenge was the one of &lt;strong&gt;&amp;ldquo;hidden objectives/values&amp;rdquo;&lt;/strong&gt;. Thus I tried hard to come up with enjoyable and fitting mechanics for the theme-based generators. However I utterly failed to find anything that both fit any of the themes and might create good gameplay (pages 5 to 8). Thus &lt;strong&gt;I decided for playability over strong theming&lt;/strong&gt; and went for &amp;ldquo;Subjective Objectives&amp;rdquo; which I had already designed on a bit (pages 3 to 5).&lt;/p&gt;
-
-&lt;p&gt;The game started out from the &amp;ldquo;hidden and subjective objectives/idea&amp;rdquo;-idea with a sprinkle of &amp;ldquo;let&amp;rsquo;s &lt;strong&gt;break&lt;/strong&gt; a bit &lt;strong&gt;with classical card-gameplay&lt;/strong&gt; like poker-/schnapsen&amp;rdquo;. The first version was sort of a directed domino where every player tries to play towards their respective target point/location which are close together - at first cooperating to move forward in the rough direction of their goals but working against each other more by the end (see page 2 at the bottom left). The other idea was to get players to try to construct simple poker hands (see page 3 at the top) discussing the idea with colleagues  while playing four-wins. After discussing the idea with a few colleagues I radically &lt;strong&gt;simplified&lt;/strong&gt; it, at first only trying it with &lt;strong&gt;one dimension&lt;/strong&gt; to &lt;strong&gt;construct combinations&lt;/strong&gt; from (four colors as can be seen on page 3). After a bit more pondering and playing against myself I also &lt;strong&gt;added the numbers&lt;/strong&gt; (one to four) as second dimension. Before that, deducing the opponents objective was too trivial. With these two dimension for combinations a limited amount of &lt;strong&gt;deception/obfuscation&lt;/strong&gt;, to make deduction harder, &lt;strong&gt;became possible&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;This game design process pattern of &lt;strong&gt;&amp;ldquo;Starting with an as minimalistic set of mechanics as possible and only introducing new ones sparingly and when they&amp;rsquo;re unmistakeably needed&amp;rdquo;&lt;/strong&gt; is one of my main take-aways from this challenge.&lt;/p&gt;
-
-&lt;p&gt;Also I added a bit of theming to direct the interpretation of the mechanics - the &lt;strong&gt;colors are things people&lt;/strong&gt; might &lt;strong&gt;value/prioritize&lt;/strong&gt; subjectively in their lives: red hearts for &amp;ldquo;friendship/love&amp;rdquo;, green houses for &amp;ldquo;lifestyle quality&amp;rdquo;, yellow coins for &amp;ldquo;money and career&amp;rdquo; and blue wrenches for &amp;ldquo;work and self-realisation&amp;rdquo; (see page 4)&lt;/p&gt;
-
-&lt;p&gt;Already during that stage and more intensly following it, I did a &lt;strong&gt;series of playtests&lt;/strong&gt; to rough out the edges. One of the biggest issues they turned up, was that memorizing which cards your opponent had played was more vital than the actual deduction itself. Due to the &lt;strong&gt;cognitive load of memorization&lt;/strong&gt; the initial games consisted of players more or less randomly placing cards, overwhelmed by the complexity, just avoiding anything that might result in three-in-a-row that might turn into four. This
-cognitive overhead hadn&amp;rsquo;t much to do with the game&amp;rsquo;s originally &lt;strong&gt;intended focus&lt;/strong&gt; of trying to &lt;strong&gt;deduce the other players objectives&lt;/strong&gt;. The fix came relatively natural. I gave every player their own deck with a &lt;strong&gt;distinctly colored frame&lt;/strong&gt;. That way even later it was obvious who had played what. However no easy solution came to mind to denote the order of played cards. At least not without adding extra effort for the players - like placing numbered tokens onto them when they&amp;rsquo;re played.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Other changes&lt;/strong&gt; were:&lt;/p&gt;
-
-&lt;p&gt;Moving the &lt;strong&gt;redraw&lt;/strong&gt; to the &lt;strong&gt;end of the turn&lt;/strong&gt; to give extra &lt;strong&gt;time to formulate plans&lt;/strong&gt;. But also because most players forgot to draw before their turns. They thended to already have plans before drawing and where focussed on those (forgetting everything else). To counteract this change.&lt;/p&gt;
-
-&lt;p&gt;The &lt;strong&gt;hand size&lt;/strong&gt; was increased to six, so players had more tactical options.&lt;/p&gt;
-
-&lt;p&gt;And finally, as one of the games ended tied due to deck-death far too early in my opinion, I &lt;strong&gt;doubled the number of cards&lt;/strong&gt; every player gets as deck.&lt;/p&gt;
-
-&lt;h1 id=&#34;the-rules:289d46cad905d21d73e92f507e398379&#34;&gt;The Rules&lt;/h1&gt;
-
-&lt;p&gt;The game can be played with &lt;strong&gt;two to four players&lt;/strong&gt;. Playtests where made with &lt;strong&gt;two players&lt;/strong&gt; so far, thus this is the &lt;strong&gt;recommended&lt;/strong&gt; number of players for now.&lt;/p&gt;
-
-&lt;p&gt;Every participating player gets a &lt;a href=&#34;https://m0ru.github.io/media/subjective_objectives/subjective_objective_cards.pdf&#34;&gt;&lt;strong&gt;deck of cards&lt;/strong&gt;&lt;/a&gt; with their chosen color (e.g. orange and violet in the linked pdf). Each deck should contain the numbers &lt;strong&gt;one to four&lt;/strong&gt; in all of the &lt;strong&gt;four colors&lt;/strong&gt; (yellow coins, green houses, red hearts, blue wrenches) &lt;strong&gt;twice&lt;/strong&gt;. If you&amp;rsquo;re printing the game, print the linked pdf twice!&lt;/p&gt;
-
-&lt;p&gt;As you can see, the card-set also contains &lt;strong&gt;objective cards&lt;/strong&gt;. Create &lt;strong&gt;two stacks&lt;/strong&gt; of these: one with the &lt;strong&gt;numbers&lt;/strong&gt; one to four and one with the four &lt;strong&gt;colors&lt;/strong&gt;. The objectives in each stack should be unique (i.e. every number and color should occur &lt;strong&gt;exactly once&lt;/strong&gt;). Thus when printing, discard one set of objective cards.&lt;/p&gt;
-
-&lt;p&gt;At the beginning every player gets &lt;strong&gt;six hand cards&lt;/strong&gt;. Pick a method of your liking to determine the first player, e.g. playing rock-paper-scissors(-lizard-spock). That player then places one of their cards on the table. Going clock-wise every other player then has to &lt;strong&gt;place&lt;/strong&gt; a card &lt;strong&gt;directly next&lt;/strong&gt; to that card (above, to the left, the right or below). This continues until one player fulfills at least one of their &lt;strong&gt;victory conditions&lt;/strong&gt;, namely when &lt;strong&gt;four&lt;/strong&gt; of &lt;strong&gt;their color or their number&lt;/strong&gt; lie in a &lt;strong&gt;row, column or diagonal&lt;/strong&gt;. If multiple players fulfill at least one of their victory conditions at the &lt;strong&gt;same time&lt;/strong&gt;, the game &lt;strong&gt;ends in a draw&lt;/strong&gt;. If you&amp;rsquo;re playing several rounds and counting games won per player, give all winning players a point.&lt;/p&gt;
-
-&lt;h1 id=&#34;gameplay:289d46cad905d21d73e92f507e398379&#34;&gt;Gameplay&lt;/h1&gt;
-
-&lt;p&gt;As in classical four-wins the &lt;strong&gt;mid-term goal&lt;/strong&gt; is to construct a &lt;strong&gt;row of threes&lt;/strong&gt; that you can build into a row of fours on you next turn no matter what your opponent plays (&amp;ldquo;Atari&amp;rdquo; in Go-Terms, a &amp;ldquo;Fork&amp;rdquo; in Chess-language). This gets complicated by the fact that you only can place in a four-neighbourhood but construct rows diagonally as well and even more by the fact, that you &lt;strong&gt;don&amp;rsquo;t always have the color or number&lt;/strong&gt; that you&amp;rsquo;d need to finish on your hand.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Cards that you don&amp;rsquo;t need&lt;/strong&gt; for your subjective objectives can be used to block your opponents plays and obfuscate your own objectives. However you should try not to unintentionally help them, when you don&amp;rsquo;t know their objectives and give them a pair that they can use to construct a fork/atari-situation - or even worse a row of threes they can simply finish.&lt;/p&gt;
-
-&lt;p&gt;There&amp;rsquo;s a &lt;strong&gt;small first-turn advantage&lt;/strong&gt;, as the player going first can opt to go for a fork/atari straight away and force the opponent to react. However, doing so gives away your objective really fast, giving said opponent an edge. On the other hand exactly this sequence of events might be used to put forward a &lt;strong&gt;facade / a fake objective&lt;/strong&gt; and surprise your opponent later.&lt;/p&gt;
-
-&lt;p&gt;Almost all of the game&amp;rsquo;s depth comes from this tension between obfuscation and deduction.&lt;/p&gt;
-
-&lt;h1 id=&#34;side-note-for-grading:289d46cad905d21d73e92f507e398379&#34;&gt;Side-Note for Grading&lt;/h1&gt;
-
-&lt;p&gt;I did this challenge &lt;strong&gt;alone&lt;/strong&gt; (except for the one set of discussions mentioned above) and spent roughly &lt;strong&gt;ten hours&lt;/strong&gt; on the design and &lt;strong&gt;another four&lt;/strong&gt; to write this article.&lt;/p&gt;
 </description>
     </item>
     

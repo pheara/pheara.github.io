@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="Methods for Studying Algorithms &middot; Moru’s Ramblings ">
+        <meta property="og:site_name" content="Moru’s Ramblings"/>
+        <meta property="og:description" content="A collection of game-design ideas">
+        <meta property="og:url" content="https://m0ru.github.io/article/methods-for-studying-algorithms/" />
+        <meta property="og:locale" content="en-US">
+        <meta name="author" content="Moru">
+        <meta name="description" content="A collection of game-design ideas">
+        <meta name="keywords" content="game design, moru">
+        <meta name="generator" content="Hugo 0.16-DEV" />
+        <link rel="icon" href="https://m0ru.github.io/assets/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://m0ru.github.io/css/slender-base.css">
+        <link rel="stylesheet" href="https://m0ru.github.io/css/slender-color-schemes.css">
+        <link rel="stylesheet" href="https://m0ru.github.io/assets/icons/sprite.css">
+        <link rel="stylesheet" href="https://m0ru.github.io/css/font-awesome-4.5.0.min.css">
+        <link rel="stylesheet" href="https://m0ru.github.io/css/highlight-9.0.0-default.min.css">
+        <title>
+            
+                Methods for Studying Algorithms &middot; Moru’s Ramblings
+            
+        </title>
+    </head>
+    <body class="color-scheme-white">
+        <div class="container">
+            <header>
+                <nav>
+                    <ul><li><a href="https://m0ru.github.io/">home</a></li><li><a href="https://m0ru.github.io/about/">about</a></li></ul>
+                </nav>
+                
+                    <h1 class="post-title">Methods for Studying Algorithms</h1>
+                    <aside>
+                          
+                        <span>
+                          on
+                          <strong>Wed, Oct 05, 2016</strong>
+                        </span>
+                        
+                        <span>
+                          |
+                          Tagged:
+                        </span>
+                        <ul class="tags">
+                          
+                            <li><a href="/tags/critical-algorithm-studies">Critical Algorithm Studies</a> </li>
+                          
+                            <li><a href="/tags/methods-mini-series">Methods Mini-Series</a> </li>
+                          
+                        </ul>
+                        
+                
+            </header>
+
+<article class="article-content">
+    
+
+<p>At last, this is the third part of the <a href="/tags/methods-mini-series/">mini-series on “studying algorithms”</a>. The previous try to explain <a href="/article/why-study-algorithms/">why doing so is important</a> and the <a href="/article/challenges-when-studying-algorithms/">difficulties you might encounter</a> while doing so.</p>
+
+<p>So, now let’s get to the actual “Hows”. The following sections are high-level overviews over some methods that are out there. They should help you with deciding which to dive deeper into when studying algorithms.</p>
+
+<h2 id="studying-the-people:aa88aa933682d0ebaaa96c5da2043488">Studying the people</h2>
+
+<p>To understand an algorithm, it often helps to know where it came from and for whom it was built. For this studying the people and businesses who created it and the people who use it can be useful. For this, there’s a variety of methods commonly used in social sciences. Usually they’re divided into qualitative (e.g. interviews) and quantitative (e.g. questionnaires) ones.</p>
+
+<p>Qualitative methods also include ethnographic field studies – an example would be observing coding teams at work. This can allow to understand the culture and assumptions that the algorithm came from. “How to Study Algorithms”&nbsp;<sup><a href="#ref:HtS">ref:HtS</a></sup> mentions that it can be hard to gain access to the teams for this, though. In the same article John Danaher points out, that you can also widen the focus and study “the full set of legal, economic, institutional, technological, bureaucratic, political (etc) forces” that might influence the algorithm’s development.</p>
+
+<p>On the quantitative side of things, you can give people questionnaires. The authors of “Auditing Algorithms”&nbsp;<sup><a href="#ref:AAg">ref:AAg</a></sup> point out a problem of questionnaires: There is a difference between what people do and what they perceived, remember and report. To avoid this problem, you can ask them to allow you to collect data automatically (e.g. via a browser plugin or a tracking script).</p>
+
+<h2 id="reading-the-source:aa88aa933682d0ebaaa96c5da2043488">Reading the Source</h2>
+
+<p>This method can be used if the sources are available – either because they have been open-sourced or because you’re one of the trusted auditors&nbsp;<sup><a href="#ref:Opc">ref:Opc</a></sup> mentioned above. Reading them and their documentation can help with understanding what the algorithm is doing. You can gather additional data by looking at the changes the code underwent over-time or by comparing implementations in different languages and frameworks.</p>
+
+<p>There’s two problems you’ll probably run into:</p>
+
+<p>Firstly, the <a href="/article/challenges-when-studying-algorithms/#scale">size of code-bases</a>.</p>
+
+<p>Secondly, that discrimination won’t be something hard-coded in a single code-block. It can be spread out over the entire thing; you will probably only find it if you read between the lines. Almost certainly you won’t find a block like the following anywhere:</p>
+
+<pre><code> if ($race = NOT_CAUCASIAN) then {
+   illegal_discrimination()
+ };
+</code></pre>
+
+<h2 id="implement-it-yourself:aa88aa933682d0ebaaa96c5da2043488">Implement it Yourself</h2>
+
+<p>The idea is that by implementing the system yourself, you will understand the required steps and parts better by doing so. Rob Kitchin named this method  “Reflexively producing code” in his paper “Thinking Critically About and Researching Algorithms”&nbsp;<sup><a href="#ref:Crt">ref:Crt</a></sup></p>
+
+<p>The inspiration for this approach are auto-ethnographic methods. Examples for these are keeping a journal/diary and observing one-self. As with any of them, your personal biases, assumptions and views will strongly influence the results.</p>
+
+<h2 id="scraping-a-id-scraping-a:aa88aa933682d0ebaaa96c5da2043488">Scraping <a id="scraping"></a></h2>
+
+<p>You download the entire thing, e.g. a set of home-pages, and explore them, e.g. by clustering them. The article “Auditing Algorithms”&nbsp;<sup><a href="#ref:AAg">ref:AAg</a></sup> lists several limitations for this though:</p>
+
+<p>Some pages constantly change as they’re personalized (e.g. Google results differ between persons and searches)</p>
+
+<p>It might be necessary to log in manually or fill a captchas</p>
+
+<p>There most likely will be legal restrictions, e.g. in the Terms of Service, that forbid you from doing this.</p>
+
+<p>In the case of smaller servers it might even significantly tax the performance. This in turn will probably cost the provider money and worsen the experience of other users.</p>
+
+<p>Lastly, another problem it shares with a few other methods, is that there’s no independent variable. These are elements you directly manipulate, to observe the resulting changes. An example would be something you enter into a search-box and the search-results you get. In comparison, scraping usually tries to just load everything. This might make it hard to impossible to find out what is the cause of things. It also makes it more prone to any personal biases and hidden assumptions.</p>
+
+<h2 id="black-box-audit:aa88aa933682d0ebaaa96c5da2043488">Black Box Audit</h2>
+
+<p>You systematically, but manually input different things into the algorithm (e.g. queries in Google’s search box). This input is your independent variable. Then you look at the differences in the output. From them, you can try to figure out what happens inside the algorithm.</p>
+
+<p>However, usually you can’t collect too much data by hand. This in turn makes rather hard to completely understand what really causes the results. If you do the inputting automatically and generate a lot of results, evaluating them can become a challenge.</p>
+
+<h2 id="sock-puppet-audit-a-id-sock-puppet-audit-a:aa88aa933682d0ebaaa96c5da2043488">Sock Puppet Audit <a id="sock_puppet_audit"></a></h2>
+
+<p>This method, described in “Auditing Algorithms”&nbsp;<sup><a href="#ref:AAg">ref:AAg</a></sup>, for instance is suited for studying social networks.</p>
+
+<p>The basic idea is as follows: You start by creating fake accounts (the “sock puppets”). Then you flesh them out as far as necessary to make the algorithm register them as real humans. The point is to have some of these accounts vary in some way, e.g. their name and picture communicate different genders; these are your independent variables.</p>
+
+<p>As opposed to <a href="#scraping">scraping</a>, this method can deal with login walls.</p>
+
+<p>Even more importantly, having independent variables allows reasoning about cause and effect. Socket puppets still suffer from the same legal restrictions as scraping though. Also, there’s the question of how much data do puppets need to be “real enough”.</p>
+
+<p>As a distinct downside, this method is usually used without the prior consent of the people running the algorithms. The fake data from the sock puppets can negatively influence the algorithm. This is especially the case, when there’s not many other users. Think of this before using the method and make sure to always get consent afterwards!</p>
+
+<p>Also, as the method is often used to prove guilt, you should take extra care with your choices: what you try verify/falsify as well as which independent variables to use.</p>
+
+<h2 id="collaborative-audit:aa88aa933682d0ebaaa96c5da2043488">Collaborative Audit</h2>
+
+<p>To deal with the issues of legality and realness of <a href="#sock_puppet_audit">sock puppet audits</a>, you can also hire a lot of human testers, as “Auditing Algorithms”&nbsp;<sup><a href="#ref:AAg">ref:AAg</a></sup> sugggests. For this you can for instance use crowd-sourcing platforms like <a href="https://www.mturk.com/">Mechanical Turk</a> (US-only atm). The independent variable then depends on who you chose to recruit.</p>
+
+<p>However, this method has some limitations too:</p>
+
+<p>It’s more expensive as you have to pay the testers. Also, at least for Mechanical Turk, the tasks you give people need to be very short
+and well defined, e.g. “perform task X, save the resulting HTML and send it to us”.</p>
+
+<p>In some cases a community of volunteers can get together to do collaborative audits together, making the process a lot more affordable.</p>
+
+<h2 id="further-reading:aa88aa933682d0ebaaa96c5da2043488">Further Reading</h2>
+
+<p>If you found methods that interest you in more detail, I can recommend to check out the articles and papers below. The method descriptions above also contain links to the paper(s) they draw from.</p>
+
+<p>If you want to learn about the broader topic of critical algorithm studies the reading list(s) should give you a good start: The <a href="https://socialmediacollective.org/reading-lists/critical-algorithm-studies/">general reading list</a> containing all papers and the <a href="https://algorithmstudies.files.wordpress.com/2016/03/readings.pdf">one we used</a> – that is an extract of the former, filtered by readability from informatic-students viewpoints. Also, there is a podcast at <a href="http://ethicalmachines.com/">http://ethicalmachines.com/</a> that might be of some interest to you.</p>
+
+<ul>
+<li>[links] <a href="https://socialmediacollective.org/reading-lists/critical-algorithm-studies/">“Critical Algorithm Studies: a Reading List”</a> by the Socialmediacollective.
+
+<ul>
+<li>[links] <a href="https://algorithmstudies.files.wordpress.com/2016/03/readings.pdf">a variant</a> that has been filtered by readability from Informatic-students viewpoints (this is the list we used)</li>
+</ul></li>
+<li>[podcast] <a href="http://ethicalmachines.com/">“Ethical Machines: Conversations about Humans, Machines and Ethics” </a></li>
+<li>[magazine] “Model View Culture: A magazine about technology, culture and diversity” <a href="https://modelviewculture.com/">https://modelviewculture.com/</a></li>
+<li><a id="ref:MC" href="#ref:MC"><strong>[MC]</strong></a> – Noble, Safiya. 2012. <a href="https://safiyaunoble.files.wordpress.com/2012/03/54_search_engines.pdf"><em>“Missed Connections: What Search Engines Say about Women”</em></a>. Bitch magazine , 12(4): 37­41. [4 pages]</li>
+<li><a id="ref:Rge" href="#ref:Rge"><strong>[Rge]</strong></a> – Diakopolous, Nick. 2013. <a href="http://www.theatlantic.com/technology/archive/2013/10/rage-against-the-algorithms/280255/"><em>“Rage against the Algorithms”</em></a> The Atlantic, October 3. [blog article]</li>
+<li><a id="ref:HtS" href="#ref:HtS"><strong>[HtS]</strong></a> – <a href="https://algocracy.wordpress.com/2016/03/14/how-to-study-algorithms-challenges-and-methods/">“How to Study Algorithms: Challenges and Methods”</a>, <a href="http://hplusmagazine.com/2015/07/28/how-to-study-algorithms-challenges-and-methods/">alternative link</a> [blog article]</li>
+<li><a id="ref:Crt" href="#ref:Crt"><strong>[Crt]</strong></a> – Kitchin, Rob. 2014. <a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2515786">“Thinking Critically About and Researching Algorithms”</a> [29 pages]</li>
+<li><a id="ref:AAg" href="#ref:AAg"><strong>[AAg]</strong></a> – Sandvig, Christian, Kevin Hamilton, Karrie Karahalios, and Cedric Langbort. 2014. <a href="http://www-personal.umich.edu/~csandvig/research/Auditing%20Algorithms%20--%20Sandvig%20--%20ICA%202014%20Data%20and%20Discrimination%20Preconference.pdf">“Auditing Algorithms: Research Methods for Detecting Discrimination on Internet Platforms.”</a> Data and Discrimination: Converting Critical Concerns into Productive Inquiry , 64th Annual Meeting of the International Communication Association. May 22, 2014, Seattle, WA, USA. [18 pages]</li>
+<li><a id="ref:Opc" href="#ref:Opc"><strong>[Opc]</strong></a> – Burrell, Jenna. 2015. <a href="http://bds.sagepub.com/content/3/1/2053951715622512">“How the Machine ‘Thinks:’ Understanding Opacity in Machine Learning Algorithms.”</a> [18 pages]</li>
+<li><a id="ref:Emp" href="#ref:Emp"><strong>[Emp]</strong></a> – Hooker, J.N. 1994. <a href="http://www.akira.ruc.dk/~keld/teaching/algoritmedesign_f08/Artikler/01/Hooker93.pdf">“Needed: An Empirical Science of Algorithms.”</a> Operations Research 42(2): 201­212. [23 pages]</li>
+<li><a id="ref:WwM" href="#ref:WwM"><strong>[WwM]</strong></a> – Lee, Min Kyung, Kusbit, Daniel, Metsky, Evan and Dabbish, Laura. 2015. <a href="http://dl.acm.org/citation.cfm?id=2702548">“Working with Machines: The Impact of Algorithmic and Data-­Driven Management on Human Workers”</a> CHI ’15 Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems: 1603-­1612 [10 pages from &ldquo;Algorithmic Culture&rdquo;-section]</li>
+</ul>
+
+<!--
+
+Target: students who want to learn about methods to employ them
+Goal: give summary and pointers to start diving deeper ("if you have the problem X read Y")
+
+Run checkers for spelling and reading-level (high-school!)
+
+TODO
+
+* have someone with a more profound basis in social sciences read over it
+* have first-semesters read over it
+-->
+
+</article>
+        </div>
+        
+        <script src="https://m0ru.github.io/js/highlight-9.0.0.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        
+    </body>
+</html>
