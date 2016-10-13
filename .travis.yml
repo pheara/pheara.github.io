@@ -3,7 +3,7 @@ go:
 - 1.6.2
 env:
   global:
-  - SSH_KEY="id_rsa"
+  - SSH_KEY="travis_key"
   - GIT_NAME="Kevin Singer"
   - GIT_EMAIL="e1028092@student.tuwien.ac.at"
   - SOURCE_DIR="public"
