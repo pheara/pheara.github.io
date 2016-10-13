@@ -6,7 +6,7 @@ title = "Moru’s Ramblings"
 languageCode = "en-US"
 MetaDataFormat = "toml"
 theme = "custom"
-paginate = 3
+paginate = 5
 PaginatePath = "/"
 
 [author]
