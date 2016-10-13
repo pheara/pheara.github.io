@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Moru’s Ramblings</title>
-    <link>https://m0ru.github.io/post/</link>
-    <description>Recent content in Posts on Moru’s Ramblings</description>
+    <title>Post-rsses on Moru’s Ramblings</title>
+    <link>https://m0ru.github.io/post/index.xml</link>
+    <description>Recent content in Post-rsses on Moru’s Ramblings</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 06 Oct 2016 11:55:32 +0200</lastBuildDate>
@@ -15,26 +15,26 @@
       <pubDate>Thu, 06 Oct 2016 11:55:32 +0200</pubDate>
       
       <guid>https://m0ru.github.io/article/challenges-when-studying-algorithms/</guid>
-      <description>
-
-&lt;p&gt;This is part two of the &lt;a href=&#34;https://m0ru.github.io/tags/methods-mini-series/&#34;&gt;mini-series on “studying algorithms”&lt;/a&gt;. If you are curious why studying these might be important at all, check out the &lt;a href=&#34;https://m0ru.github.io/article/why-study-algorithms/&#34;&gt;previous post&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;This is part two of the &lt;a href=&#34;https://m0ru.github.io/tags/methods-mini-series/&#34;&gt;mini-series on “studying algorithms”&lt;/a&gt;. If you are curious why studying these might be important at all, check out the &lt;a href=&#34;https://m0ru.github.io/article/why-study-algorithms/&#34;&gt;previous post&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;So, what complicates things, is that unearthing the biases within algorithms isn’t a trivial feat – several issues can make it hard to understand what’s going on.&lt;/p&gt;
 
-&lt;h2 id=&#34;dynamic:6ba466b578729bbd2ec2133c0cd998cc&#34;&gt;Dynamic&lt;/h2&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;dynamic&#34;&gt;Dynamic&lt;/h2&gt;
 
 &lt;p&gt;For one, those systems are &lt;em&gt;constantly changing&lt;/em&gt; as they’re being developed, bugs are fixed and they’re tweaked to deal with changing requirements. Thus, any study can only look at a snapshot of an algorithm – usually the latest one. This might mean, that older studies’ findings might be deprecated.&lt;/p&gt;
 
 &lt;p&gt;Also, algorithms are &lt;em&gt;“out of control”&lt;/em&gt;, as John Danaher puts it in “How to Study Algorithms: Challenges and Methods”&amp;nbsp;&lt;sup&gt;&lt;a href=&#34;#ref:HtS&#34;&gt;ref:HtS&lt;/a&gt;&lt;/sup&gt;. One way this manifests is that they have &lt;em&gt;unforeseen consequences&lt;/em&gt; that the developers never intended – e.g. the sexist Google results mentioned above. Another way would be that people can use them in ways the developers never foresaw. E.g. “Working with Machines”&amp;nbsp;&lt;sup&gt;&lt;a href=&#34;#ref:WwM&#34;&gt;ref:WwM&lt;/a&gt;&lt;/sup&gt; mentions Uber-drivers strategically turning their app on and off, to influence which
 passengers they get, which in turn impacts the experience for passengers in some areas. This factor influences attempts to study the algorithm via studying its developers.&lt;/p&gt;
 
-&lt;h2 id=&#34;source-accessibility:6ba466b578729bbd2ec2133c0cd998cc&#34;&gt;Source Accessibility&lt;/h2&gt;
+&lt;h2 id=&#34;source-accessibility&#34;&gt;Source Accessibility&lt;/h2&gt;
 
 &lt;p&gt;One of the biggest challenges tends to be &lt;em&gt;black boxing&lt;/em&gt;. A lot of companies keep their &lt;em&gt;code secret&lt;/em&gt; to protect their trade secrets / intellectual property, to prevent people from gaming the system (e.g. by google-bombing) or to obfuscate themselves against scrutiny and legislation. In “How the Machine ‘Thinks’”&amp;nbsp;&lt;sup&gt;&lt;a href=&#34;#ref:Opc&#34;&gt;ref:Opc&lt;/a&gt;&lt;/sup&gt; Jenna Burrel recommends to install a system of trusted auditors who can get access to the code without it being open sourced to the public.&lt;/p&gt;
 
 &lt;p&gt;Then of course &lt;em&gt;technical literacy&lt;/em&gt; can be a problem. A lot of people in investigative journalism and even in tech journalism lack the schooling to understand what’s going on these systems. I assume a lot of computer scientists would, in turn lack the journalistic capabilities and drive to produce good articles. Jenna Burrel&amp;nbsp;&lt;sup&gt;&lt;a href=&#34;#ref:Opc&#34;&gt;ref:Opc&lt;/a&gt;&lt;/sup&gt; asks for educating journalists that can study algorithm.&lt;/p&gt;
 
-&lt;h2 id=&#34;scale-a-id-scale-a:6ba466b578729bbd2ec2133c0cd998cc&#34;&gt;Scale &lt;a id=&#34;scale&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;scale-a-id-scale-a&#34;&gt;Scale &lt;a id=&#34;scale&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;Even if the source-code is available and the analyst is capable of comprehending it, the sheer &lt;em&gt;scale&lt;/em&gt; of modern algorithms might foil the exercise.
 &lt;a href=&#34;http://www.informationisbeautiful.net/visualizations/million-lines-of-code/&#34;&gt;This info-graphic on Information Is Beautiful&lt;/a&gt; by McCandles, Doughty-White and Quick lists Google’s code-base to amount to 4,000 billion lines of code, roughly 56 million times the length of Tolstoy’s War and Peace.&lt;/p&gt;
@@ -45,7 +45,7 @@ passengers they get, which in turn impacts the experience for passengers in some
 
 &lt;p&gt;Not only are code-bases huge, so are the teams working on them. In 2015 Google was listed to have roughly 30,000 engineers working for the company (&lt;a href=&#34;https://techcrunch.com/2015/03/17/the-back-office-developers/&#34;&gt;article on Techcrunch&lt;/a&gt;). This, again, complicates diagnosing any issue’s source by studying the development team.&lt;/p&gt;
 
-&lt;h2 id=&#34;implementation:6ba466b578729bbd2ec2133c0cd998cc&#34;&gt;Implementation&lt;/h2&gt;
+&lt;h2 id=&#34;implementation&#34;&gt;Implementation&lt;/h2&gt;
 
 &lt;p&gt;Additional to the issues mentioned so far that mostly arrive from the circumstances of development, some algorithms’ inner workings, how they go about things, might make it difficult for human readers to understand what’s going on.&lt;/p&gt;
 
@@ -59,18 +59,17 @@ networks&lt;/a&gt;) but can’t even be applied in all domains.&lt;/p&gt;
 
 &lt;p&gt;For these reasons Jenna Burrel&amp;nbsp;&lt;sup&gt;&lt;a href=&#34;#ref:Opc&#34;&gt;ref:Opc&lt;/a&gt;&lt;/sup&gt; advises avoiding machine learning for critical applications. In some cases learning/encoding logic rules – using so-called “expert systems” – might be an alternative as long as the number of rules leading to any decision stays manageable.&lt;/p&gt;
 
-&lt;h2 id=&#34;facit:6ba466b578729bbd2ec2133c0cd998cc&#34;&gt;Facit&lt;/h2&gt;
+&lt;h2 id=&#34;facit&#34;&gt;Facit&lt;/h2&gt;
 
 &lt;p&gt;These are some some of the challenges you might run into when studying algorithms. &lt;a href=&#34;https://m0ru.github.io/article/methods-for-studying-algorithms/&#34;&gt;The next post&lt;/a&gt; delves into the hows.&lt;/p&gt;
 
-&lt;h2 id=&#34;references:6ba466b578729bbd2ec2133c0cd998cc&#34;&gt;References&lt;/h2&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a id=&#34;ref:HtS&#34; href=&#34;#ref:HtS&#34;&gt;&lt;strong&gt;[HtS]&lt;/strong&gt;&lt;/a&gt; – &lt;a href=&#34;https://algocracy.wordpress.com/2016/03/14/how-to-study-algorithms-challenges-and-methods/&#34;&gt;“How to Study Algorithms: Challenges and Methods”&lt;/a&gt;, &lt;a href=&#34;http://hplusmagazine.com/2015/07/28/how-to-study-algorithms-challenges-and-methods/&#34;&gt;alternative link&lt;/a&gt; [blog article]&lt;/li&gt;
 &lt;li&gt;&lt;a id=&#34;ref:WwM&#34; href=&#34;#ref:WwM&#34;&gt;&lt;strong&gt;[WwM]&lt;/strong&gt;&lt;/a&gt; – Lee, Min Kyung, Kusbit, Daniel, Metsky, Evan and Dabbish, Laura. 2015. &lt;a href=&#34;http://dl.acm.org/citation.cfm?id=2702548&#34;&gt;“Working with Machines: The Impact of Algorithmic and Data-­Driven Management on Human Workers”&lt;/a&gt; CHI ’15 Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems: 1603-­1612 [10 pages from &amp;ldquo;Algorithmic Culture&amp;rdquo;-section]&lt;/li&gt;
 &lt;li&gt;&lt;a id=&#34;ref:Opc&#34; href=&#34;#ref:Opc&#34;&gt;&lt;strong&gt;[Opc]&lt;/strong&gt;&lt;/a&gt; – Burrell, Jenna. 2015. &lt;a href=&#34;http://bds.sagepub.com/content/3/1/2053951715622512&#34;&gt;“How the Machine ‘Thinks:’ Understanding Opacity in Machine Learning Algorithms.”&lt;/a&gt; [18 pages]&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -79,13 +78,13 @@ networks&lt;/a&gt;) but can’t even be applied in all domains.&lt;/p&gt;
       <pubDate>Wed, 05 Oct 2016 18:27:45 +0200</pubDate>
       
       <guid>https://m0ru.github.io/article/methods-for-studying-algorithms/</guid>
-      <description>
-
-&lt;p&gt;At last, this is the third part of the &lt;a href=&#34;https://m0ru.github.io/tags/methods-mini-series/&#34;&gt;mini-series on “studying algorithms”&lt;/a&gt;. The previous try to explain &lt;a href=&#34;https://m0ru.github.io/article/why-study-algorithms/&#34;&gt;why doing so is important&lt;/a&gt; and the &lt;a href=&#34;https://m0ru.github.io/article/challenges-when-studying-algorithms/&#34;&gt;difficulties you might encounter&lt;/a&gt; while doing so.&lt;/p&gt;
+      <description>&lt;p&gt;At last, this is the third part of the &lt;a href=&#34;https://m0ru.github.io/tags/methods-mini-series/&#34;&gt;mini-series on “studying algorithms”&lt;/a&gt;. The previous try to explain &lt;a href=&#34;https://m0ru.github.io/article/why-study-algorithms/&#34;&gt;why doing so is important&lt;/a&gt; and the &lt;a href=&#34;https://m0ru.github.io/article/challenges-when-studying-algorithms/&#34;&gt;difficulties you might encounter&lt;/a&gt; while doing so.&lt;/p&gt;
 
 &lt;p&gt;So, now let’s get to the actual “Hows”. The following sections are high-level overviews over some methods that are out there. They should help you with deciding which to dive deeper into when studying algorithms.&lt;/p&gt;
 
-&lt;h2 id=&#34;studying-the-people:aa88aa933682d0ebaaa96c5da2043488&#34;&gt;Studying the people&lt;/h2&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;studying-the-people&#34;&gt;Studying the people&lt;/h2&gt;
 
 &lt;p&gt;To understand an algorithm, it often helps to know where it came from and for whom it was built. For this studying the people and businesses who created it and the people who use it can be useful. For this, there’s a variety of methods commonly used in social sciences. Usually they’re divided into qualitative (e.g. interviews) and quantitative (e.g. questionnaires) ones.&lt;/p&gt;
 
@@ -93,7 +92,7 @@ networks&lt;/a&gt;) but can’t even be applied in all domains.&lt;/p&gt;
 
 &lt;p&gt;On the quantitative side of things, you can give people questionnaires. The authors of “Auditing Algorithms”&amp;nbsp;&lt;sup&gt;&lt;a href=&#34;#ref:AAg&#34;&gt;ref:AAg&lt;/a&gt;&lt;/sup&gt; point out a problem of questionnaires: There is a difference between what people do and what they perceived, remember and report. To avoid this problem, you can ask them to allow you to collect data automatically (e.g. via a browser plugin or a tracking script).&lt;/p&gt;
 
-&lt;h2 id=&#34;reading-the-source:aa88aa933682d0ebaaa96c5da2043488&#34;&gt;Reading the Source&lt;/h2&gt;
+&lt;h2 id=&#34;reading-the-source&#34;&gt;Reading the Source&lt;/h2&gt;
 
 &lt;p&gt;This method can be used if the sources are available – either because they have been open-sourced or because you’re one of the trusted auditors&amp;nbsp;&lt;sup&gt;&lt;a href=&#34;#ref:Opc&#34;&gt;ref:Opc&lt;/a&gt;&lt;/sup&gt; mentioned above. Reading them and their documentation can help with understanding what the algorithm is doing. You can gather additional data by looking at the changes the code underwent over-time or by comparing implementations in different languages and frameworks.&lt;/p&gt;
 
@@ -108,13 +107,13 @@ networks&lt;/a&gt;) but can’t even be applied in all domains.&lt;/p&gt;
  };
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;implement-it-yourself:aa88aa933682d0ebaaa96c5da2043488&#34;&gt;Implement it Yourself&lt;/h2&gt;
+&lt;h2 id=&#34;implement-it-yourself&#34;&gt;Implement it Yourself&lt;/h2&gt;
 
 &lt;p&gt;The idea is that by implementing the system yourself, you will understand the required steps and parts better by doing so. Rob Kitchin named this method  “Reflexively producing code” in his paper “Thinking Critically About and Researching Algorithms”&amp;nbsp;&lt;sup&gt;&lt;a href=&#34;#ref:Crt&#34;&gt;ref:Crt&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;p&gt;The inspiration for this approach are auto-ethnographic methods. Examples for these are keeping a journal/diary and observing one-self. As with any of them, your personal biases, assumptions and views will strongly influence the results.&lt;/p&gt;
 
-&lt;h2 id=&#34;scraping-a-id-scraping-a:aa88aa933682d0ebaaa96c5da2043488&#34;&gt;Scraping &lt;a id=&#34;scraping&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;scraping-a-id-scraping-a&#34;&gt;Scraping &lt;a id=&#34;scraping&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;You download the entire thing, e.g. a set of home-pages, and explore them, e.g. by clustering them. The article “Auditing Algorithms”&amp;nbsp;&lt;sup&gt;&lt;a href=&#34;#ref:AAg&#34;&gt;ref:AAg&lt;/a&gt;&lt;/sup&gt; lists several limitations for this though:&lt;/p&gt;
 
@@ -128,13 +127,13 @@ networks&lt;/a&gt;) but can’t even be applied in all domains.&lt;/p&gt;
 
 &lt;p&gt;Lastly, another problem it shares with a few other methods, is that there’s no independent variable. These are elements you directly manipulate, to observe the resulting changes. An example would be something you enter into a search-box and the search-results you get. In comparison, scraping usually tries to just load everything. This might make it hard to impossible to find out what is the cause of things. It also makes it more prone to any personal biases and hidden assumptions.&lt;/p&gt;
 
-&lt;h2 id=&#34;black-box-audit:aa88aa933682d0ebaaa96c5da2043488&#34;&gt;Black Box Audit&lt;/h2&gt;
+&lt;h2 id=&#34;black-box-audit&#34;&gt;Black Box Audit&lt;/h2&gt;
 
 &lt;p&gt;You systematically, but manually input different things into the algorithm (e.g. queries in Google’s search box). This input is your independent variable. Then you look at the differences in the output. From them, you can try to figure out what happens inside the algorithm.&lt;/p&gt;
 
 &lt;p&gt;However, usually you can’t collect too much data by hand. This in turn makes rather hard to completely understand what really causes the results. If you do the inputting automatically and generate a lot of results, evaluating them can become a challenge.&lt;/p&gt;
 
-&lt;h2 id=&#34;sock-puppet-audit-a-id-sock-puppet-audit-a:aa88aa933682d0ebaaa96c5da2043488&#34;&gt;Sock Puppet Audit &lt;a id=&#34;sock_puppet_audit&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;sock-puppet-audit-a-id-sock-puppet-audit-a&#34;&gt;Sock Puppet Audit &lt;a id=&#34;sock_puppet_audit&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
 
 &lt;p&gt;This method, described in “Auditing Algorithms”&amp;nbsp;&lt;sup&gt;&lt;a href=&#34;#ref:AAg&#34;&gt;ref:AAg&lt;/a&gt;&lt;/sup&gt;, for instance is suited for studying social networks.&lt;/p&gt;
 
@@ -148,7 +147,7 @@ networks&lt;/a&gt;) but can’t even be applied in all domains.&lt;/p&gt;
 
 &lt;p&gt;Also, as the method is often used to prove guilt, you should take extra care with your choices: what you try verify/falsify as well as which independent variables to use.&lt;/p&gt;
 
-&lt;h2 id=&#34;collaborative-audit:aa88aa933682d0ebaaa96c5da2043488&#34;&gt;Collaborative Audit&lt;/h2&gt;
+&lt;h2 id=&#34;collaborative-audit&#34;&gt;Collaborative Audit&lt;/h2&gt;
 
 &lt;p&gt;To deal with the issues of legality and realness of &lt;a href=&#34;#sock_puppet_audit&#34;&gt;sock puppet audits&lt;/a&gt;, you can also hire a lot of human testers, as “Auditing Algorithms”&amp;nbsp;&lt;sup&gt;&lt;a href=&#34;#ref:AAg&#34;&gt;ref:AAg&lt;/a&gt;&lt;/sup&gt; sugggests. For this you can for instance use crowd-sourcing platforms like &lt;a href=&#34;https://www.mturk.com/&#34;&gt;Mechanical Turk&lt;/a&gt; (US-only atm). The independent variable then depends on who you chose to recruit.&lt;/p&gt;
 
@@ -159,7 +158,7 @@ and well defined, e.g. “perform task X, save the resulting HTML and send it to
 
 &lt;p&gt;In some cases a community of volunteers can get together to do collaborative audits together, making the process a lot more affordable.&lt;/p&gt;
 
-&lt;h2 id=&#34;further-reading:aa88aa933682d0ebaaa96c5da2043488&#34;&gt;Further Reading&lt;/h2&gt;
+&lt;h2 id=&#34;further-reading&#34;&gt;Further Reading&lt;/h2&gt;
 
 &lt;p&gt;If you found methods that interest you in more detail, I can recommend to check out the articles and papers below. The method descriptions above also contain links to the paper(s) they draw from.&lt;/p&gt;
 
@@ -194,8 +193,7 @@ TODO
 
 * have someone with a more profound basis in social sciences read over it
 * have first-semesters read over it
---&gt;
-</description>
+--&gt;</description>
     </item>
     
     <item>
@@ -204,15 +202,16 @@ TODO
       <pubDate>Tue, 04 Oct 2016 15:33:13 +0200</pubDate>
       
       <guid>https://m0ru.github.io/article/why-study-algorithms/</guid>
-      <description>
-
-&lt;p&gt;Last semester I’ve participated in a &lt;a href=&#34;https://algorithmstudies.wordpress.com/&#34;&gt;seminar on “Critical Algorithm Studies”&lt;/a&gt;. Collectively we worked through a &lt;a href=&#34;https://algorithmstudies.files.wordpress.com/2016/03/readings.pdf&#34;&gt;reading list&lt;/a&gt;, which is a filtered version of &lt;a href=&#34;(https://socialmediacollective.org/reading-lists/critical-algorithm-studies/&#34;&gt;the one published by the socialmediacollective&lt;/a&gt;. In particular, I dived deeper into the sub-list on &lt;em&gt;“Methods for Studying Algorithmic Systems”&lt;/em&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;Last semester I’ve participated in a &lt;a href=&#34;https://algorithmstudies.wordpress.com/&#34;&gt;seminar on “Critical Algorithm Studies”&lt;/a&gt;. Collectively we worked through a &lt;a href=&#34;https://algorithmstudies.files.wordpress.com/2016/03/readings.pdf&#34;&gt;reading list&lt;/a&gt;, which is a filtered version of [the one published by the socialmediacollective](
+(&lt;a href=&#34;https://socialmediacollective.org/reading-lists/critical-algorithm-studies/&#34;&gt;https://socialmediacollective.org/reading-lists/critical-algorithm-studies/&lt;/a&gt;). In particular, I dived deeper into the sub-list on &lt;em&gt;“Methods for Studying Algorithmic Systems”&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;The &lt;a href=&#34;https://m0ru.github.io/tags/methods-mini-series&#34;&gt;three posts of this mini-series&lt;/a&gt; are an attempt at summarizing those writings and a
 few others; you can find a complete list of the references at the bottom. :)
 The series should give you a &lt;em&gt;basic overview&lt;/em&gt; over the whys (&lt;a href=&#34;https://m0ru.github.io/article/why-study-algorithms/&#34;&gt;part 1&lt;/a&gt;) and challenges (&lt;a href=&#34;https://m0ru.github.io/article/challenges-when-studying-algorithms/&#34;&gt;part 2&lt;/a&gt;) of studying algorithms as well as some methods to do so (&lt;a href=&#34;https://m0ru.github.io/article/methods-for-studying-algorithms/&#34;&gt;part 3&lt;/a&gt;).&lt;/p&gt;
 
 &lt;p&gt;Anyway, enough preface, let’s get started. :)&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;When people think of algorithms – Google Search for example –
 they think of a system that’s impartial, neutral, objective and based on hard data. Most often the organizations behind these algorithms tend to foster this image. The same goes for bureaucracies, whose procedures are offline algorithms in a sense. Neither are free of bias and discrimination.&lt;/p&gt;
@@ -234,14 +233,13 @@ performance. Searching &lt;a href=&#34;https://www.google.at/search?tbm=isch&amp
 
 &lt;p&gt;&lt;a href=&#34;https://m0ru.github.io/article/challenges-when-studying-algorithms/&#34;&gt;The next part&lt;/a&gt; of this &lt;a href=&#34;https://m0ru.github.io/tags/methods-mini-series on “studying algorithms”&#34;&gt;mini-series&lt;/a&gt; explores some challenges you’ll encounter, when doing your own studies.&lt;/p&gt;
 
-&lt;h2 id=&#34;references:3f2bc3b9289b21bfd805de1814cd0d75&#34;&gt;References&lt;/h2&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a id=&#34;ref:MC&#34; href=&#34;#ref:MC&#34;&gt;&lt;strong&gt;[MC]&lt;/strong&gt;&lt;/a&gt; – Noble, Safiya. 2012. &lt;a href=&#34;https://safiyaunoble.files.wordpress.com/2012/03/54_search_engines.pdf&#34;&gt;&lt;em&gt;“Missed Connections: What Search Engines Say about Women”&lt;/em&gt;&lt;/a&gt;. Bitch magazine , 12(4): 37­41. [4 pages]&lt;/li&gt;
 &lt;li&gt;&lt;a id=&#34;ref:Rge&#34; href=&#34;#ref:Rge&#34;&gt;&lt;strong&gt;[Rge]&lt;/strong&gt;&lt;/a&gt; – Diakopolous, Nick. 2013. &lt;a href=&#34;http://www.theatlantic.com/technology/archive/2013/10/rage-against-the-algorithms/280255/&#34;&gt;&lt;em&gt;“Rage against the Algorithms”&lt;/em&gt;&lt;/a&gt; The Atlantic, October 3. [blog article]&lt;/li&gt;
 &lt;li&gt;&lt;a id=&#34;ref:AAg&#34; href=&#34;#ref:AAg&#34;&gt;&lt;strong&gt;[AAg]&lt;/strong&gt;&lt;/a&gt; – Sandvig, Christian, Kevin Hamilton, Karrie Karahalios, and Cedric Langbort. 2014. &lt;a href=&#34;http://www-personal.umich.edu/~csandvig/research/Auditing%20Algorithms%20--%20Sandvig%20--%20ICA%202014%20Data%20and%20Discrimination%20Preconference.pdf&#34;&gt;“Auditing Algorithms: Research Methods for Detecting Discrimination on Internet Platforms.”&lt;/a&gt; Data and Discrimination: Converting Critical Concerns into Productive Inquiry , 64th Annual Meeting of the International Communication Association. May 22, 2014, Seattle, WA, USA. [18 pages]&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -254,8 +252,8 @@ performance. Searching &lt;a href=&#34;https://www.google.at/search?tbm=isch&amp
 
 &lt;p&gt;You can find a WebGL export of &lt;a href=&#34;http://m0ru.github.io/waves/&#34;&gt;&lt;strong&gt;the game here&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/feather_and_waves/waves_prototype.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/feather_and_waves/waves_prototype.png&#34; class=&#34;figure&#34;&gt;
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -268,8 +266,8 @@ performance. Searching &lt;a href=&#34;https://www.google.at/search?tbm=isch&amp
 
 &lt;p&gt;You can &lt;a href=&#34;https://github.com/jankaVar/powersockets/releases/&#34;&gt;&lt;strong&gt;get the app here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/powersockets/powersockets_screenshot.jpg&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/powersockets/powersockets_screenshot.jpg&#34; class=&#34;figure&#34;&gt;
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -282,6 +280,8 @@ performance. Searching &lt;a href=&#34;https://www.google.at/search?tbm=isch&amp
 
 &lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/distraction_tactics/fetish_orcs-1.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/distraction_tactics/fetish_orcs-2.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;In it your orcish barbarians fight against the enemy one-by-one. To &lt;em&gt;dominate&lt;/em&gt; (*snicker*) the enemy, you need to pick from a set of suggestive garments. This allows your warrior to distract the enemy and &lt;em&gt;raise&lt;/em&gt; your troops morale. You always see your own barbarians fetishes (e.g. glasses) beforehand, and the enemies distracting element (e.g. g-string tanga) once they come up and have a limited time to gear-up your warrior for battle. Distraction-bonues come to bear directly in the same fight, whereas inspiration is an
@@ -291,8 +291,7 @@ investment into future pairings.&lt;/p&gt;
 
 &lt;p&gt;To beat as many opponents as possible you should be quick with matching the inspiring and distracting fetishes as well as making simple tactical decisions (distract now or inspire for later?).&lt;/p&gt;
 
-&lt;p&gt;Philipp’s feedback was to include some kind of higher-level storyline to keep it interesting over longer periods of time.&lt;/p&gt;
-</description>
+&lt;p&gt;Philipp’s feedback was to include some kind of higher-level storyline to keep it interesting over longer periods of time.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -306,6 +305,8 @@ investment into future pairings.&lt;/p&gt;
 &lt;p&gt;The babies aim to reenact the story of their favorite picture-book. This involves a slide on the playground, buying milk in a supermarket, visiting the elephant in the zoo,‥
 However, babies have no concept of where to drive and where not to drive. So they’ll drive to all these places that definitely weren’t designed for cars.&lt;/p&gt;
 
+&lt;p&gt;&lt;/p&gt;
+
 &lt;p&gt;The game is played in first person. Every player can only grab one thing at a time. One grabs things by looking at the object and pressing a button. For example you need to grab the steering wheel and drag it left and right to steer. To change the gear you need to hit the clutch and then pull the gearstick. We think the game should be interesting to play in VR, thus the simple, glance-based controls.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/my_first_car_theft/FirstCarTheft1.PNG&#34; class=&#34;figure&#34;&gt;
@@ -317,8 +318,7 @@ However, babies have no concept of where to drive and where not to drive. So the
 
 &lt;p&gt;To improve oneself it’s necessary to smartly divide responsibilities like navigation, steering, pushing pedals, changing gears, etc.&lt;/p&gt;
 
-&lt;p&gt;We got the feedback that looking-to-move is a rather bad idea and it would be better to either remove the movement altogether―and limit oneself to just looking―or move via looking plus button-press.&lt;/p&gt;
-</description>
+&lt;p&gt;We got the feedback that looking-to-move is a rather bad idea and it would be better to either remove the movement altogether―and limit oneself to just looking―or move via looking plus button-press.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -327,12 +327,12 @@ However, babies have no concept of where to drive and where not to drive. So the
       <pubDate>Mon, 18 Apr 2016 17:49:50 +0200</pubDate>
       
       <guid>https://m0ru.github.io/article/gangs-of-corros/</guid>
-      <description>
-
-&lt;p&gt;This weeks sketches can be found &lt;a href=&#34;https://m0ru.github.io/media/gangs_of_corros/sketches.pdf&#34;&gt;in this PDF&lt;/a&gt;:&lt;/p&gt;
+      <description>&lt;p&gt;This weeks sketches can be found &lt;a href=&#34;https://m0ru.github.io/media/gangs_of_corros/sketches.pdf&#34;&gt;in this PDF&lt;/a&gt;:&lt;/p&gt;
 
 &lt;p&gt;&lt;object data=&#34;/media/gangs_of_corros/sketches.pdf&#34; type=&#34;application/pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
 &lt;/object&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;This week&amp;rsquo;s challenge was to design a game of the genre we least liked to play. For Jonas Engl and me these were simulators and &lt;strong&gt;turn-based RPGs&lt;/strong&gt;.&lt;/p&gt;
 
@@ -352,10 +352,9 @@ general, attacks with special effects are a bit less effective, but provide a la
 
 &lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/gangs_of_corros/hacknslay_whiteboard.jpg&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;feedback:b03b903771f3c6ff2ddf574326ec03c0&#34;&gt;Feedback&lt;/h2&gt;
+&lt;h2 id=&#34;feedback&#34;&gt;Feedback&lt;/h2&gt;
 
-&lt;p&gt;It probably will be a lot better action and complexity-wise instead of picking all ganger’s attacks before resolving them to pick and resolve attacks opponent-pair by opponent-pair.&lt;/p&gt;
-</description>
+&lt;p&gt;It probably will be a lot better action and complexity-wise instead of picking all ganger’s attacks before resolving them to pick and resolve attacks opponent-pair by opponent-pair.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -364,19 +363,19 @@ general, attacks with special effects are a bit less effective, but provide a la
       <pubDate>Tue, 12 Apr 2016 15:46:01 +0200</pubDate>
       
       <guid>https://m0ru.github.io/article/teamrace-with-specials/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/racetrackspecials/racing_all.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/racetrackspecials/racing_all.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;TL;DR: A racing game, where you try to get your slowest team-member across the finish line first and can discover and do hidden jumping-and-bumping-challenges to activate special effects along the race track at the cost of occupying a team-member for a while. This is Wiktor Manczarski’s and my solution for the challenge to make a game with an easter-egg that is a distinct game itself.&lt;/p&gt;
 
-&lt;h2 id=&#34;basic-game:8de49f7a252ba368fc714b54940278df&#34;&gt;Basic Game&lt;/h2&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;basic-game&#34;&gt;Basic Game&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/racetrackspecials/racing1.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;The basic game-play idea is taken from a fan-created game-mode of Project Gotham Racing as described in the &lt;a href=&#34;https://en.wikipedia.org/wiki/Emergent_gameplay#Changing_game_objectives&#34;&gt;wikipedia article on emergent gameplay&lt;/a&gt;. This mode, called “cat and mouse” people play in two teams. In every team there’s one person with a very slow car. The team to get their slow-car across the finish line first, wins. To do this, the players with the fast cars need to ram the enemies slow-car to slow it down or even knock it off the road―all the while protecting their own slow-car.&lt;/p&gt;
 
-&lt;h2 id=&#34;hidden-game-activating-specials:8de49f7a252ba368fc714b54940278df&#34;&gt;Hidden Game: Activating Specials&lt;/h2&gt;
+&lt;h2 id=&#34;hidden-game-activating-specials&#34;&gt;Hidden Game: Activating Specials&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/racetrackspecials/racing2.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
 
@@ -399,7 +398,7 @@ general, attacks with special effects are a bit less effective, but provide a la
 
 &lt;p&gt;The huge trade-off should be, that the team sends a driver ahead to use on of these spots, looses them for attack and defense on the track. Also, timing is critical―drive ahead too early and lose time, drive ahead to late and you might be too late to activate the special. To increase the time-cost of activating the special, it should take a while to activate it. For this they need to go through a short jumping puzzle and knock a gatekeeper-boss off it’s platform. If multiple players rush for the special, they can knock each other off.&lt;/p&gt;
 
-&lt;h2 id=&#34;specials:8de49f7a252ba368fc714b54940278df&#34;&gt;Specials&lt;/h2&gt;
+&lt;h2 id=&#34;specials&#34;&gt;Specials&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/racetrackspecials/racing3.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
 
@@ -415,13 +414,13 @@ general, attacks with special effects are a bit less effective, but provide a la
 
 &lt;p&gt;For the special it turns out, that most buffs are more advantageous for the team who’s slow-car is behind and neutral if used by the leading team―e.g. a shortcut or acceleration strip stays activated for the slower team giving them the same advantage. Conversely agnostically harmful specials favor the leading team, as they can wait for their slow-car to pass-by it’s location before they activate it.&lt;/p&gt;
 
-&lt;h2 id=&#34;feedback-during-lecture:8de49f7a252ba368fc714b54940278df&#34;&gt;Feedback during lecture&lt;/h2&gt;
+&lt;h2 id=&#34;feedback-during-lecture&#34;&gt;Feedback during lecture&lt;/h2&gt;
 
 &lt;p&gt;To make playing the slow-car more interesting, that player could be the only one to get a high-level tactical overview and thus a coordinator-role.&lt;/p&gt;
 
 &lt;p&gt;A game that requires eight players would be problematic during the demo at the end of the semester. It was suggested to make the slow-car an AI and only use two fast-cars per team, thus reducing the game to four players. This would even allow a couch-multiplayer.&lt;/p&gt;
 
-&lt;h2 id=&#34;variants:8de49f7a252ba368fc714b54940278df&#34;&gt;Variants&lt;/h2&gt;
+&lt;h2 id=&#34;variants&#34;&gt;Variants&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Do laps? This allows reversing.&lt;/li&gt;
@@ -433,7 +432,7 @@ general, attacks with special effects are a bit less effective, but provide a la
 &lt;li&gt;Alternative puzzles instead of jumping and bumping―e.g. logic puzzles.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;other-game-ideas:8de49f7a252ba368fc714b54940278df&#34;&gt;Other Game Ideas&lt;/h2&gt;
+&lt;h2 id=&#34;other-game-ideas&#34;&gt;Other Game Ideas&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;For leaving the level: abuse a “typical” glitch, also breaking the fourth wall in the process.
@@ -451,8 +450,7 @@ general, attacks with special effects are a bit less effective, but provide a la
 &lt;li&gt;Wiktor Manczarski’s idea: A stealth game, but you’re playing “randomness” (e.g. a radio that switches on to draw the attention of the guards away from the unwitting protagonist)&lt;/li&gt;
 &lt;li&gt;visual novel but leave dialog somehow?&lt;/li&gt;
 &lt;li&gt;A plattformer where the background can become the foreground, obstacles become space and vis-versa.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -477,10 +475,11 @@ the players, who are sitting next to each other and playig on
 their phones, communicate well―especially the driver before
 they make maneuvers.&lt;/p&gt;
 
+&lt;p&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/destinies_and_ambulance/sketches_01.jpg&#34; class=&#34;figure&#34;&gt;
 &lt;img src=&#34;https://m0ru.github.io/media/destinies_and_ambulance/sketches_02.jpg&#34; class=&#34;figure&#34;&gt;
-&lt;img src=&#34;https://m0ru.github.io/media/destinies_and_ambulance/sketches_03.jpg&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
-</description>
+&lt;img src=&#34;https://m0ru.github.io/media/destinies_and_ambulance/sketches_03.jpg&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -489,9 +488,7 @@ they make maneuvers.&lt;/p&gt;
       <pubDate>Sun, 03 Apr 2016 17:52:00 +0200</pubDate>
       
       <guid>https://m0ru.github.io/article/destinies/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/destinies_and_ambulance/destinies.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/destinies_and_ambulance/destinies.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;One of the two game ideas for this weeks should be
 an “impossible” game by deconstructing a genre. The
@@ -508,6 +505,8 @@ hero stumbles through a dungeon in an attempt to get the loot
 and rescue the world. The player of luck plays cards to see
 them succeed, whereas misfortune tries to make their life harder.&lt;/p&gt;
 
+&lt;p&gt;&lt;/p&gt;
+
 &lt;p&gt;The simplest mechanic for moving the hero would be, to have
 them follow the right-hand rule―while prohibiting circles
 in the dungeon. If they meet a challenge, they role
@@ -516,7 +515,7 @@ their relevant stat and compare it with the difficulty
 of the challenge to see if they&amp;rsquo;ve made it. If they fail,
 they take the challenges consequences.&lt;/p&gt;
 
-&lt;h2 id=&#34;stats-and-challenges:8abf0d7f5282618f2693dc940f03a972&#34;&gt;Stats and challenges:&lt;/h2&gt;
+&lt;h2 id=&#34;stats-and-challenges&#34;&gt;Stats and challenges:&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;“Combat” vs monsters&lt;/li&gt;
@@ -524,7 +523,7 @@ they take the challenges consequences.&lt;/p&gt;
 &lt;li&gt;“Intelligence” vs puzzles&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;cards:8abf0d7f5282618f2693dc940f03a972&#34;&gt;Cards&lt;/h2&gt;
+&lt;h2 id=&#34;cards&#34;&gt;Cards&lt;/h2&gt;
 
 &lt;p&gt;Most cards should have trade-offs, e.g. harder monster
 yield more treasure to the hero that makes them better
@@ -571,7 +570,7 @@ of the right hand rule. Remove the condition after that.&lt;/li&gt;
 &lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/destinies_and_ambulance/sketches_01.jpg&#34; class=&#34;figure&#34;&gt;
 &lt;img src=&#34;https://m0ru.github.io/media/destinies_and_ambulance/sketches_04.jpg&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;feedback:8abf0d7f5282618f2693dc940f03a972&#34;&gt;Feedback&lt;/h2&gt;
+&lt;h2 id=&#34;feedback&#34;&gt;Feedback&lt;/h2&gt;
 
 &lt;p&gt;Most people thought it was too complicated, respectively hard to understand.&lt;/p&gt;
 
@@ -583,8 +582,7 @@ treasures. Also a labeled die that in most cases causes
 a movement towards the goal might be more interesting.&lt;/p&gt;
 
 &lt;p&gt;Lev, however added, that the game has potential if these
-challenges are tackled and clarified.&lt;/p&gt;
-</description>
+challenges are tackled and clarified.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -599,8 +597,9 @@ challenges are tackled and clarified.&lt;/p&gt;
 one plays with the concept of pressure- and sound-waves for solving
 a variety of physical puzzles.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/feather_and_waves/sketches-2.jpg&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/feather_and_waves/sketches-2.jpg&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -613,10 +612,11 @@ a variety of physical puzzles.&lt;/p&gt;
 
 &lt;p&gt;This is the first of a set of sketches for the VU “Game Design” at the Vienna University of Technology. The idea for the game is rather simple―instead of playing the big characters, you’re playing the small side-element. Imagine mellow, emotionally music playing while you use swipes or presses to generate small gust of wind, which blow along a feather and carry it along through a maze of difficulties to finally reach Forrest.&lt;/p&gt;
 
+&lt;p&gt;&lt;/p&gt;
+
 &lt;p&gt;An alternative mechanic also playing with the theme “wind” was an autumn-themed game. All the trees are losing their leaves, which need to be blown along to clear the boardwalk. Again using swipes sources can be placed that blow into the swiped direction. Constructing a path from multiple of these, a stream of leaves is moved out of the way, e.g. to garbage bins.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/feather_and_waves/sketches-3.jpg&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/feather_and_waves/sketches-3.jpg&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -625,9 +625,7 @@ a variety of physical puzzles.&lt;/p&gt;
       <pubDate>Thu, 18 Jun 2015 16:52:26 +0200</pubDate>
       
       <guid>https://m0ru.github.io/article/edu-game-surveillance-tycoon/</guid>
-      <description>
-
-&lt;p&gt;You can play “Surveillance Tycoon” here:&lt;/p&gt;
+      <description>&lt;p&gt;You can play “Surveillance Tycoon” here:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://m0ru.github.io/games/surveillance_tycoon/index.html&#34;&gt;Play Me!&lt;/a&gt;.&lt;/p&gt;
 
@@ -639,13 +637,15 @@ a variety of physical puzzles.&lt;/p&gt;
  &lt;/div&gt;
 
 
-&lt;h2 id=&#34;design-process:68f9237c30da537021279a38734a9332&#34;&gt;Design Process&lt;/h2&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;design-process&#34;&gt;Design Process&lt;/h2&gt;
 
 &lt;p&gt;For this excercise Alex Sinnl and I worked together. You can find his take on this design &lt;a href=&#34;https://gamefuldesign15.wordpress.com/2015/06/17/aufgabe-7-designprozess/&#34;&gt;here&lt;/a&gt;. We exchanged a few initial ideas via email and then had one meeting / design session at a white-board (for a total of about 4h of work). Most of this challenges effort went into development (~12h) as the requirement was for it to be digital. Documentation took about 5 hours.&lt;/p&gt;
 
 &lt;p&gt;The topic was &lt;em&gt;informatics and society&lt;/em&gt;. We explored and shortly iterated over a few ideas in regard to that. As you can see in the sketches below.&lt;/p&gt;
 
-&lt;h3 id=&#34;solo-sketching:68f9237c30da537021279a38734a9332&#34;&gt;Solo-Sketching&lt;/h3&gt;
+&lt;h3 id=&#34;solo-sketching&#34;&gt;Solo-Sketching&lt;/h3&gt;
 
 &lt;p&gt;In the game directly below the player would have to dodge the view- and circles-cones caused by cctv-cams and flyover drones in a bullet-hell like manner. The theme here is more coating than really integrated into the mechanics though.&lt;/p&gt;
 
@@ -667,7 +667,7 @@ a variety of physical puzzles.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/educative_games/sketches/5.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;design-session:68f9237c30da537021279a38734a9332&#34;&gt;Design-Session&lt;/h3&gt;
+&lt;h3 id=&#34;design-session&#34;&gt;Design-Session&lt;/h3&gt;
 
 &lt;p&gt;This whiteboard-sketch contains some of the concepts already discussed above, drawn here to have an &lt;strong&gt;overview&lt;/strong&gt;. New thoughts / concepts:&lt;/p&gt;
 
@@ -771,8 +771,7 @@ Developer creation doesn&#39;t work in FF
 
 can&#39;t select games in lecture
 
---&gt;
-</description>
+--&gt;</description>
     </item>
     
     <item>
@@ -781,13 +780,14 @@ can&#39;t select games in lecture
       <pubDate>Wed, 13 May 2015 15:00:19 +0200</pubDate>
       
       <guid>https://m0ru.github.io/article/arg-cctv-run/</guid>
-      <description>
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;//www.youtube.com/embed/6Uu3OO75BlQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
  &lt;/div&gt;
 
 
 &lt;p&gt;Gemeinsam mit &lt;a href=&#34;http://horstlb.blogspot.co.at/2015/05/gameful-design-arbeitspaket-4.html&#34;&gt;Alex Brandner&lt;/a&gt; und &lt;a href=&#34;http://bobschidoesgamefuldesign2015.tumblr.com/&#34;&gt;Florian Holzner&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/cctv/WhiteboardPics/meta.jpg&#34; class=&#34;figure&#34;&gt;
 &lt;img src=&#34;https://m0ru.github.io/media/cctv/WhiteboardPics/cam_trees.jpg&#34; class=&#34;figure&#34;&gt;
@@ -801,8 +801,7 @@ TODO:
 
 * edu games link to pigsoft
 * ARG!
---&gt;
-</description>
+--&gt;</description>
     </item>
     
   </channel>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pages on Moru’s Ramblings</title>
-    <link>https://m0ru.github.io/page/</link>
-    <description>Recent content in Pages on Moru’s Ramblings</description>
+    <title>Page-rsses on Moru’s Ramblings</title>
+    <link>https://m0ru.github.io/page/index.xml</link>
+    <description>Recent content in Page-rsses on Moru’s Ramblings</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 16 Dec 2015 00:00:00 +0000</lastBuildDate>
@@ -17,7 +17,7 @@
       <guid>https://m0ru.github.io/about/</guid>
       <description>
 
-&lt;h2 id=&#34;contact-and-social-media:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Contact and Social Media&lt;/h2&gt;
+&lt;h2 id=&#34;contact-and-social-media&#34;&gt;Contact and Social Media&lt;/h2&gt;
 
 &lt;ul class=&#34;socialmedialist&#34;&gt;
   &lt;li&gt;
@@ -46,7 +46,7 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;theme:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Theme&lt;/h2&gt;
+&lt;h2 id=&#34;theme&#34;&gt;Theme&lt;/h2&gt;
 
 &lt;p&gt;This blog’s theme is based on Slender by CrimsonRay, which is available under the MIT-license &amp;copy; 2015.&lt;/p&gt;
 </description>

@@ -11,7 +11,7 @@
         <meta name="author" content="Moru">
         <meta name="description" content="A collection of game-design ideas">
         <meta name="keywords" content="game design, moru">
-        <meta name="generator" content="Hugo 0.16-DEV" />
+        <meta name="generator" content="Hugo 0.18-DEV" />
         <link rel="icon" href="https://m0ru.github.io/assets/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="https://m0ru.github.io/css/slender-base.css">
         <link rel="stylesheet" href="https://m0ru.github.io/css/slender-color-schemes.css">
@@ -43,26 +43,26 @@
             </header>
 
 <article class="article-content">
-    
-
-<p>This is part two of the <a href="/tags/methods-mini-series/">mini-series on “studying algorithms”</a>. If you are curious why studying these might be important at all, check out the <a href="/article/why-study-algorithms/">previous post</a>.</p>
+    <p>This is part two of the <a href="/tags/methods-mini-series/">mini-series on “studying algorithms”</a>. If you are curious why studying these might be important at all, check out the <a href="/article/why-study-algorithms/">previous post</a>.</p>
 
 <p>So, what complicates things, is that unearthing the biases within algorithms isn’t a trivial feat – several issues can make it hard to understand what’s going on.</p>
 
-<h2 id="dynamic:6ba466b578729bbd2ec2133c0cd998cc">Dynamic</h2>
+<p></p>
+
+<h2 id="dynamic">Dynamic</h2>
 
 <p>For one, those systems are <em>constantly changing</em> as they’re being developed, bugs are fixed and they’re tweaked to deal with changing requirements. Thus, any study can only look at a snapshot of an algorithm – usually the latest one. This might mean, that older studies’ findings might be deprecated.</p>
 
 <p>Also, algorithms are <em>“out of control”</em>, as John Danaher puts it in “How to Study Algorithms: Challenges and Methods”&nbsp;<sup><a href="#ref:HtS">ref:HtS</a></sup>. One way this manifests is that they have <em>unforeseen consequences</em> that the developers never intended – e.g. the sexist Google results mentioned above. Another way would be that people can use them in ways the developers never foresaw. E.g. “Working with Machines”&nbsp;<sup><a href="#ref:WwM">ref:WwM</a></sup> mentions Uber-drivers strategically turning their app on and off, to influence which
 passengers they get, which in turn impacts the experience for passengers in some areas. This factor influences attempts to study the algorithm via studying its developers.</p>
 
-<h2 id="source-accessibility:6ba466b578729bbd2ec2133c0cd998cc">Source Accessibility</h2>
+<h2 id="source-accessibility">Source Accessibility</h2>
 
 <p>One of the biggest challenges tends to be <em>black boxing</em>. A lot of companies keep their <em>code secret</em> to protect their trade secrets / intellectual property, to prevent people from gaming the system (e.g. by google-bombing) or to obfuscate themselves against scrutiny and legislation. In “How the Machine ‘Thinks’”&nbsp;<sup><a href="#ref:Opc">ref:Opc</a></sup> Jenna Burrel recommends to install a system of trusted auditors who can get access to the code without it being open sourced to the public.</p>
 
 <p>Then of course <em>technical literacy</em> can be a problem. A lot of people in investigative journalism and even in tech journalism lack the schooling to understand what’s going on these systems. I assume a lot of computer scientists would, in turn lack the journalistic capabilities and drive to produce good articles. Jenna Burrel&nbsp;<sup><a href="#ref:Opc">ref:Opc</a></sup> asks for educating journalists that can study algorithm.</p>
 
-<h2 id="scale-a-id-scale-a:6ba466b578729bbd2ec2133c0cd998cc">Scale <a id="scale"></a></h2>
+<h2 id="scale-a-id-scale-a">Scale <a id="scale"></a></h2>
 
 <p>Even if the source-code is available and the analyst is capable of comprehending it, the sheer <em>scale</em> of modern algorithms might foil the exercise.
 <a href="http://www.informationisbeautiful.net/visualizations/million-lines-of-code/">This info-graphic on Information Is Beautiful</a> by McCandles, Doughty-White and Quick lists Google’s code-base to amount to 4,000 billion lines of code, roughly 56 million times the length of Tolstoy’s War and Peace.</p>
@@ -73,7 +73,7 @@ passengers they get, which in turn impacts the experience for passengers in some
 
 <p>Not only are code-bases huge, so are the teams working on them. In 2015 Google was listed to have roughly 30,000 engineers working for the company (<a href="https://techcrunch.com/2015/03/17/the-back-office-developers/">article on Techcrunch</a>). This, again, complicates diagnosing any issue’s source by studying the development team.</p>
 
-<h2 id="implementation:6ba466b578729bbd2ec2133c0cd998cc">Implementation</h2>
+<h2 id="implementation">Implementation</h2>
 
 <p>Additional to the issues mentioned so far that mostly arrive from the circumstances of development, some algorithms’ inner workings, how they go about things, might make it difficult for human readers to understand what’s going on.</p>
 
@@ -87,18 +87,17 @@ networks</a>) but can’t even be applied in all domains.</p>
 
 <p>For these reasons Jenna Burrel&nbsp;<sup><a href="#ref:Opc">ref:Opc</a></sup> advises avoiding machine learning for critical applications. In some cases learning/encoding logic rules – using so-called “expert systems” – might be an alternative as long as the number of rules leading to any decision stays manageable.</p>
 
-<h2 id="facit:6ba466b578729bbd2ec2133c0cd998cc">Facit</h2>
+<h2 id="facit">Facit</h2>
 
 <p>These are some some of the challenges you might run into when studying algorithms. <a href="/article/methods-for-studying-algorithms/">The next post</a> delves into the hows.</p>
 
-<h2 id="references:6ba466b578729bbd2ec2133c0cd998cc">References</h2>
+<h2 id="references">References</h2>
 
 <ul>
 <li><a id="ref:HtS" href="#ref:HtS"><strong>[HtS]</strong></a> – <a href="https://algocracy.wordpress.com/2016/03/14/how-to-study-algorithms-challenges-and-methods/">“How to Study Algorithms: Challenges and Methods”</a>, <a href="http://hplusmagazine.com/2015/07/28/how-to-study-algorithms-challenges-and-methods/">alternative link</a> [blog article]</li>
 <li><a id="ref:WwM" href="#ref:WwM"><strong>[WwM]</strong></a> – Lee, Min Kyung, Kusbit, Daniel, Metsky, Evan and Dabbish, Laura. 2015. <a href="http://dl.acm.org/citation.cfm?id=2702548">“Working with Machines: The Impact of Algorithmic and Data-­Driven Management on Human Workers”</a> CHI ’15 Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems: 1603-­1612 [10 pages from &ldquo;Algorithmic Culture&rdquo;-section]</li>
 <li><a id="ref:Opc" href="#ref:Opc"><strong>[Opc]</strong></a> – Burrell, Jenna. 2015. <a href="http://bds.sagepub.com/content/3/1/2053951715622512">“How the Machine ‘Thinks:’ Understanding Opacity in Machine Learning Algorithms.”</a> [18 pages]</li>
 </ul>
-
 </article>
         </div>
         
