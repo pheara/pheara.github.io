@@ -1,7 +1,7 @@
 +++
 date = "2016-10-06T11:55:32+02:00"
 description = ""
-tags = []
+tags = ["Critical Algorithm Studies", "Methods Mini-Series"]
 title = "Challenges when Studying Algorithms"
 
 +++

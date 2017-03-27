@@ -2,7 +2,7 @@
 date = "2017-03-27T11:13:00+02:00"
 draft = false
 title = "Verwendungsweisen des Telefons (Übung)"
-keywords = ["GKM"]
+tags = ["media and communication theory"]
 +++
 
 <img src="/media/telephone/Adolphe_Bitard_-_Téléphone.jpg" class="figure"> <!--_-->
