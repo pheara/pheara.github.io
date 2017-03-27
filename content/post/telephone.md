@@ -11,7 +11,7 @@ tags = ["media and communication theory"]
 
 <!--more-->
 
-## AUFGABE 1/1
+## AUFGABE 1.1
 
 > \(a) Weshalb setzte sich das Telefon vor 1914 im militärischen Bereich nicht breitflächig durch?
 
@@ -26,7 +26,7 @@ Einerseits war die Kommunikation über **große Distanzen** hinweg in den USA ge
 
 Und andererseits wurde das als **dehierarchisierend** wahrgenommene Telefon im Widerspruch gesehen zum hiesigen Herrschafts-/Gesellschaftssystem mit seiner Betonung der Klassenunterschiede und monologisch-hierarchischen Kommunikationsform. Anders ausgedrückt, äußert sich dies daran, dass das "Telefon wie das Automobil zu den Dingen gehört, die das Bürgertum nicht eigenhändig zu bedienen wünschte" (Flichy 1994, 200). Telefoniert wurde primär zwischen Personen unterschiedlichen gesellschaftlichen Status. Dies würde sich, soweit meine Interpretation des gegebenen Textes, erst durch den automatischen Anrufbeantworter verändern, der davon befreit kontinuierlich "am Apparat" sein zu müssen.
 
-## AUFGABE 1/2
+## AUFGABE 1.2
 
 > \(a) Erläutern Sie die verschiedenen Verwendungsweisen des Telefons als Massenkommunikationsmittel vom ausgehenden 19. Jahrhundert bis etwa 1930.  Erläutern Sie zusätzlich, inwiefern das Telefon anfangs parallel dazu auch als unidirektionales Kommunikationsmittel zur Weitergabe von Anweisungen verwendet wurde.
 
@@ -44,7 +44,7 @@ Ein wichtiger Hauptgrund war die **beschränkte Leitungskapazität**, die sich d
 
 Meiner Interpretation des Textes nach dürften auch die etablierten **Gesellschaftshierarchien** und die daraus resultierenden Nutzungsform als "sprechender Telegraf" ihren Einfluss haben (siehe 1/1b und 1/2a). Dies zeigt sich auch daran, dass in den USA das Telefon nicht nur im Geschäfts-, sondern auch im Privatleben schneller breite Verwendung fand (siehe 1/1b).
 
-## AUFGABE 1/3:
+## AUFGABE 1.3
 
 > Über den vorliegenden Text hinausgehend:
 >
