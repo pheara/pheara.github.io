@@ -17,7 +17,7 @@ tags = ["media and communication theory"]
 
 Es wurde als unvereinbar mit dem Modus Operandi des Militärs gesehen. Im Gegensatz zu dem stärker verwendeten Telegrafen, fallen beim Telefon per se keine **Niederschriften** an, die als Dokumentation dienen und die wiederum Fehler aufgrund schlechten Gedächtnisses reduziert und Verantwortlichkeiten klarer zu rekonstruieren erlaubt. Noch dazu war die Verwendung des Telefons schlechter zu **kontrollieren**, womit vermutlich Risiken für die Truppenmoral verbunden waren. Ein weiterer Unterschied zum Telegrafen war auch, das letzterer die Verschlüsselung von Übertragungen erlaubte.
 
-Im Vergleich zu Kommunikation von Angesicht-zu-Angesicht (spezifisch werden Berichte angesprochen), wird vermutet, dass es bei der rein auf die Stimme reduzierenden Telefonie schwerer ist **Dominanz** auszuüben, beziehungsweise Befehlsgewalt ohnehin als uni-direktionale Kommunikation stattfindet. Vergleiche dazu auch 1/1b bezüglich der dehierarchisierenden Wirkung des Telefons, die im **Widerspruch zur stark hierarchischen Struktur** des Militärs stand. Erst mit den sehr statischen
+Im Vergleich zu Kommunikation von Angesicht-zu-Angesicht (spezifisch werden Berichte angesprochen), wird vermutet, dass es bei der rein auf die Stimme reduzierenden Telefonie schwerer ist **Dominanz** auszuüben, beziehungsweise Befehlsgewalt ohnehin als uni-direktionale Kommunikation stattfindet. Vergleiche dazu auch 1.1b bezüglich der dehierarchisierenden Wirkung des Telefons, die im **Widerspruch zur stark hierarchischen Struktur** des Militärs stand. Erst mit den sehr statischen
 Grabenkämpfen an der Westfront des Ersten Weltkriegs wurde das Telefon als (lokales) Kommunikationsnetz zwischen den Stellungen verwendet um koordiniertes Agieren zu ermöglichen. Bereits davor gab es teilweise Nutzung als Kommunikationslinie zwischen unter- und übergeordneten Stellen **analog zum Telegrafen**.
 
 > \(b) Was war der wichtigste Grund dafür, dass sich das Telefon in den USA wesentlich schneller durchsetzte als in Deutschland?
@@ -36,13 +36,13 @@ Des weiteren wird das Telefon im **Geschäftsleben** (e.g. Banken, Logistik, Ver
 
 Und letzlich, ist es auch im Einsatz, um **Dienstpersonal zu rufen** -- beispielsweise in Privathaushalten und im Hotel.
 
-Die letzteren beiden Fälle sind dabei klar geprägt von der vorherrschenden, stark hierarchischen Gesellschaftsform (siehe 1/1b bez. "Dehierarchisierung").
+Die letzteren beiden Fälle sind dabei klar geprägt von der vorherrschenden, stark hierarchischen Gesellschaftsform (siehe 1.1b bez. "Dehierarchisierung").
 
 > \(b) Ab wann wurde das Telefon verstärkt für die private Nutzung verwendet und was waren die Gründe dafür, dass das erst vergleichsweise spät erfolgte?
 
 Ein wichtiger Hauptgrund war die **beschränkte Leitungskapazität**, die sich daraus ergab, dass Telefonate manuell verbunden werden mussten (von den "Fräuleins am Amt"). Geschäftstelefonate wurden als wichtiger und legitimer eingestuft und allgemein galt das Paradigma "Fasse Dich kurz!". Erst nach der Einführung von Selbstwählsystemen, daher Telefonen mit Wählscheibe, in den 1930ern wurde erstmals beworben das Telefon auch zur Kommunikation mit Freunden und Verwandten zu verwenden.
 
-Meiner Interpretation des Textes nach dürften auch die etablierten **Gesellschaftshierarchien** und die daraus resultierenden Nutzungsform als "sprechender Telegraf" ihren Einfluss haben (siehe 1/1b und 1/2a). Dies zeigt sich auch daran, dass in den USA das Telefon nicht nur im Geschäfts-, sondern auch im Privatleben schneller breite Verwendung fand (siehe 1/1b).
+Meiner Interpretation des Textes nach dürften auch die etablierten **Gesellschaftshierarchien** und die daraus resultierenden Nutzungsform als "sprechender Telegraf" ihren Einfluss haben (siehe 1.1b und 1.2a). Dies zeigt sich auch daran, dass in den USA das Telefon nicht nur im Geschäfts-, sondern auch im Privatleben schneller breite Verwendung fand (siehe 1.1b).
 
 ## AUFGABE 1.3
 
