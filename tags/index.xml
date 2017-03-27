@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Moru’s Ramblings</title>
+    <link>https://m0ru.github.io/tags/index.xml</link>
+    <description>Recent content in Tags on Moru’s Ramblings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 05 Oct 2016 18:27:45 +0200</lastBuildDate>
+    <atom:link href="https://m0ru.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Critical Algorithm Studies</title>
+      <link>https://m0ru.github.io/tags/critical-algorithm-studies/</link>
+      <pubDate>Wed, 05 Oct 2016 18:27:45 +0200</pubDate>
+      
+      <guid>https://m0ru.github.io/tags/critical-algorithm-studies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Game Design</title>
+      <link>https://m0ru.github.io/tags/game-design/</link>
+      <pubDate>Tue, 05 Jul 2016 23:14:25 +0200</pubDate>
+      
+      <guid>https://m0ru.github.io/tags/game-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Methods Mini Series</title>
+      <link>https://m0ru.github.io/tags/methods-mini-series/</link>
+      <pubDate>Wed, 05 Oct 2016 18:27:45 +0200</pubDate>
+      
+      <guid>https://m0ru.github.io/tags/methods-mini-series/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
