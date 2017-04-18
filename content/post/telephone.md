@@ -1,7 +1,7 @@
 +++
 date = "2017-03-27T11:13:00+02:00"
 draft = false
-title = "Verwendungsweisen des Telefons (Übung)"
+title = "Verwendungsweisen des Telefons"
 tags = ["media and communication theory"]
 +++
 
@@ -10,6 +10,8 @@ tags = ["media and communication theory"]
 > Material: C. Karpenstein-Eßbach: Am Apparat: Telephongeschichten. In: C. Karpenstein-Eßbach: "Einführung in die Kulturwissenschaft der Medien", S. 110-122, 2004.
 
 <!--more-->
+
+Dieser Text war meine erste Übungsabgabe für die Lehrveranstaltung "Grundlagen der Kommunikations- und Medientheorie" an der TU Wien. Da ich die Inhalte allgemein interessant finde und mit euch teilen möchte habe ich sie nun hier (nach der Abgabe-Deadline) hochgeladen.
 
 ## AUFGABE 1.1
 
