@@ -1,5 +1,5 @@
 +++
-date = "2017-03-27T11:13:00+02:00"
+date = "2017-04-19T00:14:00+02:00"
 draft = false
 title = "Verwendungsweisen des Telefons (Übung)"
 tags = ["media and communication theory"]
