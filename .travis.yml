@@ -14,7 +14,7 @@ before_install:
 - sudo apt-get remove golang
 - curl https://storage.googleapis.com/golang/go1.8.1.linux-amd64.tar.gz > golang.tar.gz
 - mkdir $HOME/go1.8.1
-- export PATH=$PATH:$HOME/go1.8.1/bin
+- export PATH=$HOME/go1.8.1/bin:$PATH
 install:
 - tar -C $HOME/go1.8.1 -xzf golang.tar.gz
 - go version
