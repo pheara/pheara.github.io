@@ -11,9 +11,9 @@ env:
 before_install:
 - openssl aes-256-cbc -K $encrypted_2531e4b3a730_key -iv $encrypted_2531e4b3a730_iv
   -in travis_key.enc -out travis_key -d
-- go version
-- sudo apt-get -qq update
-- sudo apt-get install -y golang
+- curl https://storage.googleapis.com/golang/go1.8.1.linux-amd64.tar.gz
+- tar -C $HOME/go1.8.1 -xzf go1.8.1.linux-amd64.tar.gz
+- export PATH=$PATH:$HOME/go1.8.1/bin
 - go version
 install:
 - go get -v github.com/spf13/hugo
