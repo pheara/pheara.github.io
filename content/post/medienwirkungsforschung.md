@@ -1,7 +1,7 @@
 +++
 date = "2017-04-19T00:14:00+02:00"
 draft = false
-title = "Verwendungsweisen des Telefons (Übung)"
+title = "Historische Massenmedienwirkungsforschung"
 tags = ["media and communication theory"]
 +++
 
