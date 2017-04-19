@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Moru’s Ramblings</title>
-    <link>https://m0ru.github.io/tags/index.xml</link>
+    <link>https://m0ru.github.io/tags/</link>
     <description>Recent content in Tags on Moru’s Ramblings</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 06 Oct 2016 11:55:32 +0200</lastBuildDate>
-    <atom:link href="https://m0ru.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://m0ru.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Critical Algorithm Studies</title>
@@ -30,7 +32,7 @@
     <item>
       <title>Media And Communication Theory</title>
       <link>https://m0ru.github.io/tags/media-and-communication-theory/</link>
-      <pubDate>Mon, 27 Mar 2017 11:13:00 +0200</pubDate>
+      <pubDate>Wed, 19 Apr 2017 00:14:00 +0200</pubDate>
       
       <guid>https://m0ru.github.io/tags/media-and-communication-theory/</guid>
       <description></description>
