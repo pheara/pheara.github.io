@@ -47,5 +47,5 @@ sorted by uncompressed size. bootstrap is about 28k uncompressed, jQuery about 9
 Other comparisons:
 
 * [This issue](https://github.com/Semantic-Org/Semantic-UI/issues/222) on Semantic-Org/Semantic-UI lists a few editors
-* [Top 7: Best Markdown editors Javascript and jQuery plugins](http://ourcodeworld.com/articles/read/359/top-7-best-markdown-editors-javascript-and-jquery-plugins) (2017/01)
+* [Top 7: Best Markdown editors Javascript and jQuery plugins](http://ourcodeworld.com/articles/read/359/top-7-best-markdown-editors-javascript-and-jquery-plugins) (2017-01)
 * [Coding 10 Awesome JavaScript WYSIWYG & Markdown Editors](http://www.developersfeed.com/awesome-javascript-wysiwyg-markdown-editors/) (2016)
