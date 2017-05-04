@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Js Libraries on Moru’s Ramblings</title>
+    <link>https://m0ru.github.io/tags/js-libraries/</link>
+    <description>Recent content in Js Libraries on Moru’s Ramblings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 04 May 2017 16:28:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://m0ru.github.io/tags/js-libraries/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>JS-based Text/Markdown Editors</title>
+      <link>https://m0ru.github.io/article/js-based-text/markdown-editors/</link>
+      <pubDate>Thu, 04 May 2017 16:28:00 +0200</pubDate>
+      
+      <guid>https://m0ru.github.io/article/js-based-text/markdown-editors/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/peacememories&#34;&gt;Peacememories&lt;/a&gt; and I are working on a haskell-based CMS-frontend for static site generators like hakyll (see &lt;a href=&#34;https://github.com/Haskell-Praxis/hakyll-cms&#34;&gt;project on github&lt;/a&gt;). For this we need a text-editor for authoring markdown. Ideally it should allow both editing as rich text and markdown and is small enough not to incur severe page-load-performance costs.&lt;/p&gt;
+
+&lt;p&gt;For this, I&amp;rsquo;ve compiled this small comparison table, that some of you might find useful for their projects:&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

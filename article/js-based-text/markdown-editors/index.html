@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="JS-based Text/Markdown Editors &middot; Moru’s Ramblings ">
+        <meta property="og:site_name" content="Moru’s Ramblings"/>
+        <meta property="og:description" content="A collection of game-design ideas">
+        <meta property="og:url" content="https://m0ru.github.io/article/js-based-text/markdown-editors/" />
+        <meta property="og:locale" content="en-US">
+        <meta name="author" content="Moru">
+        <meta name="description" content="A collection of game-design ideas">
+        <meta name="keywords" content="game design, moru">
+        <meta name="generator" content="Hugo 0.21-DEV" />
+        <link rel="icon" href="https://m0ru.github.io/assets/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://m0ru.github.io/css/slender-base.css">
+        <link rel="stylesheet" href="https://m0ru.github.io/css/slender-color-schemes.css">
+        <link rel="stylesheet" href="https://m0ru.github.io/assets/icons/sprite.css">
+        <link rel="stylesheet" href="https://m0ru.github.io/css/font-awesome-4.5.0.min.css">
+        <link rel="stylesheet" href="https://m0ru.github.io/css/highlight-9.0.0-default.min.css">
+        <title>
+            
+                JS-based Text/Markdown Editors &middot; Moru’s Ramblings
+            
+        </title>
+    </head>
+    <body class="color-scheme-white">
+        <div class="container">
+            <header>
+                <nav>
+                    <ul><li><a href="https://m0ru.github.io/about/">about</a></li><li><a href="https://m0ru.github.io/">home</a></li></ul>
+                </nav>
+                
+                    <h1 class="post-title">JS-based Text/Markdown Editors</h1>
+                    <aside>
+                          
+                        <span>
+                          on
+                          <strong>Thu, May 04, 2017</strong>
+                        </span>
+                        
+                        <span>
+                          |
+                          Tagged:
+                        </span>
+                        <ul class="tags">
+                          
+                            <li><a href="/tags/js-libraries">js libraries</a> </li>
+                          
+                        </ul>
+                        
+                
+            </header>
+
+<article class="article-content">
+    <p><a href="https://github.com/peacememories">Peacememories</a> and I are working on a haskell-based CMS-frontend for static site generators like hakyll (see <a href="https://github.com/Haskell-Praxis/hakyll-cms">project on github</a>). For this we need a text-editor for authoring markdown. Ideally it should allow both editing as rich text and markdown and is small enough not to incur severe page-load-performance costs.</p>
+
+<p>For this, I&rsquo;ve compiled this small comparison table, that some of you might find useful for their projects:</p>
+
+<p></p>
+
+<table>
+<thead>
+<tr>
+<th align="left">Editor</th>
+<th align="left">Size</th>
+<th align="left">Editing</th>
+<th align="left">Exports</th>
+<th align="left">Toolbar</th>
+<th align="left">Notes</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left"><a href="http://jakiestfu.github.io/Medium.js/docs/">Medium.js</a></td>
+<td align="left">18k</td>
+<td align="left">rich</td>
+<td align="left">html</td>
+<td align="left">JS-API</td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="left"><a href="http://alex-d.github.io/Trumbowyg/">Trumbowyg</a></td>
+<td align="left">21k + jQuery</td>
+<td align="left">rich</td>
+<td align="left">html</td>
+<td align="left">at top</td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="left"><a href="http://sofish.github.io/pen/">pen</a></td>
+<td align="left">32k</td>
+<td align="left">rich</td>
+<td align="left">md</td>
+<td align="left">mouse-over</td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="left"><a href="http://stacks.math.columbia.edu/js/EpicEditor/">EpicEditor</a></td>
+<td align="left">34k</td>
+<td align="left">md  with preview</td>
+<td align="left">md</td>
+<td align="left">none</td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="left"><a href="http://www.codingdrama.com/bootstrap-markdown/">bootstrap-markdown</a></td>
+<td align="left">49k + Bootstrap</td>
+<td align="left">md with preview</td>
+<td align="left">md</td>
+<td align="left">at top</td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="left"><a href="http://premiumsoftware.net/cleditor/">CLEditor</a></td>
+<td align="left">9k + jQuery</td>
+<td align="left">rich</td>
+<td align="left">html</td>
+<td align="left">at top</td>
+<td align="left">win95 style</td>
+</tr>
+
+<tr>
+<td align="left"><a href="http://mindmup.github.io/bootstrap-wysiwyg/">bootstrap-wysiwyg</a></td>
+<td align="left">5k + jQuery + Bootstrap</td>
+<td align="left">rich</td>
+<td align="left">html export</td>
+<td align="left">at top</td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="left"><a href="http://lab.lepture.com/editor/">Lepture&rsquo;s Editor</a></td>
+<td align="left">247k</td>
+<td align="left">md with preview</td>
+<td align="left">md</td>
+<td align="left">at top</td>
+<td align="left">HUGOMORE42</td>
+</tr>
+
+<tr>
+<td align="left"><a href="https://vuejs.org/">Vue.js</a></td>
+<td align="left">273k</td>
+<td align="left">md with preview</td>
+<td align="left">md</td>
+<td align="left">none</td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="left"><a href="https://simplemde.com/">SimpleMDE</a></td>
+<td align="left">280k</td>
+<td align="left">md with preview</td>
+<td align="left">md</td>
+<td align="left">at top</td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="left"><a href="https://github.com/Grafikart/JS-Markdown-Editor">Grafikart/JS-Markdown-Editor</a></td>
+<td align="left">189k + jQuery + Bootstrap</td>
+<td align="left">md  with preview</td>
+<td align="left">md</td>
+<td align="left">at top</td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="left"><a href="https://github.com/daviferreira/medium-editor">medium-editor</a></td>
+<td align="left">311k</td>
+<td align="left">rich</td>
+<td align="left">html</td>
+<td align="left">mouse-over</td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="left"><a href="http://jhollingworth.github.com/bootstrap-wysihtml5/">bootstrap-wysihtml5</a></td>
+<td align="left">325k</td>
+<td align="left">rich</td>
+<td align="left">html</td>
+<td align="left">at top</td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="left"><a href="https://www.tinymce.com/">TinyMCE</a></td>
+<td align="left">405k</td>
+<td align="left">rich</td>
+<td align="left">html</td>
+<td align="left">at top</td>
+<td align="left">many markup options</td>
+</tr>
+
+<tr>
+<td align="left"><a href="https://ace.c9.io/build/kitchen-sink.html">ACE</a></td>
+<td align="left">645k</td>
+<td align="left">md amongst others</td>
+<td align="left">md if md is written</td>
+<td align="left">none</td>
+<td align="left">code editor with syntax highlighting</td>
+</tr>
+
+<tr>
+<td align="left"><a href="http://hallojs.org/demo/markdown/">Hallo.js</a></td>
+<td align="left">106k + 566k dependencies</td>
+<td align="left">rich + md</td>
+<td align="left">md</td>
+<td align="left">at top</td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="left"><a href="http://ckeditor.com/addon/markdown">CKEditor + Markdown Plugin</a></td>
+<td align="left">~820k</td>
+<td align="left">rich + md</td>
+<td align="left">md</td>
+<td align="left">at top</td>
+<td align="left">many markup options, <a href="http://ckeditor.com/builder">configuration-tool</a>, uses iframes</td>
+</tr>
+
+<tr>
+<td align="left"><a href="https://jbt.github.io/markdown-editor/">jbt/markdown-editor</a></td>
+<td align="left">823k with various dependencies</td>
+<td align="left">md with preview</td>
+<td align="left">md</td>
+<td align="left">none</td>
+<td align="left">default style unusable on small screens</td>
+</tr>
+
+<tr>
+<td align="left"><a href="https://markdown-it.github.io/">Markdown-It</a></td>
+<td align="left">250k + 850k dependencies</td>
+<td align="left">md  with preview</td>
+<td align="left">md</td>
+<td align="left">none</td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="left"><a href="http://substance.io/">Substance</a></td>
+<td align="left">1.14M</td>
+<td align="left">rich</td>
+<td align="left">html</td>
+<td align="left">at top</td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="left"><a href="https://stackedit.io/">Stackedit</a></td>
+<td align="left">1.48M</td>
+<td align="left">md with preview</td>
+<td align="left">md</td>
+<td align="left">at top</td>
+<td align="left">requires nodejs server</td>
+</tr>
+
+<tr>
+<td align="left"><a href="https://bevacqua.github.io/woofmark/">Woofmark</a></td>
+<td align="left">1.4M</td>
+<td align="left">rich + md</td>
+<td align="left">md</td>
+<td align="left">at top</td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="left"><a href="https://pandao.github.io/editor.md/en.html">Pandao/Editor.md</a></td>
+<td align="left">~1.7M with various dependencies</td>
+<td align="left">md with preview</td>
+<td align="left">md</td>
+<td align="left">at top</td>
+<td align="left">many markup options; <a href="https://github.com/pandao/editor.md">github-repo</a></td>
+</tr>
+
+<tr>
+<td align="left"><a href="http://dillinger.io/">Dillinger</a></td>
+<td align="left">1.8M</td>
+<td align="left">md with preview</td>
+<td align="left">md</td>
+<td align="left">none</td>
+<td align="left">various import/export options</td>
+</tr>
+
+<tr>
+<td align="left"><a href="http://mdp.tylingsoft.com/">Markdown-Plus</a></td>
+<td align="left">6M with various dependencies</td>
+<td align="left">md  with preview</td>
+<td align="left">md</td>
+<td align="left">at top</td>
+<td align="left"></td>
+</tr>
+
+<tr>
+<td align="left">Aloha</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">discontinued</td>
+</tr>
+</tbody>
+</table>
+
+<p>sorted by uncompressed size. bootstrap is about 28k uncompressed, jQuery about 91k. sizes have been determined by looking at the network tab on the demo pages (subtracting any content, like images, in those demos).</p>
+
+<p>Other comparisons:</p>
+
+<ul>
+<li><a href="https://github.com/Semantic-Org/Semantic-UI/issues/222">This issue</a> on Semantic-Org/Semantic-UI lists a few editors</li>
+<li><a href="http://ourcodeworld.com/articles/read/359/top-7-best-markdown-editors-javascript-and-jquery-plugins">Top 7: Best Markdown editors Javascript and jQuery plugins</a> (<sup>2017</sup>&frasl;<sub>01</sub>)</li>
+<li><a href="http://www.developersfeed.com/awesome-javascript-wysiwyg-markdown-editors/">Coding 10 Awesome JavaScript WYSIWYG &amp; Markdown Editors</a> (2016)</li>
+</ul>
+</article>
+        </div>
+        
+        <script src="https://m0ru.github.io/js/highlight-9.0.0.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+        
+    </body>
+</html>
