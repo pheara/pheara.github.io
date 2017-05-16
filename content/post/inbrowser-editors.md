@@ -23,7 +23,7 @@ For this, I've compiled this small comparison table, that some of you might find
 | [CLEditor](http://premiumsoftware.net/cleditor/) | 9k + jQuery | rich | html | at top | win95 style |
 | [bootstrap-wysiwyg](http://mindmup.github.io/bootstrap-wysiwyg/) | 5k + jQuery + Bootstrap | rich | html export | at top ||
 | [Lepture's Editor](http://lab.lepture.com/editor/) | 247k | md with preview | md | at top | <!--more--> |
-| [Vue.js](https://vuejs.org/) | 273k | md with preview | md | none ||
+| [Vue.js](https://vuejs.org/v2/examples) | 273k | md with preview | md | none ||
 | [SimpleMDE](https://simplemde.com/) | 280k | md with preview | md | at top ||
 | [Grafikart/JS-Markdown-Editor](https://github.com/Grafikart/JS-Markdown-Editor) | 189k + jQuery + Bootstrap | md  with preview | md | at top ||
 | [medium-editor](https://github.com/daviferreira/medium-editor) | 311k | rich | html | mouse-over ||
