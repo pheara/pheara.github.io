@@ -2,7 +2,7 @@
 +++
 date = "2017-06-23T17:43:00+02:00"
 draft = false
-title = "Prsentation on Grounded Evaluation"
+title = "Presentation on Grounded Evaluation"
 tags = ["visualization evaluation", "qualitative research"]
 +++
 
