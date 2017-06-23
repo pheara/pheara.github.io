@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visualization Evaluation on Moru’s Ramblings</title>
+    <link>https://m0ru.github.io/tags/visualization-evaluation/</link>
+    <description>Recent content in Visualization Evaluation on Moru’s Ramblings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 23 Jun 2017 17:43:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://m0ru.github.io/tags/visualization-evaluation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Prsentation on Grounded Evaluation</title>
+      <link>https://m0ru.github.io/article/prsentation-on-grounded-evaluation/</link>
+      <pubDate>Fri, 23 Jun 2017 17:43:00 +0200</pubDate>
+      
+      <guid>https://m0ru.github.io/article/prsentation-on-grounded-evaluation/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve written (and held) a &lt;a href=&#34;https://m0ru.github.io/grounded-evaluation-presentation/&#34;&gt;presentation on &amp;ldquo;Grounded Evaluation of Visualizations&amp;rdquo;&lt;/a&gt; (for the course &amp;ldquo;Evaluation of Visualizations&amp;rdquo;). Press &lt;code&gt;“S”&lt;/code&gt; to see the speaker&amp;rsquo;s notes and &lt;code&gt;“?”&lt;/code&gt; to see other available commands.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/grounded-evaluation-presentation/figures/grounded_eval_flow_chart.svg&#34; alt=&#34;rounding as part of the first iteration: Theory and observation leading to Grounding (themes, coding, analysis, criteria/theory&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
