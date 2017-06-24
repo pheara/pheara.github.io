@@ -40,14 +40,14 @@ Wie bereits oben erwähnt, wäre es ein solcher, bei dem "Hörer\*innen" selbst 
 Des Weiteren listet Enzensberger auch die folgende Gegenüberstellung von Merkmalen repressiven und emanzipatorischen Mediengebrauchs auf:
 
  # | repressiver Mediengebrauch                 | emanzipatorischer Mediengebrauch                     
--- | ------------------------------------------ | ----------------------------------------------------
- 1 | zentral gesteuertes Programm               | dezentralisiertes Programm                           
- 2 | ein Sender, viele Empfänger                | jeder Empfänger ein potentieller Sender              
- 3 | Immobilisierung isolierter Individuen      | Mobilisierung der Massen                             
- 4 | Passive Konsumentenhaltung                 | Interaktion der Teilnehmer, Feedback                 
- 5 | Entpolitisierungsprozess                   | Politischer Lernprozess                              
- 6 | Produktion durch Spezialisten              | Kollektive Produktion                                
- 7 | Kontrolle durch Eigentümer oder Bürokraten | Gesellschaftliche Kotnrolle durch Selbstorganisation
+---|:--------------------------------------------|:---------------------------------
+1  | zentral gesteuertes Programm               | dezentralisiertes Programm                           
+2  | ein Sender, viele Empfänger                | jeder Empfänger ein potentieller Sender              
+3  | Immobilisierung isolierter Individuen      | Mobilisierung der Massen                             
+4  | Passive Konsumentenhaltung                 | Interaktion der Teilnehmer, Feedback                 
+5  | Entpolitisierungsprozess                   | Politischer Lernprozess                              
+6  | Produktion durch Spezialisten              | Kollektive Produktion                                
+7  | Kontrolle durch Eigentümer oder Bürokraten | Gesellschaftliche Kotnrolle durch Selbstorganisation
 
 In 3.2a wird auf die eizelnen Merkmal-Dimensionen weiter eingegangen und diskutiert wo jeweils computerunterstützte Kommunikation einzuordnen ist.
 
