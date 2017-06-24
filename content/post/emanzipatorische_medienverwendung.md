@@ -56,7 +56,7 @@ In 3.2a wird auf die eizelnen Merkmal-Dimensionen weiter eingegangen und diskuti
 > Auf Seite 520 sind die Charakteristika eines repressiven und eines emanzipatorischen Mediengebrauchs (nach Enzensberger) aufgelistet:
 > a) Welche dieser Charakteristika eines emanzipatorischen Mediengebrauchs treffen auf die computerunterstützte Kommunikation in den digitalen Medien zu (geben Sie Beispiele) und welche nicht (erläutern Sie dies bitte).
 
-### 1) (de)zentrales Programm
+### 1) (De)zentrales Programm
 
 > "zentral gesteuertes Programm" vs "dezentralisiertes Programm"
 
@@ -73,7 +73,7 @@ Aber selbst mit diesen Caveats bleibt zu sagen, dass das Internet deutlich dezen
 
 [^1]: Noble, Safiya. 2012. “*Missed Connections: What Search Engines Say about Women*. Bitch magazine , 12(4): 37­41. <https://safiyaunoble.files.wordpress.com/2012/03/54_search_engines.pdf>
 
-### 2) Ein vs viele Sender
+### 2) Ein vs Viele Sender
 
 > "ein Sender, viele Empfänger" vs "jeder Empfänger ein potentieller Sender"
 
