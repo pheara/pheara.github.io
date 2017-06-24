@@ -56,7 +56,7 @@ In 3.2a wird auf die eizelnen Merkmal-Dimensionen weiter eingegangen und diskuti
 > Auf Seite 520 sind die Charakteristika eines repressiven und eines emanzipatorischen Mediengebrauchs (nach Enzensberger) aufgelistet:
 > a) Welche dieser Charakteristika eines emanzipatorischen Mediengebrauchs treffen auf die computerunterstützte Kommunikation in den digitalen Medien zu (geben Sie Beispiele) und welche nicht (erläutern Sie dies bitte).
 
-### 1)
+### 1) (de)zentrales Programm
 
 > "zentral gesteuertes Programm" vs "dezentralisiertes Programm"
 
@@ -73,7 +73,7 @@ Aber selbst mit diesen Caveats bleibt zu sagen, dass das Internet deutlich dezen
 
 [^1]: Noble, Safiya. 2012. “*Missed Connections: What Search Engines Say about Women*. Bitch magazine , 12(4): 37­41. <https://safiyaunoble.files.wordpress.com/2012/03/54_search_engines.pdf>
 
-### 2)
+### 2) Ein vs viele Sender
 
 > "ein Sender, viele Empfänger" vs "jeder Empfänger ein potentieller Sender"
 
@@ -85,7 +85,7 @@ Auch hier ist zu Sagen, dass die obige Aussage nur mit Vorbehalt getroffen werde
 
 Wie auch bei "1)" bleibt zu sagen, dass selbst unter diesen Nebenaspekten, das Internet deutlich partizipativer ist als vorhergehende Massenkommunikationsmedien.
 
-### 3)
+### 3) (Im)mobilisierung
 
 > "Immobilisierung isolierter Individuen" vs "Mobilisierung der Massen"
 
@@ -94,7 +94,7 @@ Elektronische (Massen-)Kommunikation macht es so einfach, wie nie zuvor, Interes
 Eine allumfassende "Mobilisierung der Massen" ist hierzulande allerdings trotzdem ausgeblieben, was sich potentiell in einer Politikverdrossenheit verorten lässt. Allerdings lässt sich eine gewisse Polarisierung der Gesellschaft bemerken, die von der Funktionsweise der (in "1)" beschriebenen) Plattformen und Suchmaschinen verstärkt wird, deren Algorithmen zu den berüchtigten "Filterblasen" und "Echokammern" führen. So bekommen Nutzer\*innen dieser Plattformen eher nur Inhalte zu Gesicht,
 die eine der ihren Meinung ähnliche vertreten, wodurch sie sich in dieser bestätigt fühlen, unabhängig davon was auch immer sie sein sollte -- und leider oft auch unabhängig wie gegebenenfalls die "objektive Faktenlage" aussehen sollte (siehe die aktuellen Debatten zu "Fake News"). Vor allem rechtsextreme Parteien haben diese (und andere) Mechanismen verwendet, um in den letzten Jahren ihre Anhänger\*innen zu mobilisieren.
 
-### 4)
+### 4) Passiv vs Interaktiv
 
 > "Passive Konsumentenhaltung" vs "Interaktion der Teilnehmer, Feedback"
 
@@ -102,7 +102,7 @@ Es hat sich definitiv eine Kultur des Feedbacks im Internet entwickelt. So sind 
 
 Allerdings bleibt zu sagen, selbst wenn die Interaktions-Möglichkeiten drastisch zugenommen haben im Vergleich zur Vergangenheit, nicht alle Menschen diese verwenden und nicht alle Plattformen Diskussion auf ihnen einladen (wobei diese dann oft auf anderen stattfindet)
 
-### 5)
+### 5) (Ent)politisierung
 
 > "Entpolitisierungsprozess" vs "Politischer Lernprozess" <!-- TODO def!! S. 519 -->
 
@@ -114,7 +114,7 @@ Allerdings habe ich Hoffnung, dass durch die Benennung und Thematisierung dieser
 
 Zudem ist auch zu sagen, dass der meistgesehendste Teil der konsumierten Medien, nach wie vor von großen Medienproduzierenden kommt (e.g. Zeitungen, Fernsehnachrichten, Filmstudios, etc), die wenn auch oft online diskutiert, gefühlt auch oft unreflektiert hingenommen werden.
 
-### 6)
+### 6) Produktion
 
 > "Produktion durch Spezialisten" vs "Kollektive Produktion"
 
@@ -123,7 +123,7 @@ die seinem Channel subscribed haben und dadurch regelmäßig seine Videos sehen.
 
 Tendenziell ist es auch leichter geworden wirklich "kollektive" Produktionen zu erstellen, da das Internet ein gutes Medium zur Kollaboration darstellt. Vor allem Remixes (e.g. bei Memes) sind weit verbreitet.
 
-### 7)
+### 7) Kontrolle
 
 > "Kontrolle durch Eigentümer oder Bürokraten" vs "Gesellschaftliche Kontrolle durch Selbstorganisation"
 
