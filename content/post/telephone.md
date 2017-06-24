@@ -5,7 +5,7 @@ title = "Verwendungsweisen des Telefons"
 tags = ["media and communication theory"]
 +++
 
-<img src="/media/telephone/Adolphe_Bitard_-_Téléphone.jpg" class="figure"> <!--_-->
+<img src="/media/gkm/Adolphe_Bitard_-_Téléphone.jpg" class="figure"> <!--_-->
 
 > Material: C. Karpenstein-Eßbach: Am Apparat: Telephongeschichten. In: C. Karpenstein-Eßbach: "Einführung in die Kulturwissenschaft der Medien", S. 110-122, 2004.
 
