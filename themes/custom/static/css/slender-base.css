@@ -30,7 +30,7 @@ body {
     margin: 0;
 }
 
-p, h1, h2, h3 {
+table, p, h1, h2, h3 {
   margin-bottom: 0.7em;
 }
 
@@ -248,4 +248,20 @@ footer p {
     .article-content {
         margin: 20px;
     }
+}
+
+th, td {
+  padding: 0.7em;
+}
+table, th, td {
+  border:1px solid lightgray;
+}
+table {
+  border-spacing: 0;
+  border-bottom:0;
+  border-left:0;
+}
+td, th {
+  border-top:0;
+  border-right:0;
 }
