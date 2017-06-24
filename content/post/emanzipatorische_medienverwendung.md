@@ -39,15 +39,15 @@ Wie bereits oben erwähnt, wäre es ein solcher, bei dem "Hörer\*innen" selbst 
 
 Des Weiteren listet Enzensberger auch die folgende Gegenüberstellung von Merkmalen repressiven und emanzipatorischen Mediengebrauchs auf:
 
-| # | repressiver Mediengebrauch                 | emanzipatorischer Mediengebrauch                     |
-| - | ------------------------------------------ | ---------------------------------------------------- |
-| 1 | zentral gesteuertes Programm               | dezentralisiertes Programm                           |
-| 2 | ein Sender, viele Empfänger                | jeder Empfänger ein potentieller Sender              |
-| 3 | Immobilisierung isolierter Individuen      | Mobilisierung der Massen                             |
-| 4 | Passive Konsumentenhaltung                 | Interaktion der Teilnehmer, Feedback                 |
-| 5 | Entpolitisierungsprozess                   | Politischer Lernprozess                              |
-| 6 | Produktion durch Spezialisten              | Kollektive Produktion                                |
-| 7 | Kontrolle durch Eigentümer oder Bürokraten | Gesellschaftliche Kotnrolle durch Selbstorganisation |
+ # | repressiver Mediengebrauch                 | emanzipatorischer Mediengebrauch                     
+-- | ------------------------------------------ | ----------------------------------------------------
+ 1 | zentral gesteuertes Programm               | dezentralisiertes Programm                           
+ 2 | ein Sender, viele Empfänger                | jeder Empfänger ein potentieller Sender              
+ 3 | Immobilisierung isolierter Individuen      | Mobilisierung der Massen                             
+ 4 | Passive Konsumentenhaltung                 | Interaktion der Teilnehmer, Feedback                 
+ 5 | Entpolitisierungsprozess                   | Politischer Lernprozess                              
+ 6 | Produktion durch Spezialisten              | Kollektive Produktion                                
+ 7 | Kontrolle durch Eigentümer oder Bürokraten | Gesellschaftliche Kotnrolle durch Selbstorganisation
 
 In 3.2a wird auf die eizelnen Merkmal-Dimensionen weiter eingegangen und diskutiert wo jeweils computerunterstützte Kommunikation einzuordnen ist.
 
@@ -71,7 +71,7 @@ der Mantel der "Algorithmischen Objektivität" geführt wird, so spiegeln ihre R
 
 Aber selbst mit diesen Caveats bleibt zu sagen, dass das Internet deutlich dezentraler ist als die Massenkommunikationsmedien, die ihm vorhergegangen sind.
 
-[^1] Noble, Safiya. 2012. “*Missed Connections: What Search Engines Say about Women*. Bitch magazine , 12(4): 37­41. <https://safiyaunoble.files.wordpress.com/2012/03/54_search_engines.pdf>
+[^1]: Noble, Safiya. 2012. “*Missed Connections: What Search Engines Say about Women*. Bitch magazine , 12(4): 37­41. <https://safiyaunoble.files.wordpress.com/2012/03/54_search_engines.pdf>
 
 ### 2)
 
