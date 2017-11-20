@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://m0ru.github.io/article/group-techniques/</loc>
+    <lastmod>2017-11-21T00:50:00+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://m0ru.github.io/article/filterblasen-und-echokammern/</loc>
     <lastmod>2017-06-24T23:54:00+02:00</lastmod>
   </url>
@@ -164,7 +169,7 @@
   
   <url>
     <loc>https://m0ru.github.io/</loc>
-    <lastmod>2017-06-24T23:54:00+02:00</lastmod>
+    <lastmod>2017-11-21T00:50:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -176,7 +181,7 @@
   
   <url>
     <loc>https://m0ru.github.io/post/</loc>
-    <lastmod>2017-06-24T23:54:00+02:00</lastmod>
+    <lastmod>2017-11-21T00:50:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -189,6 +194,12 @@
   <url>
     <loc>https://m0ru.github.io/tags/</loc>
     <lastmod>2016-10-06T11:55:32+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://m0ru.github.io/tags/user-research-methods/</loc>
+    <lastmod>2017-11-21T00:50:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   

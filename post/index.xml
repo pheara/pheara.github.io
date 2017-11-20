@@ -6,10 +6,33 @@
     <description>Recent content in Posts on Moru’s Ramblings</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 24 Jun 2017 23:54:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 21 Nov 2017 00:50:00 +0200</lastBuildDate>
     
 	<atom:link href="https://m0ru.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Group Techniques</title>
+      <link>https://m0ru.github.io/article/group-techniques/</link>
+      <pubDate>Tue, 21 Nov 2017 00:50:00 +0200</pubDate>
+      
+      <guid>https://m0ru.github.io/article/group-techniques/</guid>
+      <description>&lt;p&gt;This &lt;strong&gt;overview over group techniques in user research&lt;/strong&gt; was written as report for the course &amp;ldquo;User Research Methods&amp;rdquo;. However, due to being sick / generally being overworked / this thing being written in a deadline-sprint, your mileage may vary and there&amp;rsquo;s certainly better resources &amp;ndash; just as a disclaimer and to take away the answer to &amp;ldquo;wtf was up with moru here?!&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;With that out of the way and without further ado: Group Techniques.&lt;br /&gt;
+As this is more a category of loosely connected methods formulated for very different reaons in different situations, I&amp;rsquo;ll go over the ones mentioned in the lecture slides one by one and try to compare them in the process. The methods are as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Focus Groups&lt;/li&gt;
+&lt;li&gt;Fishbowl&lt;/li&gt;
+&lt;li&gt;Bar Camp&lt;/li&gt;
+&lt;li&gt;World Cafe&lt;/li&gt;
+&lt;li&gt;Breakout Sessions&lt;/li&gt;
+&lt;li&gt;Open Space (Technology)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Filterblasen und Echokammern</title>
@@ -328,7 +351,7 @@ a variety of physical puzzles.&lt;/p&gt;
 
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/ZvPPgkJhQyk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/ZvPPgkJhQyk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
  &lt;/div&gt;
 
 
@@ -342,7 +365,7 @@ a variety of physical puzzles.&lt;/p&gt;
       
       <guid>https://m0ru.github.io/article/arg-cctv-run/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/6Uu3OO75BlQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/6Uu3OO75BlQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
  &lt;/div&gt;
 
 
@@ -358,7 +381,7 @@ a variety of physical puzzles.&lt;/p&gt;
       
       <guid>https://m0ru.github.io/article/concert-battle-for-g%C3%B8dtfrey/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/yB2xjIn_9JQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/yB2xjIn_9JQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
  &lt;/div&gt;
 
 
@@ -399,7 +422,7 @@ a variety of physical puzzles.&lt;/p&gt;
       <guid>https://m0ru.github.io/article/card-game-subjective-objectives/</guid>
       <description>&lt;p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/rC-Hhn9mKB0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/rC-Hhn9mKB0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
  &lt;/div&gt;
 
 &lt;/p&gt;</description>

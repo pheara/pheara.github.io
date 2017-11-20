@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>User Research Methods on Moru’s Ramblings</title>
+    <link>https://m0ru.github.io/tags/user-research-methods/</link>
+    <description>Recent content in User Research Methods on Moru’s Ramblings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 21 Nov 2017 00:50:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://m0ru.github.io/tags/user-research-methods/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Group Techniques</title>
+      <link>https://m0ru.github.io/article/group-techniques/</link>
+      <pubDate>Tue, 21 Nov 2017 00:50:00 +0200</pubDate>
+      
+      <guid>https://m0ru.github.io/article/group-techniques/</guid>
+      <description>&lt;p&gt;This &lt;strong&gt;overview over group techniques in user research&lt;/strong&gt; was written as report for the course &amp;ldquo;User Research Methods&amp;rdquo;. However, due to being sick / generally being overworked / this thing being written in a deadline-sprint, your mileage may vary and there&amp;rsquo;s certainly better resources &amp;ndash; just as a disclaimer and to take away the answer to &amp;ldquo;wtf was up with moru here?!&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;With that out of the way and without further ado: Group Techniques.&lt;br /&gt;
+As this is more a category of loosely connected methods formulated for very different reaons in different situations, I&amp;rsquo;ll go over the ones mentioned in the lecture slides one by one and try to compare them in the process. The methods are as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Focus Groups&lt;/li&gt;
+&lt;li&gt;Fishbowl&lt;/li&gt;
+&lt;li&gt;Bar Camp&lt;/li&gt;
+&lt;li&gt;World Cafe&lt;/li&gt;
+&lt;li&gt;Breakout Sessions&lt;/li&gt;
+&lt;li&gt;Open Space (Technology)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
