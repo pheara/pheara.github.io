@@ -5,6 +5,8 @@ tags = ["User Research Methods"]
 
 +++
 
+[![open space plenary circle](/media/urm/grouptechniques/open_space_plenum.jpg){ height=200px }](https://en.wikipedia.org/wiki/File:NASA_Open_Space_2_Innovate.jpg)
+
 This **overview over group techniques in user research** was written as report for the course "User Research Methods". However, due to being sick / generally being overworked / this thing being written in a deadline-sprint, your mileage may vary and there's certainly better resources -- just as a disclaimer and to take away the answer to "wtf was up with moru here?!"
 
 With that out of the way and without further ado: Group Techniques.  
