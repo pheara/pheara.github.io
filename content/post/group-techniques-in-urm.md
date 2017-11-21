@@ -56,7 +56,7 @@ it's all about sex and sex appeal). The method fell out of favor with the rise o
 
 ## Fishbowl 
 
-[![fishbowl seating arrangment -- inner and outer circles](/media/urm/grouptechniques/fishbowl_diagram.png){  height=250px }](https://commons.wikimedia.org/wiki/File:Fishbowl_diagram_172.png)
+[![fishbowl seating arrangment -- inner and outer circles](/media/urm/grouptechniques/fishbowl_diagram.png)](https://commons.wikimedia.org/wiki/File:Fishbowl_diagram_172.png)
 
 The fishbowl is a discussion structure for larger groups (see seating-arrangment figure above), where a few highly visible and constantly rotating discuss in an inner circle of (e.g. 2-6) chairs. Everybody who's not actively discussin sits in the outer circle(s).
 Usually an expert starts in the center to kick off the discussion on a given topic. People can switch to a free chair in the inner circle when they want to say something. Once they've made their point and replied to any follow-up questions or -discussion-strands they then move back to the outer circle (the same goes for the initial expert). This allows people to sit back and observe when they don't want to talk at the moment. 
