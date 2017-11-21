@@ -5,7 +5,7 @@ tags = ["User Research Methods"]
 
 +++
 
-[![open space plenary circle](/media/urm/grouptechniques/open_space_plenum.jpg){ height=200px }](https://en.wikipedia.org/wiki/File:NASA_Open_Space_2_Innovate.jpg)
+[![open space plenary circle](/media/urm/grouptechniques/open_space_plenum.jpg)](https://en.wikipedia.org/wiki/File:NASA_Open_Space_2_Innovate.jpg)
 
 This **overview over group techniques in user research** was written as report for the course "User Research Methods". However, due to being sick / generally being overworked / this thing being written in a deadline-sprint, your mileage may vary and there's certainly better resources -- just as a disclaimer and to take away the answer to "wtf was up with moru here?!"
 
@@ -23,7 +23,7 @@ As this is more a category of loosely connected methods formulated for very diff
 
 ## Focus Groups 
 
-[![focus group](/media/urm/grouptechniques/focus_group.jpg){ height=200px }](https://commons.wikimedia.org/wiki/File:Focus_Groups,_National_Network_Meetings,_GINKS_IMG_3920_\(5348319263\).jpg)
+[![focus group](/media/urm/grouptechniques/focus_group.jpg)](https://commons.wikimedia.org/wiki/File:Focus_Groups,_National_Network_Meetings,_GINKS_IMG_3920_\(5348319263\).jpg)
 
 The idea is to recruit a small group (e.g. 6-12) of people from the target demographic/roles, usually in a lab setting, give them a question and let them discuss it with only minimal moderating. Alternatively researchers can give them an exercise to follow, e.g. role-playing, drawing, or ranking, sorting, grouping and/or collaging items, text snippets and pictures. Usually the sessions are audio/video-recorded (which suggests the lab setting) and notes are taken by the moderator or a seperate
 observer. All of this resulting data can later be analyzed and (as most group methods) will inform about memories  of experiences (colored by the recall process however), mental models, lingo, and in particular and contrast to single-person interviews: about social dynamics in the group. 
@@ -82,8 +82,8 @@ constructivist if used similar to a focus group to elaborate on personal experie
 
 ## World Cafe 
 
-[![world cafe principles](/media/urm/grouptechniques/world-cafe-puzzle.jpg){ height=200px }](http://rhizome.coop/facilitating-meetings-middle-game/) 
-[![world cafe tables](/media/urm/grouptechniques/world-cafe-tables.png){ height=200px }](https://bcpslis.pbworks.com/w/page/107744660/World%20Cafe%20Model)
+[![world cafe principles](/media/urm/grouptechniques/world-cafe-puzzle.jpg)](http://rhizome.coop/facilitating-meetings-middle-game/) 
+[![world cafe tables](/media/urm/grouptechniques/world-cafe-tables.png)](https://bcpslis.pbworks.com/w/page/107744660/World%20Cafe%20Model)
 
 The goal is to discuss complicated issues (and come with up with an action plan) by synthesing as many people's viewpoints as possible. The setup has multiple tables spread around a room, e.g. one per sub-topic or general approach. The tables are covered in paper so people can write on them. The session starts off with an optional talk that introduces the topic (if necessary). People then discuss on their table and draw/write on the paper. After a while everyone but one person
 per table switches to a different table. The person who's stayed introduces that tables discussion progress to the new group. Thus people can inspire each other, there's a certain continuity to each table's discussion, everyone get's involved and has room to speak, but the discussion groups stay small and well suited to casual, involved and stress-free discussion. Optionally at the end, each tables "host" reports it's discussion's results back to the plenum.
@@ -111,7 +111,7 @@ understand the outcomes can be recorded in notes or posters and later be analyze
 ## Bar Camp 
 
 
-[![sessionplan of barcamp graz 2017](/media/urm/grouptechniques/barcamp_whiteboard.jpg){ height=200px }](http://barcamp-graz.at/2017/04/so-schaut-der-sessionplan-vom-ersten-barcamp-tag-aus/)
+[![sessionplan of barcamp graz 2017](/media/urm/grouptechniques/barcamp_whiteboard.jpg)](http://barcamp-graz.at/2017/04/so-schaut-der-sessionplan-vom-ersten-barcamp-tag-aus/)
 
 Barcamps are so-called "unconference", i.e. they're a critique and subversion of frontal-presentation-, pre-planned-agenda-conferences by allowing people to come up with their own (usually very interactive) sessions every morning^[barcamp graz 2017 - video of (sparsely attended) planning session on sunday: <https://www.youtube.com/watch?v=IF4y63whodg>] of the conference. The name is a nudge towards the invite-only [Foo-Camp](https://en.wikipedia.org/wiki/Foo_Camp) first organised by the hacker Tim O'Reilly to utilize vacant office space he had access to. Bar-Camps take their methodology from
 Foo-Camps but are accessible to the public.
@@ -131,7 +131,7 @@ The main take-away usually is in the form of contacts, personal knowledge gained
 
 ## Open Space (Technology)
 
-[![open space plenary circle](/media/urm/grouptechniques/open_space_plenum.jpg){ height=200px }](https://en.wikipedia.org/wiki/File:NASA_Open_Space_2_Innovate.jpg)
+[![open space plenary circle](/media/urm/grouptechniques/open_space_plenum.jpg)](https://en.wikipedia.org/wiki/File:NASA_Open_Space_2_Innovate.jpg)
 
 Open Spaces are a very detailed method to organize discussions in larger groups (usually towards an action plan). Chairs are arranged in a large circle (the plenum/"Opening Circle"). Mainly during the first 30-90 minutes people (called "birds") can suggest sub-issues/-topics (that are then posted to a bulletin board in the center) and that are then discussed in their local area of the larger circle or a breakaway circle (their "nests"). They're responsible for kicking off the local discussion, taking notes and reporting back to the
 plenum/"Closing Circle". Other can move around freely (and are called "bees" if they stick somewhere or "butterflies" if they move around constantly), thus transporting ideas between the sub-groups. The entire process is managed by a moderator called a "facilitator" that should be "present but invisible", i.e. intervene as little as possible.
