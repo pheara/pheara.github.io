@@ -94,7 +94,7 @@ lists the following "Grand Challenges" for HCI (and thus user research
 as integral part of it):
 
 [^sesamecredit]: for a very extreme case see Sesame Credit, a system heavily relying on gamification and operand conditioning, where friends with bad ratings pull you down with them, and where those ratings could soon determine access to jobs, social security, visa, etc 
-( [Nguyen2017[^ref-NguyenChinamightuse] )]
+(Nguyen 2017[^NguyenChinamightuse])
 
 -   Develop a handbook of human needs
 -   Shift from user experience to community experience
