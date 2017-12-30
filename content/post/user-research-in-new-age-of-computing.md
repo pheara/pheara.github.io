@@ -1,6 +1,6 @@
 +++
 date = "2017-12-29T00:52:00+02:00"
-title =  "Group Techniques"
+title =  "User Research in a “New Age of Computing”"
 tags = ["User Research Methods"]
 
 +++
