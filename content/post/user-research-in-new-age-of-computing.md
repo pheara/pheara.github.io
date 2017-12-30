@@ -93,9 +93,6 @@ In this regard, Ben Schneiderman ([2017](#ref-ShneidermanGrandchallengesHCI))
 lists the following "Grand Challenges" for HCI (and thus user research
 as integral part of it):
 
-[^sesamecredit]: for a very extreme case see Sesame Credit, a system heavily relying on gamification and operand conditioning, where friends with bad ratings pull you down with them, and where those ratings could soon determine access to jobs, social security, visa, etc 
-(Nguyen 2017[^NguyenChinamightuse])
-
 -   Develop a handbook of human needs
 -   Shift from user experience to community experience
 -   Refine theories of persuasion
@@ -233,6 +230,8 @@ addressed.
 <!--
 References:
 -->
+
+[^sesamecredit]: for a very extreme case see Sesame Credit, a system heavily relying on gamification and operand conditioning, where friends with bad ratings pull you down with them, and where those ratings could soon determine access to jobs, social security, visa, etc (Nguyen 2017[^NguyenChinamightuse])
 
 [^BaumerPostuserism2017]: Baumer, Eric P. S., and Jed R. Brubaker. 2017. “Post-Userism.” In *Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems*, 6291–6303. CHI ’17. New York, NY, USA: ACM.  doi:[10.1145 / 3025453.3025740](https://doi.org/10.1145/3025453.3025740).
 
