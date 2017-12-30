@@ -32,13 +32,13 @@ these by default.
 refuted: The current variants still struggle with contextual information
 and the inherent unpreciseness of human language, even for so trivial
 things as "remind me later this week" (Rong et
-al. [2017][RongManagingUncertaintyTime2017]). Also, in their
+al. 2017[^RongManagingUncertaintyTime2017]). Also, in their
 current state, they are -- in one aspect -- a step back to command line
 interfaces: they require knowledge which commands are available and what
 can be expected from the system. Lastly, their notorious problems with
 accents have become quite famous (*Scottish
 Elevator With Voice Recognition*
-[2017][ScottishElevatorVoice]). All of these mean that
+2017[^ScottishElevatorVoice]). All of these mean that
 research on the context is required and design decisions made, that need
 to be informed.
 
@@ -53,10 +53,10 @@ they interact. However, in any way, the current reality of
 (semi-)autonomous cars is far from that, as these cars require constant
 oversight and thoughtful ways of signaling and dealing with handover
 (van der Heiden, Iqbal, and Janssen
-[2017][vanderHeidenPrimingDriversHandover2017]). If these
+2017[^vanderHeidenPrimingDriversHandover2017]). If these
 aren't handled well, problems in the engine can easily lead to dangerous
 situations (Brown and Laurier
-[2017][BrownTroubleAutopilotsAssisted2017]).
+2017[^BrownTroubleAutopilotsAssisted2017]).
 
 The more probable scenario, but I'd argue still unlikely or at least
 very far off future, is that research and design will be fully
@@ -94,7 +94,7 @@ lists the following "Grand Challenges" for HCI (and thus user research
 as integral part of it):
 
 [^sesamecredit]: for a very extreme case see Sesame Credit, a system heavily relying on gamification and operand conditioning, where friends with bad ratings pull you down with them, and where those ratings could soon determine access to jobs, social security, visa, etc 
-( [Nguyen 2017][ref-NguyenChinamightuse] )]
+( [Nguyen2017[^ref-NguyenChinamightuse] )]
 
 -   Develop a handbook of human needs
 -   Shift from user experience to community experience
@@ -122,7 +122,7 @@ The Role of User Researchers
 > what ways would it need to be adapted?
 
 Brownlee
-([2016][BrownleeDesignJobsThat2016]) argues that a few roles
+(2016[^BrownleeDesignJobsThat2016]) argues that a few roles
 will fade out or lose in significance, will be split up or merged into
 others, as well as some others will emerge: He argues that *UX Designer*
 as a job description will be applied less often, as it's become a very
@@ -142,7 +142,7 @@ John Brownlee isn't the only one pointing out the increasing integration
 of novel algorithms with the design and research processes:
 
 Dove et al.
-([2017][DoveUXDesignInnovation2017]) talks about the design
+(2017[^DoveUXDesignInnovation2017]) talks about the design
 problems and challenges of machine-learning systems, studies how the
 developer- and design-teams interact and especially points out a
 lack/insufficiency of machine learning frameworks suited for rapid
@@ -160,7 +160,7 @@ project level, user research can inform what good and bad example
 generated artifacts are from which rules can be derived or against which
 algorithm-parameters can be fine-tuned, i.e. the critical step in
 designing generators (Kompton
-[2017][Komptonyouwantbuild]) and I'd argue machine learning
+2017[^Komptonyouwantbuild]) and I'd argue machine learning
 systems as well.
 
 Thus for people doing user research, the new technologies could mean
@@ -176,11 +176,11 @@ be, or even more so, *should* be.
 As far as the challenges are concerened, I'd like to point to the
 (societal) issues at the end of the [section
 above](#the-new-age-of-computing) and by Shneiderman et al.
-([2017][ShneidermanGrandchallengesHCI]). In regard to these
+(2017[^ShneidermanGrandchallengesHCI]). In regard to these
 I'd like to stress (user) researchers' role in informing policy-makers
 to make responsible decisions on technology regulation, use and
 development. On this Pargman et al Pargman et al.
-([2017][PargmanSustainabilityImaginedFuture2017]) write
+(2017[^PargmanSustainabilityImaginedFuture2017]) write
 
 > It should however be remembered that it is not uncommon in decision
 > making to only refer to "what will happen" (for example "you can’t
@@ -201,7 +201,7 @@ persuasiveness, and empathy, compassion, caring as well as community
 experience. A trend that is already occuring is dropping the term "user"
 in favor of a more general "human" to break up this power-structure and
 broaden the horizon accordingly. Baumer and Brubaker
-([2017][BaumerPostuserism2017]) pick this up by analyzing
+(2017[^BaumerPostuserism2017]) pick this up by analyzing
 the "user"-concept throughout the three waves and arguing for
 post-userism, i.e. looking beyond the users represented in
 system/data-structures, user-interfaces, design-processes as well as
@@ -233,27 +233,27 @@ addressed.
 References
 ==========
 
-[BaumerPostuserism2017]: Baumer, Eric P. S., and Jed R. Brubaker. 2017. “Post-Userism.” In *Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems*, 6291–6303. CHI ’17. New York, NY, USA: ACM.  doi:[10.1145/3025453.3025740](https://doi.org/10.1145/3025453.3025740).
+[^BaumerPostuserism2017]: Baumer, Eric P. S., and Jed R. Brubaker. 2017. “Post-Userism.” In *Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems*, 6291–6303. CHI ’17. New York, NY, USA: ACM.  doi:[10.1145/3025453.3025740](https://doi.org/10.1145/3025453.3025740).
 
-[BrownTroubleAutopilotsAssisted2017]: Brown, Barry, and Eric Laurier. 2017. “The Trouble with Autopilots: Assisted and Autonomous Driving on the Social Road.” In *Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems*, 416–29.  CHI ’17. New York, NY, USA: ACM.  doi:[10.1145/3025453.3025462](https://doi.org/10.1145/3025453.3025462).
+[^BrownTroubleAutopilotsAssisted2017]: Brown, Barry, and Eric Laurier. 2017. “The Trouble with Autopilots: Assisted and Autonomous Driving on the Social Road.” In *Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems*, 416–29.  CHI ’17. New York, NY, USA: ACM.  doi:[10.1145/3025453.3025462](https://doi.org/10.1145/3025453.3025462).
 
-[BrownleeDesignJobsThat2016]: Brownlee, John. 2016. “5 Design Jobs That Won’t Exist In The Future.” *Co.Design*. September 1.  <https://www.fastcodesign.com/3063318/5-design-jobs-that-wont-exist-in-the-future>.
+[^BrownleeDesignJobsThat2016]: Brownlee, John. 2016. “5 Design Jobs That Won’t Exist In The Future.” *Co.Design*. September 1.  <https://www.fastcodesign.com/3063318/5-design-jobs-that-wont-exist-in-the-future>.
 
-[DoveUXDesignInnovation2017]: Dove, Graham, Kim Halskov, Jodi Forlizzi, and John Zimmerman. 2017. “UX Design Innovation: Challenges for Working with Machine Learning As a Design Material.” In *Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems*, 278–88. CHI ’17. New York, NY, USA: ACM.  doi:[10.1145/3025453.3025739](https://doi.org/10.1145/3025453.3025739).
+[^DoveUXDesignInnovation2017]: Dove, Graham, Kim Halskov, Jodi Forlizzi, and John Zimmerman. 2017. “UX Design Innovation: Challenges for Working with Machine Learning As a Design Material.” In *Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems*, 278–88. CHI ’17. New York, NY, USA: ACM.  doi:[10.1145/3025453.3025739](https://doi.org/10.1145/3025453.3025739).
 
-[Komptonyouwantbuild]: Kompton, Kate. 2017. “So You Want to Build a Generator….” *Kate Compton*. Accessed December 29.  <http://galaxykate0.tumblr.com/post/139774965871/so-you-want-to-build-a-generator>.
+[^Komptonyouwantbuild]: Kompton, Kate. 2017. “So You Want to Build a Generator….” *Kate Compton*. Accessed December 29.  <http://galaxykate0.tumblr.com/post/139774965871/so-you-want-to-build-a-generator>.
 
-[NguyenChinamightuse]: Nguyen, Clinton. 2017. “China Might Use Data to Create a Score for Each Citizen Based on How Trustworthy They Are.” *Business Insider Deutschland*. Accessed December 29.  <http://www.businessinsider.de/china-social-credit-score-like-black-mirror-2016-10>.
+[^NguyenChinamightuse]: Nguyen, Clinton. 2017. “China Might Use Data to Create a Score for Each Citizen Based on How Trustworthy They Are.” *Business Insider Deutschland*. Accessed December 29.  <http://www.businessinsider.de/china-social-credit-score-like-black-mirror-2016-10>.
 
-[PargmanSustainabilityImaginedFuture2017]: Pargman, Daniel, Elina Eriksson, Mattias Höjer, Ulrika Gunnarsson Östling, and Luciane Aguiar Borges. 2017. “The (Un)Sustainability of Imagined Future Information Societies.” In *Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems*, 773–85. CHI ’17. New York, NY, USA: ACM.  doi:[10.1145/3025453.3025858](https://doi.org/10.1145/3025453.3025858).
+[^PargmanSustainabilityImaginedFuture2017]: Pargman, Daniel, Elina Eriksson, Mattias Höjer, Ulrika Gunnarsson Östling, and Luciane Aguiar Borges. 2017. “The (Un)Sustainability of Imagined Future Information Societies.” In *Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems*, 773–85. CHI ’17. New York, NY, USA: ACM.  doi:[10.1145/3025453.3025858](https://doi.org/10.1145/3025453.3025858).
 
-[RongManagingUncertaintyTime2017]: Rong, Xin, Adam Fourney, Robin N. Brewer, Meredith Ringel Morris, and Paul N. Bennett. 2017. “Managing Uncertainty in Time Expressions for Virtual Assistants.” In *Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems*, 568–79. CHI ’17. New York, NY, USA: ACM.  doi:[10.1145/3025453.3025674](https://doi.org/10.1145/3025453.3025674).
+[^RongManagingUncertaintyTime2017]: Rong, Xin, Adam Fourney, Robin N. Brewer, Meredith Ringel Morris, and Paul N. Bennett. 2017. “Managing Uncertainty in Time Expressions for Virtual Assistants.” In *Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems*, 568–79. CHI ’17. New York, NY, USA: ACM.  doi:[10.1145/3025453.3025674](https://doi.org/10.1145/3025453.3025674).
 
-[ScottishElevatorVoice]: *Scottish Elevator With Voice Recognition*. 2017. Burnsitown Comedy Show. Accessed December 29.  <https://www.youtube.com/watch?v=BOUTfUmI8vs>.
+[^ScottishElevatorVoice]: *Scottish Elevator With Voice Recognition*. 2017. Burnsitown Comedy Show. Accessed December 29.  <https://www.youtube.com/watch?v=BOUTfUmI8vs>.
 
-[ShneidermanGrandchallengesHCI]: Shneiderman, Ben, Catherine Plaisant, Maxine Cohen, Steven Jacobs, Niklas Elmqvist, and Nicholoas Diakopoulos. 2017. “Grand Challenges for HCI Researchers | ACM Interactions.” Accessed December 22.  <http://interactions.acm.org/archive/view/september-october-2016/grand-challenges-for-hci-researchers>.
+[^ShneidermanGrandchallengesHCI]: Shneiderman, Ben, Catherine Plaisant, Maxine Cohen, Steven Jacobs, Niklas Elmqvist, and Nicholoas Diakopoulos. 2017. “Grand Challenges for HCI Researchers | ACM Interactions.” Accessed December 22.  <http://interactions.acm.org/archive/view/september-october-2016/grand-challenges-for-hci-researchers>.
 
-[vanderHeidenPrimingDriversHandover2017]: van der Heiden, Remo M.A., Shamsi T. Iqbal, and Christian P. Janssen.  2017. “Priming Drivers Before Handover in Semi-Autonomous Cars.” In *Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems*, 392–404. CHI ’17. New York, NY, USA: ACM.  doi:[10.1145/3025453.3025507](https://doi.org/10.1145/3025453.3025507).
+[^vanderHeidenPrimingDriversHandover2017]: van der Heiden, Remo M.A., Shamsi T. Iqbal, and Christian P. Janssen.  2017. “Priming Drivers Before Handover in Semi-Autonomous Cars.” In *Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems*, 392–404. CHI ’17. New York, NY, USA: ACM.  doi:[10.1145/3025453.3025507](https://doi.org/10.1145/3025453.3025507).
 
 
 
