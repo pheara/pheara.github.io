@@ -32,13 +32,13 @@ these by default.
 refuted: The current variants still struggle with contextual information
 and the inherent unpreciseness of human language, even for so trivial
 things as "remind me later this week" (Rong et
-al. 2017[^RongManagingUncertaintyTime2017]). Also, in their
+al. 2017)[^RongManagingUncertaintyTime2017]. Also, in their
 current state, they are -- in one aspect -- a step back to command line
 interfaces: they require knowledge which commands are available and what
 can be expected from the system. Lastly, their notorious problems with
 accents have become quite famous (*Scottish
 Elevator With Voice Recognition*
-2017[^ScottishElevatorVoice]). All of these mean that
+2017)[^ScottishElevatorVoice]. All of these mean that
 research on the context is required and design decisions made, that need
 to be informed.
 
@@ -53,10 +53,10 @@ they interact. However, in any way, the current reality of
 (semi-)autonomous cars is far from that, as these cars require constant
 oversight and thoughtful ways of signaling and dealing with handover
 (van der Heiden, Iqbal, and Janssen
-2017[^vanderHeidenPrimingDriversHandover2017]). If these
+2017)[^vanderHeidenPrimingDriversHandover2017]. If these
 aren't handled well, problems in the engine can easily lead to dangerous
 situations (Brown and Laurier
-2017[^BrownTroubleAutopilotsAssisted2017]).
+2017)[^BrownTroubleAutopilotsAssisted2017].
 
 The more probable scenario, but I'd argue still unlikely or at least
 very far off future, is that research and design will be fully
@@ -122,7 +122,7 @@ The Role of User Researchers
 > what ways would it need to be adapted?
 
 Brownlee
-(2016[^BrownleeDesignJobsThat2016]) argues that a few roles
+(2016)[^BrownleeDesignJobsThat2016] argues that a few roles
 will fade out or lose in significance, will be split up or merged into
 others, as well as some others will emerge: He argues that *UX Designer*
 as a job description will be applied less often, as it's become a very
@@ -142,7 +142,7 @@ John Brownlee isn't the only one pointing out the increasing integration
 of novel algorithms with the design and research processes:
 
 Dove et al.
-(2017[^DoveUXDesignInnovation2017]) talks about the design
+(2017)[^DoveUXDesignInnovation2017] talks about the design
 problems and challenges of machine-learning systems, studies how the
 developer- and design-teams interact and especially points out a
 lack/insufficiency of machine learning frameworks suited for rapid
@@ -160,7 +160,7 @@ project level, user research can inform what good and bad example
 generated artifacts are from which rules can be derived or against which
 algorithm-parameters can be fine-tuned, i.e. the critical step in
 designing generators (Kompton
-2017[^Komptonyouwantbuild]) and I'd argue machine learning
+2017)[^Komptonyouwantbuild] and I'd argue machine learning
 systems as well.
 
 Thus for people doing user research, the new technologies could mean
@@ -176,11 +176,11 @@ be, or even more so, *should* be.
 As far as the challenges are concerened, I'd like to point to the
 (societal) issues at the end of the [section
 above](#the-new-age-of-computing) and by Shneiderman et al.
-(2017[^ShneidermanGrandchallengesHCI]). In regard to these
+(2017)[^ShneidermanGrandchallengesHCI]. In regard to these
 I'd like to stress (user) researchers' role in informing policy-makers
 to make responsible decisions on technology regulation, use and
 development. On this Pargman et al Pargman et al.
-(2017[^PargmanSustainabilityImaginedFuture2017]) write
+(2017)[^PargmanSustainabilityImaginedFuture2017] write
 
 > It should however be remembered that it is not uncommon in decision
 > making to only refer to "what will happen" (for example "you can’t
@@ -201,7 +201,7 @@ persuasiveness, and empathy, compassion, caring as well as community
 experience. A trend that is already occuring is dropping the term "user"
 in favor of a more general "human" to break up this power-structure and
 broaden the horizon accordingly. Baumer and Brubaker
-(2017[^BaumerPostuserism2017]) pick this up by analyzing
+(2017)[^BaumerPostuserism2017] pick this up by analyzing
 the "user"-concept throughout the three waves and arguing for
 post-userism, i.e. looking beyond the users represented in
 system/data-structures, user-interfaces, design-processes as well as
