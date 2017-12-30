@@ -230,8 +230,9 @@ and as basis of build artifact, but also are technologies and method
 from which new societal challenges arise, that need to be studied and
 addressed.
 
-References
-==========
+<!--
+References:
+-->
 
 [^BaumerPostuserism2017]: Baumer, Eric P. S., and Jed R. Brubaker. 2017. “Post-Userism.” In *Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems*, 6291–6303. CHI ’17. New York, NY, USA: ACM.  doi:[10.1145 / 3025453.3025740](https://doi.org/10.1145/3025453.3025740).
 
