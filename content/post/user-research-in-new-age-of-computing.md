@@ -71,8 +71,7 @@ post-primitives). So in most cases, I'd argue these technologies are
 better seen as tools during the research phase (e.g. most things that
 fall under data science), as tools to build interfaces with (e.g.
 recommender systems, procedural generation) or as features of the
-artifact itself (e.g. online style-transfer on images[^1^](#fn1){#fnref1
-.footnoteRef} that use deep neural networks in particular auto-encoders
+artifact itself (e.g. online style-transfer on images^[e.g. <https://deepart.io/>] that use deep neural networks in particular auto-encoders
 in the background)
 
 So, I'd argue that these technologies, just like the many others that
@@ -88,9 +87,10 @@ issues arising around the use of designed technologies, e.g. the
 vanishing of low-skill jobs due to automation, the digital divide,
 power-dynamics and terrible work reality in crowd-work, filterbubbles
 and their effect on democracy, algorithmic bias and accountability,
-(mass) surveillance and manipulative design[^2^](#fn2){#fnref2
-.footnoteRef}. In this regard, Ben Schneiderman <span
-class="citation">([2017](#ref-ShneidermanGrandchallengesHCI))</span>
+(mass) surveillance and manipulative 
+design^[for a very extreme case see Sesame Credit, a system heavily relying on gamification and operand conditioning, where friends with bad ratings pull you down with them, and where those ratings could soon determine access to jobs, social security, visa, etc 
+( [Nguyen 2017](#ref-NguyenChinamightuse) )]. 
+In this regard, Ben Schneiderman ([2017](#ref-ShneidermanGrandchallengesHCI))
 lists the following "Grand Challenges" for HCI (and thus user research
 as integral part of it):
 
@@ -230,12 +230,11 @@ and as basis of build artifact, but also are technologies and method
 from which new societal challenges arise, that need to be studied and
 addressed.
 
-References
-==========
+References {#refs}
+==================
 
-<div id="refs" class="references">
 
-* <div id="ref-BaumerPostuserism2017"> Baumer, Eric P. S., and Jed R. Brubaker. 2017. “Post-Userism.” In *Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems*, 6291–6303. CHI ’17. New York, NY, USA: ACM.  doi:[10.1145/3025453.3025740](https://doi.org/10.1145/3025453.3025740).  </div>
+* {#ref-BaumerPostuserism2017} Baumer, Eric P. S., and Jed R. Brubaker. 2017. “Post-Userism.” In *Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems*, 6291–6303. CHI ’17. New York, NY, USA: ACM.  doi:[10.1145/3025453.3025740](https://doi.org/10.1145/3025453.3025740).  </div>
 * <div id="ref-BrownTroubleAutopilotsAssisted2017"> Brown, Barry, and Eric Laurier. 2017. “The Trouble with Autopilots: Assisted and Autonomous Driving on the Social Road.” In *Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems*, 416–29.  CHI ’17. New York, NY, USA: ACM.  doi:[10.1145/3025453.3025462](https://doi.org/10.1145/3025453.3025462).  </div>
 * <div id="ref-BrownleeDesignJobsThat2016"> Brownlee, John. 2016. “5 Design Jobs That Won’t Exist In The Future.” *Co.Design*. September 1.  <https://www.fastcodesign.com/3063318/5-design-jobs-that-wont-exist-in-the-future>.  </div>
 * <div id="ref-DoveUXDesignInnovation2017"> Dove, Graham, Kim Halskov, Jodi Forlizzi, and John Zimmerman. 2017. “UX Design Innovation: Challenges for Working with Machine Learning As a Design Material.” In *Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems*, 278–88. CHI ’17. New York, NY, USA: ACM.  doi:[10.1145/3025453.3025739](https://doi.org/10.1145/3025453.3025739).  </div>
@@ -247,14 +246,4 @@ References
 * <div id="ref-ShneidermanGrandchallengesHCI"> Shneiderman, Ben, Catherine Plaisant, Maxine Cohen, Steven Jacobs, Niklas Elmqvist, and Nicholoas Diakopoulos. 2017. “Grand Challenges for HCI Researchers | ACM Interactions.” Accessed December 22.  <http://interactions.acm.org/archive/view/september-october-2016/grand-challenges-for-hci-researchers>.  </div>
 * <div id="ref-vanderHeidenPrimingDriversHandover2017"> van der Heiden, Remo M.A., Shamsi T. Iqbal, and Christian P. Janssen.  2017. “Priming Drivers Before Handover in Semi-Autonomous Cars.” In *Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems*, 392–404. CHI ’17. New York, NY, USA: ACM.  doi:[10.1145/3025453.3025507](https://doi.org/10.1145/3025453.3025507).  </div>
 
-</div>
-
-<div class="footnotes">
-
-------------------------------------------------------------------------
-
-1.  <span id="fn1">e.g. <https://deepart.io/> </span>
-2.  <span id="fn2"> for a very extreme case see Sesame Credit, a system heavily relying on gamification and operand conditioning, where friends with bad ratings pull you down with them, and where those ratings could soon determine access to jobs, social security, visa, etc <span class="citation">(Nguyen [2017](#ref-NguyenChinamightuse))</span> </span>
-
-</div>
 
