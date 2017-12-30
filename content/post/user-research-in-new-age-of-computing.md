@@ -235,107 +235,17 @@ References
 
 <div id="refs" class="references">
 
-<div id="ref-BaumerPostuserism2017">
-
-Baumer, Eric P. S., and Jed R. Brubaker. 2017. “Post-Userism.” In
-*Proceedings of the 2017 CHI Conference on Human Factors in Computing
-Systems*, 6291–6303. CHI ’17. New York, NY, USA: ACM.
-doi:[10.1145/3025453.3025740](https://doi.org/10.1145/3025453.3025740).
-
-</div>
-
-<div id="ref-BrownTroubleAutopilotsAssisted2017">
-
-Brown, Barry, and Eric Laurier. 2017. “The Trouble with Autopilots:
-Assisted and Autonomous Driving on the Social Road.” In *Proceedings of
-the 2017 CHI Conference on Human Factors in Computing Systems*, 416–29.
-CHI ’17. New York, NY, USA: ACM.
-doi:[10.1145/3025453.3025462](https://doi.org/10.1145/3025453.3025462).
-
-</div>
-
-<div id="ref-BrownleeDesignJobsThat2016">
-
-Brownlee, John. 2016. “5 Design Jobs That Won’t Exist In The Future.”
-*Co.Design*. September 1.
-<https://www.fastcodesign.com/3063318/5-design-jobs-that-wont-exist-in-the-future>.
-
-</div>
-
-<div id="ref-DoveUXDesignInnovation2017">
-
-Dove, Graham, Kim Halskov, Jodi Forlizzi, and John Zimmerman. 2017. “UX
-Design Innovation: Challenges for Working with Machine Learning As a
-Design Material.” In *Proceedings of the 2017 CHI Conference on Human
-Factors in Computing Systems*, 278–88. CHI ’17. New York, NY, USA: ACM.
-doi:[10.1145/3025453.3025739](https://doi.org/10.1145/3025453.3025739).
-
-</div>
-
-<div id="ref-Komptonyouwantbuild">
-
-Kompton, Kate. 2017. “So You Want to Build a Generator….” *Kate
-Compton*. Accessed December 29.
-<http://galaxykate0.tumblr.com/post/139774965871/so-you-want-to-build-a-generator>.
-
-</div>
-
-<div id="ref-NguyenChinamightuse">
-
-Nguyen, Clinton. 2017. “China Might Use Data to Create a Score for Each
-Citizen Based on How Trustworthy They Are.” *Business Insider
-Deutschland*. Accessed December 29.
-<http://www.businessinsider.de/china-social-credit-score-like-black-mirror-2016-10>.
-
-</div>
-
-<div id="ref-PargmanSustainabilityImaginedFuture2017">
-
-Pargman, Daniel, Elina Eriksson, Mattias Höjer, Ulrika Gunnarsson
-Östling, and Luciane Aguiar Borges. 2017. “The (Un)Sustainability of
-Imagined Future Information Societies.” In *Proceedings of the 2017 CHI
-Conference on Human Factors in Computing Systems*, 773–85. CHI ’17. New
-York, NY, USA: ACM.
-doi:[10.1145/3025453.3025858](https://doi.org/10.1145/3025453.3025858).
-
-</div>
-
-<div id="ref-RongManagingUncertaintyTime2017">
-
-Rong, Xin, Adam Fourney, Robin N. Brewer, Meredith Ringel Morris, and
-Paul N. Bennett. 2017. “Managing Uncertainty in Time Expressions for
-Virtual Assistants.” In *Proceedings of the 2017 CHI Conference on Human
-Factors in Computing Systems*, 568–79. CHI ’17. New York, NY, USA: ACM.
-doi:[10.1145/3025453.3025674](https://doi.org/10.1145/3025453.3025674).
-
-</div>
-
-<div id="ref-ScottishElevatorVoice">
-
-*Scottish Elevator With Voice Recognition*. 2017. Burnsitown Comedy
-Show. Accessed December 29.
-<https://www.youtube.com/watch?v=BOUTfUmI8vs>.
-
-</div>
-
-<div id="ref-ShneidermanGrandchallengesHCI">
-
-Shneiderman, Ben, Catherine Plaisant, Maxine Cohen, Steven Jacobs,
-Niklas Elmqvist, and Nicholoas Diakopoulos. 2017. “Grand Challenges for
-HCI Researchers | ACM Interactions.” Accessed December 22.
-<http://interactions.acm.org/archive/view/september-october-2016/grand-challenges-for-hci-researchers>.
-
-</div>
-
-<div id="ref-vanderHeidenPrimingDriversHandover2017">
-
-van der Heiden, Remo M.A., Shamsi T. Iqbal, and Christian P. Janssen.
-2017. “Priming Drivers Before Handover in Semi-Autonomous Cars.” In
-*Proceedings of the 2017 CHI Conference on Human Factors in Computing
-Systems*, 392–404. CHI ’17. New York, NY, USA: ACM.
-doi:[10.1145/3025453.3025507](https://doi.org/10.1145/3025453.3025507).
-
-</div>
+* <div id="ref-BaumerPostuserism2017"> Baumer, Eric P. S., and Jed R. Brubaker. 2017. “Post-Userism.” In *Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems*, 6291–6303. CHI ’17. New York, NY, USA: ACM.  doi:[10.1145/3025453.3025740](https://doi.org/10.1145/3025453.3025740).  </div>
+* <div id="ref-BrownTroubleAutopilotsAssisted2017"> Brown, Barry, and Eric Laurier. 2017. “The Trouble with Autopilots: Assisted and Autonomous Driving on the Social Road.” In *Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems*, 416–29.  CHI ’17. New York, NY, USA: ACM.  doi:[10.1145/3025453.3025462](https://doi.org/10.1145/3025453.3025462).  </div>
+* <div id="ref-BrownleeDesignJobsThat2016"> Brownlee, John. 2016. “5 Design Jobs That Won’t Exist In The Future.” *Co.Design*. September 1.  <https://www.fastcodesign.com/3063318/5-design-jobs-that-wont-exist-in-the-future>.  </div>
+* <div id="ref-DoveUXDesignInnovation2017"> Dove, Graham, Kim Halskov, Jodi Forlizzi, and John Zimmerman. 2017. “UX Design Innovation: Challenges for Working with Machine Learning As a Design Material.” In *Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems*, 278–88. CHI ’17. New York, NY, USA: ACM.  doi:[10.1145/3025453.3025739](https://doi.org/10.1145/3025453.3025739).  </div>
+* <div id="ref-Komptonyouwantbuild"> Kompton, Kate. 2017. “So You Want to Build a Generator….” *Kate Compton*. Accessed December 29.  <http://galaxykate0.tumblr.com/post/139774965871/so-you-want-to-build-a-generator>.  </div>
+* <div id="ref-NguyenChinamightuse"> Nguyen, Clinton. 2017. “China Might Use Data to Create a Score for Each Citizen Based on How Trustworthy They Are.” *Business Insider Deutschland*. Accessed December 29.  <http://www.businessinsider.de/china-social-credit-score-like-black-mirror-2016-10>.  </div>
+* <div id="ref-PargmanSustainabilityImaginedFuture2017"> Pargman, Daniel, Elina Eriksson, Mattias Höjer, Ulrika Gunnarsson Östling, and Luciane Aguiar Borges. 2017. “The (Un)Sustainability of Imagined Future Information Societies.” In *Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems*, 773–85. CHI ’17. New York, NY, USA: ACM.  doi:[10.1145/3025453.3025858](https://doi.org/10.1145/3025453.3025858).  </div>
+* <div id="ref-RongManagingUncertaintyTime2017"> Rong, Xin, Adam Fourney, Robin N. Brewer, Meredith Ringel Morris, and Paul N. Bennett. 2017. “Managing Uncertainty in Time Expressions for Virtual Assistants.” In *Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems*, 568–79. CHI ’17. New York, NY, USA: ACM.  doi:[10.1145/3025453.3025674](https://doi.org/10.1145/3025453.3025674).  </div>
+* <div id="ref-ScottishElevatorVoice"> *Scottish Elevator With Voice Recognition*. 2017. Burnsitown Comedy Show. Accessed December 29.  <https://www.youtube.com/watch?v=BOUTfUmI8vs>.  </div>
+* <div id="ref-ShneidermanGrandchallengesHCI"> Shneiderman, Ben, Catherine Plaisant, Maxine Cohen, Steven Jacobs, Niklas Elmqvist, and Nicholoas Diakopoulos. 2017. “Grand Challenges for HCI Researchers | ACM Interactions.” Accessed December 22.  <http://interactions.acm.org/archive/view/september-october-2016/grand-challenges-for-hci-researchers>.  </div>
+* <div id="ref-vanderHeidenPrimingDriversHandover2017"> van der Heiden, Remo M.A., Shamsi T. Iqbal, and Christian P. Janssen.  2017. “Priming Drivers Before Handover in Semi-Autonomous Cars.” In *Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems*, 392–404. CHI ’17. New York, NY, USA: ACM.  doi:[10.1145/3025453.3025507](https://doi.org/10.1145/3025453.3025507).  </div>
 
 </div>
 
@@ -343,22 +253,8 @@ doi:[10.1145/3025453.3025507](https://doi.org/10.1145/3025453.3025507).
 
 ------------------------------------------------------------------------
 
-1.  <div id="fn1">
-
-    </div>
-
-    e.g. <https://deepart.io/>[↩](#fnref1)
-
-2.  <div id="fn2">
-
-    </div>
-
-    for a very extreme case see Sesame Credit, a system heavily relying
-    on gamification and operand conditioning, where friends with bad
-    ratings pull you down with them, and where those ratings could soon
-    determine access to jobs, social security, visa, etc <span
-    class="citation">(Nguyen
-    [2017](#ref-NguyenChinamightuse))</span>[↩](#fnref2)
+1.  <span id="fn1">e.g. <https://deepart.io/> </span>
+2.  <span id="fn2"> for a very extreme case see Sesame Credit, a system heavily relying on gamification and operand conditioning, where friends with bad ratings pull you down with them, and where those ratings could soon determine access to jobs, social security, visa, etc <span class="citation">(Nguyen [2017](#ref-NguyenChinamightuse))</span> </span>
 
 </div>
 
