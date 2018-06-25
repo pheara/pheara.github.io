@@ -100,7 +100,7 @@ die eine der ihren Meinung ähnliche vertreten, wodurch sie sich in dieser best�
 
 Es hat sich definitiv eine Kultur des Feedbacks im Internet entwickelt. So sind etwa Kommentarfunktionen weit verbreitet (selbst für eigentlich physische Dinge, e.g. via Yelp- und Amazon-Reviews), Response Videos auf Youtube sind eine übliche Praktik, genauso wie Ask Me Anythings auf Reddit mit Berühmtheiten.
 
-Allerdings bleibt zu sagen, selbst wenn die Interaktions-Möglichkeiten drastisch zugenommen haben im Vergleich zur Vergangenheit, nicht alle Menschen diese verwenden und nicht alle Plattformen Diskussion auf ihnen einladen (wobei diese dann oft auf anderen stattfindet)
+Allerdings bleibt zu sagen, selbst wenn die Interaktions-Möglichkeiten drastisch zugenommen haben im Vergleich zur Vergangenheit, verwenden nicht alle Menschen diese und nicht alle (Online-)Plattformen laden Diskussion ein (wobei diese dann oft auf anderen stattfindet)
 
 ### 5) (Ent)politisierung
 
