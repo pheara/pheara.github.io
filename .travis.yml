@@ -1,19 +1,19 @@
 language: go
 go:
-- 1.8.1
+  - 1.8.1
 env:
   global:
-  - SSH_KEY="travis_key"
-  - GIT_NAME="Kevin Singer"
-  - GIT_EMAIL="e1028092@student.tuwien.ac.at"
-  - SOURCE_DIR="public"
-  - DEPLOY_BRANCH="blog"
+    - SSH_KEY="travis_key"
+    - GIT_NAME="Renée Singer"
+    - GIT_EMAIL="e1028092@student.tuwien.ac.at"
+    - SOURCE_DIR="public"
+    - DEPLOY_BRANCH="blog"
 before_install:
-- openssl aes-256-cbc -K $encrypted_2531e4b3a730_key -iv $encrypted_2531e4b3a730_iv
-  -in travis_key.enc -out travis_key -d
+  - openssl aes-256-cbc -K $encrypted_2531e4b3a730_key -iv $encrypted_2531e4b3a730_iv
+    -in travis_key.enc -out travis_key -d
 install:
-- go get -v github.com/gohugoio/hugo
+  - go get -v github.com/gohugoio/hugo
 script:
-- hugo
-- "./scripts/deploy.sh"
-after_success: 
+  - hugo
+  - "./scripts/deploy.sh"
+after_success:
