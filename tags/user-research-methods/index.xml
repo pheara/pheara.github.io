@@ -1,40 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>User Research Methods on Moru’s Ramblings</title>
-    <link>https://m0ru.github.io/tags/user-research-methods/</link>
-    <description>Recent content in User Research Methods on Moru’s Ramblings</description>
+    <title>User Research Methods on Pheara’s Ramblings</title>
+    <link>https://pheara.github.io/tags/user-research-methods/</link>
+    <description>Recent content in User Research Methods on Pheara’s Ramblings</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sat, 30 Dec 2017 00:52:00 +0200</lastBuildDate>
     
-	<atom:link href="https://m0ru.github.io/tags/user-research-methods/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pheara.github.io/tags/user-research-methods/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>User Research in a “New Age of Computing”</title>
-      <link>https://m0ru.github.io/article/user-research-in-a-new-age-of-computing/</link>
+      <link>https://pheara.github.io/article/user-research-in-a-new-age-of-computing/</link>
       <pubDate>Sat, 30 Dec 2017 00:52:00 +0200</pubDate>
       
-      <guid>https://m0ru.github.io/article/user-research-in-a-new-age-of-computing/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://m0ru.github.io/media/urm/alexa.jpg&#34; alt=&#34;alexa personal digital assitant&#34; /&gt;&lt;/p&gt;
+      <guid>https://pheara.github.io/article/user-research-in-a-new-age-of-computing/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://pheara.github.io/media/urm/alexa.jpg&#34; alt=&#34;alexa personal digital assitant&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This is my submission for the challenge report submission in the course user research methods. It tries to answer
 the question about the use and role of user research in the &amp;ldquo;new age of
-computing we are entering into&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+computing we are entering into&amp;rdquo;.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Group Techniques</title>
-      <link>https://m0ru.github.io/article/group-techniques/</link>
+      <link>https://pheara.github.io/article/group-techniques/</link>
       <pubDate>Tue, 21 Nov 2017 00:50:00 +0200</pubDate>
       
-      <guid>https://m0ru.github.io/article/group-techniques/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/File:NASA_Open_Space_2_Innovate.jpg&#34;&gt;&lt;img src=&#34;https://m0ru.github.io/media/urm/grouptechniques/open_space_plenum.jpg&#34; alt=&#34;open space plenary circle&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>https://pheara.github.io/article/group-techniques/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/File:NASA_Open_Space_2_Innovate.jpg&#34;&gt;&lt;img src=&#34;https://pheara.github.io/media/urm/grouptechniques/open_space_plenum.jpg&#34; alt=&#34;open space plenary circle&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;This &lt;strong&gt;overview over group techniques in user research&lt;/strong&gt; was written as report for the course &amp;ldquo;User Research Methods&amp;rdquo;. However, due to being sick / generally being overworked / this thing being written in a deadline-sprint, your mileage may vary and there&amp;rsquo;s certainly better resources &amp;ndash; just as a disclaimer and to take away the answer to &amp;ldquo;wtf was up with moru here?!&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;This &lt;strong&gt;overview over group techniques in user research&lt;/strong&gt; was written as report for the course &amp;ldquo;User Research Methods&amp;rdquo;. However, due to being sick / generally being overworked / this thing being written in a deadline-sprint, your mileage may vary and there&amp;rsquo;s certainly better resources &amp;ndash; just as a disclaimer and to take away the answer to &amp;ldquo;wtf was up with pheara here?!&amp;rdquo;&lt;/p&gt;
 
 &lt;p&gt;With that out of the way and without further ado: Group Techniques.&lt;br /&gt;
 As this is more a category of loosely connected methods formulated for very different reaons in different situations, I&amp;rsquo;ll go over the ones mentioned in the lecture slides one by one and try to compare them in the process. The methods are as follows:&lt;/p&gt;
@@ -46,9 +44,7 @@ As this is more a category of loosely connected methods formulated for very diff
 &lt;li&gt;World Cafe&lt;/li&gt;
 &lt;li&gt;Breakout Sessions&lt;/li&gt;
 &lt;li&gt;Open Space (Technology)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
   </channel>

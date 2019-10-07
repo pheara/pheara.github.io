@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pages on Moru’s Ramblings</title>
-    <link>https://m0ru.github.io/page/</link>
-    <description>Recent content in Pages on Moru’s Ramblings</description>
+    <title>Pages on Pheara’s Ramblings</title>
+    <link>https://pheara.github.io/page/</link>
+    <description>Recent content in Pages on Pheara’s Ramblings</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 16 Dec 2015 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://m0ru.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pheara.github.io/page/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>https://m0ru.github.io/about/</link>
+      <link>https://pheara.github.io/about/</link>
       <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://m0ru.github.io/about/</guid>
+      <guid>https://pheara.github.io/about/</guid>
       <description>Contact and Social Media  Email    Twitter    Github    Youtube    Theme This blog’s theme is based on Slender by CrimsonRay, which is available under the MIT-license &amp;copy; 2015.</description>
     </item>
     
