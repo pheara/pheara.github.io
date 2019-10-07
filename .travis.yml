@@ -1,10 +1,10 @@
 language: go
 go:
-- 1.8.1
+- 1.12.9
 env:
   global:
   - SSH_KEY="travis_key"
-  - GIT_NAME="Kevin Singer"
+  - GIT_NAME="Renée Singer"
   - GIT_EMAIL="e1028092@student.tuwien.ac.at"
   - SOURCE_DIR="public"
   - DEPLOY_BRANCH="blog"
