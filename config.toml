@@ -1,8 +1,8 @@
 # config.toml
 # theme and config based on https://github.com/CrimsonRay/slender
 
-baseurl = "https://m0ru.github.io/"
-title = "Moru’s Ramblings"
+baseurl = "https://pheara.github.io/"
+title = "Pheara’s Ramblings"
 languageCode = "en-US"
 MetaDataFormat = "toml"
 theme = "custom"
@@ -10,7 +10,7 @@ Paginate = 5
 PaginatePath = "/"
 
 [author]
-    name = "Moru"
+    name = "Pheara"
 
 [permalinks]
     # Permalink format for pages.
@@ -37,7 +37,7 @@ PaginatePath = "/"
     # defined by `description` and `keywords` variables in the front matter
     # of the markdown file.
     description = "A collection of game-design ideas"
-    keywords = "game design, moru"
+    keywords = "game design, pheara"
 
     # Google Analytics
     # Remove, comment, or leave it blank if you don't have one.

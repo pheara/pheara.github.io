@@ -22,9 +22,9 @@ For this exercise, however, you’ll be pushing yourself beyond those traditiona
 
 # The Process
 
-We ([hirnsalat](http://hirnsalat.github.io/gameful-design/), [peacememories](http://peacememories.github.io/gameful-design/) and [m0ru](/)) met up last Thursday for a little brain-storming session. We already had a few concepts and mechanics-fragments beforehand:
+We ([hirnsalat](http://hirnsalat.github.io/gameful-design/), [peacememories](http://peacememories.github.io/gameful-design/) and [pheara](/)) met up last Thursday for a little brain-storming session. We already had a few concepts and mechanics-fragments beforehand:
 
-![Scans of m0ru's sketchbook](/media/pillow_fight/sketchbook.png)
+![Scans of pheara's sketchbook](/media/pillow_fight/sketchbook.png)
 
 During the session we tried to explore the design space starting with different mechanics and themes as can be seen on the whiteboard directly below. The theme-based generators (in red) mostly focussed on military and/or political conflicts (e.g. "cyberwar", "spy game", "gerrymandering", "elections"). The mechanical ones (in green) started off with alternative win-conditions we could use. You can find them them below the center in the right half of the whiteboard. The most advanced cluster of mechanical and thematic fragments centered around an idea for modelling peace negotiations (at the whiteboard: starting at the bottom left and expanding towards the right and up). As backdrop for the negotiations a more or less automatic conflict would have pushed back and forth on the quickly sketched board that you can see. The goal would be to end the conflict, by negotiating a set of terms to which both sides generals (non-player characters / mechanics) can agree.
 
