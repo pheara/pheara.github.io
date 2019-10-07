@@ -1,3 +1,5 @@
 themes/slender/
 /node_modules/
 /public/
+travis_key
+travis_key.pub
