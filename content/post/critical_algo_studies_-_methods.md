@@ -14,13 +14,13 @@ So, now let’s get to the actual “Hows”. The following sections are high-le
 
 To understand an algorithm, it often helps to know where it came from and for whom it was built. For this studying the people and businesses who created it and the people who use it can be useful. For this, there’s a variety of methods commonly used in social sciences. Usually they’re divided into qualitative (e.g. interviews) and quantitative (e.g. questionnaires) ones.
 
-Qualitative methods also include ethnographic field studies – an example would be observing coding teams at work. This can allow to understand the culture and assumptions that the algorithm came from. “How to Study Algorithms”&nbsp;<sup>[ref:HtS](#ref:HtS)</sup> mentions that it can be hard to gain access to the teams for this, though. In the same article John Danaher points out, that you can also widen the focus and study “the full set of legal, economic, institutional, technological, bureaucratic, political (etc) forces” that might influence the algorithm’s development.
+Qualitative methods also include ethnographic field studies – an example would be observing coding teams at work. This can allow to understand the culture and assumptions that the algorithm came from. “How to Study Algorithms”&nbsp;[ref:HtS] mentions that it can be hard to gain access to the teams for this, though. In the same article John Danaher points out, that you can also widen the focus and study “the full set of legal, economic, institutional, technological, bureaucratic, political (etc) forces” that might influence the algorithm’s development.
 
-On the quantitative side of things, you can give people questionnaires. The authors of “Auditing Algorithms”&nbsp;<sup>[ref:AAg](#ref:AAg)</sup> point out a problem of questionnaires: There is a difference between what people do and what they perceived, remember and report. To avoid this problem, you can ask them to allow you to collect data automatically (e.g. via a browser plugin or a tracking script).
+On the quantitative side of things, you can give people questionnaires. The authors of “Auditing Algorithms”&nbsp;[ref:AAg] point out a problem of questionnaires: There is a difference between what people do and what they perceived, remember and report. To avoid this problem, you can ask them to allow you to collect data automatically (e.g. via a browser plugin or a tracking script).
 
 ## Reading the Source
 
-This method can be used if the sources are available – either because they have been open-sourced or because you’re one of the trusted auditors&nbsp;<sup>[ref:Opc](#ref:Opc)</sup> mentioned above. Reading them and their documentation can help with understanding what the algorithm is doing. You can gather additional data by looking at the changes the code underwent over-time or by comparing implementations in different languages and frameworks.
+This method can be used if the sources are available – either because they have been open-sourced or because you’re one of the trusted auditors&nbsp;[ref:Opc] mentioned above. Reading them and their documentation can help with understanding what the algorithm is doing. You can gather additional data by looking at the changes the code underwent over-time or by comparing implementations in different languages and frameworks.
 
 There’s two problems you’ll probably run into:
 
@@ -36,13 +36,13 @@ if ($race = NOT_CAUCASIAN) then {
 
 ## Implement it Yourself
 
-The idea is that by implementing the system yourself, you will understand the required steps and parts better by doing so. Rob Kitchin named this method “Reflexively producing code” in his paper “Thinking Critically About and Researching Algorithms”&nbsp;<sup>[ref:Crt](#ref:Crt)</sup>
+The idea is that by implementing the system yourself, you will understand the required steps and parts better by doing so. Rob Kitchin named this method “Reflexively producing code” in his paper “Thinking Critically About and Researching Algorithms”&nbsp;[ref:Crt]
 
 The inspiration for this approach are auto-ethnographic methods. Examples for these are keeping a journal/diary and observing one-self. As with any of them, your personal biases, assumptions and views will strongly influence the results.
 
 ## Scraping <a id="scraping"></a>
 
-You download the entire thing, e.g. a set of home-pages, and explore them, e.g. by clustering them. The article “Auditing Algorithms”&nbsp;<sup>[ref:AAg](#ref:AAg)</sup> lists several limitations for this though:
+You download the entire thing, e.g. a set of home-pages, and explore them, e.g. by clustering them. The article “Auditing Algorithms”&nbsp;[ref:AAg] lists several limitations for this though:
 
 Some pages constantly change as they’re personalized (e.g. Google results differ between persons and searches)
 
@@ -62,7 +62,7 @@ However, usually you can’t collect too much data by hand. This in turn makes r
 
 ## Sock Puppet Audit <a id="sock_puppet_audit"></a>
 
-This method, described in “Auditing Algorithms”&nbsp;<sup>[ref:AAg](#ref:AAg)</sup>, for instance is suited for studying social networks.
+This method, described in “Auditing Algorithms”&nbsp;[ref:AAg], for instance is suited for studying social networks.
 
 The basic idea is as follows: You start by creating fake accounts (the “sock puppets”). Then you flesh them out as far as necessary to make the algorithm register them as real humans. The point is to have some of these accounts vary in some way, e.g. their name and picture communicate different genders; these are your independent variables.
 
@@ -76,7 +76,7 @@ Also, as the method is often used to prove guilt, you should take extra care wit
 
 ## Collaborative Audit
 
-To deal with the issues of legality and realness of [sock puppet audits](#sock_puppet_audit), you can also hire a lot of human testers, as “Auditing Algorithms”&nbsp;<sup>[ref:AAg](#ref:AAg)</sup> sugggests. For this you can for instance use crowd-sourcing platforms like [Mechanical Turk](https://www.mturk.com/) (US-only atm). The independent variable then depends on who you chose to recruit.
+To deal with the issues of legality and realness of [sock puppet audits](#sock_puppet_audit), you can also hire a lot of human testers, as “Auditing Algorithms”&nbsp;[ref:AAg] sugggests. For this you can for instance use crowd-sourcing platforms like [Mechanical Turk](https://www.mturk.com/) (US-only atm). The independent variable then depends on who you chose to recruit.
 
 However, this method has some limitations too:
 
