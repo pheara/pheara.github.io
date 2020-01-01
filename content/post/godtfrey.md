@@ -3,8 +3,9 @@ date = "2015-04-22T18:00:00+02:00"
 draft = false
 title = "Concert: Battle for Gødtfrey"
 tags = ["Game Design"]
++++
 
-+++{{< youtube yB2xjIn_9JQ >}}
+{{< youtube yB2xjIn_9JQ >}}
 
 <!--more-->
 
@@ -42,7 +43,7 @@ Not in the video but an interesting idea (that came with the help of the manager
 
 # Analysis
 
-A circular area chart mapping the solution on 6 metrics for audience participation<sup>[[1]](#ref1)</sup>:
+A circular area chart mapping the solution on 6 metrics for audience participation<sup>[1]</sup>:
 
 ![Circular area chart. See text below.](/media/gameful_concerts/audience_participation_dimensions.jpg)
 
@@ -62,15 +63,12 @@ Directly after the lecture we **decided** on designing for a **folk metal band**
 Over the course of that week, I'd jotted down a few notes to my **notebook**:
 
 <!-- thumbnail syntax isn't pretty :| -->
-<a href="/media/gameful_concerts/notebook/1.png">
-    ![](/media/gameful_concerts/notebook/thumb/1.png)
-</a>
-<a href="/media/gameful_concerts/notebook/2.png">
-    ![](/media/gameful_concerts/notebook/thumb/2.png)
-</a>
-<a href="/media/gameful_concerts/notebook/3.png">
-    ![](/media/gameful_concerts/notebook/thumb/3.png)
-</a>
+
+[![](/media/gameful_concerts/notebook/thumb/1.png)](/media/gameful_concerts/notebook/1.png)
+
+[![](/media/gameful_concerts/notebook/thumb/2.png)](/media/gameful_concerts/notebook/2.png)
+
+[![](/media/gameful_concerts/notebook/thumb/3.png)](/media/gameful_concerts/notebook/3.png)
 
 We met at the Fachschaft Informatik. During the process that will be descriped below, we took notes in [**this titanpad**](https://titanpad.com/64PQ6Cx3Gq).
 
@@ -135,7 +133,4 @@ In general I find the idea to use the cards' focus very appealing. Tools like th
 
 # References
 
-<ol>
-    <li id="ref1"> Mazzanti, D. Zappi, V. Caldwell D. BrogniA., 2014. *Augmented Stage for Participatory Performances*. In Proceedings of the International Conference on New Interfaces for Musical Expression, pp. 29-34.
-    </li>
-</ol>
+[1]: Mazzanti, D. Zappi, V. Caldwell D. BrogniA., 2014. _Augmented Stage for Participatory Performances_. In Proceedings of the International Conference on New Interfaces for Musical Expression, pp. 29-34.
