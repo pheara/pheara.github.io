@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VU Gameful Design on Pheara’s Ramblings</title>
+    <link>https://pheara.github.io/tags/vu-gameful-design/</link>
+    <description>Recent content in VU Gameful Design on Pheara’s Ramblings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 18 Jun 2015 16:52:26 +0200</lastBuildDate>
+    
+	<atom:link href="https://pheara.github.io/tags/vu-gameful-design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Edu Game: Surveillance Tycoon</title>
+      <link>https://pheara.github.io/article/edu-game-surveillance-tycoon/</link>
+      <pubDate>Thu, 18 Jun 2015 16:52:26 +0200</pubDate>
+      
+      <guid>https://pheara.github.io/article/edu-game-surveillance-tycoon/</guid>
+      <description>&lt;p&gt;You can play “Surveillance Tycoon” here:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://pheara.github.io/games/surveillance_tycoon/index.html&#34;&gt;Play Me!&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here&#39;s also a short &lt;em&gt;gameplay video&lt;/em&gt; if you don&#39;t want to try it yourself (for whatever reason) or think you have missed something. It also shortly discusses the design:&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/ZvPPgkJhQyk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>ARG: CCTV Run</title>
+      <link>https://pheara.github.io/article/arg-cctv-run/</link>
+      <pubDate>Wed, 13 May 2015 15:00:19 +0200</pubDate>
+      
+      <guid>https://pheara.github.io/article/arg-cctv-run/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/6Uu3OO75BlQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Gemeinsam mit &lt;a href=&#34;http://horstlb.blogspot.co.at/2015/05/gameful-design-arbeitspaket-4.html&#34;&gt;Alex Brandner&lt;/a&gt; und &lt;a href=&#34;http://bobschidoesgamefuldesign2015.tumblr.com/&#34;&gt;Florian Holzner&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Concert: Battle for Gødtfrey</title>
+      <link>https://pheara.github.io/article/concert-battle-for-g%C3%B8dtfrey/</link>
+      <pubDate>Wed, 22 Apr 2015 18:00:00 +0200</pubDate>
+      
+      <guid>https://pheara.github.io/article/concert-battle-for-g%C3%B8dtfrey/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/yB2xjIn_9JQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Audience Participation―The Challenge</title>
+      <link>https://pheara.github.io/article/audience-participationthe-challenge/</link>
+      <pubDate>Wed, 01 Apr 2015 15:45:07 +0200</pubDate>
+      
+      <guid>https://pheara.github.io/article/audience-participationthe-challenge/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://owncloud.tuwien.ac.at/public.php?service=files&amp;amp;t=5b07f0b690f75bfcfe34b84be1b9cd5c&amp;amp;download&#34;&gt;Presentation slides&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://owncloud.tuwien.ac.at/public.php?service=files&amp;amp;t=9123d3c40e9d88a17fdc3253234d06ce&amp;amp;download&#34;&gt;Full challenge&lt;/a&gt; (copied below for convienience)&lt;/p&gt;
+&lt;p&gt;Entwerfen Sie ein Szenario im Kontext von Live-Musik, das Publikumsbeteiligung bzw. kollaborativeElemente zwischen Performer und Publikum vorsieht. Übung in Gruppen zu je 3 Personen.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Board Game: Pillow Fight</title>
+      <link>https://pheara.github.io/article/board-game-pillow-fight/</link>
+      <pubDate>Wed, 25 Mar 2015 21:30:30 +0100</pubDate>
+      
+      <guid>https://pheara.github.io/article/board-game-pillow-fight/</guid>
+      <description>&lt;p&gt;Pillow Fight is our solution to the challenge to design a wargame without borders (in our case, even without deaths).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Card Game: Subjective Objectives</title>
+      <link>https://pheara.github.io/article/card-game-subjective-objectives/</link>
+      <pubDate>Thu, 12 Mar 2015 01:02:02 +0100</pubDate>
+      
+      <guid>https://pheara.github.io/article/card-game-subjective-objectives/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/rC-Hhn9mKB0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
