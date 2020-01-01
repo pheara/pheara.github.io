@@ -4,11 +4,7 @@ draft = true
 title = "Reactivision"
 tags = ["Game Design"]
 
-+++
-
-
-<!--more-->
-
++++<!--more-->
 
 <!--
 
@@ -20,7 +16,7 @@ TODO:
 
 META:
 
-using pictures: <img src="/media/reactivision/someimg.jpg"></img>
+using pictures: ![](/media/reactivision/someimg.jpg)
 
 -->
 
@@ -35,7 +31,6 @@ link to code (TODO: expand readme.md there)
 
 
 -->
-
 
 # Other Game Ideas
 

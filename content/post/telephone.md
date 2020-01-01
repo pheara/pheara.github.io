@@ -5,7 +5,7 @@ title = "Verwendungsweisen des Telefons"
 tags = ["media and communication theory"]
 +++
 
-<img src="/media/gkm/Adolphe_Bitard_-_Téléphone.jpg" class="figure"> <!--_-->
+![](/media/gkm/Adolphe_Bitard_-_Téléphone.jpg)
 
 > Material: C. Karpenstein-Eßbach: Am Apparat: Telephongeschichten. In: C. Karpenstein-Eßbach: "Einführung in die Kulturwissenschaft der Medien", S. 110-122, 2004.
 
@@ -30,7 +30,7 @@ Und andererseits wurde das als **dehierarchisierend** wahrgenommene Telefon im W
 
 ## AUFGABE 1.2
 
-> \(a) Erläutern Sie die verschiedenen Verwendungsweisen des Telefons als Massenkommunikationsmittel vom ausgehenden 19. Jahrhundert bis etwa 1930.  Erläutern Sie zusätzlich, inwiefern das Telefon anfangs parallel dazu auch als unidirektionales Kommunikationsmittel zur Weitergabe von Anweisungen verwendet wurde.
+> \(a) Erläutern Sie die verschiedenen Verwendungsweisen des Telefons als Massenkommunikationsmittel vom ausgehenden 19. Jahrhundert bis etwa 1930. Erläutern Sie zusätzlich, inwiefern das Telefon anfangs parallel dazu auch als unidirektionales Kommunikationsmittel zur Weitergabe von Anweisungen verwendet wurde.
 
 Eine der frühesten Verwendungen war das **"Théatrophon"** zur Übertragung von Opern, Konzerten, Theaterstücken und Dichterlesungen wie auch Nachrichten in Hörsälen und -räumen. Diese unidirektionale Verwendungsweise zeichnet bereits den späteren Rundfunk ab und konkurierte dann auch teils mit diesem.
 

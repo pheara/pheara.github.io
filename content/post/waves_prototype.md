@@ -4,11 +4,10 @@ description = ""
 tags = ["Game Design"]
 title = "Waves Prototype"
 
-+++
-
-And here’s the second of the two game protypes.
++++And here’s the second of the two game protypes.
 
 You can find a WebGL export of [**the game here**](http://pheara.github.io/waves/)
 
-<img src="/media/feather_and_waves/waves_prototype.png" class="figure">
+![](/media/feather_and_waves/waves_prototype.png)
+
 <!--more-->

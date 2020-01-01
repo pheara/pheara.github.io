@@ -5,13 +5,11 @@ title =  "Edu Game: Surveillance Tycoon"
 keywords = []
 tags = ["Game Design"]
 
-+++
-
-You can play “Surveillance Tycoon” here:
++++You can play “Surveillance Tycoon” here:
 
 [Play Me!](/games/surveillance_tycoon/index.html).
 
-Here's also a short *gameplay video* if you don't want to try it yourself (for whatever reason) or think you have missed something. It also shortly discusses the design:
+Here's also a short _gameplay video_ if you don't want to try it yourself (for whatever reason) or think you have missed something. It also shortly discusses the design:
 
 {{< youtube ZvPPgkJhQyk >}}
 
@@ -21,62 +19,60 @@ Here's also a short *gameplay video* if you don't want to try it yourself (for w
 
 For this excercise Alex Sinnl and I worked together. You can find his take on this design [here](https://gamefuldesign15.wordpress.com/2015/06/17/aufgabe-7-designprozess/). We exchanged a few initial ideas via email and then had one meeting / design session at a white-board (for a total of about 4h of work). Most of this challenges effort went into development (~12h) as the requirement was for it to be digital. Documentation took about 5 hours.
 
-The topic was *informatics and society*. We explored and shortly iterated over a few ideas in regard to that. As you can see in the sketches below.
+The topic was _informatics and society_. We explored and shortly iterated over a few ideas in regard to that. As you can see in the sketches below.
 
 ### Solo-Sketching
 
 In the game directly below the player would have to dodge the view- and circles-cones caused by cctv-cams and flyover drones in a bullet-hell like manner. The theme here is more coating than really integrated into the mechanics though.
 
-  <img src="/media/educative_games/sketches/1.png" class="figure">
+![](/media/educative_games/sketches/1.png)
 
 On most of the next sketch I've played with a few story-driven approaches / sub-themes. The graphic in the center of the right side would be a rhythm game thematizing the factory-work.
 
-
-<img src="/media/educative_games/sketches/2.png" class="figure">
+![](/media/educative_games/sketches/2.png)
 
 Small scribbles about mechanics, sub-themes or meta-approaches:
 
-<img src="/media/educative_games/sketches/3.png" class="figure">
+![](/media/educative_games/sketches/3.png)
 
 In this page the rhythm-game concept started to expand a bit:
 
-<img src="/media/educative_games/sketches/4.png" class="figure">
+![](/media/educative_games/sketches/4.png)
 
 On the left side I started exploring a few concepts around the mechanics of trolling, flaming and flamewars. The right side uses trolls as a simple skinning for "the bad guys" in a plattformer, a plain propaganda game without deeper message or discussion of the issues around trolling:
 
-<img src="/media/educative_games/sketches/5.png" class="figure">
+![](/media/educative_games/sketches/5.png)
 
 ### Design-Session
 
 This whiteboard-sketch contains some of the concepts already discussed above, drawn here to have an **overview**. New thoughts / concepts:
 
-* We could implement the story-driven approaches as visual-novel. This would lessen development effort, however introduce the effort to create a truly compelling and critical narrative.
-* Time-travel based games to highlight long-term cause-effect pairs/chains.
-* We could do some sort of social-networking game where people try to maximize their reach (the graph on the top-right)
-* A game where you use your activists to work on embodied social-problems (a bit like *Pigmin* or *Overlord* maybe?)
+- We could implement the story-driven approaches as visual-novel. This would lessen development effort, however introduce the effort to create a truly compelling and critical narrative.
+- Time-travel based games to highlight long-term cause-effect pairs/chains.
+- We could do some sort of social-networking game where people try to maximize their reach (the graph on the top-right)
+- A game where you use your activists to work on embodied social-problems (a bit like _Pigmin_ or _Overlord_ maybe?)
 
-<img src="/media/educative_games/whiteboard/all-the-games.png" class="figure">
+![](/media/educative_games/whiteboard/all-the-games.png)
 
-Below you can see the part of the overview that had been blanked out above. It starts playing with the role-reversal game of *CCTV-Tycoon*. It already contains the idea of using social-capital/resentment as build-resource (though also as a radar-chart) and to nudge the player towards a strategy of small increments to avoid a critical mass of resentment (as can be seen in real policy-making).
+Below you can see the part of the overview that had been blanked out above. It starts playing with the role-reversal game of _CCTV-Tycoon_. It already contains the idea of using social-capital/resentment as build-resource (though also as a radar-chart) and to nudge the player towards a strategy of small increments to avoid a critical mass of resentment (as can be seen in real policy-making).
 
-<img src="/media/educative_games/whiteboard/initial.png" class="figure">
+![](/media/educative_games/whiteboard/initial.png)
 
 This little doodle elaborates the resentment-bar a bit:
 
-<img src="/media/educative_games/whiteboard/social-capital-meter.png" class="figure">
+![](/media/educative_games/whiteboard/social-capital-meter.png)
 
 Playing with generic names for the sample setting and small details:
 
-<img src="/media/educative_games/whiteboard/income-and-setting.png" class="figure">
+![](/media/educative_games/whiteboard/income-and-setting.png)
 
 This sketch shows a quick take at a possible game-UI. Note that it has multiple surveillance system types and a internet-map as second theater. Both of these features didn't make it into the first prototype.
 
-
-<img src="/media/educative_games/whiteboard/gui.png" class="figure">
+![](/media/educative_games/whiteboard/gui.png)
 
 Below you can find a listing of possible options for surveillance systems that the player could sell:
 
-<img src="/media/educative_games/whiteboard/build-opions.png" class="figure">
+![](/media/educative_games/whiteboard/build-opions.png)
 
 <!--
 # 3 games

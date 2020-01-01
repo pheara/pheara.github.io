@@ -4,9 +4,7 @@ draft = false
 title = "Concert: Battle for Gødtfrey"
 tags = ["Game Design"]
 
-+++
-
-{{< youtube yB2xjIn_9JQ >}}
++++{{< youtube yB2xjIn_9JQ >}}
 
 <!--more-->
 
@@ -20,12 +18,12 @@ They mostly play live concerts in smaller locations like the “Arena Wien” an
 
 Members:
 
-* Bagpipes - Günther
-* Drummer & Kettledrum - Wolfgang
-* Violin - Julia
-* Opera singer & C-Flute - Evelynn
-* Bass Guitar - Johann
-* Lute & E-Guitar - Alex-Wolfgang
+- Bagpipes - Günther
+- Drummer & Kettledrum - Wolfgang
+- Violin - Julia
+- Opera singer & C-Flute - Evelynn
+- Bass Guitar - Johann
+- Lute & E-Guitar - Alex-Wolfgang
 
 # The Idea Explained
 
@@ -35,8 +33,8 @@ Dancing causes the avatar to burst into moves of about the same intensity. As th
 
 The band has prepared two differently themed songs and stage settings. E.g.:
 
-* **"good":** angelic singers voice, string instruments and flutes, blue stage lighting, artificial snow, etc.
-* **"evil":** the singer growls, heavy e-guitare, red lighting, flamethrowers, etc.
+- **"good":** angelic singers voice, string instruments and flutes, blue stage lighting, artificial snow, etc.
+- **"evil":** the singer growls, heavy e-guitare, red lighting, flamethrowers, etc.
 
 Depending on which side the power bars balance is on, a band can flip the themes. Either live, if they're crazily prepared, between songs or only for the final song (which is the minimal effort on their end of things).
 
@@ -46,16 +44,16 @@ Not in the video but an interesting idea (that came with the help of the manager
 
 A circular area chart mapping the solution on 6 metrics for audience participation<sup>[[1]](#ref1)</sup>:
 
-<img src="/media/gameful_concerts/audience_participation_dimensions.jpg" alt="Circular area chart. See text below." />
+![Circular area chart. See text below.](/media/gameful_concerts/audience_participation_dimensions.jpg)
 
 See the [slides](https://owncloud.tuwien.ac.at/public.php?service=files&t=5b07f0b690f75bfcfe34b84be1b9cd5c&download) for their definition. Below, I'll go into the reason for the values we assigned:
 
-* **Control Design Freedom (~0.3):** As the effect is tightly coupled to the story, it might not make much sense to control anything beyond the decision between the two different song-tracks and corresponding stage-effects. The positioning that's used for placing the avatars could be used to control other interactions (e.g. between specific avatars)
-* **System Versatility (~0.7):** The setup of the positioning beacons and beamer might take a while in event-locations not already equipped with them, but not too long. For the mapping between auditorium and screen space to work well, the room should be roughly rectangular.
-* **Audience Interaction Transparency (~1.0):** One's avatar should be uniquely identifiable by it's looks and relativ position on the screen. Stronger dancing causes stronger of the avatar (with pre-defined dance-moves) and the charge-effects are very visible and cause a clearly noticeable shift in power-bar. The midpoint is clearly marked and if the powerbalance passes it, the next song and it's stage effects change distinctively. All in all it should be very clear, in our perception, what effect one's dancing has on the show.
-* **Audience Interaction Distribution (~1.0):** Most people will have a smartphone. Alternatively cheap dedicated hardware (e.g. wristbands) can be handed out, though these require an alternative way to create the avatar (e.g. terminals, one's homepc, a friend's smartphone)
-* **Focus (~0.8):** The projection is behind the actual band and about as distracting as most other visual shows. The dancing itself should be the same as in other concerts.
-* **Active / Passive Audience Affinity (~0.2):** Without a smartphone (or dedicated hardware if it's within the budget) there's no way to interact.
+- **Control Design Freedom (~0.3):** As the effect is tightly coupled to the story, it might not make much sense to control anything beyond the decision between the two different song-tracks and corresponding stage-effects. The positioning that's used for placing the avatars could be used to control other interactions (e.g. between specific avatars)
+- **System Versatility (~0.7):** The setup of the positioning beacons and beamer might take a while in event-locations not already equipped with them, but not too long. For the mapping between auditorium and screen space to work well, the room should be roughly rectangular.
+- **Audience Interaction Transparency (~1.0):** One's avatar should be uniquely identifiable by it's looks and relativ position on the screen. Stronger dancing causes stronger of the avatar (with pre-defined dance-moves) and the charge-effects are very visible and cause a clearly noticeable shift in power-bar. The midpoint is clearly marked and if the powerbalance passes it, the next song and it's stage effects change distinctively. All in all it should be very clear, in our perception, what effect one's dancing has on the show.
+- **Audience Interaction Distribution (~1.0):** Most people will have a smartphone. Alternatively cheap dedicated hardware (e.g. wristbands) can be handed out, though these require an alternative way to create the avatar (e.g. terminals, one's homepc, a friend's smartphone)
+- **Focus (~0.8):** The projection is behind the actual band and about as distracting as most other visual shows. The dancing itself should be the same as in other concerts.
+- **Active / Passive Audience Affinity (~0.2):** Without a smartphone (or dedicated hardware if it's within the budget) there's no way to interact.
 
 # Design Process
 
@@ -65,32 +63,32 @@ Over the course of that week, I'd jotted down a few notes to my **notebook**:
 
 <!-- thumbnail syntax isn't pretty :| -->
 <a href="/media/gameful_concerts/notebook/1.png">
-    <img src="/media/gameful_concerts/notebook/thumb/1.png">
+    ![](/media/gameful_concerts/notebook/thumb/1.png)
 </a>
 <a href="/media/gameful_concerts/notebook/2.png">
-    <img src="/media/gameful_concerts/notebook/thumb/2.png">
+    ![](/media/gameful_concerts/notebook/thumb/2.png)
 </a>
 <a href="/media/gameful_concerts/notebook/3.png">
-    <img src="/media/gameful_concerts/notebook/thumb/3.png">
+    ![](/media/gameful_concerts/notebook/thumb/3.png)
 </a>
 
 We met at the Fachschaft Informatik. During the process that will be descriped below, we took notes in [**this titanpad**](https://titanpad.com/64PQ6Cx3Gq).
 
 First we noted down which interactions already had come to mind from our experiences with rock and metal concerts, so as not to lose them:
 
-* circle dances
-* mosh pit
-* wall of death
-* condom baloons
-* headbanging
-* clapping
-* if indoors: smartphone cam
-* crowd-surfing
-* das ruderboot
-* inflatable shark
-* foam cannon
-* flamethrowers(!)
-    * witch burning?
+- circle dances
+- mosh pit
+- wall of death
+- condom baloons
+- headbanging
+- clapping
+- if indoors: smartphone cam
+- crowd-surfing
+- das ruderboot
+- inflatable shark
+- foam cannon
+- flamethrowers(!)
+  - witch burning?
 
 After that, we continued to the main excercise, LiveMAP.
 
@@ -105,9 +103,9 @@ I started the **first round** with the Motivation-card no. 9 - "Include someone 
 
 For the **second round** I kept my role (I liked it) and drew from the Interaction-deck the No 32, "consider interaction in terms of acoustics that is artificially generated". We quickly left the focus created by the cards and went (back?) to the previous stream of ideas. In this round a few of core ideas for the final concept emerged - namely:
 
-* projecting avatars for the dancing people on a surface behind the band
-* allowing the most enthusiastic dancer(s) to pick a song to be played (their favourite one?) or influence effects on the stage
-* from the idea of wall-of-deaths: make it two factions dance-battling each other
+- projecting avatars for the dancing people on a surface behind the band
+- allowing the most enthusiastic dancer(s) to pick a song to be played (their favourite one?) or influence effects on the stage
+- from the idea of wall-of-deaths: make it two factions dance-battling each other
 
 The card kept laying in front of me throughout the rest of it's process. In the end, it had made it's way into the concept: Songs are arranged along two general accoustic themes (e.g. "angelic, etherical, beautiful" vs "demonic, hard, grungy"). The winning side swings the song selection in favour of their theme.
 
@@ -118,13 +116,12 @@ The **third round** yielded me no23 from the Influence-deck: "Influence the cont
 
 After that we mainly refined the dance-battle concept. Most of the elements we'd use already had emerged by this point and fell into place now. Elements and decisions that emerged only at this point were:
 
-* power-meter that pushes between the colors <code>|=====>|<========|</code>
-* people should be able to choose their faction ahead of time (so they can rock for the same side as their friends, or oppose them in friendly competition)
-* we'd use smartphones' gyroscopic sensors and triangulation capabilities as a base instead of other hardware, as they're cheap for the organizers (most people already have one). However this also means that we can't guarantee participation for everyone (unless the phones are complimented with throw-away wearables)
-* customizing the avatar before-hand allows to find it on the projection
-* avatars can be used for merchandising as well (your ava + the bands ava on prints). The hardest dancer(s) could be awarded with some of it for free.
-* the intensity of dancing per song can be used to determine which songs appeal to the audience in that region.
-
+- power-meter that pushes between the colors <code>|=====>|<========|</code>
+- people should be able to choose their faction ahead of time (so they can rock for the same side as their friends, or oppose them in friendly competition)
+- we'd use smartphones' gyroscopic sensors and triangulation capabilities as a base instead of other hardware, as they're cheap for the organizers (most people already have one). However this also means that we can't guarantee participation for everyone (unless the phones are complimented with throw-away wearables)
+- customizing the avatar before-hand allows to find it on the projection
+- avatars can be used for merchandising as well (your ava + the bands ava on prints). The hardest dancer(s) could be awarded with some of it for free.
+- the intensity of dancing per song can be used to determine which songs appeal to the audience in that region.
 
 Two issues in our process severly handicapped the cards' usefullness for us:
 

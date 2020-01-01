@@ -5,21 +5,18 @@ title =  "ARG: CCTV Run"
 tags = ["Game Design"]
 
 
-+++
-
-{{< youtube 6Uu3OO75BlQ >}}
++++{{< youtube 6Uu3OO75BlQ >}}
 
 Gemeinsam mit [Alex Brandner](http://horstlb.blogspot.co.at/2015/05/gameful-design-arbeitspaket-4.html) und [Florian Holzner](http://bobschidoesgamefuldesign2015.tumblr.com/)
 
-
 <!--more-->
 
-<img src="/media/cctv/WhiteboardPics/meta.jpg" class="figure">
-<img src="/media/cctv/WhiteboardPics/cam_trees.jpg" class="figure">
-<img src="/media/cctv/WhiteboardPics/data_plumbing.jpg" class="figure">
-<img src="/media/cctv/WhiteboardPics/kafkaesque_ace_attorney.jpg" class="figure">
-<img src="/media/cctv/WhiteboardPics/cctv_celeb.jpg" class="figure">
-<img src="/media/cctv/WhiteboardPics/cctv_run_storyboard.jpg" class="figure">
+![](/media/cctv/WhiteboardPics/meta.jpg)
+![](/media/cctv/WhiteboardPics/cam_trees.jpg)
+![](/media/cctv/WhiteboardPics/data_plumbing.jpg)
+![](/media/cctv/WhiteboardPics/kafkaesque_ace_attorney.jpg)
+![](/media/cctv/WhiteboardPics/cctv_celeb.jpg)
+![](/media/cctv/WhiteboardPics/cctv_run_storyboard.jpg)
 
 <!--
 TODO:

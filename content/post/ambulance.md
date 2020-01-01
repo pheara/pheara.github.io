@@ -5,9 +5,7 @@ title = "Ambulance"
 keywords = []
 tags = ["Game Design"]
 
-+++
-
-<img src="/media/destinies_and_ambulance/ambulance.png" class="figure">
++++![](src="/media/destinies_and_ambulance/ambulance.png)
 
 For this game we were asked to use a random generator. One of
 the combinations the wonderful
@@ -25,6 +23,6 @@ they make maneuvers.
 
 <!--more-->
 
-<img src="/media/destinies_and_ambulance/sketches_01.jpg" class="figure">
-<img src="/media/destinies_and_ambulance/sketches_02.jpg" class="figure">
-<img src="/media/destinies_and_ambulance/sketches_03.jpg" class="figure">
+![](/media/destinies_and_ambulance/sketches_01.jpg)
+![](/media/destinies_and_ambulance/sketches_02.jpg)
+![](/media/destinies_and_ambulance/sketches_03.jpg)

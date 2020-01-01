@@ -5,7 +5,7 @@ title = "Title"
 tags = []
 +++
 
-![](/media/somefolder/somefile.jpg)
+![some alt text.](/media/somefolder/somefile.jpg)
 
 Some introduction
 

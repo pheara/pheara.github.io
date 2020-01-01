@@ -5,7 +5,7 @@ title = "Emanzipatorische Medienverwendung"
 tags = ["media and communication theory"]
 +++
 
-<img src="/media/gkm/newspaper.jpg" class="figure">
+![](/media/gkm/newspaper.jpg)
 
 Die dritte Abgabe zur VU Grundlagen der Kommunikations- und Medientheorie an der TU Wien. Die anderen finden sich [hier](./tags/media-and-communication-theory/).
 
@@ -39,15 +39,16 @@ Wie bereits oben erwähnt, wäre es ein solcher, bei dem "Hörer\*innen" selbst 
 
 Des Weiteren listet Enzensberger auch die folgende Gegenüberstellung von Merkmalen repressiven und emanzipatorischen Mediengebrauchs auf:
 
- # | repressiver Mediengebrauch                 | emanzipatorischer Mediengebrauch                     
+# | repressiver Mediengebrauch | emanzipatorischer Mediengebrauch
+
 ---|:--------------------------------------------|:---------------------------------
-1  | zentral gesteuertes Programm               | dezentralisiertes Programm                           
-2  | ein Sender, viele Empfänger                | jeder Empfänger ein potentieller Sender              
-3  | Immobilisierung isolierter Individuen      | Mobilisierung der Massen                             
-4  | Passive Konsumentenhaltung                 | Interaktion der Teilnehmer, Feedback                 
-5  | Entpolitisierungsprozess                   | Politischer Lernprozess                              
-6  | Produktion durch Spezialisten              | Kollektive Produktion                                
-7  | Kontrolle durch Eigentümer oder Bürokraten | Gesellschaftliche Kotnrolle durch Selbstorganisation
+1 | zentral gesteuertes Programm | dezentralisiertes Programm  
+2 | ein Sender, viele Empfänger | jeder Empfänger ein potentieller Sender  
+3 | Immobilisierung isolierter Individuen | Mobilisierung der Massen  
+4 | Passive Konsumentenhaltung | Interaktion der Teilnehmer, Feedback  
+5 | Entpolitisierungsprozess | Politischer Lernprozess  
+6 | Produktion durch Spezialisten | Kollektive Produktion  
+7 | Kontrolle durch Eigentümer oder Bürokraten | Gesellschaftliche Kotnrolle durch Selbstorganisation
 
 In 3.2a wird auf die eizelnen Merkmal-Dimensionen weiter eingegangen und diskutiert wo jeweils computerunterstützte Kommunikation einzuordnen ist.
 
@@ -71,7 +72,7 @@ der Mantel der "Algorithmischen Objektivität" geführt wird, so spiegeln ihre R
 
 Aber selbst mit diesen Caveats bleibt zu sagen, dass das Internet deutlich dezentraler ist als die Massenkommunikationsmedien, die ihm vorhergegangen sind.
 
-[^1]: Noble, Safiya. 2012. “*Missed Connections: What Search Engines Say about Women*. Bitch magazine , 12(4): 37­41. <https://safiyaunoble.files.wordpress.com/2012/03/54_search_engines.pdf>
+[^1]: Noble, Safiya. 2012. “_Missed Connections: What Search Engines Say about Women_. Bitch magazine , 12(4): 37­41. <https://safiyaunoble.files.wordpress.com/2012/03/54_search_engines.pdf>
 
 ### 2) Ein vs Viele Sender
 
@@ -106,7 +107,7 @@ Allerdings bleibt zu sagen, selbst wenn die Interaktions-Möglichkeiten drastisc
 
 > "Entpolitisierungsprozess" vs "Politischer Lernprozess" <!-- TODO def!! S. 519 -->
 
-Ich würde diese Merkmalsdimension interpretieren im Sinne der von Burkart erwähnten Auswirkung emanzipatorischen Mediengebrauchs, nämlich "*unkritisches und reflexionsarmes Empfangen massenmedialer Inhalte* würde durch aktives und kritisches Umgehen mit den Medien und deren Aussagen ersetzt."
+Ich würde diese Merkmalsdimension interpretieren im Sinne der von Burkart erwähnten Auswirkung emanzipatorischen Mediengebrauchs, nämlich "_unkritisches und reflexionsarmes Empfangen massenmedialer Inhalte_ würde durch aktives und kritisches Umgehen mit den Medien und deren Aussagen ersetzt."
 
 Im Bezug auf diese Aussage ist mein persönlicher Eindruck, dass selbst die erhöhte Kommunikation über Online-Medien nicht durchgehend beziehungsweise nicht zu erhöhtem kritischen Umgang mit Inhalten geführt hat. Vermutlich hängt diese Problematik mit der, der in "3)" erwähnten "Filterblasen" und "Echokammern" zusammen, in denen die Menge an mit der eigenen Meinung konfliktierenden Argumentationen, mit denen mensch in Kontakt kommt, durch technische und soziale Prozesse minimiert wird.
 Gepaart mit der oft fehlenden Zeit für tiefgreifende Recherche entsteht daraus dann auch das Problem der "Fake News".

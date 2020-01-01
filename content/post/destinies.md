@@ -5,9 +5,7 @@ title = "Destinies"
 keywords = []
 tags = ["Game Design"]
 
-+++
-
-<img src="/media/destinies_and_ambulance/destinies.png" class="figure">
++++![](/media/destinies_and_ambulance/destinies.png)
 
 One of the two game ideas for this weeks should be
 an “impossible” game by deconstructing a genre. The
@@ -24,7 +22,6 @@ hero stumbles through a dungeon in an attempt to get the loot
 and rescue the world. The player of luck plays cards to see
 them succeed, whereas misfortune tries to make their life harder.
 
-
 <!--more-->
 
 The simplest mechanic for moving the hero would be, to have
@@ -37,9 +34,9 @@ they take the challenges consequences.
 
 ## Stats and challenges:
 
-* “Combat” vs monsters
-* “Reflexes” vs traps
-* “Intelligence” vs puzzles
+- “Combat” vs monsters
+- “Reflexes” vs traps
+- “Intelligence” vs puzzles
 
 ## Cards
 
@@ -54,35 +51,35 @@ cards, or both get their separate decks.
 
 Card-ideas for Luck:
 
-* Level-up: Improves one of the heroes stats
-* Item: places an item in a room. The hero picks it up,
-if they wander into that room. The item-card specifies when
-it will be used and what benefit it brings, e.g. heal, add a
-one-time bonus vs a certain challenge type, teleport the hero,...
-* Shift rooms (think “mad labyrinth”)
-* Place rooms
-* Hidden Door: a sufficiently aware/intelligent hero can find it
-and take short-cut, possibly skipping some dangers.
+- Level-up: Improves one of the heroes stats
+- Item: places an item in a room. The hero picks it up,
+  if they wander into that room. The item-card specifies when
+  it will be used and what benefit it brings, e.g. heal, add a
+  one-time bonus vs a certain challenge type, teleport the hero,...
+- Shift rooms (think “mad labyrinth”)
+- Place rooms
+- Hidden Door: a sufficiently aware/intelligent hero can find it
+  and take short-cut, possibly skipping some dangers.
 
 Card-ideas for Misfortune:
 
-* Place traps, e.g. poison that decreases a stat, a fireball that deals damage
-* Cursed Item: works similiar to the Luck-players ‘Item’-card
-but with negative effects
-* Shift rooms (think “mad labyrinth”)
-* Place rooms
-* Place (wandering) monsters
-* Place puzzles, e.g. they might block off a dead-end
-(read: non-critical path) that contains treasure
-* Place alcohol: the trusting, short-sighted hero drinks it
-and some stat decreases
-* Cave-In: Blocks one of several paths to the goal. This card
-shouldn’t be used with a hero following the right-hand-rule.
-* Overlooked Door: this door is ignored for the next application
-of the right hand rule. Remove the condition after that.
+- Place traps, e.g. poison that decreases a stat, a fireball that deals damage
+- Cursed Item: works similiar to the Luck-players ‘Item’-card
+  but with negative effects
+- Shift rooms (think “mad labyrinth”)
+- Place rooms
+- Place (wandering) monsters
+- Place puzzles, e.g. they might block off a dead-end
+  (read: non-critical path) that contains treasure
+- Place alcohol: the trusting, short-sighted hero drinks it
+  and some stat decreases
+- Cave-In: Blocks one of several paths to the goal. This card
+  shouldn’t be used with a hero following the right-hand-rule.
+- Overlooked Door: this door is ignored for the next application
+  of the right hand rule. Remove the condition after that.
 
-<img src="/media/destinies_and_ambulance/sketches_01.jpg" class="figure">
-<img src="/media/destinies_and_ambulance/sketches_04.jpg" class="figure">
+![](/media/destinies_and_ambulance/sketches_01.jpg)
+![](/media/destinies_and_ambulance/sketches_04.jpg)
 
 ## Feedback
 

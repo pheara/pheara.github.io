@@ -4,9 +4,7 @@ draft = false
 title = "Waves"
 tags = ["Game Design"]
 
-+++
-
-<img src="/media/feather_and_waves/waves.jpg" class="figure">
++++![](/media/feather_and_waves/waves.jpg)
 
 Another game design for the first challenge of this semester, this
 one plays with the concept of pressure- and sound-waves for solving
@@ -14,4 +12,4 @@ a variety of physical puzzles.
 
 <!--more-->
 
-<img src="/media/feather_and_waves/sketches-2.jpg" class="figure">
+![](/media/feather_and_waves/sketches-2.jpg)
