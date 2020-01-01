@@ -4,9 +4,7 @@ description = "About"
 keywords = ["about"]
 title = "About"
 
-+++
-
-## Contact and Social Media
++++## Contact and Social Media
 
 <ul class="socialmedialist">
   <li>
@@ -16,7 +14,7 @@ title = "About"
     </a>
   </li>
   <li>
-    <a href="http://twitter.com/the_moru">
+    <a href="https://twitter.com/ph_e_a_r_a">
       <img src="/assets/sprite.generated.svg#twitter" alt="">
       Twitter
     </a>
