@@ -5,7 +5,7 @@ title = "The Machine Ensemble"
 tags = ["sociology of technology"]
 +++
 
-<img src="/media/sociology_of_technology/railway_and_worker.jpg" class="figure" alt="19th century train with telegraph lining the tracks and a worker standing next to a station.">
+![19th century train with telegraph lining the tracks and a worker standing next to a station.](/media/sociology_of_technology/railway_and_worker.jpg)
 
 This text is the first portfolio-submission for the course "187.329 - VU Sociology of Technology" ) and deals with the the questions listed below. It's mainly based on Shivelbusch' "Railway Journey, The Industrialization of Time and Space in the Nineteenth Century" (1986), and uses the historical of the railway to study the interplay of society and technology.
 
