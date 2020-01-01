@@ -11,7 +11,7 @@
         <meta name="author" content="Pheara">
         <meta name="description" content="A collection of ideas, designs and essays created over the course Pheara&#39;s Media and Human Centered Computing Studies">
         <meta name="keywords" content="game design, sociology of technology, human computer interaction, pheara">
-        <meta name="generator" content="Hugo 0.59.0-DEV" />
+        <meta name="generator" content="Hugo 0.63.0-DEV" />
         <link rel="icon" href="https://pheara.github.io/assets/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="https://pheara.github.io/css/slender-base.css">
         <link rel="stylesheet" href="https://pheara.github.io/css/slender-color-schemes.css">
@@ -53,43 +53,31 @@
             </header>
 
 <article class="article-content">
-    <p><img src="/media/racetrackspecials/racing_all.png" class="figure"></p>
-
+    <!-- raw HTML omitted -->
 <p>TL;DR: A racing game, where you try to get your slowest team-member across the finish line first and can discover and do hidden jumping-and-bumping-challenges to activate special effects along the race track at the cost of occupying a team-member for a while. This is Wiktor Manczarski’s and my solution for the challenge to make a game with an easter-egg that is a distinct game itself.</p>
-
 <h2 id="basic-game">Basic Game</h2>
-
-<p><img src="/media/racetrackspecials/racing1.png" class="figure"></p>
-
+<!-- raw HTML omitted -->
 <p>The basic game-play idea is taken from a fan-created game-mode of Project Gotham Racing as described in the <a href="https://en.wikipedia.org/wiki/Emergent_gameplay#Changing_game_objectives">wikipedia article on emergent gameplay</a>. This mode, called “cat and mouse” people play in two teams. In every team there’s one person with a very slow car. The team to get their slow-car across the finish line first, wins. To do this, the players with the fast cars need to ram the enemies slow-car to slow it down or even knock it off the road―all the while protecting their own slow-car.</p>
-
 <h2 id="hidden-game-activating-specials">Hidden Game: Activating Specials</h2>
-
-<p><img src="/media/racetrackspecials/racing2.png" class="figure"></p>
-
+<!-- raw HTML omitted -->
 <p>As a hidden game-mode, there’s several locations along the racing track, where people can leave their cars to activate specials―if they find those spots. Examples ways of leaving the car would be:</p>
-
 <ul>
 <li>In a factory level: if you “fail” a jump and land on one of the conveyor belts, the driver gets picked up by a crane-claw.</li>
 <li>Crashing the car at high speed at a specific spot so that the driver gets thrown through the wind-shield</li>
 <li>Get flipped by monster</li>
 <li>Jump into teleporter-beam and get teleported out while car stays behind</li>
 <li>A garage or other parking spot where you can leave the car, reachable via:
-
 <ul>
 <li>A jump over a ramp out of the level at a specific point</li>
 <li>A jump over a ramp at a cliff at a certain point</li>
 <li>A camouflage net on a forest-map wall</li>
 <li>Crashing through a window into a house</li>
-</ul></li>
 </ul>
-
+</li>
+</ul>
 <p>The huge trade-off should be, that the team sends a driver ahead to use on of these spots, looses them for attack and defense on the track. Also, timing is critical―drive ahead too early and lose time, drive ahead to late and you might be too late to activate the special. To increase the time-cost of activating the special, it should take a while to activate it. For this they need to go through a short jumping puzzle and knock a gatekeeper-boss off it’s platform. If multiple players rush for the special, they can knock each other off.</p>
-
 <h2 id="specials">Specials</h2>
-
-<p><img src="/media/racetrackspecials/racing3.png" class="figure"></p>
-
+<!-- raw HTML omitted -->
 <ul>
 <li>Short-cuts</li>
 <li>Acceleration-strips</li>
@@ -99,17 +87,11 @@
 <li>Pits</li>
 <li>Map zooms out to allow targeting an orbital laser.</li>
 </ul>
-
 <p>For the special it turns out, that most buffs are more advantageous for the team who’s slow-car is behind and neutral if used by the leading team―e.g. a shortcut or acceleration strip stays activated for the slower team giving them the same advantage. Conversely agnostically harmful specials favor the leading team, as they can wait for their slow-car to pass-by it’s location before they activate it.</p>
-
 <h2 id="feedback-during-lecture">Feedback during lecture</h2>
-
 <p>To make playing the slow-car more interesting, that player could be the only one to get a high-level tactical overview and thus a coordinator-role.</p>
-
 <p>A game that requires eight players would be problematic during the demo at the end of the semester. It was suggested to make the slow-car an AI and only use two fast-cars per team, thus reducing the game to four players. This would even allow a couch-multiplayer.</p>
-
 <h2 id="variants">Variants</h2>
-
 <ul>
 <li>Do laps? This allows reversing.</li>
 <li>More or less team-members</li>
@@ -119,19 +101,17 @@
 <li>There’s one overall engineer-token, that’s needed for specials. It changes hands when you’re getting rammed.</li>
 <li>Alternative puzzles instead of jumping and bumping―e.g. logic puzzles.</li>
 </ul>
-
 <h2 id="other-game-ideas">Other Game Ideas</h2>
-
 <ul>
 <li>For leaving the level: abuse a “typical” glitch, also breaking the fourth wall in the process.
-
 <ul>
 <li>A hacking game alla <a href="https://alexnisnevich.github.io/untrusted/">Dr. Eval</a> built into another single-player game.</li>
 <li>Fall out of the map in a shooter. Now viewing the map from below, it turns into a jump’n’run, where you can stomp/head-butt opponents for some damage or coins</li>
-</ul></li>
+</ul>
+</li>
 <li>A side-scrolling jump’n’run, that rotates 90° and then falls back into a over-the-shoulder racing game.</li>
 <li>A racing game where you leave the car or fall into a pond, get transformed into a frog and avoid getting run over (remotely like frogger)</li>
-<li>Based on a thought of Felix: A bullet-hell shooter where you can&rsquo;t shoot. You can kill enemies via friendly fire, playing the two factions against each other or via a place-swapping ability.</li>
+<li>Based on a thought of Felix: A bullet-hell shooter where you can't shoot. You can kill enemies via friendly fire, playing the two factions against each other or via a place-swapping ability.</li>
 <li>A stealth game set to break-beat dubstep where you need to freeze under scrutiny and move otherwise. You play household electronics come to life.</li>
 <li>A coop where you’re playing a level in parallel but split in time, one person in the past, one in the future. The problem: only the past can influence the future. An interesting variant on this is <a href="https://www.youtube.com/watch?v=Uh4f30VVhbk">Super Time Force</a>)</li>
 <li>A stealth game but you’re playing the guards (Tropico?)</li>

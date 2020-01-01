@@ -18,7 +18,6 @@
       
       <guid>https://pheara.github.io/article/challenges-when-studying-algorithms/</guid>
       <description>&lt;p&gt;This is part two of the &lt;a href=&#34;https://pheara.github.io/tags/methods-mini-series/&#34;&gt;mini-series on “studying algorithms”&lt;/a&gt;. If you are curious why studying these might be important at all, check out the &lt;a href=&#34;https://pheara.github.io/article/why-study-algorithms/&#34;&gt;previous post&lt;/a&gt;.&lt;/p&gt;
-
 &lt;p&gt;So, what complicates things, is that unearthing the biases within algorithms isn’t a trivial feat – several issues can make it hard to understand what’s going on.&lt;/p&gt;</description>
     </item>
     
@@ -29,7 +28,6 @@
       
       <guid>https://pheara.github.io/article/methods-for-studying-algorithms/</guid>
       <description>&lt;p&gt;At last, this is the third part of the &lt;a href=&#34;https://pheara.github.io/tags/methods-mini-series/&#34;&gt;mini-series on “studying algorithms”&lt;/a&gt;. The previous try to explain &lt;a href=&#34;https://pheara.github.io/article/why-study-algorithms/&#34;&gt;why doing so is important&lt;/a&gt; and the &lt;a href=&#34;https://pheara.github.io/article/challenges-when-studying-algorithms/&#34;&gt;difficulties you might encounter&lt;/a&gt; while doing so.&lt;/p&gt;
-
 &lt;p&gt;So, now let’s get to the actual “Hows”. The following sections are high-level overviews over some methods that are out there. They should help you with deciding which to dive deeper into when studying algorithms.&lt;/p&gt;</description>
     </item>
     
@@ -40,12 +38,10 @@
       
       <guid>https://pheara.github.io/article/why-study-algorithms/</guid>
       <description>&lt;p&gt;Last semester I’ve participated in a &lt;a href=&#34;https://algorithmstudies.wordpress.com/&#34;&gt;seminar on “Critical Algorithm Studies”&lt;/a&gt;. Collectively we worked through a &lt;a href=&#34;https://algorithmstudies.files.wordpress.com/2016/03/readings.pdf&#34;&gt;reading list&lt;/a&gt;, which is a filtered version of [the one published by the socialmediacollective](
-(&lt;a href=&#34;https://socialmediacollective.org/reading-lists/critical-algorithm-studies/&#34;&gt;https://socialmediacollective.org/reading-lists/critical-algorithm-studies/&lt;/a&gt;). In particular, I dived deeper into the sub-list on &lt;em&gt;“Methods for Studying Algorithmic Systems”&lt;/em&gt;.&lt;/p&gt;
-
+(&lt;a href=&#34;https://socialmediacollective.org/reading-lists/critical-algorithm-studies/)&#34;&gt;https://socialmediacollective.org/reading-lists/critical-algorithm-studies/)&lt;/a&gt;. In particular, I dived deeper into the sub-list on &lt;em&gt;“Methods for Studying Algorithmic Systems”&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&#34;https://pheara.github.io/tags/methods-mini-series&#34;&gt;three posts of this mini-series&lt;/a&gt; are an attempt at summarizing those writings and a
 few others; you can find a complete list of the references at the bottom. :)
 The series should give you a &lt;em&gt;basic overview&lt;/em&gt; over the whys (&lt;a href=&#34;https://pheara.github.io/article/why-study-algorithms/&#34;&gt;part 1&lt;/a&gt;) and challenges (&lt;a href=&#34;https://pheara.github.io/article/challenges-when-studying-algorithms/&#34;&gt;part 2&lt;/a&gt;) of studying algorithms as well as some methods to do so (&lt;a href=&#34;https://pheara.github.io/article/methods-for-studying-algorithms/&#34;&gt;part 3&lt;/a&gt;).&lt;/p&gt;
-
 &lt;p&gt;Anyway, enough preface, let’s get started. :)&lt;/p&gt;</description>
     </item>
     

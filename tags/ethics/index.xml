@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ethics on Pheara’s Ramblings</title>
+    <link>https://pheara.github.io/tags/ethics/</link>
+    <description>Recent content in ethics on Pheara’s Ramblings</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 15 Jul 2019 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://pheara.github.io/tags/ethics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Beyond the Trolley Problem</title>
+      <link>https://pheara.github.io/article/beyond-the-trolley-problem/</link>
+      <pubDate>Mon, 15 Jul 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://pheara.github.io/article/beyond-the-trolley-problem/</guid>
+      <description>&lt;p&gt;In the recently published &amp;ldquo;Trolled by the Trolley
+Problem&amp;rdquo;[&lt;a href=&#34;#ref-MirnigTrolledTrolleyProblem2019&#34;&gt;1&lt;/a&gt;]
+Alexander G. Mirnig and Alexander Meschtscherjakov point out the severe
+limitations of the trolley problem with regard to ethics- and technology
+assessment as applied to (semi-)autonomous vehicles. They go on to
+criticize the amount of effort spent on it and argue for better foci. In
+this essay, I&#39;ll give a short overview over their critique and want to
+point out other, wider potential issues in need of studying and societal
+deliberation beyond the artificial, construed confines of the trolley
+problem.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

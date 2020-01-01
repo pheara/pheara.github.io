@@ -18,8 +18,7 @@
       
       <guid>https://pheara.github.io/article/js-based-text/markdown-editors/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/peacememories&#34;&gt;Peacememories&lt;/a&gt; and I are working on a haskell-based CMS-frontend for static site generators like hakyll (see &lt;a href=&#34;https://github.com/Haskell-Praxis/hakyll-cms&#34;&gt;project on github&lt;/a&gt;). For this we need a text-editor for authoring markdown. Ideally it should allow both editing as rich text and markdown and is small enough not to incur severe page-load-performance costs.&lt;/p&gt;
-
-&lt;p&gt;For this, I&amp;rsquo;ve compiled this small comparison table, that some of you might find useful for their projects:&lt;/p&gt;</description>
+&lt;p&gt;For this, I&#39;ve compiled this small comparison table, that some of you might find useful for their projects:&lt;/p&gt;</description>
     </item>
     
   </channel>

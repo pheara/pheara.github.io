@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Pheara’s Ramblings</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 01 May 2019 21:37:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jul 2019 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://pheara.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ethics</title>
+      <link>https://pheara.github.io/tags/ethics/</link>
+      <pubDate>Mon, 15 Jul 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://pheara.github.io/tags/ethics/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>sociology of technology</title>

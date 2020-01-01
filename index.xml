@@ -6,10 +6,28 @@
     <description>Recent content on Pheara’s Ramblings</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 01 May 2019 21:37:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jul 2019 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://pheara.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Beyond the Trolley Problem</title>
+      <link>https://pheara.github.io/article/beyond-the-trolley-problem/</link>
+      <pubDate>Mon, 15 Jul 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://pheara.github.io/article/beyond-the-trolley-problem/</guid>
+      <description>&lt;p&gt;In the recently published &amp;ldquo;Trolled by the Trolley
+Problem&amp;rdquo;[&lt;a href=&#34;#ref-MirnigTrolledTrolleyProblem2019&#34;&gt;1&lt;/a&gt;]
+Alexander G. Mirnig and Alexander Meschtscherjakov point out the severe
+limitations of the trolley problem with regard to ethics- and technology
+assessment as applied to (semi-)autonomous vehicles. They go on to
+criticize the amount of effort spent on it and argue for better foci. In
+this essay, I&#39;ll give a short overview over their critique and want to
+point out other, wider potential issues in need of studying and societal
+deliberation beyond the artificial, construed confines of the trolley
+problem.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>The Machine Ensemble</title>
@@ -17,26 +35,22 @@
       <pubDate>Wed, 01 May 2019 21:37:00 +0200</pubDate>
       
       <guid>https://pheara.github.io/article/the-machine-ensemble/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://pheara.github.io/media/sociology_of_technology/railway_and_worker.jpg&#34; class=&#34;figure&#34; alt=&#34;19th century train with telegraph lining the tracks and a worker standing next to a station.&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;This text is the first portfolio-submission for the course &amp;ldquo;187.329 - VU Sociology of Technology&amp;rdquo; ) and deals with the the questions listed below. It&amp;rsquo;s mainly based on Shivelbusch&amp;rsquo; &amp;ldquo;Railway Journey, The Industrialization of Time and Space in the Nineteenth Century&amp;rdquo; (1986), and uses the historical of the railway to study the interplay of society and technology.&lt;/p&gt;
-
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;This text is the first portfolio-submission for the course &amp;ldquo;187.329 - VU Sociology of Technology&amp;rdquo; ) and deals with the the questions listed below. It&#39;s mainly based on Shivelbusch&amp;rsquo; &amp;ldquo;Railway Journey, The Industrialization of Time and Space in the Nineteenth Century&amp;rdquo; (1986), and uses the historical of the railway to study the interplay of society and technology.&lt;/p&gt;
 &lt;p&gt;The questions:&lt;/p&gt;
-
 &lt;blockquote&gt;
 &lt;ol&gt;
 &lt;li&gt;Explain why locomotive and rail track constitute a machine ensemble.&lt;/li&gt;
 &lt;li&gt;In what way does the introduction of the transportation monopoly around 1840 closely relate to the fact that the railway (locomotive and rail track) is to be understood as an ensemble, rather than the rail track being a traffic route like the road or similar traffic routes?&lt;/li&gt;
 &lt;li&gt;Why did the rails have to&amp;hellip;
-
 &lt;ul&gt;
 &lt;li&gt;&amp;hellip;be smooth and hard?&lt;/li&gt;
 &lt;li&gt;&amp;hellip;run a level and straight course?&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;Which consequences did this have for the course of the railway trail (contrary to e.g. the road)?&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/blockquote&gt;
-
 &lt;p&gt;Other posts from the same lecture can be found &lt;a href=&#34;./tags/sociology-of-technology/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
@@ -46,8 +60,7 @@
       <pubDate>Sat, 30 Dec 2017 00:52:00 +0200</pubDate>
       
       <guid>https://pheara.github.io/article/user-research-in-a-new-age-of-computing/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://pheara.github.io/media/urm/alexa.jpg&#34; alt=&#34;alexa personal digital assitant&#34; /&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;img src=&#34;https://pheara.github.io/media/urm/alexa.jpg&#34; alt=&#34;alexa personal digital assitant&#34;&gt;&lt;/p&gt;
 &lt;p&gt;This is my submission for the challenge report submission in the course user research methods. It tries to answer
 the question about the use and role of user research in the &amp;ldquo;new age of
 computing we are entering into&amp;rdquo;.&lt;/p&gt;</description>
@@ -59,13 +72,10 @@ computing we are entering into&amp;rdquo;.&lt;/p&gt;</description>
       <pubDate>Tue, 21 Nov 2017 00:50:00 +0200</pubDate>
       
       <guid>https://pheara.github.io/article/group-techniques/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/File:NASA_Open_Space_2_Innovate.jpg&#34;&gt;&lt;img src=&#34;https://pheara.github.io/media/urm/grouptechniques/open_space_plenum.jpg&#34; alt=&#34;open space plenary circle&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;This &lt;strong&gt;overview over group techniques in user research&lt;/strong&gt; was written as report for the course &amp;ldquo;User Research Methods&amp;rdquo;. However, due to being sick / generally being overworked / this thing being written in a deadline-sprint, your mileage may vary and there&amp;rsquo;s certainly better resources &amp;ndash; just as a disclaimer and to take away the answer to &amp;ldquo;wtf was up with pheara here?!&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;With that out of the way and without further ado: Group Techniques.&lt;br /&gt;
-As this is more a category of loosely connected methods formulated for very different reaons in different situations, I&amp;rsquo;ll go over the ones mentioned in the lecture slides one by one and try to compare them in the process. The methods are as follows:&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/File:NASA_Open_Space_2_Innovate.jpg&#34;&gt;&lt;img src=&#34;https://pheara.github.io/media/urm/grouptechniques/open_space_plenum.jpg&#34; alt=&#34;open space plenary circle&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This &lt;strong&gt;overview over group techniques in user research&lt;/strong&gt; was written as report for the course &amp;ldquo;User Research Methods&amp;rdquo;. However, due to being sick / generally being overworked / this thing being written in a deadline-sprint, your mileage may vary and there&#39;s certainly better resources &amp;ndash; just as a disclaimer and to take away the answer to &amp;ldquo;wtf was up with pheara here?!&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;With that out of the way and without further ado: Group Techniques.&lt;br&gt;
+As this is more a category of loosely connected methods formulated for very different reaons in different situations, I&#39;ll go over the ones mentioned in the lecture slides one by one and try to compare them in the process. The methods are as follows:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Focus Groups&lt;/li&gt;
 &lt;li&gt;Fishbowl&lt;/li&gt;
@@ -82,14 +92,14 @@ As this is more a category of loosely connected methods formulated for very diff
       <pubDate>Sat, 24 Jun 2017 23:54:00 +0200</pubDate>
       
       <guid>https://pheara.github.io/article/filterblasen-und-echokammern/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://pheara.github.io/media/gkm/FilterBubble.jpg&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
-
+      <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;Diese letzte Abgabe für Grundlagen der Kommunikations und Medientherie beschäftigt sich mit den Problematiken des stark individualisierten Medienkonsums, i.e. Filterblasen bzw Echokammern. Die anderen Abgaben finden sich &lt;a href=&#34;./tags/media-and-communication-theory/&#34;&gt;hier&lt;/a&gt;.&lt;/p&gt;
-
 &lt;blockquote&gt;
-&lt;p&gt;Material:
-* Cass R. Sunstein: Republic.com 2.0, S. 1-45, Princeton 2007
-* &lt;a href=&#34;http://www.ted.com/talks/eli_pariser_beware_online_filter_bubbles&#34;&gt;Eli Pariser: Videodokumentation, TED-Talk Beware online „filter bubbles“&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Material:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cass R. Sunstein: Republic.com 2.0, S. 1-45, Princeton 2007&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ted.com/talks/eli_pariser_beware_online_filter_bubbles&#34;&gt;Eli Pariser: Videodokumentation, TED-Talk Beware online „filter bubbles“&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/blockquote&gt;</description>
     </item>
     
@@ -99,15 +109,11 @@ As this is more a category of loosely connected methods formulated for very diff
       <pubDate>Sat, 24 Jun 2017 23:28:00 +0200</pubDate>
       
       <guid>https://pheara.github.io/article/emanzipatorische-medienverwendung/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://pheara.github.io/media/gkm/newspaper.jpg&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
-
+      <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;Die dritte Abgabe zur VU Grundlagen der Kommunikations- und Medientheorie an der TU Wien. Die anderen finden sich &lt;a href=&#34;./tags/media-and-communication-theory/&#34;&gt;hier&lt;/a&gt;.&lt;/p&gt;
-
 &lt;blockquote&gt;
 &lt;p&gt;Material:&lt;/p&gt;
-
 &lt;p&gt;R. Burkart: Kommunikationswissenschaft. Grundlagen und Problemfelder. Umrisse einer interdisziplinären Sozialwissenschaft, S. 516-520, Stuttgart 2002&lt;/p&gt;
-
 &lt;p&gt;Zusatztext zum Vertiefen und Nachlesen: B. Brecht: Radiotheorie. In: B. Brecht &amp;ldquo;Schriften zur Literatur und Kunst 1, 1920-1932&amp;rdquo;, S. 119-140, Frankfurt a. M. 1967&lt;/p&gt;
 &lt;/blockquote&gt;</description>
     </item>
@@ -118,9 +124,8 @@ As this is more a category of loosely connected methods formulated for very diff
       <pubDate>Fri, 23 Jun 2017 17:43:00 +0200</pubDate>
       
       <guid>https://pheara.github.io/article/presentation-on-grounded-evaluation/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve written (and held) a &lt;a href=&#34;https://pheara.github.io/grounded-evaluation-presentation/&#34;&gt;presentation on &amp;ldquo;Grounded Evaluation of Visualizations&amp;rdquo;&lt;/a&gt; (for the course &amp;ldquo;Evaluation of Visualizations&amp;rdquo;). In the linked reveal.js-presentation you can press &lt;code&gt;&#39;S&#39;&lt;/code&gt; to see the speaker&amp;rsquo;s notes and &lt;code&gt;&#39;?&#39;&lt;/code&gt; to see other available commands.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://pheara.github.io/grounded-evaluation-presentation/figures/grounded_eval_flow_chart.svg&#34; alt=&#34;rounding as part of the first iteration: Theory and observation leading to Grounding (themes, coding, analysis, criteria/theory&#34; /&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&#39;ve written (and held) a &lt;a href=&#34;https://pheara.github.io/grounded-evaluation-presentation/&#34;&gt;presentation on &amp;ldquo;Grounded Evaluation of Visualizations&amp;rdquo;&lt;/a&gt; (for the course &amp;ldquo;Evaluation of Visualizations&amp;rdquo;). In the linked reveal.js-presentation you can press &lt;code&gt;&#39;S&#39;&lt;/code&gt; to see the speaker&#39;s notes and &lt;code&gt;&#39;?&#39;&lt;/code&gt; to see other available commands.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://pheara.github.io/grounded-evaluation-presentation/figures/grounded_eval_flow_chart.svg&#34; alt=&#34;rounding as part of the first iteration: Theory and observation leading to Grounding (themes, coding, analysis, criteria/theory&#34;&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -130,8 +135,7 @@ As this is more a category of loosely connected methods formulated for very diff
       
       <guid>https://pheara.github.io/article/js-based-text/markdown-editors/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/peacememories&#34;&gt;Peacememories&lt;/a&gt; and I are working on a haskell-based CMS-frontend for static site generators like hakyll (see &lt;a href=&#34;https://github.com/Haskell-Praxis/hakyll-cms&#34;&gt;project on github&lt;/a&gt;). For this we need a text-editor for authoring markdown. Ideally it should allow both editing as rich text and markdown and is small enough not to incur severe page-load-performance costs.&lt;/p&gt;
-
-&lt;p&gt;For this, I&amp;rsquo;ve compiled this small comparison table, that some of you might find useful for their projects:&lt;/p&gt;</description>
+&lt;p&gt;For this, I&#39;ve compiled this small comparison table, that some of you might find useful for their projects:&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -140,10 +144,8 @@ As this is more a category of loosely connected methods formulated for very diff
       <pubDate>Wed, 19 Apr 2017 00:14:00 +0200</pubDate>
       
       <guid>https://pheara.github.io/article/historische-massenmedien-wirkungsforschung/</guid>
-      <description>&lt;!--
-&lt;img src=&#34;https://pheara.github.io/media/telephone/Adolphe_Bitard_-_Téléphone.jpg&#34; class=&#34;figure&#34;&gt; 
---&gt;
-
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Material: R. Burkart: Kommunikationswissenschaft. Grundlagen und Problemfelder. Umrisse einer interdisziplinären Sozialwissenschaft. S. 186-197 &amp;amp; S. 215-236, Stuttgart 2002.&lt;/p&gt;
 &lt;/blockquote&gt;</description>
@@ -155,8 +157,7 @@ As this is more a category of loosely connected methods formulated for very diff
       <pubDate>Mon, 27 Mar 2017 11:13:00 +0200</pubDate>
       
       <guid>https://pheara.github.io/article/verwendungsweisen-des-telefons/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://pheara.github.io/media/gkm/Adolphe_Bitard_-_Téléphone.jpg&#34; class=&#34;figure&#34;&gt; &lt;!--_--&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Material: C. Karpenstein-Eßbach: Am Apparat: Telephongeschichten. In: C. Karpenstein-Eßbach: &amp;ldquo;Einführung in die Kulturwissenschaft der Medien&amp;rdquo;, S. 110-122, 2004.&lt;/p&gt;
 &lt;/blockquote&gt;</description>
@@ -169,7 +170,6 @@ As this is more a category of loosely connected methods formulated for very diff
       
       <guid>https://pheara.github.io/article/challenges-when-studying-algorithms/</guid>
       <description>&lt;p&gt;This is part two of the &lt;a href=&#34;https://pheara.github.io/tags/methods-mini-series/&#34;&gt;mini-series on “studying algorithms”&lt;/a&gt;. If you are curious why studying these might be important at all, check out the &lt;a href=&#34;https://pheara.github.io/article/why-study-algorithms/&#34;&gt;previous post&lt;/a&gt;.&lt;/p&gt;
-
 &lt;p&gt;So, what complicates things, is that unearthing the biases within algorithms isn’t a trivial feat – several issues can make it hard to understand what’s going on.&lt;/p&gt;</description>
     </item>
     
@@ -180,7 +180,6 @@ As this is more a category of loosely connected methods formulated for very diff
       
       <guid>https://pheara.github.io/article/methods-for-studying-algorithms/</guid>
       <description>&lt;p&gt;At last, this is the third part of the &lt;a href=&#34;https://pheara.github.io/tags/methods-mini-series/&#34;&gt;mini-series on “studying algorithms”&lt;/a&gt;. The previous try to explain &lt;a href=&#34;https://pheara.github.io/article/why-study-algorithms/&#34;&gt;why doing so is important&lt;/a&gt; and the &lt;a href=&#34;https://pheara.github.io/article/challenges-when-studying-algorithms/&#34;&gt;difficulties you might encounter&lt;/a&gt; while doing so.&lt;/p&gt;
-
 &lt;p&gt;So, now let’s get to the actual “Hows”. The following sections are high-level overviews over some methods that are out there. They should help you with deciding which to dive deeper into when studying algorithms.&lt;/p&gt;</description>
     </item>
     
@@ -191,12 +190,10 @@ As this is more a category of loosely connected methods formulated for very diff
       
       <guid>https://pheara.github.io/article/why-study-algorithms/</guid>
       <description>&lt;p&gt;Last semester I’ve participated in a &lt;a href=&#34;https://algorithmstudies.wordpress.com/&#34;&gt;seminar on “Critical Algorithm Studies”&lt;/a&gt;. Collectively we worked through a &lt;a href=&#34;https://algorithmstudies.files.wordpress.com/2016/03/readings.pdf&#34;&gt;reading list&lt;/a&gt;, which is a filtered version of [the one published by the socialmediacollective](
-(&lt;a href=&#34;https://socialmediacollective.org/reading-lists/critical-algorithm-studies/&#34;&gt;https://socialmediacollective.org/reading-lists/critical-algorithm-studies/&lt;/a&gt;). In particular, I dived deeper into the sub-list on &lt;em&gt;“Methods for Studying Algorithmic Systems”&lt;/em&gt;.&lt;/p&gt;
-
+(&lt;a href=&#34;https://socialmediacollective.org/reading-lists/critical-algorithm-studies/)&#34;&gt;https://socialmediacollective.org/reading-lists/critical-algorithm-studies/)&lt;/a&gt;. In particular, I dived deeper into the sub-list on &lt;em&gt;“Methods for Studying Algorithmic Systems”&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;The &lt;a href=&#34;https://pheara.github.io/tags/methods-mini-series&#34;&gt;three posts of this mini-series&lt;/a&gt; are an attempt at summarizing those writings and a
 few others; you can find a complete list of the references at the bottom. :)
 The series should give you a &lt;em&gt;basic overview&lt;/em&gt; over the whys (&lt;a href=&#34;https://pheara.github.io/article/why-study-algorithms/&#34;&gt;part 1&lt;/a&gt;) and challenges (&lt;a href=&#34;https://pheara.github.io/article/challenges-when-studying-algorithms/&#34;&gt;part 2&lt;/a&gt;) of studying algorithms as well as some methods to do so (&lt;a href=&#34;https://pheara.github.io/article/methods-for-studying-algorithms/&#34;&gt;part 3&lt;/a&gt;).&lt;/p&gt;
-
 &lt;p&gt;Anyway, enough preface, let’s get started. :)&lt;/p&gt;</description>
     </item>
     
@@ -207,10 +204,8 @@ The series should give you a &lt;em&gt;basic overview&lt;/em&gt; over the whys (
       
       <guid>https://pheara.github.io/article/waves-prototype/</guid>
       <description>&lt;p&gt;And here’s the second of the two game protypes.&lt;/p&gt;
-
 &lt;p&gt;You can find a WebGL export of &lt;a href=&#34;http://pheara.github.io/waves/&#34;&gt;&lt;strong&gt;the game here&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://pheara.github.io/media/feather_and_waves/waves_prototype.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;</description>
+&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     
     <item>
@@ -220,10 +215,8 @@ The series should give you a &lt;em&gt;basic overview&lt;/em&gt; over the whys (
       
       <guid>https://pheara.github.io/article/powersockets-prototype/</guid>
       <description>&lt;p&gt;The first of the two game protypes &lt;a href=&#34;https://github.com/jankaVar&#34;&gt;Jana&lt;/a&gt; and I build for the &amp;ldquo;Game Design&amp;rdquo;-course.&lt;/p&gt;
-
 &lt;p&gt;You can &lt;a href=&#34;https://github.com/jankaVar/powersockets/releases/&#34;&gt;&lt;strong&gt;get the app here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://pheara.github.io/media/powersockets/powersockets_screenshot.jpg&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;</description>
+&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     
     <item>
@@ -233,8 +226,7 @@ The series should give you a &lt;em&gt;basic overview&lt;/em&gt; over the whys (
       
       <guid>https://pheara.github.io/article/distraction-tatics/</guid>
       <description>&lt;p&gt;For this week’s challenge Felix Ledóchowski and I designed this rather simple joke-game that toys with the notion of the chain-mail-bikini and sexualising tropes in video-games. It’s strongly inspired by the Oglaf &lt;em&gt;strips&lt;/em&gt; (*snicker*) &lt;a href=&#34;http://oglaf.com/newmodelarmy/&#34;&gt;“New Model Army”&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://pheara.github.io/media/distraction_tactics/fetish_orcs-1.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;</description>
+&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     
     <item>
@@ -244,7 +236,6 @@ The series should give you a &lt;em&gt;basic overview&lt;/em&gt; over the whys (
       
       <guid>https://pheara.github.io/article/my-first-car-theft/</guid>
       <description>&lt;p&gt;For this week’s challenge Felix Ledóchowski and I sketched this two player coop-game where in which you play babies trying to drive a car.&lt;/p&gt;
-
 &lt;p&gt;The babies aim to reenact the story of their favorite picture-book. This involves a slide on the playground, buying milk in a supermarket, visiting the elephant in the zoo,‥
 However, babies have no concept of where to drive and where not to drive. So they’ll drive to all these places that definitely weren’t designed for cars.&lt;/p&gt;</description>
     </item>
@@ -255,10 +246,8 @@ However, babies have no concept of where to drive and where not to drive. So the
       <pubDate>Mon, 18 Apr 2016 17:49:50 +0200</pubDate>
       
       <guid>https://pheara.github.io/article/gangs-of-corros/</guid>
-      <description>&lt;p&gt;This weeks sketches can be found &lt;a href=&#34;https://pheara.github.io/media/gangs_of_corros/sketches.pdf&#34;&gt;in this PDF&lt;/a&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;object data=&#34;/media/gangs_of_corros/sketches.pdf&#34; type=&#34;application/pdf&#34; width=&#34;100%&#34; height=&#34;600px&#34;&gt;
-&lt;/object&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;This weeks sketches can be found &lt;!-- raw HTML omitted --&gt;in this PDF&lt;!-- raw HTML omitted --&gt;:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     
     <item>
@@ -267,8 +256,7 @@ However, babies have no concept of where to drive and where not to drive. So the
       <pubDate>Tue, 12 Apr 2016 15:46:01 +0200</pubDate>
       
       <guid>https://pheara.github.io/article/teamrace-with-specials/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://pheara.github.io/media/racetrackspecials/racing_all.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
-
+      <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;TL;DR: A racing game, where you try to get your slowest team-member across the finish line first and can discover and do hidden jumping-and-bumping-challenges to activate special effects along the race track at the cost of occupying a team-member for a while. This is Wiktor Manczarski’s and my solution for the challenge to make a game with an easter-egg that is a distinct game itself.&lt;/p&gt;</description>
     </item>
     
@@ -278,13 +266,12 @@ However, babies have no concept of where to drive and where not to drive. So the
       <pubDate>Sun, 03 Apr 2016 17:52:42 +0200</pubDate>
       
       <guid>https://pheara.github.io/article/ambulance/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://pheara.github.io/media/destinies_and_ambulance/ambulance.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
-
+      <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;For this game we were asked to use a random generator. One of
 the combinations the wonderful
 &lt;a href=&#34;http://valuesatplay.org/grow-a-game-overview&#34;&gt;grow-a-game cards&lt;/a&gt;
 spit out, was “Cooperation-Disease-GTA-Creativity”, which inspired Marie and me
-to a cooperative racing game in the health-sector &amp;ndash; “Ambulance”. One player
+to a cooperative racing game in the health-sector – “Ambulance”. One player
 drives the car, in a simplified version this is just the three lanes
 seen in the sketch, the other person tries to keep the patient alive until
 they reach the hospital by playing a game of dexterity. Every time
@@ -301,8 +288,7 @@ they make maneuvers.&lt;/p&gt;</description>
       <pubDate>Sun, 03 Apr 2016 17:52:00 +0200</pubDate>
       
       <guid>https://pheara.github.io/article/destinies/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://pheara.github.io/media/destinies_and_ambulance/destinies.png&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
-
+      <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;One of the two game ideas for this weeks should be
 an “impossible” game by deconstructing a genre. The
 challenge is to reduce such a genre to it’s core
@@ -310,7 +296,6 @@ mechanics and then remove one of
 those, essentially making it “impossible” to adhere
 to the genre-as-is. Examples would be “RTS without units”,
 “Beat Game without Music” or “RPG without playing a character”.&lt;/p&gt;
-
 &lt;p&gt;“Destinies” results from the last of these primary generators. instead
 of playing a character, the two players play disembodied forces
 of luck and misfortune, triumph and defeat. A rather dim-witted
@@ -325,8 +310,7 @@ them succeed, whereas misfortune tries to make their life harder.&lt;/p&gt;</des
       <pubDate>Mon, 14 Mar 2016 16:53:00 +0200</pubDate>
       
       <guid>https://pheara.github.io/article/waves/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://pheara.github.io/media/feather_and_waves/waves.jpg&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
-
+      <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;Another game design for the first challenge of this semester, this
 one plays with the concept of pressure- and sound-waves for solving
 a variety of physical puzzles.&lt;/p&gt;</description>
@@ -338,8 +322,7 @@ a variety of physical puzzles.&lt;/p&gt;</description>
       <pubDate>Mon, 14 Mar 2016 16:52:00 +0200</pubDate>
       
       <guid>https://pheara.github.io/article/feather/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://pheara.github.io/media/feather_and_waves/feather.svg&#34; class=&#34;figure&#34;&gt;&lt;/p&gt;
-
+      <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;This is the first of a set of sketches for the VU “Game Design” at the Vienna University of Technology. The idea for the game is rather simple―instead of playing the big characters, you’re playing the small side-element. Imagine mellow, emotionally music playing while you use swipes or presses to generate small gust of wind, which blow along a feather and carry it along through a maze of difficulties to finally reach Forrest.&lt;/p&gt;</description>
     </item>
     
@@ -349,7 +332,7 @@ a variety of physical puzzles.&lt;/p&gt;</description>
       <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
       
       <guid>https://pheara.github.io/about/</guid>
-      <description>Contact and Social Media  Email    Twitter    Github    Youtube    Theme This blog’s theme is based on Slender by CrimsonRay, which is available under the MIT-license &amp;copy; 2015.</description>
+      <description>Contact and Social Media Theme This blog’s theme is based on Slender by CrimsonRay, which is available under the MIT-license © 2015.</description>
     </item>
     
     <item>
@@ -359,11 +342,8 @@ a variety of physical puzzles.&lt;/p&gt;</description>
       
       <guid>https://pheara.github.io/article/edu-game-surveillance-tycoon/</guid>
       <description>&lt;p&gt;You can play “Surveillance Tycoon” here:&lt;/p&gt;
-
 &lt;p&gt;&lt;a href=&#34;https://pheara.github.io/games/surveillance_tycoon/index.html&#34;&gt;Play Me!&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Here&amp;rsquo;s also a short &lt;em&gt;gameplay video&lt;/em&gt; if you don&amp;rsquo;t want to try it yourself (for whatever reason) or think you have missed something. It also shortly discusses the design:&lt;/p&gt;
-
+&lt;p&gt;Here&#39;s also a short &lt;em&gt;gameplay video&lt;/em&gt; if you don&#39;t want to try it yourself (for whatever reason) or think you have missed something. It also shortly discusses the design:&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/ZvPPgkJhQyk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -379,7 +359,6 @@ a variety of physical puzzles.&lt;/p&gt;</description>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/6Uu3OO75BlQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-
 
 &lt;p&gt;Gemeinsam mit &lt;a href=&#34;http://horstlb.blogspot.co.at/2015/05/gameful-design-arbeitspaket-4.html&#34;&gt;Alex Brandner&lt;/a&gt; und &lt;a href=&#34;http://bobschidoesgamefuldesign2015.tumblr.com/&#34;&gt;Florian Holzner&lt;/a&gt;&lt;/p&gt;</description>
     </item>
@@ -402,9 +381,7 @@ a variety of physical puzzles.&lt;/p&gt;</description>
       
       <guid>https://pheara.github.io/article/audience-participationthe-challenge/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://owncloud.tuwien.ac.at/public.php?service=files&amp;amp;t=5b07f0b690f75bfcfe34b84be1b9cd5c&amp;amp;download&#34;&gt;Presentation slides&lt;/a&gt;&lt;/p&gt;
-
 &lt;p&gt;&lt;a href=&#34;https://owncloud.tuwien.ac.at/public.php?service=files&amp;amp;t=9123d3c40e9d88a17fdc3253234d06ce&amp;amp;download&#34;&gt;Full challenge&lt;/a&gt;  (copied below for convienience)&lt;/p&gt;
-
 &lt;p&gt;Entwerfen Sie ein Szenario im Kontext von Live-Musik, das Publikumsbeteiligung bzw. kollaborativeElemente zwischen Performer und Publikum vorsieht. Übung in Gruppen zu je 3 Personen.&lt;/p&gt;</description>
     </item>
     
