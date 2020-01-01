@@ -2,7 +2,7 @@
 date = "2015-04-22T18:00:00+02:00"
 draft = false
 title = "Concert: Battle for Gødtfrey"
-tags = ["Game Design"]
+tags = ["Game Design", "VU Gameful Design"]
 +++
 
 {{< youtube yB2xjIn_9JQ >}}

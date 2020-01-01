@@ -2,10 +2,10 @@
 date = "2015-05-13T15:00:19+02:00"
 draft = false
 title =  "ARG: CCTV Run"
-tags = ["Game Design"]
+tags = ["Game Design", "VU Gameful Design"]
++++
 
-
-+++{{< youtube 6Uu3OO75BlQ >}}
+{{< youtube 6Uu3OO75BlQ >}}
 
 Gemeinsam mit [Alex Brandner](http://horstlb.blogspot.co.at/2015/05/gameful-design-arbeitspaket-4.html) und [Florian Holzner](http://bobschidoesgamefuldesign2015.tumblr.com/)
 

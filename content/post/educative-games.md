@@ -3,9 +3,10 @@ date = "2015-06-18T16:52:26+02:00"
 draft = false
 title =  "Edu Game: Surveillance Tycoon"
 keywords = []
-tags = ["Game Design"]
+tags = ["Game Design", "VU Gameful Design"]
++++
 
-+++You can play “Surveillance Tycoon” here:
+You can play “Surveillance Tycoon” here:
 
 [Play Me!](/games/surveillance_tycoon/index.html).
 

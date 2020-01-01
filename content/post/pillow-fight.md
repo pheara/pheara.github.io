@@ -2,8 +2,7 @@
 date = "2015-03-25T21:30:30+01:00"
 draft = false
 title =  "Board Game: Pillow Fight"
-tags = ["Game Design"]
-
+tags = ["Game Design", "VU Gameful Design"]
 +++
 
 Pillow Fight is our solution to the challenge to design a wargame without borders (in our case, even without deaths).
@@ -18,7 +17,6 @@ From "IRON DESIGNER CHALLENGE 5—WAR WITHOUT FRONTIERS", page 39:
 For this exercise, however, you’ll be pushing yourself beyond those traditional borders. Simulate and resolve a Civil War battle without using territorial acquisition or destruction of all units on the enemy side as the primary gameplay dynamic.</blockquote>
 
 <blockquote>ergänzung: in unter 30 Minuten spielbar, dafür muss es nicht unbedingt bürgerkrieg sein.</blockquote>
-
 
 # The Process
 
@@ -102,7 +100,6 @@ Cover doesn't apply against pillow swinging (melee).
 
 The game ends when either a player lands **5 hits**, or when all the pillows have been destroyed.In the latter case, the player with the **most landed hits** wins.
 
-
 # Pillowfight - Gameplay
 
 Directly below you can see a photo of the game in the first few turns, the **pillows** (white checkers pieces) are spaced out relatively evenly, concentrating slightly on the **furniture** (pieces of paper with tables and couches on them). The long, blank pieces of paper represent **walls**. The colourful pieces are the **players**.
@@ -117,13 +114,12 @@ The following photo was taken at the end of our last playtest. Due to melee mech
 
 We suggest playing the game with at least three players or factions, as this allows for the third party to exploit and thus break-up stale-mates between the first two. This ensures a dynamic gameplay. Also the possibilty for alliances somewhat counter-balances any inequalities from different skill-levels to imbalanced map setup.
 
-
 # Pillowfight - Additional Optional Mechanics:
 
 Sadly we didn't have the time to play-test the following (as ideas for those came only shortly before or while writing this documentation):
 
-* full-defense action: gives +1; rebalance by weighing tie braker in favour of attacker
-* catching also works in close-combat (is pillow theft then)
-* melee blocking: having a pillow in defense gives +1
-* 2-3 fragile objects, if they shatter the game ends
-* drop back to d&d-style cover mechanics (they deal better with edge cases caused by walls)
+- full-defense action: gives +1; rebalance by weighing tie braker in favour of attacker
+- catching also works in close-combat (is pillow theft then)
+- melee blocking: having a pillow in defense gives +1
+- 2-3 fragile objects, if they shatter the game ends
+- drop back to d&d-style cover mechanics (they deal better with edge cases caused by walls)
