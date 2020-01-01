@@ -5,9 +5,7 @@ title = "Historische Massenmedien-Wirkungsforschung"
 tags = ["media and communication theory"]
 +++
 
-<!--
-![](/media/telephone/Adolphe_Bitard_-_Téléphone.jpg)
--->
+![](/media/gkm/sharp-television-tv-vintage.jpg)
 
 > Material: R. Burkart: Kommunikationswissenschaft. Grundlagen und Problemfelder. Umrisse einer interdisziplinären Sozialwissenschaft. S. 186-197 & S. 215-236, Stuttgart 2002.
 
