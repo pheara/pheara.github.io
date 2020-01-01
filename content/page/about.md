@@ -22,7 +22,7 @@ title = "About"
     </a>
   </li>
   <li>
-    <a href="https://github.com/m0ru">
+    <a href="https://github.com/pheara">
       <img src="/assets/sprite.generated.svg#github" alt="">
       Github
     </a>

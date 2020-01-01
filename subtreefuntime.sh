@@ -3,7 +3,7 @@
 # Setup
 # =====
 
-git remote add publish_remote git@github.com:m0ru/m0ru.github.io.git
+git remote add publish_remote git@github.com:pheara/pheara.github.io.git
 git fetch publish_remote
 
 # Remove the public folder to make room for the gh-pages subtree

@@ -1,5 +1,5 @@
 {
-  "name": "moru_s_ramblings",
+  "name": "pheara_s_ramblings",
   "version": "1.0.0",
   "description": "Blog on game design, web development and other stuff",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/m0ru/m0ru.github.io.git"
+    "url": "git+https://github.com/pheara/pheara.github.io.git"
   },
   "author": "e1028092@student.tuwien.ac.at",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/m0ru/m0ru.github.io/issues"
+    "url": "https://github.com/pheara/pheara.github.io/issues"
   },
-  "homepage": "https://github.com/m0ru/m0ru.github.io#readme",
+  "homepage": "https://github.com/pheara/pheara.github.io#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-svg-sprite": "^1.2.19"
