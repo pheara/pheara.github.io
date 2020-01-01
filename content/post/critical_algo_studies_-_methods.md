@@ -4,10 +4,7 @@ description = ""
 tags = ["Critical Algorithm Studies", "Methods Mini-Series"]
 title = "Methods for Studying Algorithms"
 
-+++
-
-
-At last, this is the third part of the [mini-series on “studying algorithms”](/tags/methods-mini-series/). The previous try to explain [why doing so is important](/article/why-study-algorithms/) and the [difficulties you might encounter](/article/challenges-when-studying-algorithms/) while doing so.
++++At last, this is the third part of the [mini-series on “studying algorithms”](/tags/methods-mini-series/). The previous try to explain [why doing so is important](/article/why-study-algorithms/) and the [difficulties you might encounter](/article/challenges-when-studying-algorithms/) while doing so.
 
 So, now let’s get to the actual “Hows”. The following sections are high-level overviews over some methods that are out there. They should help you with deciding which to dive deeper into when studying algorithms.
 
@@ -30,15 +27,16 @@ There’s two problems you’ll probably run into:
 Firstly, the [size of code-bases](/article/challenges-when-studying-algorithms/#scale).
 
 Secondly, that discrimination won’t be something hard-coded in a single code-block. It can be spread out over the entire thing; you will probably only find it if you read between the lines. Almost certainly you won’t find a block like the following anywhere:
- ```
- if ($race = NOT_CAUCASIAN) then {
-   illegal_discrimination()
- };
- ```
+
+```
+if ($race = NOT_CAUCASIAN) then {
+  illegal_discrimination()
+};
+```
 
 ## Implement it Yourself
 
-The idea is that by implementing the system yourself, you will understand the required steps and parts better by doing so. Rob Kitchin named this method  “Reflexively producing code” in his paper “Thinking Critically About and Researching Algorithms”&nbsp;<sup>[ref:Crt](#ref:Crt)</sup>
+The idea is that by implementing the system yourself, you will understand the required steps and parts better by doing so. Rob Kitchin named this method “Reflexively producing code” in his paper “Thinking Critically About and Researching Algorithms”&nbsp;<sup>[ref:Crt](#ref:Crt)</sup>
 
 The inspiration for this approach are auto-ethnographic methods. Examples for these are keeping a journal/diary and observing one-self. As with any of them, your personal biases, assumptions and views will strongly influence the results.
 
@@ -93,21 +91,18 @@ If you found methods that interest you in more detail, I can recommend to check 
 
 If you want to learn about the broader topic of critical algorithm studies the reading list(s) should give you a good start: The [general reading list](https://socialmediacollective.org/reading-lists/critical-algorithm-studies/) containing all papers and the [one we used](https://algorithmstudies.files.wordpress.com/2016/03/readings.pdf) – that is an extract of the former, filtered by readability from informatic-students viewpoints. Also, there is a podcast at <http://ethicalmachines.com/> that might be of some interest to you.
 
-* [links] [“Critical Algorithm Studies: a Reading List”](https://socialmediacollective.org/reading-lists/critical-algorithm-studies/) by the Socialmediacollective.
-    * [links] [a variant](https://algorithmstudies.files.wordpress.com/2016/03/readings.pdf) that has been filtered by readability from Informatic-students viewpoints (this is the list we used)
-* [podcast] [“Ethical Machines: Conversations about Humans, Machines and Ethics” ](http://ethicalmachines.com/)
-* [magazine] “Model View Culture: A magazine about technology, culture and diversity” <https://modelviewculture.com/>
-* <a id="ref:MC" href="#ref:MC">**[MC]**</a> – Noble, Safiya. 2012. [*“Missed Connections: What Search Engines Say about Women”*](https://safiyaunoble.files.wordpress.com/2012/03/54_search_engines.pdf). Bitch magazine , 12(4): 37­41. [4 pages]
-* <a id="ref:Rge" href="#ref:Rge">**[Rge]**</a> – Diakopolous, Nick. 2013. [*“Rage against the Algorithms”*](http://www.theatlantic.com/technology/archive/2013/10/rage-against-the-algorithms/280255/) The Atlantic, October 3. [blog article]
-* <a id="ref:HtS" href="#ref:HtS">**[HtS]**</a> – [“How to Study Algorithms: Challenges and Methods”](https://algocracy.wordpress.com/2016/03/14/how-to-study-algorithms-challenges-and-methods/), [alternative link]( http://hplusmagazine.com/2015/07/28/how-to-study-algorithms-challenges-and-methods/) [blog article]
-* <a id="ref:Crt" href="#ref:Crt">**[Crt]**</a> – Kitchin, Rob. 2014. [“Thinking Critically About and Researching Algorithms”](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2515786) [29 pages]
-* <a id="ref:AAg" href="#ref:AAg">**[AAg]**</a> – Sandvig, Christian, Kevin Hamilton, Karrie Karahalios, and Cedric Langbort. 2014. [“Auditing Algorithms: Research Methods for Detecting Discrimination on Internet Platforms.”](http://www-personal.umich.edu/~csandvig/research/Auditing%20Algorithms%20--%20Sandvig%20--%20ICA%202014%20Data%20and%20Discrimination%20Preconference.pdf) Data and Discrimination: Converting Critical Concerns into Productive Inquiry , 64th Annual Meeting of the International Communication Association. May 22, 2014, Seattle, WA, USA. [18 pages]
-* <a id="ref:Opc" href="#ref:Opc">**[Opc]**</a> – Burrell, Jenna. 2015. [“How the Machine ‘Thinks:’ Understanding Opacity in Machine Learning Algorithms.”](http://bds.sagepub.com/content/3/1/2053951715622512) [18 pages]
-* <a id="ref:Emp" href="#ref:Emp">**[Emp]**</a> – Hooker, J.N. 1994. [“Needed: An Empirical Science of Algorithms.”](http://www.akira.ruc.dk/~keld/teaching/algoritmedesign_f08/Artikler/01/Hooker93.pdf) Operations Research 42(2): 201­212. [23 pages]
-* <a id="ref:WwM" href="#ref:WwM">**[WwM]**</a> – Lee, Min Kyung, Kusbit, Daniel, Metsky, Evan and Dabbish, Laura. 2015. [“Working with Machines: The Impact of Algorithmic and Data-­Driven Management on Human Workers”](http://dl.acm.org/citation.cfm?id=2702548) CHI ’15 Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems: 1603-­1612 [10 pages from "Algorithmic Culture"-section]
-
-
-
+- [links]: [“critical algorithm studies: a reading list”](https://socialmediacollective.org/reading-lists/critical-algorithm-studies/) by the Socialmediacollective.
+  - [links]: [a variant](https://algorithmstudies.files.wordpress.com/2016/03/readings.pdf) that has been filtered by readability from Informatic-students viewpoints (this is the list we used)
+- [podcast]: [“ethical machines: conversations about humans, machines and ethics” ](http://ethicalmachines.com/)
+- [magazine]: “Model View Culture: A magazine about technology, culture and diversity” <https://modelviewculture.com/>
+- <a id="ref:AAg" href="#ref:AAg">[AAg]:</a> Sandvig, Christian, Kevin Hamilton, Karrie Karahalios, and Cedric Langbort. 2014. [“Auditing Algorithms: Research Methods for Detecting Discrimination on Internet Platforms.”](http://www-personal.umich.edu/~csandvig/research/Auditing%20Algorithms%20--%20Sandvig%20--%20ICA%202014%20Data%20and%20Discrimination%20Preconference.pdf) Data and Discrimination: Converting Critical Concerns into Productive Inquiry , 64th Annual Meeting of the International Communication Association. May 22, 2014, Seattle, WA, USA. [18 pages]
+- <a id="ref:Crt" href="#ref:Crt">[Crt]:</a> Kitchin, Rob. 2014. [“Thinking Critically About and Researching Algorithms”](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2515786) [29 pages]
+- <a id="ref:Emp" href="#ref:Emp">[Emp]:</a> Hooker, J.N. 1994. [“Needed: An Empirical Science of Algorithms.”](http://www.akira.ruc.dk/~keld/teaching/algoritmedesign_f08/Artikler/01/Hooker93.pdf) Operations Research 42(2): 201­212. [23 pages]
+- <a id="ref:HtS" href="#ref:HtS">[HtS]:</a> [“How to Study Algorithms: Challenges and Methods”](https://algocracy.wordpress.com/2016/03/14/how-to-study-algorithms-challenges-and-methods/), [alternative link](http://hplusmagazine.com/2015/07/28/how-to-study-algorithms-challenges-and-methods/) [blog article]
+- <a id="ref:MC" href="#ref:MC">[MC]:</a> Noble, Safiya. 2012. [_“Missed Connections: What Search Engines Say about Women”_](https://safiyaunoble.files.wordpress.com/2012/03/54_search_engines.pdf). Bitch magazine , 12(4): 37­41. [4 pages]
+- <a id="ref:Opc" href="#ref:Opc">[Opc]:</a> Burrell, Jenna. 2015. [“How the Machine ‘Thinks:’ Understanding Opacity in Machine Learning Algorithms.”](http://bds.sagepub.com/content/3/1/2053951715622512) [18 pages]
+- <a id="ref:Rge" href="#ref:Rge">[Rge]:</a> Diakopolous, Nick. 2013. [_“Rage against the Algorithms”_](http://www.theatlantic.com/technology/archive/2013/10/rage-against-the-algorithms/280255/) The Atlantic, October 3. [blog article]
+- <a id="ref:WwM" href="#ref:WwM">[WwM]:</a> Lee, Min Kyung, Kusbit, Daniel, Metsky, Evan and Dabbish, Laura. 2015. [“Working with Machines: The Impact of Algorithmic and Data-­Driven Management on Human Workers”](http://dl.acm.org/citation.cfm?id=2702548) CHI ’15 Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems: 1603-­1612 [10 pages from "Algorithmic Culture"-section]
 
 <!--
 

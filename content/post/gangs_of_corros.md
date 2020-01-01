@@ -3,11 +3,11 @@ date = "2016-04-18T17:49:50+02:00"
 description = ""
 tags = ["Game Design"]
 title = "Gangs of Corros"
++++
 
-+++This weeks sketches can be found <a href="/media/gangs_of_corros/sketches.pdf">in this PDF</a>:
+This weeks sketches can be found [in this PDF](/media/gangs_of_corros/sketches.pdf).
 
-<object data="/media/gangs_of_corros/sketches.pdf" type="application/pdf" width="100%" height="600px">
-</object>
+[![](/media/gangs_of_corros/preview.png)](/media/gangs_of_corros/sketches.pdf)
 
 <!--more-->
 
