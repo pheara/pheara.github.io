@@ -3,8 +3,9 @@ date = "2016-10-05T18:27:45+02:00"
 description = ""
 tags = ["Critical Algorithm Studies", "Methods Mini-Series"]
 title = "Methods for Studying Algorithms"
++++
 
-+++At last, this is the third part of the [mini-series on “studying algorithms”](/tags/methods-mini-series/). The previous try to explain [why doing so is important](/article/why-study-algorithms/) and the [difficulties you might encounter](/article/challenges-when-studying-algorithms/) while doing so.
+At last, this is the third part of the [mini-series on “studying algorithms”](/tags/methods-mini-series/). The previous try to explain [why doing so is important](/article/why-study-algorithms/) and the [difficulties you might encounter](/article/challenges-when-studying-algorithms/) while doing so.
 
 So, now let’s get to the actual “Hows”. The following sections are high-level overviews over some methods that are out there. They should help you with deciding which to dive deeper into when studying algorithms.
 

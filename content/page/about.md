@@ -3,8 +3,9 @@ date = "2015-12-16"
 description = "About"
 keywords = ["about"]
 title = "About"
++++
 
-+++## Contact and Social Media
+## Contact and Social Media
 
 <ul class="socialmedialist">
   <li>

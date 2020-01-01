@@ -4,8 +4,9 @@ draft = false
 title = "Distraction Tatics"
 keywords = []
 tags = ["Game Design"]
++++
 
-+++For this week’s challenge Felix Ledóchowski and I designed this rather simple joke-game that toys with the notion of the chain-mail-bikini and sexualising tropes in video-games. It’s strongly inspired by the Oglaf _strips_ (\*snicker\*) [“New Model Army”](http://oglaf.com/newmodelarmy/).
+For this week’s challenge Felix Ledóchowski and I designed this rather simple joke-game that toys with the notion of the chain-mail-bikini and sexualising tropes in video-games. It’s strongly inspired by the Oglaf _strips_ (\*snicker\*) [“New Model Army”](http://oglaf.com/newmodelarmy/).
 
 ![](/media/distraction_tactics/fetish_orcs-1.png)
 

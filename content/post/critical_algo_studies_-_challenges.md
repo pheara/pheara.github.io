@@ -3,8 +3,9 @@ date = "2016-10-06T11:55:32+02:00"
 description = ""
 tags = ["Critical Algorithm Studies", "Methods Mini-Series"]
 title = "Challenges when Studying Algorithms"
++++
 
-+++This is part two of the [mini-series on “studying algorithms”](/tags/methods-mini-series/). If you are curious why studying these might be important at all, check out the [previous post](/article/why-study-algorithms/).
+This is part two of the [mini-series on “studying algorithms”](/tags/methods-mini-series/). If you are curious why studying these might be important at all, check out the [previous post](/article/why-study-algorithms/).
 
 So, what complicates things, is that unearthing the biases within algorithms isn’t a trivial feat – several issues can make it hard to understand what’s going on.
 

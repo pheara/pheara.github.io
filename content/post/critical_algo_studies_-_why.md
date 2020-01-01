@@ -3,8 +3,9 @@ date = "2016-10-04T15:33:13+02:00"
 description = ""
 tags = ["Critical Algorithm Studies", "Methods Mini-Series"]
 title = "Why Study Algorithms"
++++
 
-+++Last semester I’ve participated in a [seminar on “Critical Algorithm Studies”](https://algorithmstudies.wordpress.com/). Collectively we worked through a [reading list](https://algorithmstudies.files.wordpress.com/2016/03/readings.pdf), which is a filtered version of [the one published by the socialmediacollective](
+Last semester I’ve participated in a [seminar on “Critical Algorithm Studies”](https://algorithmstudies.wordpress.com/). Collectively we worked through a [reading list](https://algorithmstudies.files.wordpress.com/2016/03/readings.pdf), which is a filtered version of [the one published by the socialmediacollective](
 (https://socialmediacollective.org/reading-lists/critical-algorithm-studies/). In particular, I dived deeper into the sub-list on _“Methods for Studying Algorithmic Systems”_.
 
 The [three posts of this mini-series](/tags/methods-mini-series) are an attempt at summarizing those writings and a

@@ -4,8 +4,9 @@ draft = false
 title = "Destinies"
 keywords = []
 tags = ["Game Design"]
++++
 
-+++![](/media/destinies_and_ambulance/destinies.png)
+![](/media/destinies_and_ambulance/destinies.png)
 
 One of the two game ideas for this weeks should be
 an “impossible” game by deconstructing a genre. The

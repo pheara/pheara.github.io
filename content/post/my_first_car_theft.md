@@ -4,8 +4,9 @@ draft = false
 title = "My First Car Theft"
 keywords = []
 tags = ["Game Design"]
++++
 
-+++For this week’s challenge Felix Ledóchowski and I sketched this two player coop-game where in which you play babies trying to drive a car.
+For this week’s challenge Felix Ledóchowski and I sketched this two player coop-game where in which you play babies trying to drive a car.
 
 The babies aim to reenact the story of their favorite picture-book. This involves a slide on the playground, buying milk in a supermarket, visiting the elephant in the zoo,‥
 However, babies have no concept of where to drive and where not to drive. So they’ll drive to all these places that definitely weren’t designed for cars.
