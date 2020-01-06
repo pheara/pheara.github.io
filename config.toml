@@ -59,5 +59,11 @@ PaginatePath = "/"
     url        = "about/"
     weight     = 1
 
+    [[menu.main]]
+    identifier = "contact"
+    name       = "contact"
+    url        = "contact/"
+    weight     = 2
+
 [taxonomies]
 tag = "tags"

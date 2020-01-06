@@ -5,35 +5,6 @@ keywords = ["about"]
 title = "About"
 +++
 
-## Contact and Social Media
+This blog has been built using [Hugo](http://gohugo.io/) (Apache 2 licensed) and the theme [Pixyll](https://github.com/azmelanar/hugo-theme-pixyll) (MIT licensed).
 
-<ul class="socialmedialist">
-  <li>
-    <a href="mailto:e1028092@student.tuwien.ac.at">
-      <img src="/assets/sprite.generated.svg#envelope2" alt="">
-      Email
-    </a>
-  </li>
-  <li>
-    <a href="https://twitter.com/ph_e_a_r_a">
-      <img src="/assets/sprite.generated.svg#twitter" alt="">
-      Twitter
-    </a>
-  </li>
-  <li>
-    <a href="https://github.com/pheara">
-      <img src="/assets/sprite.generated.svg#github" alt="">
-      Github
-    </a>
-  </li>
-  <li>
-    <a href="https://www.youtube.com/channel/UCAMhzGNJ3IR71DW7lsHwA8w">
-      <img src="/assets/sprite.generated.svg#youtube" alt="">
-      Youtube
-    </a>
-  </li>
-</ul>
-
-## Theme
-
-This blog’s theme is based on Slender by CrimsonRay, which is available under the MIT-license &copy; 2015.
+All original content is CC-BY. Non-original content should be labelled as such, including license information.
