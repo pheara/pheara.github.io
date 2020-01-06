@@ -5,7 +5,7 @@ baseurl = "https://pheara.github.io/"
 title = "Pheara’s Ramblings"
 languageCode = "en-US"
 MetaDataFormat = "toml"
-theme = "hugo-theme-pixyll"
+theme = "hugo-theme-pixyll-modified"
 Paginate = 5
 PaginatePath = "/"
 
