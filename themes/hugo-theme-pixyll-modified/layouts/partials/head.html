@@ -22,10 +22,15 @@
   <!-- Fonts -->
   <!-- Combined and minified
   <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,700italic&subset=latin,cyrillic-ext,cyrillic'>
-  <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Lato:900,300'> -->
+  <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Lato:900,300'> 
+  -->
+  {{ if isset .Site.Params "search_engine" }}
+    <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/tipuesearch/tipuesearch.css">
+  {{ end }}
 
   <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/css/combined-min.css">
-  <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/tipuesearch/tipuesearch.css">
+  <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/fonts/fontawesome/css/all.css">
+  <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/fonts/fontawesome/css/brands.css">
 
 </head>
 <body class="">
