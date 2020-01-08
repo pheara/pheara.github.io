@@ -8,24 +8,11 @@
         <div class="measure">
             <div class="home">
                 <div class="posts">
-                    {{ if isset .Site.Params "paginate" }}
-                        {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) .Site.Params.paginate }}
-                        {{ range $paginator.Pages.ByDate.Reverse }}
-                            {{ .Render "summary" }}
-                        {{ end }}
+                {{ range .Paginator.Pages }}
+                {{ .Render "summary" }}
+                {{ end }}
                 </div>
-            </div>
-            <div class="paginatin_area">
-                        {{ partial "pagination.html" . }}
-                <!--            {{ template "_internal/pagination.html" . }} -->
-            </div>
-                    {{ else }}
-                        {{ range first 10 .Site.RegularPages.ByDate.Reverse }}
-                            {{ if eq .Type "post" }}
-                                {{ .Render "summary"}}
-                            {{ end }}
-                        {{ end }}
-                    {{ end }}
+                {{ partial "pagination.html" . }}
                 </div>
             </div>
         </div>
