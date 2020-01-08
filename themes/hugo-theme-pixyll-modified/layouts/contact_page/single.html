@@ -1,0 +1,48 @@
+
+{{ partial "head.html" . }}
+<div class="site-wrap">
+  {{ partial "header.html" . }}
+  <div class="post p2 p-responsive wrap" role="main">
+    <div class="measure">
+      <div class="post-header mb2">
+        <h1 class="py2">{{ .Title }}</h1>
+      </div>
+
+      <article class="post-content">
+        You can contact or follow me at:
+
+        <ul>
+        {{ if isset .Site.Params "email" }}
+            <li>
+                <a class="fa fa-envelope envelope" href="mailto:{{ .Site.Params.email }}"> {{ .Site.Params.email }}</a>
+            </li>
+        {{ end }}
+        {{ if isset .Site.Params "twitter_username" }}
+            <li>
+                <a class="fa fab fa-twitter twitter" href="https://twitter.com/{{ .Site.Params.twitter_username }}"> @{{ .Site.Params.twitter_username }} </a> 
+            </li> 
+        {{ end }}
+        {{ if isset .Site.Params "fediverse_url" }}
+            <li>
+                <a class="fa fab fa-mastodon mastodon" href="{{ .Site.Params.fediverse_url }}"> @{{ .Site.Params.fediverse_name }}</a>
+            </li>
+        {{ end }}
+        {{ if isset .Site.Params "github_username" }}
+            <li>
+                <a class="fa fab fa-github github" href="https://github.com/{{ .Site.Params.github_username }}"> @{{ .Site.Params.github_username }}</a>
+            </li>
+        {{ end }}
+        {{ if isset .Site.Params "flickr_id" }}
+            <li>
+                <a class="fa fab fa-flickr flickr" href="https://www.flickr.com/photos/{{ .Site.Params.flickr_id }}"> @{{ .Site.Params.flickr_username }}</a>
+            </li>
+        {{ end }}
+        </ul>
+
+
+
+      </article>
+    </div>
+  </div>
+</div>
+{{ partial "footer.html" . }}
