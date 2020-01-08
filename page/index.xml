@@ -17,7 +17,9 @@
       <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
       
       <guid>https://pheara.github.io/about/</guid>
-      <description>Contact and Social Media Theme This blog’s theme is based on Slender by CrimsonRay, which is available under the MIT-license © 2015.</description>
+      <description>This is my personal blog, mostly consisting of work done as part of studying the &amp;ldquo;Media and Human Centered Computing&amp;rdquo; curriculum at the TU Wien. As such it is about prototypes/topics in human computer interaction, sociology of technology and game design.
+This blog has been built using Hugo (Apache 2 licensed) and the theme Pixyll (MIT licensed).
+All original content is CC-BY. Non-original content should be labelled as such, including license information.</description>
     </item>
     
   </channel>

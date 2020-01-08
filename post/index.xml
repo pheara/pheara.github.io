@@ -371,9 +371,11 @@ a variety of physical puzzles.&lt;/p&gt;</description>
       <description>&lt;p&gt;You can play “Surveillance Tycoon” here:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://pheara.github.io/games/surveillance_tycoon/index.html&#34;&gt;Play Me!&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Here&#39;s also a short &lt;em&gt;gameplay video&lt;/em&gt; if you don&#39;t want to try it yourself (for whatever reason) or think you have missed something. It also shortly discusses the design:&lt;/p&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/ZvPPgkJhQyk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;div class=&#34;embed video-player&#34;&gt;
+&lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;640&#34; height=&#34;385&#34;
+  src=&#34;//www.youtube.com/embed/ZvPPgkJhQyk&#34; allowfullscreen
+  frameborder=&#34;0&#34;/&gt;
+&lt;/iframe&gt;
 &lt;/div&gt;</description>
     </item>
     
@@ -383,8 +385,11 @@ a variety of physical puzzles.&lt;/p&gt;</description>
       <pubDate>Wed, 13 May 2015 15:00:19 +0200</pubDate>
       
       <guid>https://pheara.github.io/article/arg-cctv-run/</guid>
-      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/6Uu3OO75BlQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+      <description>&lt;div class=&#34;embed video-player&#34;&gt;
+&lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;640&#34; height=&#34;385&#34;
+  src=&#34;//www.youtube.com/embed/6Uu3OO75BlQ&#34; allowfullscreen
+  frameborder=&#34;0&#34;/&gt;
+&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Gemeinsam mit &lt;a href=&#34;http://horstlb.blogspot.co.at/2015/05/gameful-design-arbeitspaket-4.html&#34;&gt;Alex Brandner&lt;/a&gt; und &lt;a href=&#34;http://bobschidoesgamefuldesign2015.tumblr.com/&#34;&gt;Florian Holzner&lt;/a&gt;&lt;/p&gt;</description>
@@ -396,8 +401,11 @@ a variety of physical puzzles.&lt;/p&gt;</description>
       <pubDate>Wed, 22 Apr 2015 18:00:00 +0200</pubDate>
       
       <guid>https://pheara.github.io/article/concert-battle-for-g%C3%B8dtfrey/</guid>
-      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/yB2xjIn_9JQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+      <description>&lt;div class=&#34;embed video-player&#34;&gt;
+&lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;640&#34; height=&#34;385&#34;
+  src=&#34;//www.youtube.com/embed/yB2xjIn_9JQ&#34; allowfullscreen
+  frameborder=&#34;0&#34;/&gt;
+&lt;/iframe&gt;
 &lt;/div&gt;</description>
     </item>
     
@@ -427,8 +435,11 @@ a variety of physical puzzles.&lt;/p&gt;</description>
       <pubDate>Thu, 12 Mar 2015 01:02:02 +0100</pubDate>
       
       <guid>https://pheara.github.io/article/card-game-subjective-objectives/</guid>
-      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/rC-Hhn9mKB0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+      <description>&lt;div class=&#34;embed video-player&#34;&gt;
+&lt;iframe class=&#34;youtube-player&#34; type=&#34;text/html&#34; width=&#34;640&#34; height=&#34;385&#34;
+  src=&#34;//www.youtube.com/embed/rC-Hhn9mKB0&#34; allowfullscreen
+  frameborder=&#34;0&#34;/&gt;
+&lt;/iframe&gt;
 &lt;/div&gt;</description>
     </item>
     
