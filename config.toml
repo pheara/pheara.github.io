@@ -1,133 +1,69 @@
+# config.toml
+# theme and config based on https://github.com/CrimsonRay/slender
 
-archetypeDir           = "archetypes"
-author                 = "Pheara"
-# baseUrl                = "http://localhost:1313"
 baseurl = "https://pheara.github.io/"
-buildDrafts            = false
-relativeURLs           = true
-canonifyUrls           = true
-contentDir             = "content"
-languageCode           = "en-us"
-layoutDir              = "layouts"
-# publishDir             = "public"
-# theme                  = "hugo-theme-pixyll"
-# theme = "hugo-theme-pixyll-modified"
-# themesDir              = "../.."
-# title                  = "Pixyll"
 title = "Pheara’s Ramblings"
-enableEmoji            = true
-DefaultContentLanguage = "en"
-#disqusShortname        = ""
-# MetaDataFormat = "toml"
+languageCode = "en-US"
+MetaDataFormat = "toml"
+theme = "hugo-theme-pixyll-modified"
+Paginate = 5
+PaginatePath = "/"
 
-[Languages]
-[Languages.en]
-weight = 1
+[author]
+    name = "Pheara"
 
-# [Languages.ru]
-# weight = 2
+[permalinks]
+    # Permalink format for pages.
+    page = "/:title/"
 
-[blackfriday]
-angledQuotes = true
-hrefTargetBlank = true
-
-[indexes]
-#   category = "categories"
-  tag = "tags"
+    # Permalink format for blog posts.
+    post = "/article/:title/"
 
 [params]
-  mainSections = ["post"]
-  #search_engine = true
-  #google_analytics_id = ""
-  twitter_username = "ph_e_a_r_a"
-  paginate = 5
 
+    # Change the color scheme of Slender.
+    # See above for preview and list of color schemes.
+    colorscheme = "white"
 
+    # Tagline; HTML accepted here. Keep it concise.
+    # tagline = "120% guaranteedly inconsistent"
 
-# # config.toml
-# # theme and config based on https://github.com/CrimsonRay/slender
-# 
-# languageCode = "en-US"
-# theme = "hugo-theme-pixyll-modified"
-# Paginate = 5
-# PaginatePath = "/"
-# description = "A collection of ideas, designs and essays created over the course Pheara's Media and Human Centered Computing Studies"
-# tags = ["game design", "sociology of technology", "human computer interaction", "blog", "pheara"]
-# 
-# # contentdir = "content"
-# # publishdir = "public"
-# builddrafts = false
-# # canonifyurls = true
-# # disqusShortname = "p"
-# 
-# author = "Pheara"
-# # [author]
-# #     name = "Pheara"
-# 
-# [permalinks]
-#     # Permalink format for pages.
-#     page = "/:title/"
-# 
-#     # Permalink format for blog posts.
-#     post = "/article/:title/"
-# 
-# [params]
-# 
-#     # Change the color scheme of Slender.
-#     # See above for preview and list of color schemes.
-#     # colorscheme = "white"
-# 
-#     # Tagline; HTML accepted here. Keep it concise.
-#     # tagline = "120% guaranteedly inconsistent"
-# 
-#     # Footer; Markdown accepted here.
-#     footer = ""
-# 
-#     # Description and keywords for <meta> tags.
-#     # Remember to set this for your main page.
-#     # This will be overridden by whatever is set by the page or post,
-#     # defined by `description` and `keywords` variables in the front matter
-#     # of the markdown file.
-#     description = "A collection of ideas, designs and essays created over the course Pheara's Media and Human Centered Computing Studies"
-#     keywords = "game design, sociology of technology, human computer interaction, pheara"
-# 
-#     # Google Analytics
-#     # Remove, comment, or leave it blank if you don't have one.
-#     # ganalytics = ""
-#     # google_analytics_id = "XX-XXXXXXXX-X"
-# 
-#     # Client side search
-#     # search_engine = true
-# 
-#     twitter_username = "ph_e_a_r_a"
-#     email = "e1028092@student.tuwien.ac.at"
-#     github_username = "pheara"
-#     youtube_channel = "https://www.youtube.com/channel/UCAMhzGNJ3IR71DW7lsHwA8w"
-# 
-#     # paginate = true
-# 
-# [menu]
-# 
-#     # Menu for the nav bar.
-#     # There must always be one item present (e.g. home).
-#     [[menu.main]]
-#     identifier = "home"
-#     name       = "home"
-#     url        = ""
-#     weight     = 0
-# 
-#     [[menu.main]]
-#     identifier = "about"
-#     name       = "about"
-#     url        = "about/"
-#     weight     = 1
-# 
-#     [[menu.main]]
-#     identifier = "contact"
-#     name       = "contact"
-#     url        = "contact/"
-#     weight     = 2
-# 
-# [taxonomies]
-# tag = "tags"
-# 
+    # Footer; Markdown accepted here.
+    footer = ""
+
+    # Description and keywords for <meta> tags.
+    # Remember to set this for your main page.
+    # This will be overridden by whatever is set by the page or post,
+    # defined by `description` and `keywords` variables in the front matter
+    # of the markdown file.
+    description = "A collection of ideas, designs and essays created over the course Pheara's Media and Human Centered Computing Studies"
+    keywords = "game design, sociology of technology, human computer interaction, pheara"
+
+    # Google Analytics
+    # Remove, comment, or leave it blank if you don't have one.
+    ganalytics = ""
+
+[menu]
+
+    # Menu for the nav bar.
+    # There must always be one item present (e.g. home).
+    [[menu.main]]
+    identifier = "home"
+    name       = "home"
+    url        = ""
+    weight     = 0
+
+    [[menu.main]]
+    identifier = "about"
+    name       = "about"
+    url        = "about/"
+    weight     = 1
+
+    [[menu.main]]
+    identifier = "contact"
+    name       = "contact"
+    url        = "contact/"
+    weight     = 2
+
+[taxonomies]
+tag = "tags"
