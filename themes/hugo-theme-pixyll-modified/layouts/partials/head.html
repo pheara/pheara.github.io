@@ -11,9 +11,14 @@
   <link rel="canonical" href="{{ .Permalink }}">
 
   <!-- Custom CSS -->
-  <!-- Those css minifined and combined together. See combined-min.css below
-  <link rel="stylesheet" type="text/css" href="/css/basscss.css">
-  <link rel="stylesheet" type="text/css" href="/css/main.css"> -->
+  <!-- Those css minifined and combined together. See combined-min.css below -->
+  <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/fonts/fontawesome/css/all.css">
+  <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/fonts/fontawesome/css/all.css">
+  <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/fonts/fira/fira.css">
+  <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/css/basscss.css">
+  <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/css/main.css"> 
+  <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/css/custom.css"> 
+  <!-- <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/css/combined-min.css"> -->
 
   <!-- Highlight -->
   <!-- Also minified and combined into combined-min.css
@@ -28,9 +33,6 @@
     <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/tipuesearch/tipuesearch.css">
   {{ end }}
 
-  <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/css/combined-min.css">
-  <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/fonts/fontawesome/css/all.css">
-  <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/fonts/fontawesome/css/brands.css">
 
 </head>
 <body class="">

@@ -14,7 +14,8 @@
 */
 
 body {
-  font-family: "Ubuntu", "PT Serif", Georgia, "Times New Roman", serif;
+  /* font-family: "Ubuntu", "PT Serif", Georgia, "Times New Roman", serif; */
+  font-family: "Fira Sans", sans-serif;
 }
 
 html,
@@ -133,7 +134,8 @@ body {
 .pagination,
 .button {
   font-size: 1rem;
-  font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
+  /* font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif; */
+  font-family: "Fira Sans", sans-serif;
   font-weight: 300;
   text-align: center;
 }
@@ -265,7 +267,8 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
+  /* font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif; */
+  font-family: "Fira Sans", sans-serif;
   font-weight: 900;
   line-height: 1.2;
   margin: 0.414em 0 0.5em;
@@ -443,7 +446,8 @@ footer,
 footer .wrap {
   color: #7a7a7a;
   background-color: #fafafa;
-  font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
+  /* font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif; */
+  font-family: "Fira Sans", sans-serif;
   font-weight: 300;
   clear: both;
 }
@@ -563,7 +567,8 @@ Copyright (c) 2014 Daniel Eden
   border-radius: 4px;
   color: #fff;
   display: block;
-  font-family: lato;
+  /* font-family: lato; */
+  font-family: "Fira Sans", sans-serif;
   font-size: 14px;
   font-weight: 900;
   line-height: 17px;
@@ -593,7 +598,8 @@ Copyright (c) 2014 Daniel Eden
 }
 .p_arrow i {
   display: block;
-  font-family: lato;
+  /* font-family: lato; */
+  font-family: "Fira Sans", sans-serif;
   font-size: 1rem;
   font-style: normal;
   font-weight: 900;
