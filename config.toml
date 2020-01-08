@@ -74,7 +74,3 @@ PaginatePath = "/"
     name       = "contact"
     url        = "contact/"
     weight     = 2
-
-[indexes]
-[taxonomies]
-tag = "tags"
