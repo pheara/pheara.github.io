@@ -15,8 +15,11 @@ before_install:
     -in travis_key.enc -out travis_key -d
 install:
   # - go get -v github.com/gohugoio/hugo
+  - echo "abc"
   - wget "https://github.com/gohugoio/hugo/releases/download/v0.62.2/hugo_0.62.2_Linux-64bit.deb"
+  - echo "def"
   - sudo dpkg -i hugo_0.62.2_Linux-64bit.deb
+  - echo "hij"
 script:
   - hugo version
   - hugo #build the website
