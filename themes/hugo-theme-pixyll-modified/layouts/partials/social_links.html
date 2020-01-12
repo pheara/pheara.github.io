@@ -1,0 +1,21 @@
+<nav class="social-icons icons">
+  <a class="fa fa-rss rss" href="/index.xml"></a>
+   {{ if isset .Site.Params "email" }}
+  <a class="fa fa-envelope envelope" href="mailto:{{ .Site.Params.email }}"></a>
+  {{ end }}
+  {{ if isset .Site.Params "twitter_username" }}
+  <a
+    class="fa fab fa-twitter twitter"
+    href="https://twitter.com/{{ .Site.Params.twitter_username }}"
+  ></a>
+  {{ end }}
+  {{ if isset .Site.Params "fediverse_url" }}
+  <a class="fa fab fa-mastodon mastodon" href="{{ .Site.Params.fediverse_url }}"></a>
+  {{ end }}
+  {{ if isset .Site.Params "github_username" }}
+  <a class="fa fab fa-github github" href="https://github.com/{{ .Site.Params.github_username }}"></a>
+  {{ end }}
+  {{ if isset .Site.Params "flickr_id" }}
+  <a class="fa fab fa-flickr flickr" href="https://www.flickr.com/photos/{{ .Site.Params.flickr_id }}"></a>
+  {{ end }}
+</nav>

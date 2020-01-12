@@ -5,7 +5,7 @@ baseurl = "https://pheara.github.io/"
 title = "Pheara’s Ramblings"
 languageCode = "en-US"
 MetaDataFormat = "toml"
-theme = "custom"
+theme = "hugo-theme-pixyll-modified"
 Paginate = 5
 PaginatePath = "/"
 
@@ -41,7 +41,17 @@ PaginatePath = "/"
 
     # Google Analytics
     # Remove, comment, or leave it blank if you don't have one.
-    ganalytics = ""
+    # ganalytics = ""
+
+    twitter_username = "ph_e_a_r_a"
+    email = "e1028092@student.tuwien.ac.at"
+    github_username = "pheara"
+    fediverse_name = "renren@chaos.social"
+    fediverse_url = "https://chaos.social/web/accounts/150912"
+    flickr_id = "153763767@N06"
+    flickr_username = "magenta.cat"
+
+
 
 [menu]
 
@@ -59,5 +69,8 @@ PaginatePath = "/"
     url        = "about/"
     weight     = 1
 
-[taxonomies]
-tag = "tags"
+    [[menu.main]]
+    identifier = "contact"
+    name       = "contact"
+    url        = "contact/"
+    weight     = 2

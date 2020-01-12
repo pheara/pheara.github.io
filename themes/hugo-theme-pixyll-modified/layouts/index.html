@@ -1,0 +1,21 @@
+{{ partial "head.html" . }}
+<div class="site-wrap">
+    {{ partial "header.html" . }}
+    {{ if isset .Site.Params "description" }}
+    <meta name="description" content="{{ .Site.Params.description }}">
+    {{ end }}
+    <div class="post p2 p-responsive wrap" role="main">
+        <div class="measure">
+            <div class="home">
+                <div class="posts">
+                {{ range .Paginator.Pages }}
+                {{ .Render "summary" }}
+                {{ end }}
+                </div>
+                {{ partial "pagination.html" . }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ partial "footer.html" . }}
