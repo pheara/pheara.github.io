@@ -6,7 +6,7 @@ keywords = []
 tags = ["Game Design", "VU Game Design"]
 +++
 
-![](src="/media/destinies_and_ambulance/ambulance.png)
+![](/media/destinies_and_ambulance/ambulance.png)
 
 For this game we were asked to use a random generator. One of
 the combinations the wonderful
