@@ -4,7 +4,7 @@ description = ""
 keywords = []
 title = "Teamrace with Specials"
 draft = false
-tags = ["Game Design"]
+tags = ["Game Design", "VU Game Design"]
 +++
 
 ![](/media/racetrackspecials/racing_all.png)

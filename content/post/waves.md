@@ -2,7 +2,7 @@
 date = "2016-03-14T16:53:00+02:00"
 draft = false
 title = "Waves"
-tags = ["Game Design"]
+tags = ["Game Design", "VU Game Design"]
 +++
 
 ![](/media/feather_and_waves/waves.jpg)

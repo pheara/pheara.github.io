@@ -1,6 +1,6 @@
 +++
 date = "2016-07-05T17:05:15+02:00"
-tags = ["Game Design"]
+tags = ["Game Design", "VU Game Design"]
 title = "Powersockets Prototype"
 +++
 

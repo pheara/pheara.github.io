@@ -1,7 +1,7 @@
 +++
 date = "2016-04-18T17:49:50+02:00"
 description = ""
-tags = ["Game Design"]
+tags = ["Game Design", "VU Game Design"]
 title = "Gangs of Corros"
 +++
 

@@ -1,7 +1,7 @@
 +++
 date = "2016-07-05T23:14:25+02:00"
 description = ""
-tags = ["Game Design"]
+tags = ["Game Design", "VU Game Design"]
 title = "Waves Prototype"
 +++
 

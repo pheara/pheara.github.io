@@ -3,7 +3,7 @@ date = "2016-04-25T14:22:00+02:00"
 draft = false
 title = "Distraction Tatics"
 keywords = []
-tags = ["Game Design"]
+tags = ["Game Design", "VU Game Design"]
 +++
 
 For this week’s challenge Felix Ledóchowski and I designed this rather simple joke-game that toys with the notion of the chain-mail-bikini and sexualising tropes in video-games. It’s strongly inspired by the Oglaf _strips_ (\*snicker\*) [“New Model Army”](http://oglaf.com/newmodelarmy/).
