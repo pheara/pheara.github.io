@@ -1,6 +1,8 @@
-language: go
-go:
-  - 1.12.9
+dist: xenial
+sudo: required
+# language: go
+# go:
+#   - 1.12.9
 env:
   global:
     - SSH_KEY="travis_key"
@@ -8,12 +10,16 @@ env:
     - GIT_EMAIL="e1028092@student.tuwien.ac.at"
     - SOURCE_DIR="public"
     - DEPLOY_BRANCH="blog"
+    - HUGO_RELEASE=0.62.2
 before_install:
   - openssl aes-256-cbc -K $encrypted_d6b07742d8a8_key -iv $encrypted_d6b07742d8a8_iv
     -in travis_key.enc -out travis_key -d
 install:
-  - go get -v github.com/gohugoio/hugo
+  # - go get -v github.com/gohugoio/hugo
+  - wget "https://github.com/gohugoio/hugo/releases/download/v${HUGO_RELEASE}/hugo_${HUGO_RELEASE}_Linux-64bit.deb"
+  - sudo dpkg -i hugo_${HUGO_RELEASE}_Linux-64bit.deb
 script:
-  - hugo
+  - hugo version
+  - hugo #build the website
   - "./scripts/deploy.sh"
 after_success:
