@@ -16,7 +16,7 @@
       <p class="post-meta">{{ i18n "tags" }}:&nbsp;
         {{ range $i, $e := .Params.tags }}
             {{if $i}},&nbsp;{{end}}
-            <a href="{{ $baseurl }}{{ $.Site.LanguagePrefix }}/tags/{{ . }}">{{ . }}</a>
+            <a href="{{ $baseurl }}{{ $.Site.LanguagePrefix }}/tags/{{ . | urlize }}">{{ . }}</a>
         {{ end }}
       </p>
 
