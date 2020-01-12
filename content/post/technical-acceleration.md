@@ -83,3 +83,7 @@ Analogously, the transmission revolution has changed the relationship with other
 Lastly, modernity also saw a very prominent acceleration of production as part of the industrial revolutions. As a result, our relationship to things has changed substantially. In-line with the capitalist imperative, goods (and thus capital) has achieved a much higher turnover. Objects are mostly discarded and replaced instead of repaired -- often even before they have the chance to wear down. E.g. computers customarily have a lifespan somewhere around three years, when an upgrade to stronger hardware becomes necessary to be able to run new software.
 
 Hartmut Rosa argues, that all of these accelerations influence each other and fit under the umbrella of accelerated social change. He further argues, that they increase the experience of detachment from places, groups and things as relationships with them can end or change at any time. Avoiding attachment saves one the pain of separation, and going counter to this Zeitgeist usually comes from having a good reason.
+
+## Reference
+
+H. Rosa: “Social Acceleration: A New Theory of Modernity“. Translated by J. Trejo-Mathys. p. 97-107 and p. 356-359. Columbia University Press: New York 2013.
